@@ -1,11 +1,6 @@
 ######### 🚀 锚点定义区域 start #######
 # 1. 统一所有功能分流组的可选节点队列
-pr:
-  &pr {
-    type: select,
-    proxies:
-      [默认, 直连, 香港, 台湾, 日本, 韩国, 新加坡, 美国, 其它地区, 低倍率节点],
-  }
+pr: &pr {type: select, proxies: [默认, 直连, 香港, 台湾, 日本, 韩国, 新加坡, 美国, 其它地区, 低倍率节点]}
 
 # 2. 统一订阅源的高级健康检查参数
 p: &p
@@ -15,7 +10,7 @@ p: &p
     lazy: true
     url: "https://www.gstatic.com/generate_204"
     interval: 480
-    timeout: 2000
+    timeout: 2000               # 🔴 新增：挂掉的节点最多等2秒，防止网页卡死
 ######### 🚀 锚点定义区域 end #######
 
 proxy-providers:
@@ -37,22 +32,22 @@ proxy-providers:
     override:
       additional-prefix: "[prov3]"
 
+
 proxies: []
 
 mixed-port: 7890
 ipv6: false
 allow-lan: true
 unified-delay: true
-tcp-concurrent: true
+tcp-concurrent: false
 
-#全局保活参数
-keep-alive-interval: 60
-keep-alive-idle: 300
+#keep-alive-interval: 60
+#keep-alive-idle: 300
 
 # ==================== 📱 手机端移动网络秒切优化 ====================
-reset-network-change: true # 当 Wi-Fi 和流量切换时，瞬间重置网络栈，斩断死连接
-auto-detect-interface: true # 允许自动检测并适应手机当前活跃的网卡接口
-udp-timeout: 15 # 缩短 UDP 超时，强制残留的旧连接快速死掉，逼迫手机走新网络
+reset-network-change: true      # 当 Wi-Fi 和流量切换时，瞬间重置网络栈，斩断死连接
+auto-detect-interface: true     # 允许自动检测并适应手机当前活跃的网卡接口
+udp-timeout: 15                 # 缩短 UDP 超时，强制残留的旧连接快速死掉，逼迫手机走新网络
 # ====================================================================
 
 external-controller: 127.0.0.1:9090
@@ -61,13 +56,14 @@ external-controller: 127.0.0.1:9090
 external-ui: ./ui
 external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
 
+
 geox-url:
   geoip: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat"
   geosite: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
   mmdb: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb"
   asn: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/GeoLite2-ASN.mmdb"
 
-find-process-mode: strict
+#find-process-mode: strict
 
 profile:
   store-selected: true
@@ -91,67 +87,70 @@ sniffer:
 
     QUIC:
       ports: [443, 8443]
-
+      
   skip-domain:
     - "+.mi.com"
     - "+.xiaomi.com"
     - "+.push.apple.com"
     - "+.qq.com"
     - "+.baidu.com"
-    - "120.26.58.213" # 👈 把这一行补在最后面，直接跳过这个 IP 的嗅探
+    - "120.26.58.213"  
 
   force-domain: []
 
+  
 # --- DNS 模块 ---（建议开启软件自带覆写）
 dns:
   enable: true
-  ipv6: false
+  ipv6: false                 # 🔴 保持关闭 IPv6，配合你的系统代理完美排毒
   listen: :1053
   cache-algorithm: arc
   use-hosts: true
   use-system-hosts: true
   enhanced-mode: fake-ip
-  respect-rules: true
+  respect-rules: true         # 🔴 核心：强制遵守规则，防止开机抢跑
   fake-ip-range: 198.18.0.1/16
-  fake-ip-range-v6: "fc00::/18"
+  fake-ip-range-v6: 'fc00::/18'
   fake-ip-filter:
     - "+.lan"
     - "+.local"
     - "+.market.xiaomi.com"
-    - "geosite:private"
+    - "geosite:private"       
 
   # 1. 基础引导 DNS：纯国内大厂 IP，开机瞬间秒响应
   default-nameserver:
-    - "223.5.5.5"
-    - "119.29.29.29"
+    - '223.5.5.5'
+    - '119.29.29.29'
 
   # 2. 节点解析 DNS：专门用来解析机场节点的域名
   proxy-server-nameserver:
-    - "https://dns.alidns.com/dns-query"
-    - "https://doh.pub/dns-query"
+    - 'https://dns.alidns.com/dns-query'
+    - 'https://doh.pub/dns-query'
 
   nameserver:
-    - "https://dns.alidns.com/dns-query"
-    - "https://doh.pub/dns-query"
-    - "https://dns.cloudflare.com/dns-query" # 👈 新增：防污染国外兜底
-    - "https://dns.google/dns-query" # 👈 新增：防污染国外兜底
+    - 'https://dns.alidns.com/dns-query'
+    - 'https://doh.pub/dns-query'
+    - 'https://dns.cloudflare.com/dns-query' # 👈 新增：防污染国外兜底
+    - 'https://dns.google/dns-query'         # 👈 新增：防污染国外兜底
+
 
 hosts:
-  "dns.alidns.com": ["223.5.5.5", "223.6.6.6"]
-  "doh.pub": ["1.12.12.12", "120.53.53.53"]
-  "dns.cloudflare.com": ["1.1.1.1", "1.0.0.1"]
-  "dns.google": ["8.8.8.8", "8.8.4.4"]
-  "services.googleapis.cn": ["services.googleapis.com"]
+  'dns.alidns.com': ['223.5.5.5', '223.6.6.6']
+  'doh.pub': ['1.12.12.12', '120.53.53.53']
+  'dns.cloudflare.com': ['1.1.1.1', '1.0.0.1']
+  'dns.google': ['8.8.8.8', '8.8.4.4']
+  'services.googleapis.cn': ['services.googleapis.com']
 
-  "+.mcdn.bilivideo.com": ["0.0.0.0"]
-  "+.mcdn.bilivideo.cn": ["0.0.0.0"]
+  '+.mcdn.bilivideo.com': ['0.0.0.0']
+  '+.mcdn.bilivideo.cn': ['0.0.0.0']
 
 proxy-groups:
+
   # ==================== 后台测速组 ====================
 
   - name: "香港-自动选择"
     type: url-test
-    use: [prov1, prov2, prov3]
+    use: [prov1,prov2,prov3]
     filter: "(?i)(港|香港|hk|hongkong|hong kong)"
     tolerance: 100
     hidden: true
@@ -159,7 +158,7 @@ proxy-groups:
 
   - name: "台湾-自动选择"
     type: url-test
-    use: [prov1, prov2, prov3]
+    use: [prov1,prov2,prov3]
     filter: "(?i)(台|tw|taiwan)"
     tolerance: 100
     hidden: true
@@ -167,7 +166,7 @@ proxy-groups:
 
   - name: "日本-自动选择"
     type: url-test
-    use: [prov1, prov2, prov3]
+    use: [prov1,prov2,prov3]
     filter: "(?i)(日|jp|japan)"
     tolerance: 100
     hidden: true
@@ -175,7 +174,7 @@ proxy-groups:
 
   - name: "韩国-自动选择"
     type: url-test
-    use: [prov1, prov2, prov3]
+    use: [prov1,prov2,prov3]
     filter: "(?i)(韩|韩国|首尔|kr|korea|south korea)"
     tolerance: 100
     hidden: true
@@ -183,7 +182,7 @@ proxy-groups:
 
   - name: "新加坡-自动选择"
     type: url-test
-    use: [prov1, prov2, prov3]
+    use: [prov1,prov2,prov3]
     filter: "(?i)(新|sg|singapore)"
     tolerance: 100
     hidden: true
@@ -191,7 +190,7 @@ proxy-groups:
 
   - name: "美国-自动选择"
     type: url-test
-    use: [prov1, prov2, prov3]
+    use: [prov1,prov2,prov3]
     filter: "(?i)(美|us|usa|unitedstates|united states|america|los angeles|silicon valley)"
     tolerance: 100
     hidden: true
@@ -199,7 +198,7 @@ proxy-groups:
 
   - name: "其它地区-自动选择"
     type: url-test
-    use: [prov1, prov2, prov3]
+    use: [prov1,prov2,prov3]
     filter: "(?i)^(?!.*(?:🇭🇰|🇯🇵|🇺🇸|🇸🇬|🇰🇷|🇨🇳|港|hk|hongkong|台|tw|taiwan|日|jp|japan|韩|kr|korea|新|sg|singapore|美|us|unitedstates|官网|重置|到期|剩余|流量|机场|客服|套餐|订阅|版本)).*"
     tolerance: 100
     hidden: true
@@ -207,7 +206,7 @@ proxy-groups:
 
   - name: "低倍率-自动选择"
     type: url-test
-    use: [prov1, prov2, prov3]
+    use: [prov1,prov2,prov3]
     filter: '(?i)^(?!.*(剩|期|流量|已用|节|官|客)).*(0\.[0-9]+(x|倍率|倍)?|低倍)'
     tolerance: 100
     hidden: true
@@ -228,7 +227,7 @@ proxy-groups:
       - 其它地区
       - 低倍率节点
     icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png"
-
+    
   - name: 直连
     type: select
     proxies: [DIRECT]
@@ -237,132 +236,88 @@ proxy-groups:
 
   # ==================== 功能分流 ====================
 
-  - {
-      name: AI,
-      <<: *pr,
-      icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ChatGPT.png",
-    }
+  - {name: AI, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ChatGPT.png"}
 
-  - {
-      name: Google全家桶,
-      <<: *pr,
-      icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png",
-    }
+  - {name: Google全家桶, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png"}
 
-  - {
-      name: YouTube,
-      <<: *pr,
-      icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png",
-    }
+  - {name: YouTube, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png"}
 
-  - {
-      name: TikTok,
-      <<: *pr,
-      icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok.png",
-    }
+  - {name: TikTok, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok.png"}
 
-  - {
-      name: 巴哈姆特,
-      <<: *pr,
-      icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png",
-    }
+  - {name: 巴哈姆特, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png"}
 
-  - {
-      name: 哔哩哔哩,
-      <<: *pr,
-      icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/bilibili.png",
-    }
+  - {name: 哔哩哔哩, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/bilibili.png"}
+  
+  - {name: NETFLIX, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png"}
 
-  - {
-      name: NETFLIX,
-      <<: *pr,
-      icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png",
-    }
+  - {name: Spotify, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Spotify.png"}
 
-  - {
-      name: Spotify,
-      <<: *pr,
-      icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Spotify.png",
-    }
+  - {name: Github, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/GitHub.png"}
 
-  - {
-      name: Github,
-      <<: *pr,
-      icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/GitHub.png",
-    }
+  - {name: 国内, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/China_Map.png"}
 
-  - {
-      name: 国内,
-      <<: *pr,
-      icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/China_Map.png",
-    }
-
-  - {
-      name: 其他,
-      <<: *pr,
-      icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png",
-    }
+  - {name: 其他, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png"}
 
   # ==================== 地区组 ====================
 
   - name: 香港
     type: select
-    use: [prov1, prov2, prov3]
+    use: [prov1,prov2,prov3]
     filter: "(?i)(港|香港|hk|hongkong|hong kong)"
     proxies: ["香港-自动选择"]
     icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png"
 
   - name: 台湾
     type: select
-    use: [prov1, prov2, prov3]
+    use: [prov1,prov2,prov3]
     filter: "(?i)(台|tw|taiwan)"
     proxies: ["台湾-自动选择"]
     icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png"
 
   - name: 日本
     type: select
-    use: [prov1, prov2, prov3]
+    use: [prov1,prov2,prov3]
     filter: "(?i)(日|jp|japan)"
     proxies: ["日本-自动选择"]
     icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png"
 
   - name: 韩国
     type: select
-    use: [prov1, prov2, prov3]
+    use: [prov1,prov2,prov3]
     filter: "(?i)(韩|韩国|首尔|kr|korea|south korea)"
     proxies: ["韩国-自动选择"]
     icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png"
 
   - name: 新加坡
     type: select
-    use: [prov1, prov2, prov3]
+    use: [prov1,prov2,prov3]
     filter: "(?i)(新|sg|singapore)"
     proxies: ["新加坡-自动选择"]
     icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png"
 
   - name: 美国
     type: select
-    use: [prov1, prov2, prov3]
+    use: [prov1,prov2,prov3]
     filter: "(?i)(美|us|usa|unitedstates|united states|america|los angeles|silicon valley)"
     proxies: ["美国-自动选择"]
     icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png"
 
   - name: 其它地区
     type: select
-    use: [prov1, prov2, prov3]
+    use: [prov1,prov2,prov3]
     filter: "(?i)^(?!.*(?:🇭🇰|🇯🇵|🇺🇸|🇸🇬|🇰🇷|🇨🇳|港|hk|hongkong|台|tw|taiwan|日|jp|japan|韩|kr|korea|新|sg|singapore|美|us|unitedstates|官网|重置|到期|剩余|流量|机场|客服|套餐|订阅|版本)).*"
     proxies: ["其它地区-自动选择"]
     icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png"
 
   - name: 低倍率节点
     type: select
-    use: [prov1, prov2, prov3]
+    use: [prov1,prov2,prov3]
     filter: '(?i)^(?!.*(剩|期|流量|已用|节|官|客)).*(0\.[0-9]+(x|倍率|倍)?|低倍)'
     proxies: ["低倍率-自动选择"]
     icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Available_1.png"
 
 rules:
-  # ==================== 局域网（最优先） ====================
+# ==================== 局域网（最优先） ====================
   - GEOSITE,private,直连
   - GEOIP,private,直连,no-resolve
 
@@ -378,16 +333,16 @@ rules:
   - GEOSITE,spotify,Spotify
 
   # ==================== AI ====================
-  - GEOSITE,openai,AI # 自动包含 chatgpt, oaistatic, oaiusercontent 等
-  - GEOSITE,anthropic,AI # 自动包含 claude 及其所有静态资源域名
-  - GEOSITE,xai,AI # 自动包含 x.ai, grok.com 等
-  - GEOSITE,perplexity,AI # 自动包含 perplexity 相关域名
-
+  - GEOSITE,openai,AI         # 自动包含 chatgpt, oaistatic, oaiusercontent 等
+  - GEOSITE,anthropic,AI      # 自动包含 claude 及其所有静态资源域名
+  - GEOSITE,xai,AI            # 自动包含 x.ai, grok.com 等
+  - GEOSITE,perplexity,AI     # 自动包含 perplexity 相关域名
+  
   # 换回后缀匹配，避免因本地数据库未收录 midjourney 而报错
   - DOMAIN-SUFFIX,midjourney.com,AI
   - DOMAIN-SUFFIX,midjourney.io,AI
   - DOMAIN-KEYWORD,midjourney,AI
-
+  
   # 独立/小众开发者工具
   - DOMAIN-SUFFIX,openrouter.ai,AI
   - DOMAIN-SUFFIX,devv.ai,AI
@@ -395,8 +350,8 @@ rules:
   # ==================== Google ====================
   - AND,((NETWORK,udp),(GEOSITE,google)),REJECT-DROP # ✅ 拦截谷歌的 UDP (QUIC) 流量，强制走 TCP 代理更稳定
 
-  - GEOSITE,google,Google全家桶 # 这一行直接全包所有谷歌旗下子域名
-  - GEOIP,google,Google全家桶,no-resolve # IP 兜底
+  - GEOSITE,google,Google全家桶   # 这一行直接全包所有谷歌旗下子域名
+  - GEOIP,google,Google全家桶,no-resolve     # IP 兜底
 
   # ==================== 国内外兜底 ====================
   - GEOSITE,CN,国内
