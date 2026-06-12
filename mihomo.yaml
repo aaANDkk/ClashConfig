@@ -31,8 +31,7 @@ fkr: &fkr '🇰🇷|韩|韩国|首尔|KR|[Kk]orea'
 fsg: &fsg '🇸🇬|新加坡|狮城|SG|[Ss]ingapore'
 fus: &fus '🇺🇸|美|US|[Aa]merica|[Uu]nited\s*[Ss]tates'
 fot: &fot '(?i)^(?!.*(🇭🇰|🇹🇼|🇯🇵|🇺🇸|🇸🇬|🇰🇷|🇨🇳|港|hk|hong\s*kong|台|tw|taiwan|日|jp|japan|韩|kr|korea|新加坡|sg|singapore|美|us|united\s*states|官网|重置|到期|剩余|流量|机场|客服|套餐|订阅|版本)).+$'
-fjs: &fjs '(?i)解锁|解|原生|家庭|家宽|住宅|(?<![a-zA-Z])ai(?![a-zA-Z])|gpt|openai|claude|netflix|nf|hulu|disney|hbo|ISP|HINET|HKT|play'
-
+fjs: &fjs '(?i)解锁|解|媒体|原生|家庭|家宽|住宅|(?<![a-zA-Z])ai(?![a-zA-Z])|gpt|openai|claude|netflix|nf|hulu|disney|hbo|ISP|HINET|HKT|play'
 ######### 🚀 锚点定义区域 end #######
 
 proxy-providers:
@@ -245,8 +244,12 @@ rules:
   - DOMAIN-SUFFIX,devv.ai,人工智能
   - DOMAIN-SUFFIX,claude.ai,人工智能
 
-  # ==================== 🚫 阻断 Google UDP/QUIC 流量 ====================
+  # ==================== 🔮 Google特别优化 ====================
   - AND,((NETWORK,udp),(DST-PORT,443),(RULE-SET,google)),REJECT-DROP
+  - PROCESS-NAME,com.android.vending,Google全家桶
+  - PROCESS-NAME,com.google.android.gms,Google全家桶
+  - PROCESS-NAME,com.google.android.gsf,Google全家桶
+  - PROCESS-NAME,com.google.android.webview,Google全家桶
 
   # ==================== 🤖 核心代理规则（域名规则集） ====================
   - RULE-SET,youtube,YouTube
