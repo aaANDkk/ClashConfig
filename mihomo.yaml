@@ -23,27 +23,34 @@ anchors:
   _ip_anchor: &rule_providers_ip { type: http, interval: 86400, behavior: ipcidr }
   _classical_anchor: &rule_providers_classical { type: http, interval: 86400, behavior: classical }
   
-# 5. 统一地理位置正则筛选过滤
+# 5. 【核心优化】定义全局排除配置块（用于从源头过滤官网、流量、Web等信息）
+global_exclude_filter: &global_exclude_filter { exclude-filter: '官网|Web|重置|到期|剩余|流量|机场|客服|套餐|订阅|版本' }
+
+# 6. 统一地理位置正则筛选过滤（彻底恢复最纯净的格式，不用嵌套任何取反词）
 fhk: &fhk '🇭🇰|港|HK|[Hh]ong\s*[Kk]ong'
 ftw: &ftw '🇹🇼|台湾|TW|[Tt]aiwan'
 fjp: &fjp '🇯🇵|日本|JP|[Jj]apan'
 fkr: &fkr '🇰🇷|韩|韩国|首尔|KR|[Kk]orea'
 fsg: &fsg '🇸🇬|新加坡|狮城|SG|[Ss]ingapore'
 fus: &fus '🇺🇸|美|US|[Aa]merica|[Uu]nited\s*[Ss]tates'
-fot: &fot '(?i)^(?!.*(🇭🇰|🇹🇼|🇯🇵|🇺🇸|🇸🇬|🇰🇷|🇨🇳|港|hk|hong\s*kong|台|tw|taiwan|日|jp|japan|韩|kr|korea|新加坡|sg|singapore|美|us|united\s*states|官网|重置|到期|剩余|流量|机场|客服|套餐|订阅|版本)).+$'
-fjs: &fjs '(?i)解锁|解|媒体|原生|家庭|家宽|住宅|(?<![a-zA-Z])ai(?![a-zA-Z])|gpt|openai|claude|netflix|nf|hulu|disney|hbo|ISP|HINET|HKT|play'
+
+# 7. 其它/剩余国家（排除核心国家）
+fot: &fot '(?i)^(?!.*(🇭🇰|🇹🇼|🇯🇵|🇺🇸|🇸🇬|🇰🇷|🇨🇳|港|hk|hong\s*kong|台|tw|taiwan|日|jp|japan|韩|kr|korea|新加坡|sg|singapore|美|us|united\s*states)).+$'
+
+# 8. 节点特性/解锁筛选
+fjs: &fjs '解锁|解|原生|家庭|家宽|住宅|(?<![a-zA-Z])ai(?![a-zA-Z])|gpt|openai|claude|netflix|nf|hulu|disney|hbo|ISP|Home|HINET|HKT|play|🏠'
 ######### 🚀 锚点定义区域 end #######
 
 proxy-providers:
   P1:
-    <<: *p
-    url: "填入订阅"
+    <<: [*p, *global_exclude_filter]
+    url: "输入订阅"
     override:
       additional-prefix: "[P1]"
 
   P2:
-    <<: *p
-    url: "填入订阅"
+    <<: [*p, *global_exclude_filter]
+    url: "输入订阅"
     override:
       additional-prefix: "[P2]"
 
@@ -78,7 +85,6 @@ rule-providers:
   bahamut: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/bahamut.mrs", path: "./ruleset/bahamut.mrs" }
   niconico: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/niconico.mrs", path: "./ruleset/niconico.mrs" }
   gfw: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/gfw.mrs", path: "./ruleset/gfw.mrs" }
-  bilibili: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/bilibili.mrs", path: "./ruleset/bilibili.mrs" }
   cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/wwqgtxx/clash-rules@release/direct.mrs", path: "./ruleset/cn.mrs" }
   cn_additional: { <<: *rule_providers_domain, format: mrs, url: "https://static-file-global.353355.xyz/rules/cn-additional-list.mrs", path: "./ruleset/cn-additional-list.mrs" }
   cn_ip: { <<: *rule_providers_ip, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/cn.mrs", path: "./ruleset/cn_ip.mrs" }
@@ -205,8 +211,7 @@ proxy-groups:
   - {name: YouTube, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png"}
   - {name: TikTok, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok.png"}
   - {name: Niconico, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/niconico.png"}
-  - {name: 哔哩哔哩, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/bilibili.png"}
-  - {name: 巴哈姆特, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png"}
+  - {name: Anime, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png"}
   - {name: NETFLIX, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png"}
   - {name: Spotify, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Spotify.png"}
   - {name: 其他, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png"}
@@ -243,6 +248,12 @@ rules:
   - DOMAIN-SUFFIX,openrouter.ai,人工智能
   - DOMAIN-SUFFIX,devv.ai,人工智能
   - DOMAIN-SUFFIX,claude.ai,人工智能
+  - PROCESS-NAME,com.predidit.kazumi,Anime
+  - PROCESS-NAME,me.him188.ani,Anime
+  - DOMAIN-SUFFIX,cycani.org,Anime
+  - DOMAIN-KEYWORD,cycani,Anime
+  - DOMAIN-SUFFIX,agedm.io,Anime
+  - DOMAIN-KEYWORD,agedm,Anime
 
   # ==================== 🔮 Google特别优化 ====================
   - AND,((NETWORK,udp),(DST-PORT,443),(RULE-SET,google)),REJECT-DROP
@@ -253,12 +264,11 @@ rules:
 
   # ==================== 🤖 核心代理规则（域名规则集） ====================
   - RULE-SET,youtube,YouTube
-  - RULE-SET,google,Google全家桶
   - RULE-SET,ai,人工智能
+  - RULE-SET,google,Google全家桶
   - RULE-SET,tiktok,TikTok
   - RULE-SET,niconico,Niconico
-  - RULE-SET,bahamut,巴哈姆特
-  - RULE-SET,bilibili,哔哩哔哩
+  - RULE-SET,bahamut,Anime
   - RULE-SET,netflix,NETFLIX
   - RULE-SET,spotify,Spotify
 
