@@ -12,7 +12,7 @@ p: &p
     url: "https://www.gstatic.com/generate_204"
     interval: 10800
     timeout: 3000               
-    concurrency: 5
+    #concurrency: 5
 
 # 3. 自动化策略组基准模板（纯测速）
 ut: &ut {type: url-test, tolerance: 70, interval: 600, timeout: 3000, lazy: true, url: "https://www.gstatic.com/generate_204", hidden: true, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png"}
@@ -44,13 +44,13 @@ fjs: &fjs '解锁|解|原生|家庭|家宽|住宅|(?<![a-zA-Z])ai(?![a-zA-Z])|gp
 proxy-providers:
   P1:
     <<: [*p, *global_exclude_filter]
-    url: "输入订阅"
+    url: "填入订阅"
     override:
       additional-prefix: "[P1]"
 
   P2:
     <<: [*p, *global_exclude_filter]
-    url: "输入订阅"
+    url: "填入订阅"
     override:
       additional-prefix: "[P2]"
 
@@ -81,7 +81,6 @@ rule-providers:
   youtube: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/youtube.mrs", path: "./ruleset/youtube.mrs" }
   tiktok: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/tiktok.mrs", path: "./ruleset/tiktok.mrs" }
   netflix: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/netflix.mrs", path: "./ruleset/netflix.mrs" }
-  spotify: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/spotify.mrs", path: "./ruleset/spotify.mrs" }
   bahamut: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/bahamut.mrs", path: "./ruleset/bahamut.mrs" }
   niconico: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/niconico.mrs", path: "./ruleset/niconico.mrs" }
   gfw: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/gfw.mrs", path: "./ruleset/gfw.mrs" }
@@ -213,18 +212,17 @@ proxy-groups:
   - {name: Niconico, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/niconico.png"}
   - {name: Anime, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png"}
   - {name: NETFLIX, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png"}
-  - {name: Spotify, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Spotify.png"}
   - {name: 其他, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png"}
 
   # ==================== 后台测速组 ====================
-  - {name: "解锁节点-自动选择", <<: *ut, include-all: true, filter: *fjs}
-  - {name: "香港-自动选择", <<: *ut, include-all: true, filter: *fhk}
-  - {name: "台湾-自动选择", <<: *ut, include-all: true, filter: *ftw}
-  - {name: "日本-自动选择", <<: *ut, include-all: true, filter: *fjp}
-  - {name: "韩国-自动选择", <<: *ut, include-all: true, filter: *fkr}
-  - {name: "新加坡-自动选择", <<: *ut, include-all: true, filter: *fsg}
-  - {name: "美国-自动选择", <<: *ut, include-all: true, filter: *fus}
-  - {name: "其他地区-自动选择", <<: *ut, include-all: true, filter: *fot}
+  - {name: "解锁节点-自动选择", <<: *ut, include-all: true, filter: *fjs, exclude-type: Hysteria2} 
+  - {name: "香港-自动选择", <<: *ut, include-all: true, filter: *fhk, exclude-type: Hysteria2}
+  - {name: "台湾-自动选择", <<: *ut, include-all: true, filter: *ftw, exclude-type: Hysteria2}
+  - {name: "日本-自动选择", <<: *ut, include-all: true, filter: *fjp, exclude-type: Hysteria2}
+  - {name: "韩国-自动选择", <<: *ut, include-all: true, filter: *fkr, exclude-type: Hysteria2}
+  - {name: "新加坡-自动选择", <<: *ut, include-all: true, filter: *fsg, exclude-type: Hysteria2}
+  - {name: "美国-自动选择", <<: *ut, include-all: true, filter: *fus, exclude-type: Hysteria2}
+  - {name: "其他地区-自动选择", <<: *ut, include-all: true, filter: *fot, exclude-type: Hysteria2}
 
   # ==================== 地区显式选择组 ====================
   - {name: 解锁节点, type: select, include-all: true, filter: *fjs, proxies: ["解锁节点-自动选择"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Static.png"}
@@ -270,7 +268,6 @@ rules:
   - RULE-SET,niconico,Niconico
   - RULE-SET,bahamut,Anime
   - RULE-SET,netflix,NETFLIX
-  - RULE-SET,spotify,Spotify
 
   # ==================== 🌐 精准海外 IP 拦截防御 ====================
   - RULE-SET,google_ip,Google全家桶,no-resolve
