@@ -34,7 +34,7 @@ fkr: &fkr '🇰🇷|韩|韩国|首尔|KR|[Kk]orea'
 fsg: &fsg '🇸🇬|新加坡|狮城|SG|[Ss]ingapore'
 fus: &fus '🇺🇸|美|US|[Aa]merica|[Uu]nited\s*[Ss]tates'
 fot: &fot '(?i)^(?!.*(🇭🇰|🇹🇼|🇯🇵|🇺🇸|🇸🇬|🇰🇷|🇨🇳|港|hk|hong\s*kong|台|tw|taiwan|日|jp|japan|韩|kr|korea|新加坡|sg|singapore|美|us|united\s*states)).+$'
-fjs: &fjs '解锁|解|原生|家庭|家宽|住宅|(?<![a-zA-Z])ai(?![a-zA-Z])|gpt|openai|claude|netflix|nf|hulu|disney|hbo|ISP|Home|HINET|Taiwan|台湾|HKT|play|🏠'
+fjs: &fjs '解锁|解|原生|家庭|家宽|住宅|(?<![a-zA-Z])ai(?![a-zA-Z])|gpt|openai|claude|netflix|nf|hulu|disney|hbo|ISP|Home|HINET|媒体|HKT|play|🏠'
 ######### 🚀 锚点定义区域 end #######
 
 proxy-providers:
