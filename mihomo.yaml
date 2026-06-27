@@ -1,6 +1,6 @@
 ######### 🚀 锚点定义区域 start #######
 # 1. 统一所有功能分流组的可选节点队列
-pr: &pr {type: select, proxies: [默认, 解锁节点, 直连, 香港, 台湾, 日本, 韩国, 新加坡, 美国, 其他地区]}
+pr: &pr {type: select, proxies: [Proxy, Bypass, Unlock, Global, Hong Kong, Taiwan, Japan, Korea, Singapore, United States]}
 
 # 2. 统一订阅源的高级健康检查参数
 p: &p
@@ -23,36 +23,33 @@ anchors:
   _ip_anchor: &rule_providers_ip { type: http, interval: 86400, behavior: ipcidr }
   _classical_anchor: &rule_providers_classical { type: http, interval: 86400, behavior: classical }
   
-# 5. 【核心优化】定义全局排除配置块（用于从源头过滤官网、流量、Web等信息）
+# 5. 全局排除配置块（用于从源头过滤官网、流量、Web等信息）
 global_exclude_filter: &global_exclude_filter { exclude-filter: '官网|Web|重置|到期|剩余|流量|机场|客服|套餐|订阅|版本' }
 
-# 6. 统一地理位置正则筛选过滤（彻底恢复最纯净的格式，不用嵌套任何取反词）
+# 6. 统一过滤器
 fhk: &fhk '🇭🇰|港|HK|[Hh]ong\s*[Kk]ong'
 ftw: &ftw '🇹🇼|台湾|TW|[Tt]aiwan'
 fjp: &fjp '🇯🇵|日本|JP|[Jj]apan'
 fkr: &fkr '🇰🇷|韩|韩国|首尔|KR|[Kk]orea'
 fsg: &fsg '🇸🇬|新加坡|狮城|SG|[Ss]ingapore'
 fus: &fus '🇺🇸|美|US|[Aa]merica|[Uu]nited\s*[Ss]tates'
-
-# 7. 其它/剩余国家（排除核心国家）
 fot: &fot '(?i)^(?!.*(🇭🇰|🇹🇼|🇯🇵|🇺🇸|🇸🇬|🇰🇷|🇨🇳|港|hk|hong\s*kong|台|tw|taiwan|日|jp|japan|韩|kr|korea|新加坡|sg|singapore|美|us|united\s*states)).+$'
-
-# 8. 节点特性/解锁筛选
-fjs: &fjs '解锁|解|原生|家庭|家宽|住宅|(?<![a-zA-Z])ai(?![a-zA-Z])|gpt|openai|claude|netflix|nf|hulu|disney|hbo|ISP|Home|HINET|HKT|play|🏠'
+fjs: &fjs '解锁|解|原生|家庭|家宽|住宅|(?<![a-zA-Z])ai(?![a-zA-Z])|gpt|openai|claude|netflix|nf|hulu|disney|hbo|ISP|Home|HINET|Taiwan|台湾|HKT|play|🏠'
 ######### 🚀 锚点定义区域 end #######
 
 proxy-providers:
+    
   P1:
     <<: [*p, *global_exclude_filter]
     url: "填入订阅"
     override:
-      additional-prefix: "[P1]"
-
+      additional-prefix: "P1"
+      
   P2:
     <<: [*p, *global_exclude_filter]
     url: "填入订阅"
     override:
-      additional-prefix: "[P2]"
+      additional-prefix: "P2"
 
 proxies: []
 
@@ -62,7 +59,7 @@ allow-lan: true
 unified-delay: true
 tcp-concurrent: true
 find-process-mode: strict     
-reset-network-change: true      # 当 Wi-Fi 和流量切换时，瞬间重置网络栈，斩断死连接
+reset-network-change: true
 auto-detect-interface: true     
 udp-timeout: 30          
 tcp-keep-alive-idle: 600        
@@ -94,7 +91,7 @@ profile:
   store-fake-ip: true
   disconnect-on-policy-change: true 
   
-# ==================== sniffer 高级优化 ====================
+# ==================== sniffer ====================
 sniffer:
   enable: true
   force-dns-mapping: true
@@ -127,11 +124,11 @@ chinaDNS:
   ]
 foreignDNS:
   &foreignDNS [
-    'https://dns.cloudflare.com/dns-query#默认',
-    'https://dns.google/dns-query#默认'
+    'https://dns.cloudflare.com/dns-query#Proxy',
+    'https://dns.google/dns-query#Proxy'
   ]
 
-# ==================== 🧠 DNS 高级核心配置 ====================
+# ==================== 🧠 DNS 核心配置 ====================
 dns:
   enable: true
   ipv6: false            
@@ -193,89 +190,94 @@ tun:
 
 proxy-groups:
   # ==================== 核心组 ====================
-  - name: 默认
+  - name: Proxy
     type: select
-    proxies: [解锁节点, 直连, 香港, 台湾, 日本, 韩国, 新加坡, 美国, 其他地区]
+    proxies: [Unlock, Global, Hong Kong, Taiwan, Japan, Korea, Singapore, United States]
     icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png"
     
-  - name: 直连
+  - name: Bypass
     type: select
     proxies: [DIRECT]
     hidden: true
-    icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/China.png"
+    icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bypass.png"
 
   # ==================== 功能分流 ====================
-  - {name: 人工智能, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ChatGPT.png"}
-  - {name: Google全家桶, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png"}
+  - {name: AI, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ChatGPT.png"}
+  - {name: Google, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png"}
   - {name: YouTube, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png"}
   - {name: TikTok, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok.png"}
   - {name: Niconico, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/niconico.png"}
   - {name: Anime, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png"}
   - {name: NETFLIX, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png"}
-  - {name: 其他, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png"}
-
+  
+  - name: Others
+    type: select
+    proxies: [Proxy, Bypass]
+    icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png"
+    
   # ==================== 后台测速组 ====================
-  - {name: "解锁节点-自动选择", <<: *ut, include-all: true, filter: *fjs, exclude-type: Hysteria2} 
-  - {name: "香港-自动选择", <<: *ut, include-all: true, filter: *fhk, exclude-type: Hysteria2}
-  - {name: "台湾-自动选择", <<: *ut, include-all: true, filter: *ftw, exclude-type: Hysteria2}
-  - {name: "日本-自动选择", <<: *ut, include-all: true, filter: *fjp, exclude-type: Hysteria2}
-  - {name: "韩国-自动选择", <<: *ut, include-all: true, filter: *fkr, exclude-type: Hysteria2}
-  - {name: "新加坡-自动选择", <<: *ut, include-all: true, filter: *fsg, exclude-type: Hysteria2}
-  - {name: "美国-自动选择", <<: *ut, include-all: true, filter: *fus, exclude-type: Hysteria2}
-  - {name: "其他地区-自动选择", <<: *ut, include-all: true, filter: *fot, exclude-type: Hysteria2}
-
+  - {name: "Unlock-Auto", <<: *ut, include-all: true, filter: *fjs, exclude-type: Hysteria2} 
+  - {name: "GB-Auto", <<: *ut, include-all: true, filter: *fot, exclude-type: Hysteria2}
+  - {name: "HK-Auto", <<: *ut, include-all: true, filter: *fhk, exclude-type: Hysteria2}
+  - {name: "TW-Auto", <<: *ut, include-all: true, filter: *ftw, exclude-type: Hysteria2}
+  - {name: "JP-Auto", <<: *ut, include-all: true, filter: *fjp, exclude-type: Hysteria2}
+  - {name: "KR-Auto", <<: *ut, include-all: true, filter: *fkr, exclude-type: Hysteria2}
+  - {name: "SG-Auto", <<: *ut, include-all: true, filter: *fsg, exclude-type: Hysteria2}
+  - {name: "US-Auto", <<: *ut, include-all: true, filter: *fus, exclude-type: Hysteria2}
+  
   # ==================== 地区显式选择组 ====================
-  - {name: 解锁节点, type: select, include-all: true, filter: *fjs, proxies: ["解锁节点-自动选择"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Static.png"}
-  - {name: 香港, type: select, include-all: true, filter: *fhk, proxies: ["香港-自动选择"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png"}
-  - {name: 台湾, type: select, include-all: true, filter: *ftw, proxies: ["台湾-自动选择"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png"}
-  - {name: 日本, type: select, include-all: true, filter: *fjp, proxies: ["日本-自动选择"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png"}
-  - {name: 韩国, type: select, include-all: true, filter: *fkr, proxies: ["韩国-自动选择"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png"}
-  - {name: 新加坡, type: select, include-all: true, filter: *fsg, proxies: ["新加坡-自动选择"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png"}
-  - {name: 美国, type: select, include-all: true, filter: *fus, proxies: ["美国-自动选择"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png"}
-  - {name: 其他地区, type: select, include-all: true, filter: *fot, proxies: ["其他地区-自动选择"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png"}
-
-# --- 精简优化的路由规则 ---
+  - {name: Unlock, type: select, include-all: true, filter: *fjs, proxies: ["Unlock-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Static.png"}
+  - {name: Global, type: select, include-all: true, filter: *fot, proxies: ["GB-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png"}
+  - {name: Hong Kong, type: select, include-all: true, filter: *fhk, proxies: ["HK-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png"}
+  - {name: Taiwan, type: select, include-all: true, filter: *ftw, proxies: ["TW-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png"}
+  - {name: Japan, type: select, include-all: true, filter: *fjp, proxies: ["JP-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png"}
+  - {name: Korea, type: select, include-all: true, filter: *fkr, proxies: ["KR-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png"}
+  - {name: Singapore, type: select, include-all: true, filter: *fsg, proxies: ["SG-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png"}
+  - {name: United States, type: select, include-all: true, filter: *fus, proxies: ["US-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png"}
+  
+# --- 路由规则 ---
 rules:
   # ==================== 🔒 私有网络与局域网直连 ====================
-  - RULE-SET,private,直连
-  - RULE-SET,private_ip,直连,no-resolve
-  - DOMAIN,fsend.cn,直连           
-  - RULE-SET,DownloadApps,直连  
+  - RULE-SET,private,DIRECT
+  - RULE-SET,private_ip,DIRECT,no-resolve
+  - RULE-SET,DownloadApps,DIRECT  
+  - DOMAIN,fsend.cn,DIRECT           
   
+  # ==================== 🔮 Google特别优化 ====================
+  - AND,((NETWORK,udp),(DST-PORT,443),(RULE-SET,google)),REJECT-DROP
+  - PROCESS-NAME,com.android.vending,Google
+  - PROCESS-NAME,com.google.android.gms,Google
+  - PROCESS-NAME,com.google.android.gsf,Google
+  - PROCESS-NAME,com.google.android.webview,Google
+
   # ==================== 📝 手动附加域名分流 ====================
-  - DOMAIN-SUFFIX,openrouter.ai,人工智能
-  - DOMAIN-SUFFIX,devv.ai,人工智能
-  - DOMAIN-SUFFIX,claude.ai,人工智能
+  - PROCESS-NAME,com.google.android.apps.bard,AI
+  - PROCESS-NAME,com.openai.chatgpt,AI
+  - PROCESS-NAME,com.anthropic.claude,AI
+  - PROCESS-NAME,ai.x.grok,AI
   - PROCESS-NAME,com.predidit.kazumi,Anime
   - PROCESS-NAME,me.him188.ani,Anime
   - DOMAIN-SUFFIX,cycani.org,Anime
-  - DOMAIN-KEYWORD,cycani,Anime
   - DOMAIN-SUFFIX,agedm.io,Anime
+  - DOMAIN-KEYWORD,cycani,Anime
   - DOMAIN-KEYWORD,agedm,Anime
-
-  # ==================== 🔮 Google特别优化 ====================
-  - AND,((NETWORK,udp),(DST-PORT,443),(RULE-SET,google)),REJECT-DROP
-  - PROCESS-NAME,com.android.vending,Google全家桶
-  - PROCESS-NAME,com.google.android.gms,Google全家桶
-  - PROCESS-NAME,com.google.android.gsf,Google全家桶
-  - PROCESS-NAME,com.google.android.webview,Google全家桶
 
   # ==================== 🤖 核心代理规则（域名规则集） ====================
   - RULE-SET,youtube,YouTube
-  - RULE-SET,ai,人工智能
-  - RULE-SET,google,Google全家桶
+  - RULE-SET,ai,AI
+  - RULE-SET,google,Google
   - RULE-SET,tiktok,TikTok
   - RULE-SET,niconico,Niconico
   - RULE-SET,bahamut,Anime
   - RULE-SET,netflix,NETFLIX
 
   # ==================== 🌐 精准海外 IP 拦截防御 ====================
-  - RULE-SET,google_ip,Google全家桶,no-resolve
+  - RULE-SET,google_ip,Google,no-resolve
 
   # ==================== 🛡️ 墙内安全防线与终极兜底 ====================
-  - RULE-SET,gfw,默认            
-  - RULE-SET,cn,直连              
-  - RULE-SET,cn_additional,直连  
-  - RULE-SET,cn_ip,直连  
+  - RULE-SET,gfw,Proxy
+  - RULE-SET,cn,DIRECT              
+  - RULE-SET,cn_additional,DIRECT  
+  - RULE-SET,cn_ip,DIRECT  
   
-  - MATCH,其他          
+  - MATCH,Others          
