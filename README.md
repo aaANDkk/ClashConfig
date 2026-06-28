@@ -44,7 +44,7 @@
 
 > 采用 **Fake-IP 模式** + **DoH 异步解析** + **策略路由拦截**
 
-* **分流无缝映射:** 引入 `chinaDNS` 与 `foreignDNS` 统一锚点。国内域名由阿里/腾讯 DoH秒级响应；国外域名及 Fake-IP 映射由 Cloudflare/Google 在代理网络内安全解析，杜绝 DNS 污染与泄漏。
+* **分流无缝映射:** 引入 `chinaDNS` 与 `foreignDNS` 统一锚点。国内域名由阿里/腾讯 DoH响应；国外域名及 Fake-IP 映射由 Cloudflare/Google 在代理网络内安全解析，杜绝 DNS 污染与泄漏。
 
 ---
 
