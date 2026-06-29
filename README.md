@@ -28,15 +28,14 @@
 
 针对日常高频使用的海内外主流服务配置了独立策略组，支持一键在 UI 界面快速切换出口：
 
-> 🧩 `AI` · `Google` · `YouTube` · `TikTok` · `Niconico` · `Anime (动画疯/次元城/特定追番App)` · `NETFLIX` · `Emby` · `Others`
+> 🧩 `AI` · `YouTube` · `TikTok` · `Niconico` · `Anime (动画疯/次元城/特定追番App)` · `NETFLIX` · `Emby` · `Others`
 
 *💡 特别针对二次元受众，合并并优化了 `Anime` 策略组，全面覆盖巴哈姆特、次元城动漫（cycani）、AGE动漫（agedm），并对 Kazumi 等播放器进程进行了分流寻址。*
 
 针对当前主流大模型及开发者生态进行了 **全包围式域名与规则覆盖**。流量全量并入 `人工智能` 专用策略组：
 
 * 💬 **核心对话:** OpenAI (ChatGPT) / Claude.ai
-* 🛠️ **开发者基础设施:** OpenRouter.ai / Devv.ai
-* 🎨 **前沿创意生产:** Midjourney / xAI (Grok)
+* 🛠️ **基础设施:** OpenRouter.ai / Devv.ai
 
 ---
 
@@ -89,7 +88,6 @@ proxy-providers:
 本配置的底层进化逻辑是：**稳定 > 清晰 > 极致自动化**。
 不追求臃肿无用的千万条黑名单规则，而是专注于为以下日常场景提供网络支撑：
 
-* 🌐 全局网页及学术文献高流畅检索
 * 💻 AI 辅助（Devv/OpenRouter/Claude）
 * 📺 国际流媒体与御宅追番（Netflix/巴哈姆特/YouTube 4K）
 
