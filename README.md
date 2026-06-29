@@ -107,4 +107,4 @@ Configured under learning and communication purposes. All rights reserved.
 
 ## 鸣谢
 本项目在开发过程中参考了以下优秀开源项目：
-- [AIsouler/MyClash](https://github.com/AIsouler/MyClash/tree/main)
+- [AIsouler/MyClash](https://github.com/AIsouler/MyClash)
