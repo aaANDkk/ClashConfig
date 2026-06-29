@@ -100,7 +100,6 @@ dns:
   nameserver: *foreignDNS
   nameserver-policy:
     'rule-set:cn': *chinaDNS
-    'rule-set:cn_additional': *chinaDNS
   direct-nameserver: ['system', '223.5.5.5', '119.29.29.29']
  
 hosts:
@@ -108,10 +107,14 @@ hosts:
   'doh.pub': ['1.12.12.12', '120.53.53.53']
   'dns.cloudflare.com': ['1.1.1.1', '1.0.0.1']
   'dns.google': ['8.8.8.8', '8.8.4.4']
+
+  # 解决谷歌商店无法下载的问题
   'services.googleapis.cn': ['services.googleapis.com']
+
+  # 屏蔽哔哩哔哩PCDN，解决访问视频卡顿问题
   '+.mcdn.bilivideo.com': ['0.0.0.0']
   '+.mcdn.bilivideo.cn': ['0.0.0.0']
-
+  
 ntp:
   enable: true
   write-to-system: false
@@ -145,13 +148,12 @@ proxy-groups:
 
   # ==================== 功能分流 ====================
   - {name: AI, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ChatGPT.png"}
-  - {name: Google, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png"}
   - {name: YouTube, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png"}
   - {name: TikTok, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok.png"}
-  - {name: Niconico, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/niconico.png"}
-  - {name: Anime, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png"}
   - {name: NETFLIX, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png"}
   - {name: Emby, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Emby.png"}
+  - {name: Anime, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png"}
+  - {name: Niconico, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/niconico.png"}
   
   - name: Others
     type: select
@@ -184,8 +186,6 @@ rule-providers:
   private_ip: { <<: *rule_providers_ip, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/private.mrs", path: "./ruleset/private_ip.mrs" }
   fakeip_filter: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/wwqgtxx/clash-rules@release/fakeip-filter.mrs", path: "./ruleset/fakeip-filter.mrs" }
   ai: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-!cn.mrs", path: "./ruleset/ai.mrs" }
-  google: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/google.mrs", path: "./ruleset/google.mrs" }
-  google_ip: { <<: *rule_providers_ip, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/google.mrs", path: "./ruleset/google_ip.mrs" }
   youtube: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/youtube.mrs", path: "./ruleset/youtube.mrs" }
   tiktok: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/tiktok.mrs", path: "./ruleset/tiktok.mrs" }
   netflix: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/netflix.mrs", path: "./ruleset/netflix.mrs" }
@@ -199,48 +199,37 @@ rule-providers:
   DownloadApps: { <<: *rule_providers_classical, format: yaml, url: "https://fastly.jsdelivr.net/gh/AIsouler/MyClash@main/Rules/DownloadApps.txt", path: "./ruleset/DownloadApps.txt" }
 
 rules:
-  # ==================== 私有网络与局域网直连 ====================
+  # 禁用 QUIC 流量
+  - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,cn_additional),(RULE-SET,cn_ip,no-resolve)))))),REJECT-DROP
+  
+  # 私有网络与局域网直连 
   - RULE-SET,private,DIRECT
   - RULE-SET,private_ip,DIRECT,no-resolve
   - RULE-SET,DownloadApps,DIRECT  
   - DOMAIN,fsend.cn,DIRECT           
-  
-  # ==================== Google特别优化 ====================
-  - AND,((NETWORK,udp),(DST-PORT,443),(RULE-SET,google)),REJECT-DROP
-  - PROCESS-NAME,com.android.vending,Google
-  - PROCESS-NAME,com.google.android.gms,Google
-  - PROCESS-NAME,com.google.android.gsf,Google
-  - PROCESS-NAME,com.google.android.webview,Google
 
-  # ==================== 手动附加域名分流 ====================
-  - PROCESS-NAME,com.google.android.apps.bard,AI
+  # 手动附加域名分流
   - PROCESS-NAME,com.openai.chatgpt,AI
   - PROCESS-NAME,com.anthropic.claude,AI
   - PROCESS-NAME,ai.x.grok,AI
-  - PROCESS-NAME,com.predidit.kazumi,Anime
-  - PROCESS-NAME,me.him188.ani,Anime
+  - PROCESS-NAME,com.google.android.apps.bard,AI
   - DOMAIN-SUFFIX,cycani.org,Anime
   - DOMAIN-SUFFIX,agedm.io,Anime
   - DOMAIN-KEYWORD,cycani,Anime
   - DOMAIN-KEYWORD,agedm,Anime
 
-  # ==================== 核心代理规则（域名规则集） ====================
+  # 核心代理规则（域名规则集） 
   - RULE-SET,youtube,YouTube
   - RULE-SET,ai,AI
-  - RULE-SET,google,Google
   - RULE-SET,tiktok,TikTok
   - RULE-SET,niconico,Niconico
   - RULE-SET,bahamut,Anime
   - RULE-SET,netflix,NETFLIX
   - RULE-SET,emby,Emby
 
-  # ==================== 海外 IP 拦截防御 ====================
-  - RULE-SET,google_ip,Google,no-resolve
-
-  # ==================== 墙内安全防线与终极兜底 ====================
-  - RULE-SET,gfw,Proxy
-  - RULE-SET,cn,DIRECT              
-  - RULE-SET,cn_additional,DIRECT  
+  # 墙内安全防线与兜底
+  - RULE-SET,gfw,Proxy  
   - RULE-SET,cn_ip,DIRECT  
+  - RULE-SET,cn_additional,DIRECT
   
   - MATCH,Others          
