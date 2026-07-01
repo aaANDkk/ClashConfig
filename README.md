@@ -34,11 +34,6 @@
 
 *💡 特别针对二次元受众，合并并优化了 `Anime` 策略组，全面覆盖巴哈姆特、次元城动漫（cycani）、AGE动漫（agedm），并对 Kazumi 等播放器进程进行了分流*
 
-针对当前主流大模型，流量全量并入 `人工智能` 专用策略组：
-
-* 💬 **核心对话:** OpenAI (ChatGPT) / Claude.ai
-* 🛠️ **基础设施:** OpenRouter.ai / Devv.ai
-
 ---
 
 ### 🔒 DNS 架构
