@@ -1,29 +1,35 @@
 ######### 🚀 锚点定义区域 start #######
-# 1. 统一所有功能分流组的可选节点队列
-pr: &pr {type: select, proxies: [Proxy, Bypass, Unlock, Global, Hong Kong, Taiwan, Japan, Korea, Singapore, United States]}
-
-# 2. 统一订阅源的高级健康检查参数
+# 1. 统一订阅源的高级健康检查参数
 p: &p
   type: http
   interval: 86400  
   health-check:
     enable: true
     lazy: true
-    url: "https://www.gstatic.com/generate_204"
     interval: 10800
-    timeout: 3000               
+    timeout: 3000
+    url: "https://g.cn/generate_204"               
     #concurrency: 5
 
-# 3. 自动化策略组基准模板（纯测速）
-ut: &ut {type: url-test, tolerance: 70, interval: 600, timeout: 3000, lazy: true, url: "https://www.gstatic.com/generate_204", hidden: true, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png"}
-
-# 4. 声明规则
+# 2. 自动化策略组基准模板（纯测速）
+ut: &ut
+  lazy: true
+  hidden: true
+  max-failed-times: 3
+  interval: 600
+  timeout: 3000
+  tolerance: 70
+  type: url-test
+  url: "https://g.cn/generate_204"
+  icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png"
+  
+# 3. 声明规则
 anchors:
   _domain_anchor: &rule_providers_domain { type: http, interval: 86400, behavior: domain }
   _ip_anchor: &rule_providers_ip { type: http, interval: 86400, behavior: ipcidr }
   _classical_anchor: &rule_providers_classical { type: http, interval: 86400, behavior: classical }
 
-# 5. DNS 统一锚点
+# 4. DNS 统一锚点
 chinaDNS:
   &chinaDNS [
     'https://dns.alidns.com/dns-query#DIRECT', 
@@ -35,10 +41,10 @@ foreignDNS:
     'https://dns.google/dns-query#Proxy'
   ]
 
-# 6. 定义全局排除配置块（用于从源头过滤官网、流量、Web等信息）
+# 5. 定义全局排除配置块（用于从源头过滤官网、流量、Web等信息）
 global_exclude_filter: &global_exclude_filter { exclude-filter: '官网|Web|重置|到期|剩余|流量|机场|客服|套餐|订阅|版本' }
 
-# 7. 统一过滤器
+# 6. 统一过滤器
 fhk: &fhk '🇭🇰|港|HK|[Hh]ong\s*[Kk]ong'
 ftw: &ftw '🇹🇼|台湾|TW|[Tt]aiwan'
 fjp: &fjp '🇯🇵|日本|JP|[Jj]apan'
@@ -46,24 +52,25 @@ fkr: &fkr '🇰🇷|韩|韩国|首尔|KR|[Kk]orea'
 fsg: &fsg '🇸🇬|新加坡|狮城|SG|[Ss]ingapore'
 fus: &fus '🇺🇸|美|US|[Aa]merica|[Uu]nited\s*[Ss]tates'
 fot: &fot '(?i)^(?!.*(🇭🇰|🇹🇼|🇯🇵|🇺🇸|🇸🇬|🇰🇷|🇨🇳|港|hk|hong\s*kong|台|tw|taiwan|日|jp|japan|韩|kr|korea|新加坡|sg|singapore|美|us|united\s*states)).+$'
-fjs: &fjs '解锁|解|原生|家庭|家宽|住宅|(?<![a-zA-Z])ai(?![a-zA-Z])|gpt|openai|claude|netflix|nf|hulu|disney|hbo|ISP|Home|HINET|HKT|play|🏠'
+ful: &ful '原生|家庭|家宽|住宅|解锁|(?<![a-zA-Z])ai(?![a-zA-Z])|GPT|gpt|openai|claude|netflix|nf|hulu|disney|hbo|ISP|Home|HINET|HKT|🏠'
+
+# 7. 统一所有功能分流组的可选节点队列
+pr: &pr {type: select, proxies: [Proxy, Bypass, Unlock, Global, Hong Kong, Taiwan, Japan, Korea, Singapore, United States]}  
 ######### 🚀 锚点定义区域 end #######
 
 proxy-providers:
-    
-  P1:
-    <<: [*p, *global_exclude_filter]
-    url: "填入订阅地址"
-    override:
-      additional-prefix: "[P1]"
       
-  P2:
+  ①:
     <<: [*p, *global_exclude_filter]
-    url: "填入订阅地址"
+    url: "填入订阅"
     override:
-      additional-prefix: "[P2]"
+      additional-prefix: "① "
 
-proxies: []
+  ②:
+    <<: [*p, *global_exclude_filter]
+    url: "填入订阅"
+    override:
+      additional-prefix: "② "
 
 ipv6: false
 allow-lan: true
@@ -76,10 +83,11 @@ tcp-keep-alive-idle: 600
 keep-alive-interval: 60
 bind-address: '*'
 find-process-mode: strict
-mode: rule     
-external-controller: 127.0.0.1:9090
-external-ui: ./ui
-external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
+mode: rule
+log-level: info     
+external-controller: '127.0.0.1:9090'
+external-ui: ui
+external-ui-url: 'https://github.com/Zephyruso/zashboard/releases/latest/download/dist.zip'
 
 profile:
   store-selected: true
@@ -100,8 +108,9 @@ dns:
   nameserver: *foreignDNS
   nameserver-policy:
     'rule-set:cn': *chinaDNS
+    'rule-set:cn_additional': *chinaDNS
   direct-nameserver: ['system', '223.5.5.5', '119.29.29.29']
- 
+
 hosts:
   'dns.alidns.com': ['223.5.5.5', '223.6.6.6']
   'doh.pub': ['1.12.12.12', '120.53.53.53']
@@ -114,7 +123,7 @@ hosts:
   # 屏蔽哔哩哔哩PCDN，解决访问视频卡顿问题
   '+.mcdn.bilivideo.com': ['0.0.0.0']
   '+.mcdn.bilivideo.cn': ['0.0.0.0']
-  
+
 ntp:
   enable: true
   write-to-system: false
@@ -125,43 +134,30 @@ ntp:
 tun:
   enable: true
   auto-route: true
-  strict-route: true
   auto-redirect: true
   auto-detect-interface: true
   stack: system
   dns-hijack: ['udp://any:53', 'tcp://any:53']
 
-proxy-groups:
-  # ==================== 核心组 ====================
-  - name: Proxy
-    type: select
-    proxies: [Unlock, Global, Hong Kong, Taiwan, Japan, Korea, Singapore, United States]
-    icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png"
-    
-  - name: Bypass
-    type: select
-    proxies: [DIRECT]
-    url: 'https://connectivitycheck.platform.hicloud.com/generate_204'
-    interval: 10800
-    icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bypass.png"
-    hidden: true
+proxies:
+  - { name: '直连', type: direct }
 
-  # ==================== 功能分流 ====================
+proxy-groups:
+  # 核心组 
+  - {name: Proxy, type: select, proxies: [Unlock, Global, Hong Kong, Taiwan, Japan, Korea, Singapore, United States], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png"}
+
+  - {name: Bypass, type: select, proxies: ['直连'], url: "https://connectivitycheck.platform.hicloud.com/generate_204", interval: 10800, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bypass.png", hidden: true}
+
+  # 功能分流 
   - {name: AI, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ChatGPT.png"}
-  - {name: YouTube, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png"}
   - {name: TikTok, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok.png"}
-  - {name: NETFLIX, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png"}
-  - {name: Emby, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Emby.png"}
-  - {name: Anime, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png"}
   - {name: Niconico, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/niconico.png"}
-  
-  - name: Others
-    type: select
-    proxies: [Proxy, Bypass]
-    icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png"
-    
-  # ==================== 后台测速组 ====================
-  - {name: "UL-Auto", <<: *ut, include-all: true, filter: *fjs, exclude-type: Hysteria2} 
+  - {name: Anime, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png"}
+  - {name: ForeignMedia, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png"}
+  - {name: Others, type: select, proxies: [Proxy, Bypass], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png"}
+
+  # 后台测速组 
+  - {name: "UL-Auto", <<: *ut, include-all: true, filter: *ful, exclude-type: Hysteria2} 
   - {name: "GB-Auto", <<: *ut, include-all: true, filter: *fot, exclude-type: Hysteria2}
   - {name: "HK-Auto", <<: *ut, include-all: true, filter: *fhk, exclude-type: Hysteria2}
   - {name: "TW-Auto", <<: *ut, include-all: true, filter: *ftw, exclude-type: Hysteria2}
@@ -170,8 +166,8 @@ proxy-groups:
   - {name: "SG-Auto", <<: *ut, include-all: true, filter: *fsg, exclude-type: Hysteria2}
   - {name: "US-Auto", <<: *ut, include-all: true, filter: *fus, exclude-type: Hysteria2}
   
-  # ==================== 地区显式选择组 ====================
-  - {name: Unlock, type: select, include-all: true, filter: *fjs, proxies: ["UL-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Static.png"}
+  # 地区显式选择组 
+  - {name: Unlock, type: select, include-all: true, filter: *ful, proxies: ["UL-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Static.png"}
   - {name: Global, type: select, include-all: true, filter: *fot, proxies: ["GB-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png"}
   - {name: Hong Kong, type: select, include-all: true, filter: *fhk, proxies: ["HK-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png"}
   - {name: Taiwan, type: select, include-all: true, filter: *ftw, proxies: ["TW-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png"}
@@ -185,18 +181,21 @@ rule-providers:
   private: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/private.mrs", path: "./ruleset/private.mrs" }
   private_ip: { <<: *rule_providers_ip, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/private.mrs", path: "./ruleset/private_ip.mrs" }
   fakeip_filter: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/wwqgtxx/clash-rules@release/fakeip-filter.mrs", path: "./ruleset/fakeip-filter.mrs" }
+  google: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/google.mrs", path: "./ruleset/google.mrs" }
   ai: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-!cn.mrs", path: "./ruleset/ai.mrs" }
-  youtube: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/youtube.mrs", path: "./ruleset/youtube.mrs" }
   tiktok: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/tiktok.mrs", path: "./ruleset/tiktok.mrs" }
   netflix: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/netflix.mrs", path: "./ruleset/netflix.mrs" }
+  netflix_ip: { <<: *rule_providers_ip, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/netflix.mrs", path: "./ruleset/netflix_ip.mrs" }
+  hbo: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/hbo.mrs", path: "./ruleset/hbo.mrs" }
+  disney: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/disney.mrs", path: "./ruleset/disney.mrs" }
   emby: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/666OS/rules@release/mihomo/domain/Emby.mrs", path: "./ruleset/emby.mrs" }
+  youtube: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/youtube.mrs", path: "./ruleset/youtube.mrs" }
   bahamut: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/bahamut.mrs", path: "./ruleset/bahamut.mrs" }
   niconico: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/niconico.mrs", path: "./ruleset/niconico.mrs" }
   gfw: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/gfw.mrs", path: "./ruleset/gfw.mrs" }
   cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/wwqgtxx/clash-rules@release/direct.mrs", path: "./ruleset/cn.mrs" }
   cn_additional: { <<: *rule_providers_domain, format: mrs, url: "https://static-file-global.353355.xyz/rules/cn-additional-list.mrs", path: "./ruleset/cn-additional-list.mrs" }
   cn_ip: { <<: *rule_providers_ip, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/cn.mrs", path: "./ruleset/cn_ip.mrs" }
-  DownloadApps: { <<: *rule_providers_classical, format: yaml, url: "https://fastly.jsdelivr.net/gh/AIsouler/MyClash@main/Rules/DownloadApps.txt", path: "./ruleset/DownloadApps.txt" }
 
 rules:
   # 禁用 QUIC 流量
@@ -204,8 +203,7 @@ rules:
   
   # 私有网络与局域网直连 
   - RULE-SET,private,DIRECT
-  - RULE-SET,private_ip,DIRECT,no-resolve
-  - RULE-SET,DownloadApps,DIRECT  
+  - RULE-SET,private_ip,DIRECT,no-resolve  
   - DOMAIN,fsend.cn,DIRECT           
 
   # 手动附加域名分流
@@ -219,17 +217,23 @@ rules:
   - DOMAIN-KEYWORD,agedm,Anime
 
   # 核心代理规则（域名规则集） 
-  - RULE-SET,youtube,YouTube
   - RULE-SET,ai,AI
   - RULE-SET,tiktok,TikTok
   - RULE-SET,niconico,Niconico
   - RULE-SET,bahamut,Anime
-  - RULE-SET,netflix,NETFLIX
-  - RULE-SET,emby,Emby
+  - RULE-SET,netflix,ForeignMedia
+  - RULE-SET,emby,ForeignMedia
+  - RULE-SET,youtube,ForeignMedia
+  - RULE-SET,hbo,ForeignMedia
+  - RULE-SET,disney,ForeignMedia
+  
+  - RULE-SET,netflix_ip,ForeignMedia,no-resolve  
 
   # 墙内安全防线与兜底
+  - RULE-SET,google,Proxy
   - RULE-SET,gfw,Proxy  
-  - RULE-SET,cn_ip,DIRECT  
+  - RULE-SET,cn,DIRECT
   - RULE-SET,cn_additional,DIRECT
+  - RULE-SET,cn_ip,DIRECT  
   
   - MATCH,Others          
