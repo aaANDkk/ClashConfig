@@ -240,7 +240,7 @@ rules:
   - RULE-SET,ai,AI
   - RULE-SET,tiktok,TikTok
   - RULE-SET,bahamut,Anime
-  - RULE-SET,niconico,Media
+  - RULE-SET,niconico,Anime
   - RULE-SET,netflix,Media
   - RULE-SET,emby,Media
   - RULE-SET,youtube,Media
