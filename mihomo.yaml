@@ -155,7 +155,7 @@ proxy-groups:
 
   # 🔀功能分流   
   - {name: AI, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ChatGPT.png"}
-  - {name: TikTok, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok_2.png"}
+  - {name: TikTok, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok_1.png"}
   - {name: Anime, <<: *pr, icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Bahamut.png"}
   - {name: Media, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png"}
   - {name: Others, type: select, proxies: [Proxy, Bypass], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png"}
