@@ -16,7 +16,7 @@
 | 🔓 **Unlock** | `UL-Auto` |
 | 🌍 **Global** | `GB-Auto` |
 | 🇭🇰 **Hong Kong** | `HK-Auto` |
-| 🇨🇳 **Taiwan** | `TW-Auto` |
+| 🇨🇳 **Taiwan Provience** | `TW-Auto` |
 | 🇯🇵 **Japan** | `JP-Auto` |
 | 🇰🇷 **Korea** | `KR-Auto` |
 | 🇸🇬 **Singapore** | `SG-Auto` |
