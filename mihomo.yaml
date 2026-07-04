@@ -144,26 +144,22 @@ tun:
 
 proxy-groups:
   # 💞核心组
-  - {name: Proxy, type: select, proxies: [Unlock, Global, Hong Kong, Taiwan, Japan, Korea, Singapore, United States],     default-selected: 'Japan', icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Rocket.png"}
-
+  - {name: Proxy, type: select, proxies: [Unlock, Global, Hong Kong, Taiwan, Japan, Korea, Singapore, United States], default-selected: 'Japan', icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Rocket.png"}
   - {name: AdGuard, type: select, proxies: ['Strict', 'Moderate', 'Permissive'], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hijacking.png"}
-  
   - {name: Bypass, type: select, proxies: ['DIRECT'], url: "https://connectivitycheck.platform.hicloud.com/generate_204", interval: 10800, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bypass.png", hidden: true}
 
   # 🛡️广告组
-  - { name: 'Strict', type: select, proxies: [REJECT-DROP], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png", hidden: true}
-  - { name: 'Moderate', type: select, proxies: [REJECT], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Advertising.png", hidden: true}
+  - { name: 'Strict', type: select, proxies: [REJECT], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png", hidden: true}
+  - { name: 'Moderate', type: select, proxies: [REJECT-DROP], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Advertising.png", hidden: true}
   - { name: 'Permissive', type: select, proxies: [PASS], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdWhite.png", hidden: true}
 
   # 🔀功能分流   
   - {name: AI, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ChatGPT.png"}
-  - {name: Steam, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Steam.png"}
-  - {name: TikTok, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok_1.png"}
+  - {name: TikTok, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok_2.png"}
   - {name: Anime, <<: *pr, icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Bahamut.png"}
   - {name: Media, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png"}
   - {name: Others, type: select, proxies: [Proxy, Bypass], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png"}
 
-  # 🏴地区选择组 
   # 🔓解锁优质节点
   - {name: "UL-Auto", <<: *ut, include-all: true, filter: *ful, exclude-type: Hysteria2} 
   - {name: Unlock, type: select, include-all: true, filter: *ful, proxies: ["UL-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Static_1.png"}
@@ -241,7 +237,6 @@ rules:
   # 核心代理规则（域名规则集） 
   - RULE-SET,ai,AI
   - RULE-SET,tiktok,TikTok
-  - RULE-SET,steam,Steam
   - RULE-SET,bahamut,Anime
   - RULE-SET,niconico,Anime
   - RULE-SET,netflix,Media
@@ -252,8 +247,9 @@ rules:
   
   - RULE-SET,netflix_ip,Media,no-resolve  
 
-  # 墙内安全防线与兜底
+  # 防线与兜底
   - RULE-SET,google,Proxy
+  - RULE-SET,steam,Proxy
   - RULE-SET,gfw,Proxy  
   - RULE-SET,cn,DIRECT
   - RULE-SET,cn_additional,DIRECT
