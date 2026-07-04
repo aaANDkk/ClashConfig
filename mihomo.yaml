@@ -155,11 +155,14 @@ proxy-groups:
   - { name: 'Moderate', type: select, proxies: [REJECT], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Advertising.png", hidden: true}
   - { name: 'Permissive', type: select, proxies: [PASS], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdWhite.png", hidden: true}
 
-  # 🔀功能分流 
-  - {name: Media, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Media.png"}
-  - {name: Anime, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png"}
+  # 🔀功能分流   
+  - {name: AI, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ChatGPT.png"}
+  - {name: Steam, <<: *pr, 
+icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Steam.png"}
+  - {name: Spotify, <<: *pr, icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Spotify.png"}
   - {name: TikTok, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok.png"}
-  - {name: AI, <<: *pr, icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png"}
+  - {name: Anime, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png"}
+  - {name: Media, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png"}
   - {name: Others, type: select, proxies: [Proxy, Bypass], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png"}
 
   # 🏴地区选择组 
@@ -211,6 +214,8 @@ rule-providers:
   adblockmihomolite: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/adblockmihomolite.mrs", path: "./ruleset/adblockmihomolite.mrs" }
   epicgames: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/epicgames.mrs", path: "./ruleset/epicgames.mrs" }
   games_cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-games@cn.mrs", path: "./ruleset/category-games@cn.mrs" }
+  steam: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/steam.mrs", path: "./ruleset/steam.mrs" }
+  spotify: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/spotify.mrs", path: "./ruleset/spotify.mrs" }
 
 rules:
   # 禁用 QUIC 流量
@@ -239,6 +244,8 @@ rules:
   # 核心代理规则（域名规则集） 
   - RULE-SET,ai,AI
   - RULE-SET,tiktok,TikTok
+  - RULE-SET,steam,Steam
+  - RULE-SET,spotify,Spotify
   - RULE-SET,bahamut,Anime
   - RULE-SET,niconico,Anime
   - RULE-SET,netflix,Media
