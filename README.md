@@ -30,7 +30,7 @@
 不追求臃肿无用的千万条规则，
 针对日常高频使用的海内外主流服务与广告拦截配置了独立策略组，支持一键在 UI 界面快速切换出口：
 
-> 🧩 `AI` · `TikTok` · `Anime` · `Media` · `AdGuard` · `Others`
+> 🧩 `AdGuard` · `AI` · `Steam` · `TikTok` · `Anime` · `Media` · `Others`
 
 *💡 特别针对二次元受众与流媒体，合并并优化了 `Anime` 与 `Media` 策略组。全面覆盖巴哈姆特、Niconico、Netflix、YouTube、Disney+、Emby 等，并在规则中手动附加了次元城动漫（cycani）、AGE动漫（agedm）的域名分流。*
 
