@@ -16,7 +16,6 @@ p: &p
 ut: &ut
   lazy: true
   hidden: true
-  max-failed-times: 3
   interval: 600
   timeout: 3000
   tolerance: 70
@@ -233,6 +232,8 @@ rules:
   - DOMAIN-SUFFIX,agedm.io,Anime
   - DOMAIN-KEYWORD,cycani,Anime
   - DOMAIN-KEYWORD,agedm,Anime
+
+  - DOMAIN,msmp.abchina.com.cn,REJECT #农业银行
 
   # 核心代理规则（域名规则集） 
   - RULE-SET,ai,AI
