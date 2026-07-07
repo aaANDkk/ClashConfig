@@ -228,11 +228,17 @@ rules:
   - PROCESS-NAME,com.anthropic.claude,AI
   - PROCESS-NAME,ai.x.grok,AI
   - PROCESS-NAME,com.google.android.apps.bard,AI
+  - PROCESS-NAME,com.czy0729.bangumi,Anime
+  - PROCESS-NAME,com.ynwtandroid.fork.xl,Anime
+  - PROCESS-NAME,com.predidit.kazumi,Anime
+  - PROCESS-NAME,me.him188.ani,Anime
+  - PROCESS-NAME,com.ligg.anime_flow,Anime
+  - PROCESS-NAME,ani.baka,Anime
   - DOMAIN-SUFFIX,cycani.org,Anime
   - DOMAIN-SUFFIX,agedm.io,Anime
   - DOMAIN-KEYWORD,cycani,Anime
   - DOMAIN-KEYWORD,agedm,Anime
-
+  
   - DOMAIN,msmp.abchina.com.cn,REJECT #农业银行
 
   # 核心代理规则（域名规则集） 
