@@ -7,7 +7,7 @@ p: &p
     enable: true
     lazy: true
     interval: 10800
-    timeout: 3000
+    timeout: 5000
     empty-fallback: REJECT
     url: "https://g.cn/generate_204"               
     #concurrency: 5
@@ -17,8 +17,8 @@ ut: &ut
   lazy: true
   hidden: true
   interval: 600
-  timeout: 3000
-  tolerance: 70
+  timeout: 5000
+  tolerance: 100
   empty-fallback: REJECT
   type: url-test
   url: "https://g.cn/generate_204"
@@ -211,7 +211,7 @@ rule-providers:
 
 rules:
   # 禁用 QUIC 流量
-  - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,cn_additional),(RULE-SET,cn_ip,no-resolve)))))),REJECT-DROP
+  - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,cn_additional),(RULE-SET,cn_ip,no-resolve)))))),REJECT
   
   # 直连 
   - RULE-SET,private,DIRECT
