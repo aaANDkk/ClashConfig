@@ -18,7 +18,7 @@ ut: &ut
   hidden: true
   interval: 600
   timeout: 5000
-  tolerance: 100
+  tolerance: 65
   empty-fallback: REJECT
   type: url-test
   url: "https://g.cn/generate_204"
@@ -60,8 +60,9 @@ pr: &pr {type: select, proxies: [Proxy, Bypass, Unlock, Global, Hong Kong, Taiwa
 ######### 🚀 锚点定义区域 end #######
 
 proxy-providers:
-  #机场订阅
-  #自行添加或删除①②③④⑤⑥⑦⑧⑨⑩
+#机场订阅
+#自行添加或删除①②③④⑤⑥⑦⑧⑨⑩
+
   ①:
     <<: [*p, *global_exclude_filter]
     url: "填入订阅"
@@ -234,10 +235,9 @@ rules:
   - PROCESS-NAME,me.him188.ani,Anime
   - PROCESS-NAME,com.ligg.anime_flow,Anime
   - PROCESS-NAME,ani.baka,Anime
-  - DOMAIN-SUFFIX,cycani.org,Anime
-  - DOMAIN-SUFFIX,agedm.io,Anime
   - DOMAIN-KEYWORD,cycani,Anime
   - DOMAIN-KEYWORD,agedm,Anime
+  - DOMAIN-KEYWORD,girigirilove,Anime
   
   - DOMAIN,msmp.abchina.com.cn,REJECT #农业银行
 
@@ -262,4 +262,4 @@ rules:
   - RULE-SET,cn_additional,DIRECT
   - RULE-SET,cn_ip,DIRECT  
   
-  - MATCH,Others          
+  - MATCH,Others      
