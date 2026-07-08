@@ -32,7 +32,7 @@
 
 > 🧩   `AI` · `TikTok` · `Anime` · `Media` · `Others`
 
-*💡 特别针对二次元受众与流媒体，合并并优化了 `Anime` 与 `Media` 策略组。全面覆盖巴哈姆特、Niconico、Netflix、YouTube、Disney+、Emby 等，并在规则中手动附加了次元城动漫（cycani）、AGE动漫（agedm）等的域名分流，以解决部分动漫网站**屏蔽日本ip**的问题。*
+*💡 特别针对二次元受众与流媒体，合并并优化了 `Anime` 与 `Media` 策略组。全面覆盖巴哈姆特、Niconico、Netflix、YouTube、Disney+、Emby 等，并在规则中手动附加了次元城动漫（cycani）、AGE动漫（agedm）等的域名分流，以解决部分动漫网站**屏蔽日本IP**的问题。*
 
 ---
 
