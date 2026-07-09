@@ -53,7 +53,7 @@ fkr: &fkr '🇰🇷|韩|韩国|首尔|KR|[Kk]orea'
 fsg: &fsg '🇸🇬|新加坡|狮城|SG|[Ss]ingapore'
 fus: &fus '🇺🇸|美|US|[Aa]merica|[Uu]nited\s*[Ss]tates'
 fot: &fot '(?i)^(?!.*(🇭🇰|🇹🇼|🇯🇵|🇺🇸|🇸🇬|🇰🇷|🇨🇳|港|hk|hong\s*kong|台|tw|taiwan|日|jp|japan|韩|kr|korea|新加坡|sg|singapore|美|us|united\s*states)).+$'
-ful: &ful '媒体|原生|家庭|家宽|住宅|解锁|(?<![a-zA-Z])ai(?![a-zA-Z])|GPT|gpt|openai|claude|netflix|nf|hulu|disney|hbo|ISP|Home|HINET|HKT|🏠'
+ful: &ful '媒体|原生|家庭|家宽|住宅|解锁|(?<![a-zA-Z])ai(?![a-zA-Z])|GPT|gpt|openai|claude|netflix|nf|hulu|disney|hbo|ISP|Home|HINET|HKT|play|🏠'
 
 # 7. 统一所有功能分流组的可选节点队列
 pr: &pr {type: select, proxies: [Proxy, Bypass, Unlock, Global, Hong Kong, Taiwan, Japan, Korea, Singapore, United States]}  
