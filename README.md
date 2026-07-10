@@ -30,19 +30,19 @@
 不追求臃肿无用的千万条规则，
 针对日常高频使用的海内外主流服务与广告拦截配置了独立策略组，支持一键在 UI 界面快速切换出口：
 
-> 🧩   `AI` · `TikTok` · `Anime` · `Media` · `Others`
+> 🧩   `AI` · `TikTok` · `动漫` · `流媒体` · `其他`
 
-*💡 特别针对二次元受众与流媒体，合并并优化了 `Anime` 与 `Media` 策略组。全面覆盖巴哈姆特、Niconico、Netflix、YouTube、Disney+、Emby 等，并在规则中手动附加了次元城动漫（cycani）、AGE动漫（agedm）等的域名分流，以解决部分动漫网站**屏蔽日本IP**的问题。*
+*💡 特别针对二次元受众与流媒体，合并并优化了 `动漫` 与 `流媒体` 策略组。全面覆盖巴哈姆特、Niconico、Netflix、YouTube、Disney+、Emby 等，并在规则中手动附加了次元城动漫（cycani）、AGE动漫（agedm）等的域名分流，以解决部分动漫网站**屏蔽日本IP**的问题。*
 
 ---
 
 ## 🛡️ 广告拦截与防护
 
-配置中集成了轻量化的广告拦截规则集（`adblockmihomolite`），并独设 **`AdGuard`** 核心控制策略组。支持切换三种拦截强度，满足不同场景下的去广告需求：
+配置中集成了轻量化的广告拦截规则集（`adblockmihomolite`），并独设 **`广告净化`** 核心控制策略组。支持切换三种拦截强度，满足不同场景下的去广告需求：
 
-* **Strict**：映射 `REJECT`
-* **Moderate**：映射 `REJECT-DROP`
-* **Permissive**：映射 `PASS`，临时进行放行恢复。
+* **直接拒绝**：映射 `REJECT`
+* **静默丢弃**：映射 `REJECT-DROP`
+* **临时放行**：映射 `PASS`
 
 ---
 
