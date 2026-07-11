@@ -39,7 +39,7 @@ chinaDNS:
 foreignDNS:
   &foreignDNS [
     'https://dns.cloudflare.com/dns-query#默认代理',
-    'https://dns.google/dns-query#默认代理解锁节点'
+    'https://dns.google/dns-query#默认代理'
   ]
 
 # 5. 定义全局排除配置块（用于从源头过滤官网、流量、Web等信息）
@@ -158,7 +158,7 @@ proxy-groups:
   # 🔀功能分流   
   - {name: AI, <<: *pr, default-selected: '解锁节点', icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ChatGPT.png"}
   - {name: TikTok, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok_1.png"}
-  - {name: 动漫, <<: *pr, icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Bahamut.png"}
+  - {name: 番剧, <<: *pr, icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Bahamut.png"}
   - {name: 流媒体, <<: *pr, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png"}
   - {name: 其他, type: select, proxies: [默认代理, 绕过代理], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png"}
 
@@ -231,23 +231,23 @@ rules:
   - PROCESS-NAME,com.anthropic.claude,AI
   - PROCESS-NAME,ai.x.grok,AI
   - PROCESS-NAME,com.google.android.apps.bard,AI
-  - PROCESS-NAME,com.czy0729.bangumi,动漫
-  - PROCESS-NAME,com.ynwtandroid.fork.xl,动漫
-  - PROCESS-NAME,com.predidit.kazumi,动漫
-  - PROCESS-NAME,me.him188.ani,动漫
-  - PROCESS-NAME,com.ligg.动漫_flow,动漫
-  - PROCESS-NAME,ani.baka,动漫
-  - DOMAIN-KEYWORD,cycani,动漫
-  - DOMAIN-KEYWORD,agedm,动漫
-  - DOMAIN-KEYWORD,girigirilove,动漫
+  - PROCESS-NAME,com.czy0729.bangumi,番剧
+  - PROCESS-NAME,com.ynwtandroid.fork.xl,番剧
+  - PROCESS-NAME,com.predidit.kazumi,番剧
+  - PROCESS-NAME,me.him188.ani,番剧
+  - PROCESS-NAME,com.ligg.anime_flow,番剧
+  - PROCESS-NAME,ani.baka,番剧
+  - DOMAIN-KEYWORD,cycani,番剧
+  - DOMAIN-KEYWORD,agedm,番剧
+  - DOMAIN-KEYWORD,girigirilove,番剧
   
   - DOMAIN,msmp.abchina.com.cn,REJECT #农业银行
 
   # 核心代理规则（域名规则集） 
   - RULE-SET,ai,AI
   - RULE-SET,tiktok,TikTok
-  - RULE-SET,bahamut,动漫
-  - RULE-SET,niconico,动漫
+  - RULE-SET,bahamut,番剧
+  - RULE-SET,niconico,番剧
   - RULE-SET,netflix,流媒体
   - RULE-SET,emby,流媒体
   - RULE-SET,youtube,流媒体
