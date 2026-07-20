@@ -8,7 +8,6 @@ p: &p
     lazy: true
     interval: 10800
     timeout: 5000
-    empty-fallback: REJECT
     url: "https://g.cn/generate_204"               
     #concurrency: 5
 
@@ -19,7 +18,6 @@ ut: &ut
   interval: 600
   timeout: 5000
   tolerance: 85
-  empty-fallback: REJECT
   type: url-test
   url: "https://g.cn/generate_204"
   icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png"
