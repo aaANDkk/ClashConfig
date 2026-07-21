@@ -13,14 +13,12 @@
 
 | 节点分组标签 | 后台自动测速组（隐式隐藏） |
 | --- | --- |
-| 🔓 **Unlock** | `UL-Auto` |
-| 🌍 **Global** | `GB-Auto` |
 | 🇭🇰 **Hong Kong** | `HK-Auto` |
 | 🇨🇳 **Taiwan Provience** | `TW-Auto` |
-| 🇯🇵 **Japan** | `JP-Auto` |
-| 🇰🇷 **Korea** | `KR-Auto` |
 | 🇸🇬 **Singapore** | `SG-Auto` |
+| 🇯🇵 **Japan** | `JP-Auto` |
 | 🇺🇸 **United States** | `US-Auto` |
+| 🌍 **Global** | `GB-Auto` |
 
 ---
 
@@ -41,7 +39,6 @@
 配置中集成了轻量化的广告拦截规则集（`adblockmihomolite`），并独设 **`广告净化`** 核心控制策略组。支持切换三种拦截强度，满足不同场景下的去广告需求：
 
 * **直接拒绝**：映射 `REJECT`
-* **静默丢弃**：映射 `REJECT-DROP`
 * **临时放行**：映射 `PASS`
 
 ---
