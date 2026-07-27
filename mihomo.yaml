@@ -8,8 +8,7 @@ airport: &airport
     lazy: true
     interval: 10800
     timeout: 5000
-    url: "https://g.cn/generate_204"               
-    #concurrency: 5
+    url: "https://g.cn/generate_204"            
 
 # 2. 自动化策略组基准模板（纯测速）
 ut: &ut
@@ -50,10 +49,10 @@ fjp: &fjp '(?i)(🇯🇵|日本|(?<![A-Za-z])JP(?![A-Za-z])|japan)'
 fsg: &fsg '(?i)(🇸🇬|新加坡|狮城|(?<![A-Za-z])SG(?![A-Za-z])|singapore)'
 fus: &fus '(?i)(🇺🇸|美国|(?<![A-Za-z])US(?![A-Za-z])|[Aa]merica|[Uu]nited\s*[Ss]tates)'
 fot: &fot '(?i)^(?!.*(🇭🇰|香港|(?<![A-Za-z])HK(?![A-Za-z])|hong\s*kong|🇯🇵|日本|(?<![A-Za-z])JP(?![A-Za-z])|japan|🇺🇸|美国|(?<![A-Za-z])US(?![A-Za-z])|[Aa]merica|[Uu]nited\s*[Ss]tates|🇸🇬|新加坡|狮城|(?<![A-Za-z])SG(?![A-Za-z])|singapore|🇹🇼|台湾|(?<![A-Za-z])TW(?![A-Za-z])|taiwan)).*'
-#ful: &ful '原生|家庭|家宽|住宅|解锁|(?<![a-zA-Z])ai(?![a-zA-Z])|GPT|gpt|openai|claude|netflix|nf|hulu|disney|hbo|ISP|Home|HINET|HKT|IEPL|🏠'
+ful: &ful '原生|家庭|家宽|住宅|解锁|(?<![a-zA-Z])ai(?![a-zA-Z])|GPT|gpt|openai|claude|netflix|nf|hulu|disney|hbo|ISP|Home|HINET|HKT|🏠'
 
 # 7. 统一所有功能分流组的可选节点队列
-group: &group {type: select, proxies: [Proxy, Direct, Hong Kong, Taiwan, Singapore, Japan, United States, Rest of World]}
+group: &group {type: select, proxies: [Proxy, Premium, Hong Kong, Taiwan, Japan, Singapore, United States, Rest of World]}
 ######### 🚀 锚点定义区域 end #######
 
 proxy-providers:
@@ -61,16 +60,16 @@ proxy-providers:
   #自行添加或删除①②③④⑤⑥⑦⑧⑨⑩
   ①:
     <<: [*airport, *global_exclude_filter]
-    url: "填入订阅"
+    url: "填入订阅地址"
     override:
       additional-prefix: "① "
 
   ②:
     <<: [*airport, *global_exclude_filter]
-    url: "填入订阅"
+    url: "填入订阅地址"
     override:
       additional-prefix: "② "  
-      
+
 #基础配置项
 ipv6: true
 allow-lan: true
@@ -144,36 +143,38 @@ tun:
 
 proxy-groups:
   # 💞核心组
-  - {name: Proxy, type: select, proxies: [Hong Kong, Taiwan, Singapore, Japan, United States, Rest of World], default-selected: 'Japan', icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Rocket.png"}
+  - {name: Proxy, type: select, proxies: [Hong Kong, Taiwan, Japan, Singapore, United States, Rest of World], default-selected: 'Japan', icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png"}
   - {name: Direct, type: select, proxies: ['DIRECT'], url: "https://g.cn/generate_204", interval: 10800, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png", hidden: true}
   
-  🛡️广告组
+  # 🛡️广告组
   - {name: Advertising, type: select, proxies: ['Refuse', 'Permit'], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Advertising.png"}
   - { name: 'Refuse', type: select, proxies: [REJECT], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Reject.png", hidden: true}
   - { name: 'Permit', type: select, proxies: [PASS], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Static_1.png", hidden: true}
 
   # 🔀功能分流   
-  - {name: AI, <<: *group, default-selected: 'Taiwan', icon: "https://raw.githubusercontent.com/lige47/lige_icon/main/icon/04ProxySoft/chatgpt(1).png"}
+  - {name: ChatGPT, <<: *group, default-selected: 'Premium', icon: "https://raw.githubusercontent.com/lige47/lige_icon/main/icon/04ProxySoft/chatgpt(1).png"}
+  - {name: Claude, <<: *group, default-selected: 'Premium', icon: "https://raw.githubusercontent.com/lige47/lige_icon/main/icon/04ProxySoft/claude(1).png"}
+  - {name: Gemini, <<: *group, default-selected: 'Premium', icon: "https://raw.githubusercontent.com/lige47/lige_icon/main/icon/04ProxySoft/gemini(1).png"}
   - {name: TikTok, <<: *group, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok_1.png"}
   - {name: Anime, <<: *group, icon: "https://raw.githubusercontent.com/lige47/lige_icon/main/icon/04ProxySoft/bahamute.png"}
   - {name: Media, <<: *group, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png"}
   - {name: Others, type: select, proxies: [Proxy, Direct], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png"}
 
-  # 🔓优选优质节点
-  #- {name: "优选-Auto", <<: *ut, include-all: true, filter: *ful, exclude-type: Hysteria2} 
-  #- {name: 优选节点, type: select, include-all: true, filter: *ful, proxies: ["优选-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ULB.png"}
+  # 🔓优选节点
+  - {name: "PRM-Auto", <<: *ut, include-all: true, filter: *ful, exclude-type: Hysteria2} 
+  - {name: Premium, type: select, include-all: true, filter: *ful, proxies: ["PRM-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ULB.png"}
   # 🌃香港
   - {name: "HKG-Auto", <<: *ut, include-all: true, filter: *fhk, exclude-type: Hysteria2}
   - {name: Hong Kong, type: select, include-all: true, filter: *fhk, proxies: ["HKG-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png"}
   # 🧋台湾省
   - {name: "TWN-Auto", <<: *ut, include-all: true, filter: *ftw, exclude-type: Hysteria2}
   - {name: Taiwan, type: select, include-all: true, filter: *ftw, proxies: ["TWN-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png"}
-  # 🦁新加坡
-  - {name: "SGP-Auto", <<: *ut, include-all: true, filter: *fsg, exclude-type: Hysteria2}
-  - {name: Singapore, type: select, include-all: true, filter: *fsg, proxies: ["SGP-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png"}
   # ⛩️日本
   - {name: "JPN-Auto", <<: *ut, include-all: true, filter: *fjp, exclude-type: Hysteria2}
   - {name: Japan, type: select, include-all: true, filter: *fjp, proxies: ["JPN-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png"}
+  # 🦁新加坡
+  - {name: "SGP-Auto", <<: *ut, include-all: true, filter: *fsg, exclude-type: Hysteria2}
+  - {name: Singapore, type: select, include-all: true, filter: *fsg, proxies: ["SGP-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png"}
   # 🗽美国
   - {name: "USA-Auto", <<: *ut, include-all: true, filter: *fus, exclude-type: Hysteria2}
   - {name: United States, type: select, include-all: true, filter: *fus, proxies: ["USA-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png"}
@@ -210,9 +211,6 @@ rule-providers:
   steam: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/steam.mrs", path: "./ruleset/steam.mrs" }
 
 rules:
-  # 禁用 QUIC 流量
-  - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,cn_additional),(RULE-SET,cn_ip,no-resolve)))))),REJECT
-  
   # 直连 
   - RULE-SET,private,DIRECT
   - RULE-SET,private_ip,DIRECT,no-resolve
@@ -224,10 +222,13 @@ rules:
   # 广告拦截
   - RULE-SET,adblockmihomolite,Advertising
 
+  # 禁用国外 QUIC 流量
+  - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,cn_additional),(RULE-SET,cn_ip,no-resolve)))))),REJECT
+
   # 手动规则
-  - PROCESS-NAME,com.openai.chatgpt,AI
-  - PROCESS-NAME,com.anthropic.claude,AI
-  - PROCESS-NAME,ChatGPT.exe,AI  
+  - PROCESS-NAME,com.openai.chatgpt,ChatGPT
+  - PROCESS-NAME,ChatGPT.exe,ChatGPT
+  - PROCESS-NAME,com.anthropic.claude,Claude
   - PROCESS-NAME,com.czy0729.bangumi,Anime
   - PROCESS-NAME,com.ynwtandroid.fork.xl,Anime
   - PROCESS-NAME,com.predidit.kazumi,Anime
@@ -241,10 +242,10 @@ rules:
   - DOMAIN-KEYWORD,emby,Media
   - DOMAIN,msmp.abchina.com.cn,REJECT #农业银行
   
-  # 核心代理规则
-  - RULE-SET,openai,AI
-  - RULE-SET,anthropic,AI
-  - RULE-SET,gemini,AI
+  # 核心规则
+  - RULE-SET,openai,ChatGPT
+  - RULE-SET,anthropic,Claude
+  - RULE-SET,gemini,Gemini
   - RULE-SET,tiktok,TikTok
   - RULE-SET,bahamut,Anime
   - RULE-SET,niconico,Anime
