@@ -13,12 +13,13 @@
 
 | 节点分组标签 | 后台自动测速组（隐式隐藏） |
 | --- | --- |
-| 🇭🇰 **Hong Kong** | `HK-Auto` |
-| 🇨🇳 **Taiwan Provience** | `TW-Auto` |
-| 🇸🇬 **Singapore** | `SG-Auto` |
-| 🇯🇵 **Japan** | `JP-Auto` |
-| 🇺🇸 **United States** | `US-Auto` |
-| 🌍 **Global** | `GB-Auto` |
+| 🌟 **Premium** | `PRM-Auto` |
+| 🇭🇰 **Hong Kong** | `HKG-Auto` |
+| 🇨🇳 **Taiwan Provience** | `TWN-Auto` |
+| 🇸🇬 **Singapore** | `SGP-Auto` |
+| 🇯🇵 **Japan** | `JPN-Auto` |
+| 🇺🇸 **United States** | `USA-Auto` |
+| 🌍 **Rest of World** | `ROW-Auto` |
 
 ---
 
