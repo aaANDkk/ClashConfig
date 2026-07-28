@@ -152,8 +152,8 @@ proxy-groups:
   - { name: 'Permit', type: select, proxies: [PASS], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Static_1.png", hidden: true}
 
   # 🔀功能分流   
-  - {name: Claude, <<: *group, default-selected: 'Residential', icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Claude(2).png"}
-  - {name: ChatGPT, <<: *group, default-selected: 'Residential', icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/GPT(1).png"}
+  - {name: Claude, <<: *group, default-selected: 'Residential', icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Claude.png"}
+  - {name: ChatGPT, <<: *group, default-selected: 'Residential', icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/GPT.png"}
   - {name: Gemini, <<: *group, default-selected: 'Residential', icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Gemini.png"}
   - {name: TikTok, <<: *group, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok_1.png"}
   - {name: Anime, <<: *group, icon: "https://raw.githubusercontent.com/lige47/lige_icon/main/icon/04ProxySoft/bahamute.png"}
