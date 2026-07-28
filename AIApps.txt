@@ -1,4 +1,0 @@
-PROCESS-NAME,com.openai.chatgpt
-PROCESS-NAME,com.anthropic.claude
-PROCESS-NAME,ai.x.grok
-PROCESS-NAME,com.google.android.apps.bard
