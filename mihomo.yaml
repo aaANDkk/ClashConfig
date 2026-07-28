@@ -152,14 +152,14 @@ proxy-groups:
   - { name: 'Permit', type: select, proxies: [PASS], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Static_1.png", hidden: true}
 
   # 🔀功能分流   
-  - {name: ChatGPT, <<: *group, default-selected: 'Premium', icon: "https://raw.githubusercontent.com/lige47/lige_icon/main/icon/04ProxySoft/chatgpt(1).png"}
-  - {name: Claude, <<: *group, default-selected: 'Premium', icon: "https://raw.githubusercontent.com/lige47/lige_icon/main/icon/04ProxySoft/claude(1).png"}
-  - {name: Gemini, <<: *group, default-selected: 'Premium', icon: "https://raw.githubusercontent.com/lige47/lige_icon/main/icon/04ProxySoft/gemini(1).png"}
+  - {name: ChatGPT, <<: *group, default-selected: 'Residential', icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/GPT.png"}
+  - {name: Claude, <<: *group, default-selected: 'Residential', icon: "https://raw.githubusercontent.com/lige47/lige_icon/main/icon/04ProxySoft/claude(1).png"}
+  - {name: Gemini, <<: *group, default-selected: 'Residential', icon: "https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/gemini-color.svg"}
   - {name: TikTok, <<: *group, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok_1.png"}
   - {name: Anime, <<: *group, icon: "https://raw.githubusercontent.com/lige47/lige_icon/main/icon/04ProxySoft/bahamute.png"}
   - {name: Media, <<: *group, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png"}
   - {name: Others, type: select, proxies: [Proxy, Direct], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png"}
-
+  
   # 🔓优选节点
   - {name: "PRM-Auto", <<: *ut, include-all: true, filter: *ful, exclude-type: Hysteria2} 
   - {name: Premium, type: select, include-all: true, filter: *ful, proxies: ["PRM-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ULB.png"}
