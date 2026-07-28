@@ -52,7 +52,7 @@ fot: &fot '(?i)^(?!.*(🇭🇰|香港|(?<![A-Za-z])HK(?![A-Za-z])|hong\s*kong|�
 ful: &ful '原生|家庭|家宽|住宅|解锁|(?<![a-zA-Z])ai(?![a-zA-Z])|GPT|gpt|openai|claude|netflix|nf|hulu|disney|hbo|ISP|Home|HINET|HKT|🏠'
 
 # 7. 统一所有功能分流组的可选节点队列
-group: &group {type: select, proxies: [Proxy, Premium, Hong Kong, Taiwan, Japan, Singapore, United States, Rest of World]}
+group: &group {type: select, proxies: [Proxy, Residential, Hong Kong, Taiwan, Japan, Singapore, United States, Rest of World]}
 ######### 🚀 锚点定义区域 end #######
 
 proxy-providers:
@@ -161,8 +161,8 @@ proxy-groups:
   - {name: Others, type: select, proxies: [Proxy, Direct], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png"}
   
   # 🔓优选节点
-  - {name: "PRM-Auto", <<: *ut, include-all: true, filter: *ful, exclude-type: Hysteria2} 
-  - {name: Premium, type: select, include-all: true, filter: *ful, proxies: ["PRM-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ULB.png"}
+  - {name: "RSD-Auto", <<: *ut, include-all: true, filter: *ful, exclude-type: Hysteria2} 
+  - {name: Residential, type: select, include-all: true, filter: *ful, proxies: ["RSD-Auto"], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Home.png"}
   # 🌃香港
   - {name: "HKG-Auto", <<: *ut, include-all: true, filter: *fhk, exclude-type: Hysteria2}
   - {name: Hong Kong, type: select, include-all: true, filter: *fhk, proxies: ["HKG-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png"}
