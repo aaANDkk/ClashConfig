@@ -13,7 +13,7 @@
 
 | 节点分组标签 | 后台自动测速组（隐式隐藏） |
 | --- | --- |
-| 🏠 **Residenti** | `RSD-Auto` |
+| 🏠 **Residential** | `RSD-Auto` |
 | 🇭🇰 **Hong Kong** | `HKG-Auto` |
 | 🇨🇳 **Taiwan Provience** | `TWN-Auto` |
 | 🇸🇬 **Singapore** | `SGP-Auto` |
