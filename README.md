@@ -13,13 +13,13 @@
 
 | 节点分组标签 | 后台自动测速组 |
 | --- | --- |
-| **Residential** | `RSD-Auto` |
-| **Hong Kong** | `HKG-Auto` |
-| **Taiwan Provience** | `TWN-Auto` |
-| **Singapore** | `SGP-Auto` |
-| **Japan** | `JPN-Auto` |
-| **United States** | `USA-Auto` |
-| **Rest of World** | `ROW-Auto` |
+| **Residential** 🏠 | `RSD-Auto` |
+| **Hong Kong** 🇭🇰 | `HKG-Auto` |
+| **Taiwan Provience** 🇨🇳 | `TWN-Auto` |
+| **Japan** 🇯🇵 | `JPN-Auto` |
+| **Singapore** 🇸🇬 | `SGP-Auto` |
+| **United States** 🇺🇸 | `USA-Auto` |
+| **Rest of World** 🌏 | `ROW-Auto` |
 
 ---
 
