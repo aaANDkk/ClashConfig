@@ -11,15 +11,15 @@
 
 内置精细化的全球节点空间划分，采用 **显式手动选择组** 与 **后台隐式延迟测速组（url-test）** 动态联动机制。同时，后台自动测速组 **已剔除 Hysteria2 协议**：
 
-| 节点分组标签 | 后台自动测速组（隐式隐藏） |
-| --- | --- |
-| 🏠 **Residential** | `RSD-Auto` |
-| 🇭🇰 **Hong Kong** | `HKG-Auto` |
-| 🇨🇳 **Taiwan Provience** | `TWN-Auto` |
-| 🇸🇬 **Singapore** | `SGP-Auto` |
-| 🇯🇵 **Japan** | `JPN-Auto` |
-| 🇺🇸 **United States** | `USA-Auto` |
-| 🌍 **Rest of World** | `ROW-Auto` |
+|  ICON  | 节点分组标签 | 后台自动测速组（隐式隐藏） |
+| --- | --- | --- |
+ 🏠 | **Residential** | `RSD-Auto` |
+ 🇭🇰 | **Hong Kong** | `HKG-Auto` |
+ 🇨🇳 | **Taiwan Provience** | `TWN-Auto` |
+ 🇸🇬 | **Singapore** | `SGP-Auto` |
+ 🇯🇵 | **Japan** | `JPN-Auto` |
+ 🇺🇸 | **United States** | `USA-Auto` |
+ 🌍 | **Rest of World** | `ROW-Auto` |
 
 ---
 
