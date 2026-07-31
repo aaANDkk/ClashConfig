@@ -1,3 +1,10 @@
+PROCESS-NAME,com.czy0729.bangumi
+PROCESS-NAME,com.ynwtandroid.fork.xl
+PROCESS-NAME,com.predidit.kazumi
+PROCESS-NAME,me.him188.ani
+PROCESS-NAME,com.ligg.anime_flow
+PROCESS-NAME,ani.baka
+PROCESS-NAME,kazumi.exe
 DOMAIN-KEYWORD,cycani
 DOMAIN-KEYWORD,agedm
 DOMAIN-KEYWORD,girigirilove
