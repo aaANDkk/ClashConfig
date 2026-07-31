@@ -184,7 +184,7 @@ proxy-groups:
   
 # Rule Providers 
 rule-providers:  
-  #Main
+  # Main
   private: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/private.mrs", path: "./ruleset/private.mrs" }
   private_ip: { <<: *rule_providers_ip, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/private.mrs", path: "./ruleset/private_ip.mrs" }
   fakeip_filter: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/wwqgtxx/clash-rules@release/fakeip-filter.mrs", path: "./ruleset/fakeip-filter.mrs" }
@@ -193,15 +193,16 @@ rule-providers:
   steam: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/steam.mrs", path: "./ruleset/steam.mrs" }
   adblockmihomolite: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/adblockmihomolite.mrs", path: "./ruleset/adblockmihomolite.mrs" }
   
-  #自用规则
+  # 自用规则
   captcha: { <<: *rule_providers_domain, format: text, url: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/rules/captcha.txt", path: "./ruleset/captcha.txt" }
+  anime: { <<: *rule_providers_classical, format: yaml, url: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/rules/anime.yaml", path: "./ruleset/anime.yaml" }
   
-  #AI
+  # AI
   openai: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/openai.mrs", path: "./ruleset/openai.mrs" }
   anthropic: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/anthropic.mrs", path: "./ruleset/anthropic.mrs" }
   gemini: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/google-gemini.mrs", path: "./ruleset/gemini.mrs" }
   
-  #视频
+  # 视频
   tiktok: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/tiktok.mrs", path: "./ruleset/tiktok.mrs" }
   netflix: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/netflix.mrs", path: "./ruleset/netflix.mrs" }
   netflix_ip: { <<: *rule_providers_ip, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/netflix.mrs", path: "./ruleset/netflix_ip.mrs" }
@@ -212,7 +213,7 @@ rule-providers:
   bahamut: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/bahamut.mrs", path: "./ruleset/bahamut.mrs" }
   niconico: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/niconico.mrs", path: "./ruleset/niconico.mrs" }
 
-  #CN
+  # CN
   geolocation-cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/geolocation-cn.mrs", path: "./ruleset/cn.mrs" }
   cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/wwqgtxx/clash-rules@release/direct.mrs", path: "./ruleset/cn.mrs" }
   cn_ip: { <<: *rule_providers_ip, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/cn.mrs", path: "./ruleset/cn_ip.mrs" }
@@ -239,29 +240,17 @@ rules:
   # 禁用国外 QUIC 流量
   - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,geolocation-cn),(RULE-SET,cn_ip,no-resolve)))))),REJECT
 
-  # 特殊规则
-  - DOMAIN,msmp.abchina.com.cn,REJECT # 农业银行 
-  #- RULE-SET,captcha,Residential # 尝试跳cf验证，自行选择是否启用
-  
-  # 手动规则
-  - PROCESS-NAME,com.czy0729.bangumi,Anime
-  - PROCESS-NAME,com.ynwtandroid.fork.xl,Anime
-  - PROCESS-NAME,com.predidit.kazumi,Anime
-  - PROCESS-NAME,me.him188.ani,Anime
-  - PROCESS-NAME,com.ligg.anime_flow,Anime
-  - PROCESS-NAME,ani.baka,Anime
-  - PROCESS-NAME,kazumi.exe,Anime  
-  - DOMAIN-KEYWORD,cycani,Anime
-  - DOMAIN-KEYWORD,agedm,Anime
-  - DOMAIN-KEYWORD,girigirilove,Anime
-  - DOMAIN-KEYWORD,bangumi,Anime
+  # 手动特殊规则
   - DOMAIN-KEYWORD,emby,Media
+  - DOMAIN,msmp.abchina.com.cn,REJECT # 农业银行 
+  - RULE-SET,captcha,Residential # 尝试跳cf验证，自行选择是否启用
   
   # 核心规则
   - RULE-SET,openai,ChatGPT
   - RULE-SET,anthropic,Claude
   - RULE-SET,gemini,Gemini
   - RULE-SET,tiktok,TikTok
+  - RULE-SET,anime,Anime
   - RULE-SET,bahamut,Anime
   - RULE-SET,niconico,Anime
   - RULE-SET,emby,Media
