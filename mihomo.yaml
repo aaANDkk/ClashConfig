@@ -35,8 +35,8 @@ chinaDNS:
   ]
 foreignDNS:
   &foreignDNS [
-    'https://dns.cloudflare.com/dns-query#Proxy',
-    'https://dns.google/dns-query#Proxy'
+    'https://dns.cloudflare.com/dns-query#Default',
+    'https://dns.google/dns-query#Default'
   ]
 
 # 5. 定义全局排除配置块（用于从源头过滤官网、流量、Web等信息）
@@ -52,7 +52,7 @@ fot: &fot '(?i)^(?!.*(🇭🇰|香港|(?<![A-Za-z])HK(?![A-Za-z])|hong\s*kong|�
 ful: &ful '(?i)🏠|家庭|家宽|住宅|HOME|HINET|HKT'
 
 # 7. 统一所有功能分流组的可选节点队列
-group: &group {type: select, proxies: [Proxy, Residential, Hong Kong, Taiwan, Japan, Singapore, United States, Rest of World]}
+group: &group {type: select, proxies: [Default, Residential, Hong Kong, Taiwan, Japan, Singapore, United States, Rest of World]}
 ######### 🚀 锚点定义区域 end #######
 
 proxy-providers:
@@ -142,7 +142,7 @@ tun:
 
 proxy-groups:
   # 💞核心组
-  - {name: Proxy, type: select, proxies: [Hong Kong, Taiwan, Japan, Singapore, United States, Rest of World], default-selected: 'Japan', icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png"}
+  - {name: Default, type: select, proxies: [Hong Kong, Taiwan, Japan, Singapore, United States, Rest of World], default-selected: 'Japan', icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png"}
   - {name: Direct, type: select, proxies: ['DIRECT'], url: "https://g.cn/generate_204", interval: 10800, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png", hidden: true}
   
   # 🛡️广告组
@@ -193,6 +193,9 @@ rule-providers:
   steam: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/steam.mrs", path: "./ruleset/steam.mrs" }
   adblockmihomolite: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/adblockmihomolite.mrs", path: "./ruleset/adblockmihomolite.mrs" }
   
+  #自用规则
+  captcha: { <<: *rule_providers_domain, format: text, url: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/rules/captcha.txt", path: "./ruleset/captcha.txt" }
+  
   #AI
   openai: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/openai.mrs", path: "./ruleset/openai.mrs" }
   anthropic: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/anthropic.mrs", path: "./ruleset/anthropic.mrs" }
@@ -238,12 +241,9 @@ rules:
 
   # 特殊规则
   - DOMAIN,msmp.abchina.com.cn,REJECT # 农业银行 
-  #- DOMAIN,a.nel.cloudflare.com,Residential # 此三条尝试跳cf验证，自行选择
-  #- DOMAIN,challenges.cloudflare.com,Residential 
-  #- DOMAIN,static.cloudflareinsights.com,Residential
-
+  #- RULE-SET,captcha,Residential # 尝试跳cf验证，自行选择是否启用
+  
   # 手动规则
-  - PROCESS-NAME,ChatGPT.exe,ChatGPT
   - PROCESS-NAME,com.czy0729.bangumi,Anime
   - PROCESS-NAME,com.ynwtandroid.fork.xl,Anime
   - PROCESS-NAME,com.predidit.kazumi,Anime
@@ -254,6 +254,7 @@ rules:
   - DOMAIN-KEYWORD,cycani,Anime
   - DOMAIN-KEYWORD,agedm,Anime
   - DOMAIN-KEYWORD,girigirilove,Anime
+  - DOMAIN-KEYWORD,bangumi,Anime
   - DOMAIN-KEYWORD,emby,Media
   
   # 核心规则
@@ -271,9 +272,9 @@ rules:
   - RULE-SET,netflix_ip,Media,no-resolve  
 
   # 防线与兜底
-  - RULE-SET,google,Proxy
-  - RULE-SET,steam,Proxy
-  - RULE-SET,gfw,Proxy  
+  - RULE-SET,google,Default
+  - RULE-SET,steam,Default
+  - RULE-SET,gfw,Default  
   - RULE-SET,geolocation-cn,DIRECT
   - RULE-SET,cn_ip,DIRECT  
   - MATCH,Others
