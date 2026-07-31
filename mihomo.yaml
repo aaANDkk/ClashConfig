@@ -219,7 +219,7 @@ rule-providers:
   microsoft_cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/microsoft@cn.mrs", path: "./ruleset/microsoft@cn.mrs" }
   
 rules:
-  # 直连 
+  # 优先直连 
   - RULE-SET,private,DIRECT
   - RULE-SET,private_ip,DIRECT,no-resolve
   - RULE-SET,games_cn,DIRECT # 已包含 steam 下载域名
@@ -227,8 +227,8 @@ rules:
   - RULE-SET,apple_cn,DIRECT
   - RULE-SET,microsoft_cn,DIRECT
   - DOMAIN,fsend.cn,DIRECT           
-  - DOMAIN-SUFFIX,hdslb.com,DIRECT
   - DOMAIN,international-gfe.download.nvidia.com,DIRECT
+  - DOMAIN-SUFFIX,hdslb.com,DIRECT
   
   # 广告拦截
   - RULE-SET,adblockmihomolite,Advertising
@@ -236,10 +236,14 @@ rules:
   # 禁用国外 QUIC 流量
   - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,geolocation-cn),(RULE-SET,cn_ip,no-resolve)))))),REJECT
 
+  # 特殊规则
+  - DOMAIN,msmp.abchina.com.cn,REJECT # 农业银行 
+  #- DOMAIN,a.nel.cloudflare.com,Residential # 此三条尝试跳cf验证，自行选择
+  #- DOMAIN,challenges.cloudflare.com,Residential 
+  #- DOMAIN,static.cloudflareinsights.com,Residential
+
   # 手动规则
-  - PROCESS-NAME,com.openai.chatgpt,ChatGPT
   - PROCESS-NAME,ChatGPT.exe,ChatGPT
-  - PROCESS-NAME,com.anthropic.claude,Claude
   - PROCESS-NAME,com.czy0729.bangumi,Anime
   - PROCESS-NAME,com.ynwtandroid.fork.xl,Anime
   - PROCESS-NAME,com.predidit.kazumi,Anime
@@ -251,7 +255,6 @@ rules:
   - DOMAIN-KEYWORD,agedm,Anime
   - DOMAIN-KEYWORD,girigirilove,Anime
   - DOMAIN-KEYWORD,emby,Media
-  - DOMAIN,msmp.abchina.com.cn,REJECT #农业银行
   
   # 核心规则
   - RULE-SET,openai,ChatGPT
