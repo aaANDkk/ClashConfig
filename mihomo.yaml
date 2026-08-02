@@ -56,8 +56,8 @@ group: &group {type: select, proxies: [Default, Residential, Hong Kong, Taiwan, 
 ######### 🚀 锚点定义区域 end #######
 
 proxy-providers:
-  #机场订阅
-  #自行添加或删除①②③④⑤⑥⑦⑧⑨⑩
+  # 机场订阅
+  # 自行添加或删除①②③④⑤⑥⑦⑧⑨⑩
   ①:
     <<: [*airport, *global_exclude_filter]
     url: "填入订阅地址"
@@ -70,7 +70,7 @@ proxy-providers:
     override:
       additional-prefix: "② "  
 
-#基础配置项
+# 基础配置项
 ipv6: true
 allow-lan: true
 unified-delay: true
@@ -124,21 +124,13 @@ hosts:
   '+.mcdn.bilivideo.com': ['0.0.0.0']
   '+.mcdn.bilivideo.cn': ['0.0.0.0']
   '+.h2.smtcdns.net': ['0.0.0.0']
-
+  
 ntp:
   enable: true
   write-to-system: false
   server: 'ntp.aliyun.com'
   port: 123
   interval: 60
-
-tun:
-  enable: true
-  auto-route: true
-  auto-redirect: true
-  auto-detect-interface: true
-  stack: system
-  dns-hijack: ['udp://any:53', 'tcp://any:53']
 
 proxy-groups:
   # 💞核心组
@@ -181,9 +173,8 @@ proxy-groups:
   - {name: "ROW-Auto", <<: *ut, include-all: true, filter: *fot, exclude-type: Hysteria2}
   - {name: Rest of World, type: select, include-all: true, filter: *fot, proxies: ["ROW-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/World_Map.png"}
   
-# Rule Providers 
 rule-providers:  
-  # Main
+  # 杂七杂八
   private: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/private.mrs", path: "./ruleset/private.mrs" }
   private_ip: { <<: *rule_providers_ip, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/private.mrs", path: "./ruleset/private_ip.mrs" }
   fakeip_filter: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/wwqgtxx/clash-rules@release/fakeip-filter.mrs", path: "./ruleset/fakeip-filter.mrs" }
@@ -192,26 +183,25 @@ rule-providers:
   steam: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/steam.mrs", path: "./ruleset/steam.mrs" }
   adblockmihomolite: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/adblockmihomolite.mrs", path: "./ruleset/adblockmihomolite.mrs" }
   
-  # 自用规则
+  # Own仓库的规则
   captcha: { <<: *rule_providers_domain, format: text, url: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/rules/captcha.txt", path: "./ruleset/captcha.txt" }
   anime: { <<: *rule_providers_classical, format: yaml, url: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/rules/anime.yaml", path: "./ruleset/anime.yaml" }
 
-  # AI
+  # 主流AI
   openai: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/openai.mrs", path: "./ruleset/openai.mrs" }
   anthropic: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/anthropic.mrs", path: "./ruleset/anthropic.mrs" }
   gemini: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/google-gemini.mrs", path: "./ruleset/gemini.mrs" }
   
   # 视频
   tiktok: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/tiktok.mrs", path: "./ruleset/tiktok.mrs" }
-  missav: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/missav.mrs", path: "./ruleset/missav.mrs" }
-  twitch: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/twitch.mrs", path: "./ruleset/twitch.mrs" }
-  pornhub: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/pornhub.mrs", path: "./ruleset/pornhub.mrs" }
   netflix: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/netflix.mrs", path: "./ruleset/netflix.mrs" }
   netflix_ip: { <<: *rule_providers_ip, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/netflix.mrs", path: "./ruleset/netflix_ip.mrs" }
   hbo: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/hbo.mrs", path: "./ruleset/hbo.mrs" }
   disney: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/disney.mrs", path: "./ruleset/disney.mrs" }
   emby: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/666OS/rules@release/mihomo/domain/Emby.mrs", path: "./ruleset/emby.mrs" }
   youtube: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/youtube.mrs", path: "./ruleset/youtube.mrs" }
+  twitch: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/twitch.mrs", path: "./ruleset/twitch.mrs" }
+  category_porn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-porn.mrs", path: "./ruleset/category_porn.mrs" }
   bahamut: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/bahamut.mrs", path: "./ruleset/bahamut.mrs" }
   niconico: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/niconico.mrs", path: "./ruleset/niconico.mrs" }
 
@@ -242,10 +232,9 @@ rules:
   # 禁用国外 QUIC 流量
   - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,geolocation-cn),(RULE-SET,cn_ip,no-resolve)))))),REJECT
 
-  # 手动特殊规则
-  - DOMAIN-KEYWORD,emby,Media
+  # 特殊规则
   - DOMAIN,msmp.abchina.com.cn,REJECT # 农业银行 
-  #- RULE-SET,captcha,Residential # 尝试跳cf验证，自行选择是否启用
+  #- RULE-SET,captcha,Residential # 尝试跳cf验证，自行去掉#号启用
   
   # 核心规则
   - RULE-SET,openai,ChatGPT
@@ -256,16 +245,16 @@ rules:
   - RULE-SET,bahamut,Anime
   - RULE-SET,niconico,Anime
   - RULE-SET,twitch,Media
-  - RULE-SET,pornhub,Media
-  - RULE-SET,missav,Media
-  - RULE-SET,emby,Media
+  - RULE-SET,category_porn,Media
   - RULE-SET,youtube,Media
   - RULE-SET,hbo,Media
   - RULE-SET,disney,Media
   - RULE-SET,netflix,Media
   - RULE-SET,netflix_ip,Media,no-resolve  
+  - RULE-SET,emby,Media
+  - DOMAIN-KEYWORD,emby,Media
 
-  # 防线与兜底
+  # 防线
   - RULE-SET,google,Default
   - RULE-SET,steam,Default
   - RULE-SET,gfw,Default  
