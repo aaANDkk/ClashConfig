@@ -119,11 +119,11 @@ hosts:
   'dns.google': ['8.8.8.8', '8.8.4.4']
   'services.googleapis.cn': ['services.googleapis.com']
   'google.cn': ['google.com']
-  
   '+.edge.mountaintoys.cn': ['0.0.0.0']
-  # 屏蔽哔哩哔哩PCDN，解决访问视频卡顿问题
+  # 屏蔽哔哩哔哩PCDN，解决卡顿问题
   '+.mcdn.bilivideo.com': ['0.0.0.0']
   '+.mcdn.bilivideo.cn': ['0.0.0.0']
+  '+.h2.smtcdns.net': ['0.0.0.0']
 
 ntp:
   enable: true
@@ -181,7 +181,6 @@ proxy-groups:
   - {name: "ROW-Auto", <<: *ut, include-all: true, filter: *fot, exclude-type: Hysteria2}
   - {name: Rest of World, type: select, include-all: true, filter: *fot, proxies: ["ROW-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/World_Map.png"}
   
-  
 # Rule Providers 
 rule-providers:  
   # Main
@@ -196,7 +195,7 @@ rule-providers:
   # 自用规则
   captcha: { <<: *rule_providers_domain, format: text, url: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/rules/captcha.txt", path: "./ruleset/captcha.txt" }
   anime: { <<: *rule_providers_classical, format: yaml, url: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/rules/anime.yaml", path: "./ruleset/anime.yaml" }
-  
+
   # AI
   openai: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/openai.mrs", path: "./ruleset/openai.mrs" }
   anthropic: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/anthropic.mrs", path: "./ruleset/anthropic.mrs" }
@@ -204,6 +203,9 @@ rule-providers:
   
   # 视频
   tiktok: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/tiktok.mrs", path: "./ruleset/tiktok.mrs" }
+  missav: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/missav.mrs", path: "./ruleset/missav.mrs" }
+  twitch: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/twitch.mrs", path: "./ruleset/twitch.mrs" }
+  pornhub: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/pornhub.mrs", path: "./ruleset/pornhub.mrs" }
   netflix: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/netflix.mrs", path: "./ruleset/netflix.mrs" }
   netflix_ip: { <<: *rule_providers_ip, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/netflix.mrs", path: "./ruleset/netflix_ip.mrs" }
   hbo: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/hbo.mrs", path: "./ruleset/hbo.mrs" }
@@ -243,7 +245,7 @@ rules:
   # 手动特殊规则
   - DOMAIN-KEYWORD,emby,Media
   - DOMAIN,msmp.abchina.com.cn,REJECT # 农业银行 
-  - RULE-SET,captcha,Residential # 尝试跳cf验证，自行选择是否启用
+  #- RULE-SET,captcha,Residential # 尝试跳cf验证，自行选择是否启用
   
   # 核心规则
   - RULE-SET,openai,ChatGPT
@@ -253,6 +255,9 @@ rules:
   - RULE-SET,anime,Anime
   - RULE-SET,bahamut,Anime
   - RULE-SET,niconico,Anime
+  - RULE-SET,twitch,Media
+  - RULE-SET,pornhub,Media
+  - RULE-SET,missav,Media
   - RULE-SET,emby,Media
   - RULE-SET,youtube,Media
   - RULE-SET,hbo,Media
