@@ -182,16 +182,20 @@ rule-providers:
   google: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/google.mrs", path: "./ruleset/google.mrs" }
   steam: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/steam.mrs", path: "./ruleset/steam.mrs" }
   adblockmihomolite: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/adblockmihomolite.mrs", path: "./ruleset/adblockmihomolite.mrs" }
-  
-  # Own仓库的规则
   captcha: { <<: *rule_providers_domain, format: text, url: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/rules/captcha.txt", path: "./ruleset/captcha.txt" }
-  anime: { <<: *rule_providers_classical, format: yaml, url: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/rules/anime.yaml", path: "./ruleset/anime.yaml" }
-
+  
   # 主流AI
   openai: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/openai.mrs", path: "./ruleset/openai.mrs" }
   anthropic: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/anthropic.mrs", path: "./ruleset/anthropic.mrs" }
   gemini: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/google-gemini.mrs", path: "./ruleset/gemini.mrs" }
   
+  # 动漫
+  anime: { <<: *rule_providers_classical, format: yaml, url: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/rules/anime.yaml", path: "./ruleset/anime.yaml" }
+  anime_site: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/anime.mrs", path: "./ruleset/anime_site.mrs" }
+  bangumi: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/bangumi.mrs", path: "./ruleset/bangumi.mrs" }
+  bahamut: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/bahamut.mrs", path: "./ruleset/bahamut.mrs" }
+  niconico: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/niconico.mrs", path: "./ruleset/niconico.mrs" }
+
   # 视频
   tiktok: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/tiktok.mrs", path: "./ruleset/tiktok.mrs" }
   netflix: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/netflix.mrs", path: "./ruleset/netflix.mrs" }
@@ -202,8 +206,6 @@ rule-providers:
   youtube: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/youtube.mrs", path: "./ruleset/youtube.mrs" }
   twitch: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/twitch.mrs", path: "./ruleset/twitch.mrs" }
   category_porn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-porn.mrs", path: "./ruleset/category_porn.mrs" }
-  bahamut: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/bahamut.mrs", path: "./ruleset/bahamut.mrs" }
-  niconico: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/niconico.mrs", path: "./ruleset/niconico.mrs" }
 
   # CN
   geolocation-cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/geolocation-cn.mrs", path: "./ruleset/cn.mrs" }
@@ -241,9 +243,11 @@ rules:
   - RULE-SET,anthropic,Claude
   - RULE-SET,gemini,Gemini
   - RULE-SET,tiktok,TikTok
-  - RULE-SET,anime,Anime
+  - RULE-SET,anime_site,Anime
+  - RULE-SET,bangumi,Anime
   - RULE-SET,bahamut,Anime
   - RULE-SET,niconico,Anime
+  - RULE-SET,anime,Anime
   - RULE-SET,twitch,Media
   - RULE-SET,category_porn,Media
   - RULE-SET,youtube,Media
