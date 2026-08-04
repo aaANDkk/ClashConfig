@@ -1,27 +1,54 @@
-# 人机验证相关
+# ==========================================
+# 人机验证 / 抗 Bot (CAPTCHA & Anti-Bot Services)
+# ==========================================
 
-# Cloudflare
+# Cloudflare (Turnstile / Challenge)
++.challenges.cloudflare.com
++.turnstile.cloudflare.com
++.cloudflareinsights.com
 a.nel.cloudflare.com
-challenges.cloudflare.com
-turnstile.cloudflare.com
 ctp.cloudflare.com
-static.cloudflareinsights.com
 
-# reCAPTCHA
+# Google reCAPTCHA
 +.recaptcha.net
++.gstatic.com
 recaptcha.google.com
 
 # hCaptcha
 +.hcaptcha.com
++.hcaptcha.net
++.hcaptcha.org
 
-# Amazon Captcha
+# Amazon / AWS WAF CAPTCHA
 +.awswaf.com
 
-# FunCaptcha
+# Arkose Labs / FunCaptcha
 +.arkoselabs.com
++.arkose.com
 +.funcaptcha.com
 +.funcaptcha.co
 
 # DataDome
 +.datadome.co
++.datadome.com
 +.captcha-delivery.com
+
+# GeeTest / 极验
++.geetest.com
++.geevisit.com
++.gsensebot.com
+dn-staticdown.qbox.me
+
+# HUMAN / PerimeterX
++.perimeterx.net
++.perimeterx.com
++.humansecurity.com
++.px-cdn.net
++.px-cloud.net
+
+# Kasada
++.kasada.io
+
+# Imperva / Incapsula
++.incapsula.com
++.imperva.com
