@@ -1,4 +1,4 @@
-######### 🚀 锚点定义区域 start #######
+# ─── 🧩 锚点定义区域 BEGIN ───
 # 统一订阅源的高级健康检查参数
 airport: &airport
   type: http
@@ -53,9 +53,9 @@ fsg: &fsg '(?i)(🇸🇬|新加坡|狮城|(?<![A-Za-z])SG(?![A-Za-z])|singapore)
 fus: &fus '(?i)(🇺🇸|美国|(?<![A-Za-z])US(?![A-Za-z])|[Aa]merica|[Uu]nited\s*[Ss]tates)'
 fot: &fot '(?i)^(?!.*(🇭🇰|香港|(?<![A-Za-z])HK(?![A-Za-z])|hong\s*kong|🇯🇵|日本|(?<![A-Za-z])JP(?![A-Za-z])|japan|🇺🇸|美国|(?<![A-Za-z])US(?![A-Za-z])|[Aa]merica|[Uu]nited\s*[Ss]tates|🇸🇬|新加坡|狮城|(?<![A-Za-z])SG(?![A-Za-z])|singapore|🇹🇼|台湾|(?<![A-Za-z])TW(?![A-Za-z])|taiwan)).*'
 ful: &ful '(?i)🏠|家庭|家宽|住宅|HOME|HINET|HKT|PCCW|Netvigator|HKBN|HGC|AT&T|att|Comcast|Xfinity|Spectrum|Cox|Verizon|Optimum|Frontier|CenturyLink|Quantum|Google Fiber|Starlink|So-net|Seednet|BIGLOBE|OCN|J:COM|SK Broadband|play'
-######### 🚀 锚点定义区域 end #######
+# ─── 🧩 锚点定义区域 END ───
 
-# 基础配置项
+# ─── 🛠️ 基本设置区域 BEGIN ───
 ipv6: true
 allow-lan: true
 unified-delay: true
@@ -117,7 +117,9 @@ ntp:
   server: 'ntp.aliyun.com'
   port: 123
   interval: 60
+# ─── 🛠️ 基本设置区域 END ───
 
+# ─── 🚀 节点提供区域 BEGIN ───
 proxy-providers:
   # 机场订阅
   # 自行添加或删除①②③④⑤⑥⑦⑧⑨⑩
@@ -145,7 +147,9 @@ proxy-providers:
         #- { pattern: '^A', target: '🇭🇰' }
         #- { pattern: '^B', target: '🇸🇬' }
         #- { pattern: '^C', target: '🇯🇵' }
+# ─── 🚀 节点提供区域 END ─── 
 
+# ─── 🎯 策略组区域 BEGIN ───
 proxy-groups:
   # 💞核心组
   - {name: Default, type: select, proxies: [Hong Kong, Taiwan, Japan, Singapore, United States, Other Regions], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png"}
@@ -187,7 +191,9 @@ proxy-groups:
   # 🌏其余地区
   - {name: "OR-Auto", <<: *ut, include-all: true, filter: *fot, exclude-type: Hysteria2}
   - {name: Other Regions, type: select, include-all: true, filter: *fot, proxies: ["OR-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/World_Map.png"}
-  
+# ─── 🎯 策略组区域 END ───
+
+# ─── 📦 规则提供区域 BEGIN ───
 rule-providers:  
   # 杂七杂八
   private: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/private.mrs", path: "./ruleset/private.mrs" }
@@ -229,7 +235,9 @@ rule-providers:
   games_cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-games@cn.mrs", path: "./ruleset/category-games@cn.mrs" }
   apple_cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/apple@cn.mrs", path: "./ruleset/apple@cn.mrs" }
   microsoft_cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/microsoft@cn.mrs", path: "./ruleset/microsoft@cn.mrs" }
-  
+# ─── 📦 规则提供区域 END ───
+
+# ─── 🚦 规则分流区域 BEGIN ───  
 rules:
   # 优先直连 
   - RULE-SET,private,DIRECT
@@ -279,3 +287,4 @@ rules:
   - RULE-SET,cn_ip,DIRECT  
   - RULE-SET,private_ip,DIRECT
   - MATCH,Default
+# ─── 🚦 规则分流区域 END ───
