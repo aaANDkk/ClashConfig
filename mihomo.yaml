@@ -246,7 +246,7 @@ rules:
   - RULE-SET,AWAvenue-Ads-Rule,AdBlock
 
   # 禁用国外 QUIC 流量
-  - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,geolocation-cn),(RULE-SET,cn_ip,no-resolve)))))),REJECT
+  - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,cn),(RULE-SET,cn_ip,no-resolve)))))),REJECT
 
   # 特殊规则
   - DOMAIN,msmp.abchina.com.cn,REJECT # 农业银行 
