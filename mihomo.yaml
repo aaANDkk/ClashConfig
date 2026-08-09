@@ -11,7 +11,7 @@ airport: &airport
     url: "https://g.cn/generate_204"            
 
 # 自动化策略组基准模板（纯测速）
-ut: &ut
+latency: &latency
   lazy: true
   hidden: true
   interval: 1200
@@ -46,13 +46,13 @@ group: &group {type: select, proxies: [Default, Residential, Hong Kong, Taiwan, 
 global_exclude_filter: &global_exclude_filter { exclude-filter: '群|返利|循环|网址|获取|下次|官址|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|访问|支持|教程|关注|更新|作者|加入|超时|收藏|福利|邀请|好友|失联|选择|公益|发布|DIZTNA|通路|登录|禁止|定时|渠道|牢记|永久|余额|阁下|本站|刷新|导航|建议|以下|⚠️|@|expire|http|com|traffic|网站|官网|Web|重置|到期|剩余|流量|机场|客服|套餐|订阅|版本|备用' }
 
 # 统一过滤器
-fhk: &fhk '(?i)(🇭🇰|香港|(?<![A-Za-z])HK(?![A-Za-z])|hong\s*kong)'
-ftw: &ftw '(?i)(🇹🇼|台湾|(?<![A-Za-z])TW(?![A-Za-z])|taiwan)'
-fjp: &fjp '(?i)(🇯🇵|日本|(?<![A-Za-z])JP(?![A-Za-z])|japan)'
-fsg: &fsg '(?i)(🇸🇬|新加坡|狮城|(?<![A-Za-z])SG(?![A-Za-z])|singapore)'
-fus: &fus '(?i)(🇺🇸|美国|(?<![A-Za-z])US(?![A-Za-z])|[Aa]merica|[Uu]nited\s*[Ss]tates)'
-fot: &fot '(?i)^(?!.*(🇭🇰|香港|(?<![A-Za-z])HK(?![A-Za-z])|hong\s*kong|🇯🇵|日本|(?<![A-Za-z])JP(?![A-Za-z])|japan|🇺🇸|美国|(?<![A-Za-z])US(?![A-Za-z])|[Aa]merica|[Uu]nited\s*[Ss]tates|🇸🇬|新加坡|狮城|(?<![A-Za-z])SG(?![A-Za-z])|singapore|🇹🇼|台湾|(?<![A-Za-z])TW(?![A-Za-z])|taiwan)).*'
-ful: &ful '(?i)🏠|家庭|家宽|住宅|HOME|HINET|HKT|PCCW|Netvigator|HKBN|HGC|AT&T|att|Comcast|Xfinity|Spectrum|Cox|Verizon|Optimum|Frontier|CenturyLink|Quantum|Google Fiber|Starlink|So-net|Seednet|BIGLOBE|OCN|J:COM|SK Broadband|play'
+filter_HK: &filter_HK '(?i)(🇭🇰|香港|(?<![A-Za-z])HK(?![A-Za-z])|hong\s*kong)'
+filter_TW: &filter_TW '(?i)(🇹🇼|台湾|(?<![A-Za-z])TW(?![A-Za-z])|taiwan)'
+filter_JP: &filter_JP '(?i)(🇯🇵|日本|(?<![A-Za-z])JP(?![A-Za-z])|japan)'
+filter_SG: &filter_SG '(?i)(🇸🇬|新加坡|狮城|(?<![A-Za-z])SG(?![A-Za-z])|singapore)'
+filter_US: &filter_US '(?i)(🇺🇸|美国|(?<![A-Za-z])US(?![A-Za-z])|[Aa]merica|[Uu]nited\s*[Ss]tates)'
+filter_Others: &filter_Others '(?i)^(?!.*(🇭🇰|香港|(?<![A-Za-z])HK(?![A-Za-z])|hong\s*kong|🇯🇵|日本|(?<![A-Za-z])JP(?![A-Za-z])|japan|🇺🇸|美国|(?<![A-Za-z])US(?![A-Za-z])|[Aa]merica|[Uu]nited\s*[Ss]tates|🇸🇬|新加坡|狮城|(?<![A-Za-z])SG(?![A-Za-z])|singapore|🇹🇼|台湾|(?<![A-Za-z])TW(?![A-Za-z])|taiwan)).*'
+filter_Home: &filter_Home '(?i)🏠|家庭|家宽|住宅|HOME|HINET|HKT|PCCW|Netvigator|HKBN|HGC|AT&T|Comcast|Xfinity|Spectrum|Cox|Verizon|Optimum|Frontier|CenturyLink|Quantum|Google Fiber|Starlink|So-net|Seednet|BIGLOBE|OCN|J:COM|SK Broadband|play'
 # ─── 🧩 锚点定义区域 END ───
 
 # ─── 🛠️ 基本设置区域 BEGIN ───
@@ -167,30 +167,30 @@ proxy-groups:
   - {name: TikTok, <<: *group, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok_1.png"}
   - {name: Anime, <<: *group, icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Bahamut.png"}
   - {name: Media, <<: *group, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png"}
-
+  
   # 📋全部节点
   #- {name: All Proxies, type: select, include-all: true, icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Available.png"}
   # 🏠家宽节点
-  - {name: "RD-Auto", <<: *ut, include-all: true, filter: *ful, exclude-type: Hysteria2} 
-  - {name: Residential, type: select, include-all: true, filter: *ful, proxies: ["RD-Auto"], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Home.png"}
+  - {name: "RD-Auto", <<: *latency, include-all: true, filter: *filter_Home, exclude-type: Hysteria2} 
+  - {name: Residential, type: select, include-all: true, filter: *filter_Home, proxies: ["RD-Auto"], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Home.png"}
   # 🌃香港
-  - {name: "HK-Auto", <<: *ut, include-all: true, filter: *fhk, exclude-type: Hysteria2}
-  - {name: Hong Kong, type: select, include-all: true, filter: *fhk, proxies: ["HK-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png"}
+  - {name: "HK-Auto", <<: *latency, include-all: true, filter: *filter_HK, exclude-type: Hysteria2}
+  - {name: Hong Kong, type: select, include-all: true, filter: *filter_HK, proxies: ["HK-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png"}
   # 🧋台湾省
-  - {name: "TW-Auto", <<: *ut, include-all: true, filter: *ftw, exclude-type: Hysteria2}
-  - {name: Taiwan, type: select, include-all: true, filter: *ftw, proxies: ["TW-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png"}
+  - {name: "TW-Auto", <<: *latency, include-all: true, filter: *filter_TW, exclude-type: Hysteria2}
+  - {name: Taiwan, type: select, include-all: true, filter: *filter_TW, proxies: ["TW-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png"}
   # ⛩️日本
-  - {name: "JP-Auto", <<: *ut, include-all: true, filter: *fjp, exclude-type: Hysteria2}
-  - {name: Japan, type: select, include-all: true, filter: *fjp, proxies: ["JP-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png"}
+  - {name: "JP-Auto", <<: *latency, include-all: true, filter: *filter_JP, exclude-type: Hysteria2}
+  - {name: Japan, type: select, include-all: true, filter: *filter_JP, proxies: ["JP-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png"}
   # 🦁新加坡
-  - {name: "SG-Auto", <<: *ut, include-all: true, filter: *fsg, exclude-type: Hysteria2}
-  - {name: Singapore, type: select, include-all: true, filter: *fsg, proxies: ["SG-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png"}
+  - {name: "SG-Auto", <<: *latency, include-all: true, filter: *filter_SG, exclude-type: Hysteria2}
+  - {name: Singapore, type: select, include-all: true, filter: *filter_SG, proxies: ["SG-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png"}
   # 🗽美国
-  - {name: "US-Auto", <<: *ut, include-all: true, filter: *fus, exclude-type: Hysteria2}
-  - {name: United States, type: select, include-all: true, filter: *fus, proxies: ["US-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png"}
+  - {name: "US-Auto", <<: *latency, include-all: true, filter: *filter_US, exclude-type: Hysteria2}
+  - {name: United States, type: select, include-all: true, filter: *filter_US, proxies: ["US-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png"}
   # 🌏其余地区
-  - {name: "OR-Auto", <<: *ut, include-all: true, filter: *fot, exclude-type: Hysteria2}
-  - {name: Other Regions, type: select, include-all: true, filter: *fot, proxies: ["OR-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/World_Map.png"}
+  - {name: "OR-Auto", <<: *latency, include-all: true, filter: *filter_Others, exclude-type: Hysteria2}
+  - {name: Other Regions, type: select, include-all: true, filter: *filter_Others, proxies: ["OR-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/World_Map.png"}
 # ─── 🎯 策略组区域 END ───
 
 # ─── 📦 规则提供区域 BEGIN ───
