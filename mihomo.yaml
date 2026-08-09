@@ -115,6 +115,7 @@ dns:
   cache-algorithm: arc
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
+  fake-ip-range6: fd00:a4c5:9b12:d3f8:e760:00df::/96
   fake-ip-filter: ['rule-set:private', 'rule-set:fakeip_filter']
   proxy-server-nameserver: *chinaDNS
   
@@ -235,7 +236,6 @@ rule-providers:
 rules:
   # 优先直连 
   - RULE-SET,private,DIRECT
-  - RULE-SET,private_ip,DIRECT,no-resolve
   - RULE-SET,games_cn,DIRECT # 已包含 steam 下载域名
   - RULE-SET,epicgames,DIRECT
   - RULE-SET,apple_cn,DIRECT
@@ -280,4 +280,5 @@ rules:
   - RULE-SET,gfw,Default  
   - RULE-SET,geolocation-cn,DIRECT
   - RULE-SET,cn_ip,DIRECT  
+  - RULE-SET,private_ip,DIRECT
   - MATCH,Default
