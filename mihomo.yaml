@@ -117,11 +117,10 @@ dns:
   fake-ip-range: 198.18.0.1/16
   fake-ip-range6: fd00:a4c5:9b12:d3f8:e760:00df::/96
   fake-ip-filter: ['rule-set:private', 'rule-set:fakeip_filter']
-  proxy-server-nameserver: *chinaDNS
-  
   # 若有机场专属DNS，请取消下面的注释并修改为机场提供的DNS地址
   #proxy-server-nameserver-policy:
-    
+  # 默认DNS
+  proxy-server-nameserver: *chinaDNS    
   default-nameserver: ['223.5.5.5', '119.29.29.29']
   nameserver: *foreignDNS
   nameserver-policy:
@@ -225,7 +224,7 @@ rule-providers:
   category_porn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-porn.mrs", path: "./ruleset/category_porn.mrs" }
 
   # CN
-  geolocation-cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/geolocation-cn.mrs", path: "./ruleset/cn.mrs" }
+  geolocation-cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/geolocation-cn.mrs", path: "./ruleset/geolocation-cn.mrs" }
   cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/wwqgtxx/clash-rules@release/direct.mrs", path: "./ruleset/cn.mrs" }
   cn_ip: { <<: *rule_providers_ip, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/cn.mrs", path: "./ruleset/cn_ip.mrs" }
   epicgames: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/epicgames.mrs", path: "./ruleset/epicgames.mrs" }
