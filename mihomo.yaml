@@ -120,11 +120,11 @@ dns:
   # 若有机场专属DNS，请取消下面的注释并修改为机场提供的DNS地址
   #proxy-server-nameserver-policy:
   # 默认 DNS
-  proxy-server-nameserver: *chinaDNS    
-  default-nameserver: ['223.5.5.5', '119.29.29.29']
-  nameserver: *foreignDNS
+  proxy-server-nameserver: *chinaDNS
   nameserver-policy:
     'rule-set:cn': *chinaDNS
+  nameserver: *foreignDNS
+  default-nameserver: ['223.5.5.5', '119.29.29.29']
   direct-nameserver: ['system', '223.5.5.5', '119.29.29.29']
 
 hosts:
