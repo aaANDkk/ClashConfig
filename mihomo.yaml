@@ -223,7 +223,6 @@ rule-providers:
   category_porn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-porn.mrs", path: "./ruleset/category_porn.mrs" }
 
   # CN
-  geolocation-cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/geolocation-cn.mrs", path: "./ruleset/geolocation-cn.mrs" }
   cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/cn.mrs", path: "./ruleset/cn.mrs" }
   cn_ip: { <<: *rule_providers_ip, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/cn.mrs", path: "./ruleset/cn_ip.mrs" }
   epicgames: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/epicgames.mrs", path: "./ruleset/epicgames.mrs" }
