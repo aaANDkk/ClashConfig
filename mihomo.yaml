@@ -139,13 +139,7 @@ proxy-providers:
       additional-prefix: "① "  
       proxy-name:
         - { pattern: 'Tai Wan', target: 'Taiwan' }
-      
-  ②:
-    <<: [*airport, *global_exclude_filter]
-    url: "填入订阅地址"
-    override:
-      additional-prefix: "② "
-      
+
   #模板:
     #<<: [*airport, *global_exclude_filter]
     #url: "填入订阅地址"
