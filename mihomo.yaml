@@ -55,7 +55,7 @@ filter_Others: &filter_Others '(?i)^(?!.*(🇭🇰|香港|(?<![A-Za-z])HK(?![A-Z
 filter_Home: &filter_Home '(?i)🏠|家庭|家宽|住宅|HOME|HINET|HKT|PCCW|Netvigator|HKBN|HGC|AT&T|Comcast|Xfinity|Spectrum|Cox|Verizon|Optimum|Frontier|CenturyLink|Quantum|Google Fiber|Starlink|So-net|Seednet|BIGLOBE|OCN|J:COM|SK Broadband|play'
 # ─── 🧩 锚点定义区域 END ───
 
-# ─── 🛠️ 基本设置区域 BEGIN ───
+# ─── 🛠️ 基础设置区域 BEGIN ───
 ipv6: true
 allow-lan: true
 unified-delay: true
@@ -89,7 +89,7 @@ dns:
   fake-ip-range: 198.18.0.1/16
   fake-ip-range6: fd00:a4c5:9b12:d3f8:e760:00df::/96
   fake-ip-filter: ['rule-set:private', 'rule-set:fakeip_filter']
-  # 若有机场专属DNS，请取消下面的注释并修改为机场提供的DNS地址
+  # 若有机场专属DNS，请取消下面的#并修改为机场提供的DNS地址
   #proxy-server-nameserver-policy:
   # 默认 DNS
   proxy-server-nameserver: *chinaDNS
@@ -117,7 +117,15 @@ ntp:
   server: 'ntp.aliyun.com'
   port: 123
   interval: 60
-# ─── 🛠️ 基本设置区域 END ───
+  
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-redirect: true
+  auto-detect-interface: true
+  dns-hijack: ['any:53', 'tcp://any:53']
+# ─── 🛠️ 基础设置区域 END ───
 
 # ─── 🚀 节点提供区域 BEGIN ───
 proxy-providers:
@@ -157,8 +165,8 @@ proxy-groups:
   
   # 🛡️广告组
   - {name: AdBlock, type: select, proxies: ['Reject', 'Pass'], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png"}
-  - { name: 'Reject', type: select, proxies: [REJECT], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Reject.png", hidden: true}
-  - { name: 'Pass', type: select, proxies: [PASS], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Static.png", hidden: true}
+  - {name: 'Reject', type: select, proxies: [REJECT], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Reject.png", hidden: true}
+  - {name: 'Pass', type: select, proxies: [PASS], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Static.png", hidden: true}
 
   # 🔀功能分流   
   - {name: ChatGPT, <<: *group, default-selected: 'Residential', icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/GPT.png"}
@@ -193,7 +201,7 @@ proxy-groups:
   - {name: Other Regions, type: select, include-all: true, filter: *filter_Others, proxies: ["OR-Auto"], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/World_Map.png"}
 # ─── 🎯 策略组区域 END ───
 
-# ─── 📦 规则提供区域 BEGIN ───
+# ─── 📦 规则集区域 BEGIN ───
 rule-providers:  
   # 杂七杂八
   private: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/private.mrs", path: "./ruleset/private.mrs" }
@@ -235,7 +243,7 @@ rule-providers:
   games_cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-games@cn.mrs", path: "./ruleset/category-games@cn.mrs" }
   apple_cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/apple@cn.mrs", path: "./ruleset/apple@cn.mrs" }
   microsoft_cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/microsoft@cn.mrs", path: "./ruleset/microsoft@cn.mrs" }
-# ─── 📦 规则提供区域 END ───
+# ─── 📦 规则集区域 END ───
 
 # ─── 🚦 规则分流区域 BEGIN ───  
 rules:
@@ -252,10 +260,8 @@ rules:
   # 广告拦截
   - RULE-SET,AWAvenue-Ads-Rule,AdBlock
 
-  # 禁用国外 QUIC 流量
-  - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,cn),(RULE-SET,cn_ip,no-resolve)))))),REJECT
-
   # 特殊规则
+  - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,cn),(RULE-SET,cn_ip,no-resolve)))))),REJECT # 禁用国外 QUIC 流量
   - DOMAIN,msmp.abchina.com.cn,REJECT # 农业银行 
   #- RULE-SET,captcha,Residential # 尝试跳人机验证，去掉#号启用
   
@@ -279,11 +285,11 @@ rules:
   - RULE-SET,emby,Media
   - DOMAIN-KEYWORD,emby,Media
   
-  # 防线
+  # 兜底规则
   - RULE-SET,google,Default
   - RULE-SET,steam,Default
   - RULE-SET,gfw,Default  
-  - RULE-SET,geolocation-cn,DIRECT
+  - RULE-SET,cn,DIRECT
   - RULE-SET,cn_ip,DIRECT  
   - RULE-SET,private_ip,DIRECT
   - MATCH,Default
