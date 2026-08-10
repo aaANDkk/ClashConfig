@@ -1,4 +1,4 @@
-# ─── 🧩 锚点定义区域 BEGIN ───
+# ─── 🪝 锚点定义区域 BEGIN ───
 
 # 🩺 统一订阅源的高级健康检查参数
 airport: &airport
@@ -55,7 +55,7 @@ filter_US: &filter_US '(?i)(🇺🇸|美国|(?<![A-Za-z])US(?![A-Za-z])|[Aa]meri
 filter_Others: &filter_Others '(?i)^(?!.*(🇭🇰|香港|(?<![A-Za-z])HK(?![A-Za-z])|hong\s*kong|🇯🇵|日本|(?<![A-Za-z])JP(?![A-Za-z])|japan|🇺🇸|美国|(?<![A-Za-z])US(?![A-Za-z])|[Aa]merica|[Uu]nited\s*[Ss]tates|🇸🇬|新加坡|狮城|(?<![A-Za-z])SG(?![A-Za-z])|singapore|🇹🇼|台湾|(?<![A-Za-z])TW(?![A-Za-z])|taiwan)).*'
 filter_Home: &filter_Home '(?i)🏠|家庭|家宽|住宅|HOME|HINET|HKT|PCCW|Netvigator|HKBN|HGC|AT&T|Comcast|Xfinity|Spectrum|Cox|Verizon|Optimum|Frontier|CenturyLink|Quantum|Google Fiber|Starlink|So-net|Seednet|BIGLOBE|OCN|J:COM|SK Broadband|play'
 
-# ─── 🧩 锚点定义区域 END ───
+# ─── 🪝 锚点定义区域 END ───
 
 # ─── 🛠️ 基础设置区域 BEGIN ───
 
@@ -92,7 +92,7 @@ dns:
   fake-ip-range: 198.18.0.1/16
   fake-ip-range6: fd00:a4c5:9b12:d3f8:e760:00df::/96
   fake-ip-filter: ['rule-set:private', 'rule-set:fakeip_filter']
-  # 若有机场专属DNS，请取消下面的#并修改为机场提供的DNS地址
+  # 若有机场专属 DNS ，请取消下面的#并修改为机场提供的 DNS 地址
   #proxy-server-nameserver-policy:
   # 默认 DNS
   proxy-server-nameserver: *chinaDNS
@@ -134,8 +134,8 @@ tun:
 # ─── 🛩️ 节点提供区域 BEGIN ───
 
 proxy-providers:
-  # 机场订阅
-  # 自行添加或删除①②③④⑤⑥⑦⑧⑨⑩
+  # 输入机场订阅，可自行添加或删除多个订阅   
+  # ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩
     
   ①:
     <<: [*airport, *global_exclude_filter]
@@ -158,11 +158,11 @@ proxy-providers:
 # ─── 🎯 策略分组区域 BEGIN ───
 
 proxy-groups:
-  # 💞 核心组
+  # 🫵 默认组
   - {name: Default, type: select, proxies: [Hong Kong, Taiwan, Japan, Singapore, United States, Other Regions], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png"}
   - {name: Direct, type: select, proxies: ['DIRECT'], url: "http://connectivitycheck.gstatic.com/generate_204", interval: 10800, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png", hidden: true}
   
-  # 🛡️ 广告组
+  # 🔰 广告组
   - {name: AdBlock, type: select, proxies: ['Reject', 'Pass'], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png"}
   - {name: 'Reject', type: select, proxies: [REJECT], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Reject.png", hidden: true}
   - {name: 'Pass', type: select, proxies: [PASS], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Static.png", hidden: true}
@@ -286,7 +286,7 @@ rules:
   - RULE-SET,emby,Media
   - DOMAIN-KEYWORD,emby,Media
   
-  # 🧱 兜底规则
+  # 🧩 兜底规则
   - RULE-SET,google,Default
   - RULE-SET,steam,Default
   - RULE-SET,gfw,Default  
