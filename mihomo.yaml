@@ -1,6 +1,6 @@
-# ─── 🪝 锚点定义区域 BEGIN ───
+# ─── 🪝 锚点定义区域 START ───
 
-# 🩺 统一订阅源的高级健康检查参数
+# 🩺 订阅源健康统一检查参数
 airport: &airport
   type: http
   interval: 86400
@@ -11,7 +11,7 @@ airport: &airport
     timeout: 5000
     url: "https://g.cn/generate_204"            
 
-# 🚀 自动化策略组基准模板
+# 🚀 自动选择策略统一延迟测试
 latency: &latency
   lazy: true
   hidden: true
@@ -22,7 +22,7 @@ latency: &latency
   url: "https://g.cn/generate_204"
   icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png"
   
-# 📜 规则声明
+# 📜 规则统一声明
 anchors:
   _domain_anchor: &rule_providers_domain { type: http, interval: 86400, behavior: domain }
   _ip_anchor: &rule_providers_ip { type: http, interval: 86400, behavior: ipcidr }
@@ -39,14 +39,14 @@ foreignDNS:
     'https://dns.cloudflare.com/dns-query#Default',
     'https://dns.google/dns-query#Default'
   ]
-
-# 🎛️ 统一所有功能分流组的可选节点队列
+  
+# 🎛️ 策略组统一可选节点
 group: &group {type: select, proxies: [Default, Residential, Hong Kong, Taiwan, Japan, Singapore, United States, Other Regions]}
 
-# 🚫 定义全局排除配置块（用于从源头过滤官网、流量、Web等信息）
+# 🚫 订阅源统一过滤节点（用于从源头过滤官网、流量等信息）
 global_exclude_filter: &global_exclude_filter { exclude-filter: '群|返利|循环|网址|获取|下次|官址|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|访问|支持|教程|关注|更新|作者|加入|超时|收藏|福利|邀请|好友|失联|选择|公益|发布|DIZTNA|通路|登录|禁止|定时|渠道|牢记|永久|余额|阁下|本站|刷新|导航|建议|以下|⚠️|@|expire|http|com|traffic|网站|官网|Web|重置|到期|剩余|流量|机场|客服|套餐|订阅|版本' }
 
-# 🔍 统一过滤器
+# 🔍 地区分组统一过滤器
 filter_HK: &filter_HK '(?i)(🇭🇰|香港|(?<![A-Za-z])HK(?![A-Za-z])|hong\s*kong)'
 filter_TW: &filter_TW '(?i)(🇹🇼|台湾|(?<![A-Za-z])TW(?![A-Za-z])|taiwan)'
 filter_JP: &filter_JP '(?i)(🇯🇵|日本|(?<![A-Za-z])JP(?![A-Za-z])|japan)'
@@ -55,9 +55,9 @@ filter_US: &filter_US '(?i)(🇺🇸|美国|(?<![A-Za-z])US(?![A-Za-z])|[Aa]meri
 filter_Others: &filter_Others '(?i)^(?!.*(🇭🇰|香港|(?<![A-Za-z])HK(?![A-Za-z])|hong\s*kong|🇯🇵|日本|(?<![A-Za-z])JP(?![A-Za-z])|japan|🇺🇸|美国|(?<![A-Za-z])US(?![A-Za-z])|[Aa]merica|[Uu]nited\s*[Ss]tates|🇸🇬|新加坡|狮城|(?<![A-Za-z])SG(?![A-Za-z])|singapore|🇹🇼|台湾|(?<![A-Za-z])TW(?![A-Za-z])|taiwan)).*'
 filter_Home: &filter_Home '(?i)🏠|家庭|家宽|住宅|HOME|HINET|HKT|PCCW|Netvigator|HKBN|HGC|AT&T|Comcast|Xfinity|Spectrum|Cox|Verizon|Optimum|Frontier|CenturyLink|Quantum|Google Fiber|Starlink|So-net|Seednet|BIGLOBE|OCN|J:COM|SK Broadband|play'
 
-# ─── 🪝 锚点定义区域 END ───
+# ─── 🪝 锚点定义区域 FINAL ───
 
-# ─── 🛠️ 基础设置区域 BEGIN ───
+# ─── 🛠️ 基础设置区域 START ───
 
 ipv6: true
 allow-lan: true
@@ -129,9 +129,9 @@ tun:
   auto-detect-interface: true
   dns-hijack: ['any:53', 'tcp://any:53']
   
-# ─── 🛠️ 基础设置区域 END ───
+# ─── 🛠️ 基础设置区域 FINAL ───
 
-# ─── 🛩️ 节点提供区域 BEGIN ───
+# ─── 🛩️ 节点提供区域 START ───
 
 proxy-providers:
   # 输入机场订阅，可自行添加或删除多个订阅   
@@ -153,9 +153,9 @@ proxy-providers:
         #- { pattern: '^B', target: '🇸🇬' }
         #- { pattern: '^C', target: '🇯🇵' }
         
-# ─── 🛩️ 节点提供区域 END ─── 
+# ─── 🛩 节点提供区域 FINAL ─── 
 
-# ─── 🎯 策略分组区域 BEGIN ───
+# ─── 🎯 策略分组区域 START ───
 
 proxy-groups:
   # 🫵 默认组
@@ -199,9 +199,9 @@ proxy-groups:
   - {name: OR-Auto, <<: *latency, include-all: true, filter: *filter_Others, exclude-type: Hysteria2}
   - {name: Other Regions, type: select, include-all: true, filter: *filter_Others, proxies: [OR-Auto], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/World_Map.png"}
   
-# ─── 🎯 策略分组区域 END ───
+# ─── 🎯 策略分组区域 FINAL ───
 
-# ─── 📦 规则集合区域 BEGIN ───
+# ─── 📦 规则集合区域 START ───
 
 rule-providers:  
   # 🥗 杂七杂八
@@ -245,9 +245,9 @@ rule-providers:
   apple_cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/apple@cn.mrs", path: "./ruleset/apple@cn.mrs" }
   microsoft_cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/microsoft@cn.mrs", path: "./ruleset/microsoft@cn.mrs" }
   
-# ─── 📦 规则集合区域 END ───
+# ─── 📦 规则集合区域 FINAL ───
 
-# ─── 🚦 规则分流区域 BEGIN ───
+# ─── 🚦 规则分流区域 START ───
 
 rules:
   # 🔗 优先直连 
@@ -295,4 +295,4 @@ rules:
   - RULE-SET,private_ip,DIRECT
   - MATCH,Default
   
-# ─── 🚦 规则分流区域 END ───
+# ─── 🚦 规则分流区域 FINAL ───
