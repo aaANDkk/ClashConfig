@@ -41,7 +41,7 @@ foreignDNS:
   ]
   
 # 🎛️ 策略组统一可选节点
-group: &group {type: select, proxies: [Default, Residential, Hong Kong, Taiwan, Japan, Singapore, United States, Other Regions]}
+group: &group {type: select, proxies: [Default, Direct, All Proxies, Residential, Hong Kong, Taiwan, Japan, Singapore, United States, Other Regions]}
 
 # 🚫 订阅源统一过滤节点（用于从源头过滤官网、流量等信息）
 global_exclude_filter: &global_exclude_filter { exclude-filter: '群|返利|循环|网址|获取|下次|官址|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|访问|支持|教程|关注|更新|作者|加入|超时|收藏|福利|邀请|好友|失联|选择|公益|发布|DIZTNA|通路|登录|禁止|定时|渠道|牢记|永久|余额|阁下|本站|刷新|导航|建议|以下|⚠️|@|expire|http|com|traffic|网站|官网|Web|重置|到期|剩余|流量|机场|客服|套餐|订阅|版本' }
@@ -159,8 +159,8 @@ proxy-providers:
 
 proxy-groups:
   # 🫵 默认组
-  - {name: Default, type: select, proxies: [Hong Kong, Taiwan, Japan, Singapore, United States, Other Regions], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png"}
-  - {name: Direct, type: select, proxies: [DIRECT], url: "http://connectivitycheck.gstatic.com/generate_204", interval: 10800, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png", hidden: true}
+  - {name: Default, type: select, proxies: [All Proxies, Residential, Hong Kong, Taiwan, Japan, Singapore, United States, Other Regions], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png"}
+  - {name: Direct, type: select, proxies: [DIRECT], url: "http://connect.rom.miui.com/generate_204", interval: 10800, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png", hidden: true}
   
   # 🔰 广告组
   - {name: AdBlock, type: select, proxies: [Reject, Pass], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png"}
