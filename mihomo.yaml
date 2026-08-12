@@ -44,7 +44,7 @@ foreignDNS:
 group: &group {type: select, proxies: [Default, Direct, All Proxies, Residential, Hong Kong, Taiwan, Japan, Singapore, United States, Other Regions]}
 
 # 🚫 订阅源统一过滤节点（用于从源头过滤官网、流量等信息）
-global_exclude_filter: &global_exclude_filter { exclude-filter: '群|返利|循环|网址|获取|下次|官址|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|访问|支持|教程|关注|更新|作者|加入|超时|收藏|福利|邀请|好友|失联|选择|公益|发布|DIZTNA|通路|登录|禁止|定时|渠道|牢记|永久|余额|阁下|本站|刷新|导航|建议|以下|⚠️|@|expire|http|com|traffic|网站|官网|Web|重置|到期|剩余|流量|机场|客服|套餐|订阅|版本' }
+global_exclude_filter: &global_exclude_filter { exclude-filter: '群|返利|循环|网址|获取|下次|官址|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|提示|访问|支持|教程|关注|更新|作者|加入|超时|收藏|福利|邀请|好友|失联|选择|公益|发布|DIZTNA|通路|登录|定时|渠道|牢记|永久|余额|阁下|本站|刷新|导航|建议|以下|⚠️|@|expire|http|com|traffic|网站|官网|Web|重置|到期|剩余|流量|机场|客服|套餐|订阅|版本' }
 
 # 🔍 地区分组统一过滤器
 filter_HK: &filter_HK '(?i)(🇭🇰|香港|(?<![A-Za-z])HK(?![A-Za-z])|hong\s*kong)'
@@ -149,11 +149,11 @@ proxy-providers:
     #override:
       #additional-prefix: "模板 "
       #proxy-name: # 可自定义节点名称
-        #- { pattern: '^A', target: '🇭🇰' }
-        #- { pattern: '^B', target: '🇸🇬' }
-        #- { pattern: '^C', target: '🇯🇵' }
+        #- { pattern: 'A', target: '🇭🇰' }
+        #- { pattern: 'B', target: '🇸🇬' }
+        #- { pattern: 'C', target: '🇯🇵' }
         
-# ─── 🛩 节点提供区域 FINAL ─── 
+# ─── 🛩️ 节点提供区域 FINAL ─── 
 
 # ─── 🎯 策略分组区域 START ───
 
