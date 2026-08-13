@@ -90,7 +90,7 @@ dns:
   cache-algorithm: arc
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
-  fake-ip-range6: fd00:a4c5:9b12:d3f8:e760:00df::/96
+  fake-ip-range6: 2001:2::1/48
   fake-ip-filter: ['rule-set:private', 'rule-set:fakeip_filter']
   # 专属 DNS ，若有机场有的话请取消下面的#并修改为机场提供的 DNS 地址
   #proxy-server-nameserver-policy:
