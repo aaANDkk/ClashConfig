@@ -9,7 +9,7 @@ airport: &airport
     lazy: true
     interval: 10800
     timeout: 5000
-    url: "https://g.cn/generate_204"            
+    url: "http://g.cn/generate_204"            
 
 # 🚀 自动选择策略统一延迟测试
 latency: &latency
@@ -19,7 +19,7 @@ latency: &latency
   timeout: 5000
   tolerance: 50
   type: url-test
-  url: "https://g.cn/generate_204"
+  url: "http://g.cn/generate_204"
   icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png"
   
 # 📜 规则统一声明
