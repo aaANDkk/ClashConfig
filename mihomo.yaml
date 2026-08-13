@@ -179,7 +179,7 @@ proxy-groups:
   - {name: Media, <<: *group, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png"}
   
   # 📋 全部节点
-  #- {name: All Proxies, type: select, include-all: true, icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Available.png"}
+  - {name: All Proxies, type: select, include-all: true, icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Available.png"}
   # 🏠 家宽节点
   - {name: RD-Auto, <<: *latency, include-all: true, filter: *filter_Home, exclude-type: Hysteria2} 
   - {name: Residential, type: select, include-all: true, filter: *filter_Home, proxies: [RD-Auto], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Home.png"}
