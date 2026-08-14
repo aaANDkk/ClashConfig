@@ -172,7 +172,7 @@ proxies:
 proxy-groups:
   # 🫵 默认组
   - {name: Default, type: select, proxies: [All Proxies, Residential, Hong Kong, Taiwan, Japan, Singapore, United States, Other Regions], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png"}
-  - {name: Direct, type: select, proxies: [🇨🇳 直连 | 双栈], url: "http://connect.rom.miui.com/generate_204", interval: 10800, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png", hidden: true}
+  - {name: Direct, type: select, proxies: [🇨🇳 直连 | 双栈], url: "http://connectivitycheck.platform.hicloud.com/generate_204", interval: 10800, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png", hidden: true}
   
   # 🔰 广告组
   - {name: AdBlock, type: select, proxies: [Reject, Pass], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png"}
