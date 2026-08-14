@@ -132,10 +132,10 @@ ntp:
   
 tun:
   enable: true
-  stack: system
   auto-route: true
   auto-redirect: true
   auto-detect-interface: true
+  stack: system
   dns-hijack: ['any:53', 'tcp://any:53']
   
 # ─── 🛠️ 基础设置区域 FINAL ───
