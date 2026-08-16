@@ -161,7 +161,10 @@ proxy-providers:
         #- { pattern: 'A', target: '🇭🇰' }
         #- { pattern: 'B', target: '🇸🇬' }
         #- { pattern: 'C', target: '🇯🇵' }
-
+        #- { pattern: '^直连\s*(\S+)\s*([\p{Han}A-Za-z]+)\s*(\d*)(.*)$', target: '$1 $2直连 $3$4' }
+        #- { pattern: '-(?=\d+x|\d+\.\d+x)', target: ' ' }
+        #- { pattern: '[gG]emini', target: '' }
+        
 proxies:
   - { name: '🇨🇳 直连 | 双栈', type: direct }
   
@@ -281,7 +284,7 @@ rules:
   - DOMAIN-SUFFIX,hdslb.com,DIRECT
   
   # 🔮 特殊规则
-  #- RULE-SET,captcha,Residential # 尝试跳人机验证，去掉#号启用
+  #- RULE-SET,captcha,RSD-Auto # 尝试跳人机验证，去掉#号启用
   - RULE-SET,AWAvenue-Ads-Rule,AdBlock # 广告拦截
   - DOMAIN,msmp.abchina.com.cn,REJECT # 农业银行 
   - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,cn),(RULE-SET,cn_ip,no-resolve)))))),REJECT # 禁用国外 QUIC 流量
