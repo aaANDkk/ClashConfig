@@ -12,12 +12,12 @@ airport: &airport
     url: "http://g.cn/generate_204"     
            
 # 🚀 自动选择策略统一延迟测试
-latency: &latency
+auto: &auto
   lazy: true
   hidden: true
-  interval: 1200
+  interval: 1800
   timeout: 5000
-  tolerance: 50
+  tolerance: 80
   type: url-test
   exclude-type: 'Hysteria2|Direct' # 排除 Hy2 和 Direct 节点
   exclude-filter: '(?i)备用|下载|低倍|(?<!\d)0\.[0-5]' # 排除备用和低倍率节点
@@ -25,10 +25,10 @@ latency: &latency
   icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png"
 
 # 👋 手动选择策略统一特性
-select_all: &select_all { include-all: true, type: select, exclude-type: Direct }
+manual: &manual { include-all: true, type: select, exclude-type: Direct }
 
 # 📌 策略组统一可选节点
-group: &group {type: select, proxies: [Default, All Proxies, Residential, Hong Kong, Taiwan, Japan, Singapore, United States]}
+group: &group {type: select, proxies: [Default, Direct, All Proxies, Residential, Hong Kong, Taiwan, Japan, Singapore, United States, Other Regions]}
 
 # 🧠 DNS 统一锚点
 chinaDNS: &chinaDNS
@@ -55,6 +55,8 @@ group_filter:
     filter: '(?i)(🇸🇬|新加坡|狮城|(?<![A-Za-z])SGP?(?![A-Za-z])|singapore)'
   filter_US: &filter_US
     filter: '(?i)(🇺🇸|美国|(?<![A-Za-z])USA?(?![A-Za-z])|america|united\s*states)'
+  filter_Others: &filter_Others
+    filter: '^(?!.*(?i)(🇭🇰|香港|(?<![A-Za-z])HKG?(?![A-Za-z])|hong\s*kong|🇹🇼|台湾|(?<![A-Za-z])TWN?(?![A-Za-z])|taiwan|🇯🇵|日本|(?<![A-Za-z])JPN?(?![A-Za-z])|japan|🇸🇬|新加坡|狮城|(?<![A-Za-z])SGP?(?![A-Za-z])|singapore|🇺🇸|美国|(?<![A-Za-z])USA?(?![A-Za-z])|america|united\s*states)).*$'
     
 # 📜 规则统一声明
 anchors:
@@ -74,8 +76,7 @@ tcp-concurrent: true
 reset-network-change: true
 auto-detect-interface: true
 udp-timeout: 30          
-keep-alive-idle: 300
-keep-alive-interval: 30
+keep-alive-interval: 60
 bind-address: '*'
 find-process-mode: strict
 mode: rule
@@ -170,7 +171,7 @@ proxies:
 
 proxy-groups:
   # 🫵 默认组
-  - {name: Default, type: select, proxies: [All Proxies, Residential, Hong Kong, Taiwan, Japan, Singapore, United States], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png"}
+  - {name: Default, type: select, proxies: [All Proxies, Residential, Hong Kong, Taiwan, Japan, Singapore, United States, Other Regions], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png"}
   - {name: Direct, type: select, proxies: [🇨🇳 直连 | 双栈], url: "http://connectivitycheck.platform.hicloud.com/generate_204", interval: 10800, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png", hidden: true}
   
   # 🔰 广告组
@@ -186,34 +187,38 @@ proxy-groups:
   - {name: Anime, <<: *group, icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Bahamut.png"}
   - {name: Media, <<: *group, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png"}
   
-   # 📋 全部节点
-  - {name: ALL-Auto, <<: *latency, include-all: true}
-  - {name: All Proxies, <<: *select_all, proxies: [ALL-Auto], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Available.png"}
+  # 📋 全部节点
+  - {name: ALL-Auto, <<: *auto, include-all: true}
+  - {name: All Proxies, <<: *manual, proxies: [ALL-Auto], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Available.png"}
 
   # 🏠 家宽节点
-  - {name: RSD-Auto, <<: [*latency, *filter_Home], include-all: true}
-  - {name: Residential, <<: [*select_all, *filter_Home], proxies: [RSD-Auto], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Home.png"}
+  - {name: RSD-Auto, <<: [*auto, *filter_Home], include-all: true}
+  - {name: Residential, <<: [*manual, *filter_Home], proxies: [RSD-Auto], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Home.png"}
   
   # 🌃 香港节点
-  - {name: HKG-Auto, <<: [*latency, *filter_HK], include-all: true}
-  - {name: Hong Kong, <<: [*select_all, *filter_HK], proxies: [HKG-Auto], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png"}
+  - {name: HKG-Auto, <<: [*auto, *filter_HK], include-all: true}
+  - {name: Hong Kong, <<: [*manual, *filter_HK], proxies: [HKG-Auto], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png"}
   
   # 🧋 台湾节点
-  - {name: TWN-Auto, <<: [*latency, *filter_TW], include-all: true}
-  - {name: Taiwan, <<: [*select_all, *filter_TW], proxies: [TWN-Auto], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png"}
+  - {name: TWN-Auto, <<: [*auto, *filter_TW], include-all: true}
+  - {name: Taiwan, <<: [*manual, *filter_TW], proxies: [TWN-Auto], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png"}
   
   # 🌸 霓虹节点
-  - {name: JPN-Auto, <<: [*latency, *filter_JP], include-all: true}
-  - {name: Japan, <<: [*select_all, *filter_JP], proxies: [JPN-Auto], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png"}
+  - {name: JPN-Auto, <<: [*auto, *filter_JP], include-all: true}
+  - {name: Japan, <<: [*manual, *filter_JP], proxies: [JPN-Auto], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png"}
   
   # 🦁 狮城节点
-  - {name: SGP-Auto, <<: [*latency, *filter_SG], include-all: true}
-  - {name: Singapore, <<: [*select_all, *filter_SG], proxies: [SGP-Auto], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png"}
+  - {name: SGP-Auto, <<: [*auto, *filter_SG], include-all: true}
+  - {name: Singapore, <<: [*manual, *filter_SG], proxies: [SGP-Auto], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png"}
   
   # 🗽 美国节点
-  - {name: USA-Auto, <<: [*latency, *filter_US], include-all: true}
-  - {name: United States, <<: [*select_all, *filter_US], proxies: [USA-Auto], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png"}
-  
+  - {name: USA-Auto, <<: [*auto, *filter_US], include-all: true}
+  - {name: United States, <<: [*manual, *filter_US], proxies: [USA-Auto], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png"}
+
+  # 🌏 其余地区节点
+  - {name: OTR-Auto, <<: [*auto, *filter_Others], include-all: true}
+  - {name: Other Regions, <<: [*manual, *filter_Others], proxies: [OTR-Auto], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/World_Map.png"}
+
 # ─── 🎯 策略分组区域 FINAL ───
 
 # ─── 📦 规则集合区域 START ───
