@@ -148,9 +148,15 @@ proxy-providers:
     
   ❶:
     <<: [*airport, *global_exclude_filter]
-    url: "填入订阅地址"
+    url: "此处填入1号机场订阅地址"
     override:
       additional-prefix: "① "  
+
+  ❷:
+    <<: [*airport, *global_exclude_filter]
+    url: "此处填入2号机场订阅地址"
+    override:
+      additional-prefix: "② "  
 
   #模板:
     #<<: [*airport, *global_exclude_filter]
@@ -177,11 +183,12 @@ proxy-groups:
   - {name: Default, type: select, proxies: [All Proxies, Residential, Hong Kong, Taiwan, Japan, Singapore, United States, Other Regions], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png"}
   - {name: Direct, type: select, proxies: [🇨🇳 直连 | 双栈], url: "http://connectivitycheck.platform.hicloud.com/generate_204", interval: 10800, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png", hidden: true}
   
-  # 🔰 广告组
+  # 🔰 拦截组
+  - {name: QUIC, type: select, proxies: [Reject, Pass], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/quic(3).png"}  
   - {name: AdBlock, type: select, proxies: [Reject, Pass], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png"}
   - {name: Reject, type: select, proxies: [REJECT], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Reject.png", hidden: true}
   - {name: Pass, type: select, proxies: [PASS], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Static.png", hidden: true}
-
+  
   # 🔀 功能分流   
   - {name: ChatGPT, <<: *group, default-selected: 'Residential', icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/GPT.png"}
   - {name: Claude, <<: *group, default-selected: 'Residential', icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Claude.png"}
@@ -284,11 +291,11 @@ rules:
   - DOMAIN-SUFFIX,hdslb.com,DIRECT
   
   # 🔮 特殊规则
+  - DOMAIN,msmp.abchina.com.cn,REJECT # 农业银行 
+  - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,cn),(RULE-SET,cn_ip,no-resolve)))))),QUIC # QUIC 流量拦截
+  - RULE-SET,AWAvenue-Ads-Rule,AdBlock # 广告拦截
   #- RULE-SET,captcha,RSD-Auto # 尝试跳人机验证，去掉#号启用
   - RULE-SET,niconico,JPN-Auto # niconico 固定日本自动选择
-  - RULE-SET,AWAvenue-Ads-Rule,AdBlock # 广告拦截
-  - DOMAIN,msmp.abchina.com.cn,REJECT # 农业银行 
-  - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,cn),(RULE-SET,cn_ip,no-resolve)))))),REJECT # 禁用国外 QUIC 流量
   
   # 💫 核心规则
   - RULE-SET,openai,ChatGPT
