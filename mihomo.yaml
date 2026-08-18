@@ -1,6 +1,6 @@
-# ─── 🪝 锚点定义区域 START ───
+# ─── 🛩 节点提供区域 START ───
 
-# 🩺 订阅源健康统一检查参数
+# 订阅源健康统一检查参数
 airport: &airport
   type: http
   interval: 86400
@@ -10,136 +10,9 @@ airport: &airport
     interval: 10800
     timeout: 5000
     url: "http://g.cn/generate_204"     
-           
-# 🚀 自动选择策略统一延迟测试
-auto: &auto
-  lazy: true
-  hidden: true
-  interval: 1800
-  timeout: 5000
-  tolerance: 80
-  type: url-test
-  exclude-type: 'Hysteria2|Direct' # 排除 Hy2 和 Direct 节点
-  exclude-filter: '(?i)备用|下载|低倍|(?<!\d)0\.[0-5]' # 排除备用和低倍率节点
-  url: "http://g.cn/generate_204"
-  icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png"
-
-# 👋 手动选择策略统一特性
-manual: &manual { include-all: true, type: select, exclude-type: Direct }
-
-# 📌 策略组统一可选节点
-group: &group {type: select, proxies: [Default, Direct, All Proxies, Residential, Hong Kong, Taiwan, Japan, Singapore, United States, Other Regions]}
-
-# 🧠 DNS 统一锚点
-chinaDNS: &chinaDNS
-  - 'https://dns.alidns.com/dns-query#DIRECT'
-  - 'https://doh.pub/dns-query#DIRECT'
-foreignDNS: &foreignDNS
-  - 'https://dns.cloudflare.com/dns-query#Default'
-  - 'https://dns.google/dns-query#Default'
-
-# 🚫 订阅源统一过滤节点（用于从源头过滤官网、流量等信息）
-global_exclude_filter: &global_exclude_filter { exclude-filter: '群|返利|循环|网址|获取|下次|官址|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|提示|访问|支持|教程|关注|更新|作者|加入|超时|收藏|福利|邀请|好友|失联|选择|公益|发布|DIZTNA|通路|登录|定时|渠道|牢记|永久|余额|阁下|本站|刷新|导航|建议|以下|⚠️|@|expire|http|com|traffic|网站|官网|Web|重置|到期|剩余|流量|机场|客服|套餐|订阅|版本' }
-
-# 🧭 地区分组统一过滤器
-group_filter:
-  filter_Home: &filter_Home
-    filter: '(?i)(🏠|家庭|家宽|住宅|HOME|HINET|HKT|PCCW|Netvigator|HKBN|HGC|AT&T|Comcast|Xfinity|Spectrum|Cox|Verizon|Optimum|Frontier|CenturyLink|Quantum|Google\s*Fiber|Starlink|So-net|Seednet|BIGLOBE|OCN|J:COM|SK\s*Broadband|play)'
-  filter_HK: &filter_HK
-    filter: '(?i)(🇭🇰|香港|(?<![A-Za-z])HKG?(?![A-Za-z])|hong\s*kong)'
-  filter_TW: &filter_TW
-    filter: '(?i)(🇹🇼|台湾|(?<![A-Za-z])TWN?(?![A-Za-z])|taiwan)'
-  filter_JP: &filter_JP
-    filter: '(?i)(🇯🇵|日本|(?<![A-Za-z])JPN?(?![A-Za-z])|japan)'
-  filter_SG: &filter_SG
-    filter: '(?i)(🇸🇬|新加坡|狮城|(?<![A-Za-z])SGP?(?![A-Za-z])|singapore)'
-  filter_US: &filter_US
-    filter: '(?i)(🇺🇸|美国|(?<![A-Za-z])USA?(?![A-Za-z])|america|united\s*states)'
-  filter_Others: &filter_Others
-    filter: '^(?!.*(?i)(🇭🇰|香港|(?<![A-Za-z])HKG?(?![A-Za-z])|hong\s*kong|🇹🇼|台湾|(?<![A-Za-z])TWN?(?![A-Za-z])|taiwan|🇯🇵|日本|(?<![A-Za-z])JPN?(?![A-Za-z])|japan|🇸🇬|新加坡|狮城|(?<![A-Za-z])SGP?(?![A-Za-z])|singapore|🇺🇸|美国|(?<![A-Za-z])USA?(?![A-Za-z])|america|united\s*states)).*$'
     
-# 📜 规则统一声明
-anchors:
-  _domain_anchor: &rule_providers_domain { type: http, interval: 86400, behavior: domain }
-  _ip_anchor: &rule_providers_ip { type: http, interval: 86400, behavior: ipcidr }
-  _classical_anchor: &rule_providers_classical { type: http, interval: 86400, behavior: classical }
- 
-# ─── 🪝 锚点定义区域 FINAL ───
-
-# ─── 🛠️ 基础设置区域 START ───
-
-ipv6: true
-allow-lan: true
-unified-delay: true
-etag-support: true
-tcp-concurrent: true
-reset-network-change: true
-auto-detect-interface: true
-udp-timeout: 30          
-keep-alive-interval: 60
-bind-address: '*'
-find-process-mode: strict
-mode: rule
-log-level: info     
-external-controller: '127.0.0.1:9090'
-external-ui: ui
-external-ui-url: 'https://github.com/Zephyruso/zashboard/releases/latest/download/dist.zip'
-
-profile:
-  store-selected: true
-  store-fake-ip: true
-  disconnect-on-policy-change: true 
-  
-dns:
-  enable: true
-  use-hosts: true
-  use-system-hosts: true
-  ipv6: true
-  cache-algorithm: arc
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  fake-ip-range6: 2001:2::1/48
-  fake-ip-filter: ['rule-set:private', 'rule-set:fakeip_filter']
-  # 专属 DNS ，若有机场有的话请取消下面的#并修改为机场提供的 DNS 地址
-  #proxy-server-nameserver-policy:
-  # 默认 DNS
-  proxy-server-nameserver: *chinaDNS
-  nameserver-policy:
-    'rule-set:cn': *chinaDNS
-  nameserver: *foreignDNS
-  default-nameserver: ['223.5.5.5', '119.29.29.29']
-  direct-nameserver: ['system', '223.5.5.5', '119.29.29.29']
-
-hosts:
-  'dns.alidns.com': ['223.5.5.5', '223.6.6.6']
-  'doh.pub': ['1.12.12.12', '120.53.53.53']
-  'dns.cloudflare.com': ['1.1.1.1', '1.0.0.1']
-  'dns.google': ['8.8.8.8', '8.8.4.4']
-  'services.googleapis.cn': ['services.googleapis.com']
-  'google.cn': ['google.com']
-  '+.edge.mountaintoys.cn': ['0.0.0.0']
-  '+.mcdn.bilivideo.com': ['0.0.0.0']
-  '+.mcdn.bilivideo.cn': ['0.0.0.0']
-  '+.h2.smtcdns.net': ['0.0.0.0']
-  
-ntp:
-  enable: true
-  write-to-system: false
-  server: 'ntp.aliyun.com'
-  port: 123
-  interval: 60
-  
-tun:
-  enable: true
-  auto-route: true
-  auto-redirect: true
-  auto-detect-interface: true
-  stack: system
-  dns-hijack: ['any:53', 'tcp://any:53']
-  
-# ─── 🛠️ 基础设置区域 FINAL ───
-
-# ─── 🛩️ 节点提供区域 START ───
+# 订阅源统一过滤节点（用于从源头过滤官网、流量等信息）
+global_exclude_filter: &global_exclude_filter { exclude-filter: '群|返利|循环|网址|获取|下次|官址|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|提示|访问|支持|教程|关注|更新|作者|加入|超时|收藏|福利|邀请|好友|失联|选择|公益|发布|DIZTNA|通路|登录|定时|渠道|牢记|永久|余额|阁下|本站|刷新|导航|建议|以下|⚠️|@|expire|http|com|traffic|网站|官网|Web|重置|到期|剩余|流量|机场|客服|套餐|订阅|版本' }
 
 proxy-providers:
   # 输入机场订阅，可自行添加或删除多个订阅   
@@ -170,93 +43,220 @@ proxy-providers:
         #- { pattern: '^直连\s*(\S+)\s*([\p{Han}A-Za-z]+)\s*(\d*)(.*)$', target: '$1 $2直连 $3$4' }
         #- { pattern: '-(?=\d+x|\d+\.\d+x)', target: ' ' }
         #- { pattern: '[gG]emini', target: '' }
-        
+
 proxies:
   - { name: '🇨🇳 直连 | 双栈', type: direct }
   
-# ─── 🛩️ 节点提供区域 FINAL ─── 
+# ─── 🛩 节点提供区域 FINAL ─── 
+
+# ─── 🛠 基础设置区域 START ───
+
+ipv6: true
+allow-lan: true
+unified-delay: true
+etag-support: true
+tcp-concurrent: true
+reset-network-change: true
+auto-detect-interface: true
+udp-timeout: 30          
+keep-alive-interval: 60
+bind-address: '*'
+find-process-mode: strict
+mode: rule
+log-level: info     
+external-controller: '127.0.0.1:9090'
+external-ui: ui
+external-ui-url: 'https://github.com/Zephyruso/zashboard/releases/latest/download/dist.zip'
+  
+# DNS 统一锚点
+chinaDNS: &chinaDNS
+  - 'https://dns.alidns.com/dns-query#DIRECT'
+  - 'https://doh.pub/dns-query#DIRECT'
+foreignDNS: &foreignDNS
+  - 'https://dns.cloudflare.com/dns-query#Default'
+  - 'https://dns.google/dns-query#Default'
+
+dns:
+  enable: true
+  use-hosts: true
+  use-system-hosts: true
+  ipv6: true
+  cache-algorithm: arc
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/15
+  fake-ip-range6: 2001:2::1/48
+  fake-ip-filter: ['rule-set:private', 'rule-set:fakeip_filter']
+  # 基础 DNS
+  direct-nameserver: [system, 223.5.5.5, 119.29.29.29]
+  default-nameserver: [223.5.5.5, 119.29.29.29]
+  # 常规 DNS
+  nameserver: *foreignDNS
+  proxy-server-nameserver: *chinaDNS
+  # 策略 DNS
+  nameserver-policy:
+    'rule-set:cn': [223.5.5.5, 119.29.29.29]
+  # 专用 DNS
+  #proxy-server-nameserver-policy:
+
+hosts:
+  'dns.alidns.com': ['223.5.5.5', '223.6.6.6']
+  'doh.pub': ['1.12.12.12', '120.53.53.53']
+  'dns.cloudflare.com': ['1.1.1.1', '1.0.0.1']
+  'dns.google': ['8.8.8.8', '8.8.4.4']
+  'services.googleapis.cn': ['services.googleapis.com']
+  'google.cn': ['google.com']
+  '+.edge.mountaintoys.cn': ['0.0.0.0']
+  '+.h2.smtcdns.net': ['0.0.0.0']
+  '+.mcdn.bilivideo.com': ['0.0.0.0']
+  '+.mcdn.bilivideo.cn': ['0.0.0.0']
+ 
+profile:
+  store-selected: true
+  store-fake-ip: true
+  disconnect-on-policy-change: true 
+ 
+ntp:
+  enable: true
+  write-to-system: false
+  server: 'ntp.aliyun.com'
+  port: 123
+  interval: 60
+  
+tun:
+  enable: true
+  auto-route: true
+  auto-redirect: true
+  auto-detect-interface: true
+  stack: system
+  dns-hijack: ['any:53', 'tcp://any:53']
+  
+# ─── 🛠 基础设置区域 FINAL ───
 
 # ─── 🎯 策略分组区域 START ───
 
+# 自动选择策略统一特性
+auto: &auto
+  lazy: true
+  hidden: true
+  interval: 1800
+  timeout: 5000
+  tolerance: 80
+  type: url-test
+  exclude-type: 'Hysteria2|Direct' # 排除 Hy2 和 Direct 节点
+  exclude-filter: '(?i)备用|下载|低倍|(?<!\d)0\.[0-5]' # 排除备用和低倍率节点
+  url: "http://g.cn/generate_204"
+  icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png"
+
+# 手动选择策略统一特性
+manual: &manual { include-all: true, type: select, exclude-type: Direct }
+
+# 地区分组统一过滤器
+group_filter:
+  filter_Home: &filter_Home
+    filter: '(?i)(🏠|家庭|家宽|住宅|HOME|ISP|HINET|HKT|PCCW|Netvigator|HKBN|HGC|AT&T|Comcast|Xfinity|Spectrum|Cox|Verizon|Optimum|Frontier|CenturyLink|Quantum|Google\s*Fiber|Starlink|So-net|Seednet|BIGLOBE|OCN|J:COM|SK\s*Broadband|play)'
+  filter_HK: &filter_HK
+    filter: '(?i)(🇭🇰|香港|(?<![A-Za-z])HKG?(?![A-Za-z])|hong\s*kong)'
+  filter_TW: &filter_TW
+    filter: '(?i)(🇹🇼|台湾|(?<![A-Za-z])TWN?(?![A-Za-z])|taiwan)'
+  filter_JP: &filter_JP
+    filter: '(?i)(🇯🇵|日本|(?<![A-Za-z])JPN?(?![A-Za-z])|japan)'
+  filter_SG: &filter_SG
+    filter: '(?i)(🇸🇬|新加坡|狮城|(?<![A-Za-z])SGP?(?![A-Za-z])|singapore)'
+  filter_US: &filter_US
+    filter: '(?i)(🇺🇸|美国|(?<![A-Za-z])USA?(?![A-Za-z])|america|united\s*states)'
+  filter_Others: &filter_Others
+    filter: '^(?!.*(?i)(🇭🇰|香港|(?<![A-Za-z])HKG?(?![A-Za-z])|hong\s*kong|🇹🇼|台湾|(?<![A-Za-z])TWN?(?![A-Za-z])|taiwan|🇯🇵|日本|(?<![A-Za-z])JPN?(?![A-Za-z])|japan|🇸🇬|新加坡|狮城|(?<![A-Za-z])SGP?(?![A-Za-z])|singapore|🇺🇸|美国|(?<![A-Za-z])USA?(?![A-Za-z])|america|united\s*states)).*$'
+
+# 策略组统一可选节点
+group: &group {type: select, proxies: [Default, Direct, All Proxies, Residential, Hong Kong, Taiwan, Japan, Singapore, United States, Other Regions]}
+
 proxy-groups:
-  # 🫵 默认组
+  # 默认组
   - {name: Default, type: select, proxies: [All Proxies, Residential, Hong Kong, Taiwan, Japan, Singapore, United States, Other Regions], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png"}
   - {name: Direct, type: select, proxies: [🇨🇳 直连 | 双栈], url: "http://connectivitycheck.platform.hicloud.com/generate_204", interval: 10800, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png", hidden: true}
   
-  # 🔰 拦截组
-  - {name: QUIC, type: select, proxies: [Reject, Pass], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/quic(3).png"}  
+  # 拦截组
   - {name: AdBlock, type: select, proxies: [Reject, Pass], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png"}
   - {name: Reject, type: select, proxies: [REJECT], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Reject.png", hidden: true}
   - {name: Pass, type: select, proxies: [PASS], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Static.png", hidden: true}
-  
-  # 🔀 功能分流   
+
+  # 功能分流   
+  - {name: Speedtest, <<: *group, default-selected: 'Direct', icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Speedtest.png"}  
   - {name: ChatGPT, <<: *group, default-selected: 'Residential', icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/GPT.png"}
   - {name: Claude, <<: *group, default-selected: 'Residential', icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Claude.png"}
   - {name: Gemini, <<: *group, default-selected: 'Residential', icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Gemini.png"}
   - {name: TikTok, <<: *group, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok_1.png"}
   - {name: Anime, <<: *group, icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Bahamut.png"}
-  - {name: Media, <<: *group, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png"}
+  - {name: Media, <<: *group, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Media.png"}
   
-  # 📋 全部节点
+  # 全部节点
   - {name: ALL-Auto, <<: *auto, include-all: true}
   - {name: All Proxies, <<: *manual, proxies: [ALL-Auto], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Available.png"}
 
-  # 🏠 家宽节点
+  # 家宽节点
   - {name: RSD-Auto, <<: [*auto, *filter_Home], include-all: true}
   - {name: Residential, <<: [*manual, *filter_Home], proxies: [RSD-Auto], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Home.png"}
   
-  # 🌃 香港节点
+  # 香港节点
   - {name: HKG-Auto, <<: [*auto, *filter_HK], include-all: true}
-  - {name: Hong Kong, <<: [*manual, *filter_HK], proxies: [HKG-Auto], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png"}
+  - {name: Hong Kong, <<: [*manual, *filter_HK], proxies: [HKG-Auto], icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png"}
   
-  # 🧋 台湾节点
+  # 台湾节点
   - {name: TWN-Auto, <<: [*auto, *filter_TW], include-all: true}
-  - {name: Taiwan, <<: [*manual, *filter_TW], proxies: [TWN-Auto], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png"}
+  - {name: Taiwan, <<: [*manual, *filter_TW], proxies: [TWN-Auto], icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png"}
   
-  # 🌸 霓虹节点
+  # 霓虹节点
   - {name: JPN-Auto, <<: [*auto, *filter_JP], include-all: true}
-  - {name: Japan, <<: [*manual, *filter_JP], proxies: [JPN-Auto], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png"}
+  - {name: Japan, <<: [*manual, *filter_JP], proxies: [JPN-Auto], icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png"}
   
-  # 🦁 狮城节点
+  # 狮城节点
   - {name: SGP-Auto, <<: [*auto, *filter_SG], include-all: true}
-  - {name: Singapore, <<: [*manual, *filter_SG], proxies: [SGP-Auto], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png"}
+  - {name: Singapore, <<: [*manual, *filter_SG], proxies: [SGP-Auto], icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png"}
   
-  # 🗽 美国节点
+  # 美国节点
   - {name: USA-Auto, <<: [*auto, *filter_US], include-all: true}
-  - {name: United States, <<: [*manual, *filter_US], proxies: [USA-Auto], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png"}
+  - {name: United States, <<: [*manual, *filter_US], proxies: [USA-Auto], icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png"}
 
-  # 🌏 其余地区节点
+  # 其余地区节点
   - {name: OTR-Auto, <<: [*auto, *filter_Others], include-all: true}
-  - {name: Other Regions, <<: [*manual, *filter_Others], proxies: [OTR-Auto], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/World_Map.png"}
+  - {name: Other Regions, <<: [*manual, *filter_Others], proxies: [OTR-Auto], icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/World_Map.png"}
 
 # ─── 🎯 策略分组区域 FINAL ───
 
 # ─── 📦 规则集合区域 START ───
 
+# 规则统一声明
+anchors:
+  _domain_anchor: &rule_providers_domain { type: http, interval: 86400, behavior: domain }
+  _ip_anchor: &rule_providers_ip { type: http, interval: 86400, behavior: ipcidr }
+  _classical_anchor: &rule_providers_classical { type: http, interval: 86400, behavior: classical }
+
 rule-providers:  
-  # 🥗 杂七杂八
+  # 杂七杂八
   private: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/private.mrs", path: "./ruleset/private.mrs" }
   private_ip: { <<: *rule_providers_ip, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/private.mrs", path: "./ruleset/private_ip.mrs" }
   fakeip_filter: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/wwqgtxx/clash-rules@release/fakeip-filter.mrs", path: "./ruleset/fakeip-filter.mrs" }
   gfw: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/gfw.mrs", path: "./ruleset/gfw.mrs" }
-  google: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/google.mrs", path: "./ruleset/google.mrs" }
+  google: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/google.mrs", path: "./ruleset/google.mrs" } 
+  google_ip: { <<: *rule_providers_ip, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/google.mrs", path: "./ruleset/google_ip.mrs" }
   steam: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/steam.mrs", path: "./ruleset/steam.mrs" }
+  speedtest: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-speedtest.mrs", path: "./ruleset/speedtest.mrs" }
   AWAvenue-Ads-Rule: { <<: *rule_providers_domain, format: mrs, url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash.mrs", path: "./ruleset/AWAvenue-Ads-Rule.mrs" }
   captcha: { <<: *rule_providers_domain, format: text, url: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/rules/captcha.txt", path: "./ruleset/captcha.txt" }
   
-  # 🤖 AI
+  # 人工智能
   openai: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/openai.mrs", path: "./ruleset/openai.mrs" }
   anthropic: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/anthropic.mrs", path: "./ruleset/anthropic.mrs" }
   gemini: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/google-gemini.mrs", path: "./ruleset/gemini.mrs" }
   
-  # 👘 动漫
+  # 动漫
   anime: { <<: *rule_providers_classical, format: yaml, url: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/rules/anime.yaml", path: "./ruleset/anime.yaml" }
   anime_site: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/anime.mrs", path: "./ruleset/anime_site.mrs" }
   bangumi: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/bangumi.mrs", path: "./ruleset/bangumi.mrs" }
   bahamut: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/bahamut.mrs", path: "./ruleset/bahamut.mrs" }
   niconico: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/niconico.mrs", path: "./ruleset/niconico.mrs" }
 
-  # 🎬 视频
+  # 视频
   tiktok: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/tiktok.mrs", path: "./ruleset/tiktok.mrs" }
   netflix: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/netflix.mrs", path: "./ruleset/netflix.mrs" }
   netflix_ip: { <<: *rule_providers_ip, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/netflix.mrs", path: "./ruleset/netflix_ip.mrs" }
@@ -267,7 +267,7 @@ rule-providers:
   twitch: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/twitch.mrs", path: "./ruleset/twitch.mrs" }
   category_porn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-porn.mrs", path: "./ruleset/category_porn.mrs" }
 
-  # 🚩 CN
+  # CN
   cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/cn.mrs", path: "./ruleset/cn.mrs" }
   cn_ip: { <<: *rule_providers_ip, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/cn.mrs", path: "./ruleset/cn_ip.mrs" }
   epicgames: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/epicgames.mrs", path: "./ruleset/epicgames.mrs" }
@@ -280,7 +280,7 @@ rule-providers:
 # ─── 🚦 规则分流区域 START ───
 
 rules:
-  # 🔗 优先直连 
+  # 优先直连 
   - RULE-SET,private,DIRECT
   - RULE-SET,games_cn,DIRECT # 已包含 steam 下载域名
   - RULE-SET,epicgames,DIRECT
@@ -290,14 +290,15 @@ rules:
   - DOMAIN,international-gfe.download.nvidia.com,DIRECT
   - DOMAIN-SUFFIX,hdslb.com,DIRECT
   
-  # 🔮 特殊规则
+  # 特殊规则
   - DOMAIN,msmp.abchina.com.cn,REJECT # 农业银行 
-  - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,cn),(RULE-SET,cn_ip,no-resolve)))))),QUIC # QUIC 流量拦截
+  - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,cn),(RULE-SET,cn_ip,no-resolve)))))),REJECT # QUIC 流量拦截
   - RULE-SET,AWAvenue-Ads-Rule,AdBlock # 广告拦截
-  #- RULE-SET,captcha,RSD-Auto # 尝试跳人机验证，去掉#号启用
+  #- RULE-SET,captcha,RSD-Auto # 尝试跳人机验证
   - RULE-SET,niconico,JPN-Auto # niconico 固定日本自动选择
   
-  # 💫 核心规则
+  # 核心规则
+  - RULE-SET,speedtest,Speedtest
   - RULE-SET,openai,ChatGPT
   - RULE-SET,anthropic,Claude
   - RULE-SET,gemini,Gemini
@@ -316,8 +317,9 @@ rules:
   - RULE-SET,emby,Media
   - DOMAIN-KEYWORD,emby,Media
   
-  # 🧩 兜底规则
+  # 兜底规则
   - RULE-SET,google,Default
+  - RULE-SET,google_ip,Default,no-resolve
   - RULE-SET,steam,Default
   - RULE-SET,gfw,Default  
   - RULE-SET,cn,DIRECT
