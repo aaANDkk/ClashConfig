@@ -132,6 +132,7 @@ tun:
 
 # 自动选择统一特性
 auto: &auto
+  include-all: true
   lazy: true
   hidden: true
   interval: 1800
@@ -143,7 +144,10 @@ auto: &auto
   icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png"
   
 # 手动选择统一特性
-manual: &manual { include-all: true, type: select, exclude-type: Direct }
+manual: &manual
+  include-all: true
+  type: select
+  exclude-type: Direct
 
 # 自动选择排除规则（排除垃圾/提示节点 + 备用 + 低倍率节点）
 auto_exclude: &auto_exclude
@@ -156,7 +160,7 @@ manual_exclude: &manual_exclude
 # 纯地区匹配正则
 group_filter:
   filter_Home: &filter_Home
-    filter: '(?i)(🏠|家庭|家宽|住宅|HOME|ISP|HINET|HKT|PCCW|Netvigator|HKBN|HGC|AT&T|Comcast|Xfinity|Spectrum|Cox|Verizon|Optimum|Frontier|CenturyLink|Quantum|Google\s*Fiber|Starlink|So-net|Seednet|BIGLOBE|OCN|J:COM|SK\s*Broadband|play)'
+    filter: '(?i)(🏠|🏡|家庭|家宽|住宅|HOME|ISP|HINET|HKT)'
   filter_HK: &filter_HK
     filter: '(?i)(🇭🇰|香港|(?<![A-Za-z])HKG?(?![A-Za-z])|hong\s*kong)'
   filter_TW: &filter_TW
@@ -193,22 +197,22 @@ proxy-groups:
   - {name: Media, <<: *group, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Media.png"}
   
   # 节点分组
-  - {name: ALL-Auto, <<: [*auto, *auto_exclude], include-all: true}
+  - {name: ALL-Auto, <<: [*auto, *auto_exclude]}
   - {name: All Proxies, <<: *manual, proxies: [ALL-Auto], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Available.png"}
-  - {name: RSD-Auto, <<: [*auto, *auto_exclude, *filter_Home], include-all: true}
+  - {name: RSD-Auto, <<: [*auto, *auto_exclude, *filter_Home]}
   - {name: Residential, <<: [*manual, *manual_exclude, *filter_Home], proxies: [RSD-Auto], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Home.png"}
-  - {name: HKG-Auto, <<: [*auto, *auto_exclude, *filter_HK], include-all: true}
-  - {name: Hong Kong, <<: [*manual, *manual_exclude, *filter_HK], proxies: [HKG-Auto], icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png"}
-  - {name: TWN-Auto, <<: [*auto, *auto_exclude, *filter_TW], include-all: true}
-  - {name: Taiwan, <<: [*manual, *manual_exclude, *filter_TW], proxies: [TWN-Auto], icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png"}
-  - {name: JPN-Auto, <<: [*auto, *auto_exclude, *filter_JP], include-all: true}
-  - {name: Japan, <<: [*manual, *manual_exclude, *filter_JP], proxies: [JPN-Auto], icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png"}
-  - {name: SGP-Auto, <<: [*auto, *auto_exclude, *filter_SG], include-all: true}
-  - {name: Singapore, <<: [*manual, *manual_exclude, *filter_SG], proxies: [SGP-Auto], icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png"}
-  - {name: USA-Auto, <<: [*auto, *auto_exclude, *filter_US], include-all: true}
-  - {name: United States, <<: [*manual, *manual_exclude, *filter_US], proxies: [USA-Auto], icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png"}
-  - {name: OTR-Auto, <<: [*auto, *auto_exclude, *filter_Others], include-all: true}
-  - {name: Other Regions, <<: [*manual, *manual_exclude, *filter_Others], proxies: [OTR-Auto], icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/World_Map.png"}
+  - {name: HKG-Auto, <<: [*auto, *auto_exclude, *filter_HK]}
+  - {name: Hong Kong, <<: [*manual, *manual_exclude, *filter_HK], proxies: [HKG-Auto], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Hong_Kong.png"}
+  - {name: TWN-Auto, <<: [*auto, *auto_exclude, *filter_TW]}
+  - {name: Taiwan, <<: [*manual, *manual_exclude, *filter_TW], proxies: [TWN-Auto], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Taiwan.png"}
+  - {name: JPN-Auto, <<: [*auto, *auto_exclude, *filter_JP]}
+  - {name: Japan, <<: [*manual, *manual_exclude, *filter_JP], proxies: [JPN-Auto], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Japan.png"}
+  - {name: SGP-Auto, <<: [*auto, *auto_exclude, *filter_SG]}
+  - {name: Singapore, <<: [*manual, *manual_exclude, *filter_SG], proxies: [SGP-Auto], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Singapore.png"}
+  - {name: USA-Auto, <<: [*auto, *auto_exclude, *filter_US]}
+  - {name: United States, <<: [*manual, *manual_exclude, *filter_US], proxies: [USA-Auto], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/United_States.png"}
+  - {name: OTR-Auto, <<: [*auto, *auto_exclude, *filter_Others]}
+  - {name: Other Regions, <<: [*manual, *manual_exclude, *filter_Others], proxies: [OTR-Auto], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Global.png"}
 
 # ─── 🧭 策略分组区域 FINAL ───
 
