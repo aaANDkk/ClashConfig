@@ -3,26 +3,27 @@
 # 订阅源健康统一检查参数
 airport: &airport
   type: http
+  exclude-type: 'Direct|Reject'
   interval: 86400
   health-check:
     enable: true
     lazy: true
     interval: 10800
-    timeout: 5000
+    timeout: 3000
     url: "http://g.cn/generate_204"     
     
 proxy-providers:
   # 输入机场订阅，可自行添加或删除多个订阅   
   # ❶ ❷ ❸ ❹ ❺ ❻ ❼ ❽ ❾ ❿
   # ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩
-
-  ❶:
+        
+  ❶|一号机场:
     <<: *airport
     url: "此处填入1号机场订阅地址"
     override:
       additional-prefix: "① "  
 
-  ❷:
+  ❷|二号机场:
     <<: *airport
     url: "此处填入2号机场订阅地址"
     override:
@@ -77,7 +78,7 @@ dns:
   enable: true
   use-hosts: true
   use-system-hosts: true
-  ipv6: true
+  ipv6: false
   cache-algorithm: arc
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/15
@@ -135,11 +136,12 @@ auto: &auto
   include-all: true
   lazy: true
   hidden: true
+  max-failed-times: 3
   interval: 1800
-  timeout: 5000
+  timeout: 3000
   tolerance: 80
   type: url-test
-  exclude-type: 'Hysteria2|Direct'
+  exclude-type: 'Direct|Reject|Hysteria2'
   url: "http://g.cn/generate_204"
   icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png"
   
@@ -147,15 +149,15 @@ auto: &auto
 manual: &manual
   include-all: true
   type: select
-  exclude-type: Direct
-
-# 自动选择排除规则（排除垃圾/提示节点 + 备用 + 低倍率节点）
+  exclude-type: 'Direct|Reject'
+  
+# 自动选择排除规则（排除垃圾/提示/备用/下载/低倍节点）
 auto_exclude: &auto_exclude
-  exclude-filter: '(?i)(版本|泄露|剩余|到期|过期|重置|流量|套餐|订阅|官网|网址|网站|客服|工单|群组|频道|通知|超时|卖|备用|(?<!\d)0\.[0-5]|(?:https?:\/\/|\.com|\.org|\.net|@|⚠️))'
+  exclude-filter: '(?i)(卖|版本|泄露|剩余|到期|过期|重置|流量|套餐|订阅|官网|网址|网站|客服|工单|群组|频道|通知|超时|备用|下载|(?<!\d)0\.[0-5]|(?:https?:\/\/|\.com|\.org|\.net|@|⚠️))'
 
-# 手动选择排除规则（仅排除垃圾/提示节点，保留备用与低倍率）
+# 手动选择排除规则（仅排除垃圾/提示节点）
 manual_exclude: &manual_exclude
-  exclude-filter: '(?i)(版本|泄露|剩余|到期|过期|重置|流量|套餐|订阅|官网|网址|客服|工单|群组|频道|通知|超时|卖|(?:https?:\/\/|\.com|\.org|\.net|@|⚠️))'
+  exclude-filter: '(?i)(卖|版本|泄露|剩余|到期|过期|重置|流量|套餐|订阅|官网|网址|网站|客服|工单|群组|频道|通知|超时|(?:https?:\/\/|\.com|\.org|\.net|@|⚠️))'
 
 # 纯地区匹配正则
 group_filter:
@@ -187,32 +189,32 @@ proxy-groups:
   - {name: Reject, type: select, proxies: [REJECT], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Reject.png", hidden: true}
   - {name: Pass, type: select, proxies: [PASS], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Static.png", hidden: true}
   
-  # 功能分流组
-  - {name: Speedtest, <<: *group, default-selected: 'Direct', icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Speedtest.png"}  
-  - {name: ChatGPT, <<: *group, default-selected: 'Residential', icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/GPT.png"}
-  - {name: Claude, <<: *group, default-selected: 'Residential', icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Claude.png"}
-  - {name: Gemini, <<: *group, default-selected: 'Residential', icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Gemini.png"}
+  # 策略分组
+  - {name: Speedtest, <<: *group, default-selected: 'Direct', icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Speedtest(2).png"}  
+  - {name: ChatGPT, <<: *group, default-selected: 'Residential', icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/GPT.png"}
+  - {name: Claude, <<: *group, default-selected: 'Residential', icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Claude.png"}
+  - {name: Gemini, <<: *group, default-selected: 'Residential', icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Gemini.png"}
   - {name: TikTok, <<: *group, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok_1.png"}
-  - {name: Anime, <<: *group, icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Bahamut.png"}
+  - {name: Anime, <<: *group, icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Bahamut.png"}
   - {name: Media, <<: *group, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Media.png"}
   
   # 节点分组
   - {name: ALL-Auto, <<: [*auto, *auto_exclude]}
-  - {name: All Proxies, <<: *manual, proxies: [ALL-Auto], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Available.png"}
+  - {name: All Proxies, <<: *manual, proxies: [ALL-Auto], icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Available.png"}
   - {name: RSD-Auto, <<: [*auto, *auto_exclude, *filter_Home]}
-  - {name: Residential, <<: [*manual, *manual_exclude, *filter_Home], proxies: [RSD-Auto], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Home.png"}
+  - {name: Residential, <<: [*manual, *manual_exclude, *filter_Home], proxies: [RSD-Auto], icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Home.png"}
   - {name: HKG-Auto, <<: [*auto, *auto_exclude, *filter_HK]}
-  - {name: Hong Kong, <<: [*manual, *manual_exclude, *filter_HK], proxies: [HKG-Auto], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Hong_Kong.png"}
+  - {name: Hong Kong, <<: [*manual, *manual_exclude, *filter_HK], proxies: [HKG-Auto], icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Hong_Kong(1).png"}
   - {name: TWN-Auto, <<: [*auto, *auto_exclude, *filter_TW]}
-  - {name: Taiwan, <<: [*manual, *manual_exclude, *filter_TW], proxies: [TWN-Auto], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Taiwan.png"}
+  - {name: Taiwan, <<: [*manual, *manual_exclude, *filter_TW], proxies: [TWN-Auto], icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Taiwan(1).png"}
   - {name: JPN-Auto, <<: [*auto, *auto_exclude, *filter_JP]}
-  - {name: Japan, <<: [*manual, *manual_exclude, *filter_JP], proxies: [JPN-Auto], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Japan.png"}
+  - {name: Japan, <<: [*manual, *manual_exclude, *filter_JP], proxies: [JPN-Auto], icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Japan(1).png"}
   - {name: SGP-Auto, <<: [*auto, *auto_exclude, *filter_SG]}
-  - {name: Singapore, <<: [*manual, *manual_exclude, *filter_SG], proxies: [SGP-Auto], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Singapore.png"}
+  - {name: Singapore, <<: [*manual, *manual_exclude, *filter_SG], proxies: [SGP-Auto], icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Singapore(1).png"}
   - {name: USA-Auto, <<: [*auto, *auto_exclude, *filter_US]}
-  - {name: United States, <<: [*manual, *manual_exclude, *filter_US], proxies: [USA-Auto], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/United_States.png"}
+  - {name: United States, <<: [*manual, *manual_exclude, *filter_US], proxies: [USA-Auto], icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/United_States(1).png"}
   - {name: OTR-Auto, <<: [*auto, *auto_exclude, *filter_Others]}
-  - {name: Other Regions, <<: [*manual, *manual_exclude, *filter_Others], proxies: [OTR-Auto], icon: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/icon/Global.png"}
+  - {name: Other Regions, <<: [*manual, *manual_exclude, *filter_Others], proxies: [OTR-Auto], icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Global.png"}
 
 # ─── 🧭 策略分组区域 FINAL ───
 
@@ -236,7 +238,7 @@ rule-providers:
   ehentai: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/ehentai.mrs", path: "./ruleset/enhentai.mrs" }
   speedtest: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-speedtest.mrs", path: "./ruleset/speedtest.mrs" }
   AWAvenue-Ads-Rule: { <<: *rule_providers_domain, format: mrs, url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash.mrs", path: "./ruleset/AWAvenue-Ads-Rule.mrs" }
-  captcha: { <<: *rule_providers_domain, format: text, url: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/rules/captcha.txt", path: "./ruleset/captcha.txt" }
+  captcha: { <<: *rule_providers_domain, format: text, url: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/rules/captcha.txt", path: "./ruleset/captcha.txt" }
 
   # 人工智能
   openai: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/openai.mrs", path: "./ruleset/openai.mrs" }
@@ -244,7 +246,7 @@ rule-providers:
   gemini: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/google-gemini.mrs", path: "./ruleset/gemini.mrs" }
   
   # 动漫
-  anime: { <<: *rule_providers_classical, format: yaml, url: "https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/rules/anime.yaml", path: "./ruleset/anime.yaml" }
+  anime: { <<: *rule_providers_classical, format: yaml, url: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/rules/anime.yaml", path: "./ruleset/anime.yaml" }
   anime_site: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/anime.mrs", path: "./ruleset/anime_site.mrs" }
   bangumi: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/bangumi.mrs", path: "./ruleset/bangumi.mrs" }
   bahamut: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/bahamut.mrs", path: "./ruleset/bahamut.mrs" }
@@ -269,7 +271,7 @@ rule-providers:
   games_cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-games@cn.mrs", path: "./ruleset/category-games@cn.mrs" }
   apple_cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/apple@cn.mrs", path: "./ruleset/apple@cn.mrs" }
   microsoft_cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/microsoft@cn.mrs", path: "./ruleset/microsoft@cn.mrs" }
-  
+
 # ─── 📦 规则集合区域 FINAL ───
 
 # ─── 🚦 规则分流区域 START ───
@@ -290,7 +292,7 @@ rules:
   - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,geolocation-cn),(RULE-SET,cn_ip,no-resolve)))))),REJECT # QUIC 流量拦截
   - RULE-SET,AWAvenue-Ads-Rule,AdBlock # 广告拦截
   #- RULE-SET,captcha,RSD-Auto # 尝试跳人机验证
-  #- RULE-SET,niconico,JPN-Auto # niconico 固定日本自动选择
+  - RULE-SET,niconico,JPN-Auto # niconico 固定日本自动选择
   
   # 核心规则
   - RULE-SET,ehentai,Default
