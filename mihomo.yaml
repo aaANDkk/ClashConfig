@@ -148,8 +148,11 @@ auto: &auto
 # 手动选择统一特性
 manual: &manual
   include-all: true
+  lazy: true
+  timeout: 3000
   type: select
   exclude-type: 'Direct|Reject'
+  url: "http://g.cn/generate_204"
   
 # 自动选择排除规则（排除垃圾/提示/备用/下载/低倍节点）
 auto_exclude: &auto_exclude
@@ -186,6 +189,7 @@ proxy-groups:
   
   # 拦截组
   - {name: AdBlock, type: select, proxies: [Reject, Pass], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png"}
+  - {name: QUIC, type: select, proxies: [Reject, Pass], icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Quic(2).png"}  
   - {name: Reject, type: select, proxies: [REJECT], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Reject.png", hidden: true}
   - {name: Pass, type: select, proxies: [PASS], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Static.png", hidden: true}
   
@@ -289,7 +293,7 @@ rules:
   
   # 特殊规则
   - DOMAIN,msmp.abchina.com.cn,REJECT # 农业银行 
-  - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,geolocation-cn),(RULE-SET,cn_ip,no-resolve)))))),REJECT # QUIC 流量拦截
+  - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,geolocation-cn),(RULE-SET,cn_ip,no-resolve)))))),QUIC # QUIC 流量拦截
   - RULE-SET,AWAvenue-Ads-Rule,AdBlock # 广告拦截
   #- RULE-SET,captcha,RSD-Auto # 尝试跳人机验证
   - RULE-SET,niconico,JPN-Auto # niconico 固定日本自动选择
