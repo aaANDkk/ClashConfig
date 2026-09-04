@@ -5,7 +5,7 @@
 ---
 ## ✨ 配置亮点
 ### 🗺️ 精准地域与隐式测速
-采用 **显式手动选择** 与 **后台隐式自动测速 (`url-test`)** 联动设计，自动测速组默认过滤低倍率及部分作者不喜欢的协议。
+采用 **显式手动选择** 与 **后台隐式自动测速 (`url-test`)** 联动设计，自动测速组默认过滤低倍率及部分本人不喜欢的协议。
 
 | 节点分组 | 自动测速组 | 适用场景 |
 | :--- | :--- | :--- |
@@ -20,7 +20,7 @@
 ### 🧠 业务与媒体解耦
 * **独立分流出口**：核心高频业务独立分流，支持快速切换：
   > `AI` · `TikTok` · `动漫` · `流媒体`
-* **二次元深度优化**：针对海外流媒体（Netflix/Disney+/巴哈姆特等）与国内直连番剧站（次元城 `cycani`、AGE 动漫 `agedm` 等）进行域名定制分流，规避部分动漫站点屏蔽日区 IP 的问题。
+* **二次元深度优化**：针对海外流媒体（Netflix/Disney+/巴哈姆特等）与番剧站（次元城 `cycani`、AGE 动漫 `agedm` 等）进行域名定制分流，规避部分动漫站点屏蔽日区 IP 的问题。
 * **网络净化**：内置轻量广告过滤规则及 **PCDN 屏蔽 / QUIC 禁用**，解决 B 站视频卡顿与运营商定向限速。
 ---
 ## 🚀 快速上手
@@ -40,7 +40,7 @@ proxy-providers:
       additional-prefix: "② "
 ```
 ### 方式二：客户端 JS 脚本远程导入
-如果客户端支持订阅转换或 Remote Script（如 Clash Verge Rev / FlClash 等），直接填入 Raw 链接：
+如果客户端支持订阅转换或 Remote Script（如 Bettbox / FlClash 等），直接填入 Raw 链接：
 ```text
 [https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/mihomo.js](https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/mihomo.js)
 ```
