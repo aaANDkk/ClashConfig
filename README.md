@@ -1,5 +1,5 @@
 # 🐱 𝕄𝕚𝕙𝕠𝕞𝕠 / ℂ𝕝𝕒𝕤𝕙 ℂ𝕠𝕟𝕗𝕚𝕘
-偏向 **稳定、解耦** 的个人自用 Mihomo / Clash Meta 配置方案。
+个人自用 Mihomo / Clash Meta 配置方案。
 * **📝 YAML 配置**：开箱即用，支持多订阅聚合与自定义规则。
 * **⚙️ JS 预处理脚本**：支持远程 URL 链式加载，无需手动反复合并订阅。
 ---
@@ -29,12 +29,12 @@
 ```yaml
 proxy-providers:
   Provider_A:
-    <<: [*p, *global_exclude_filter]
+    <<: *airport
     url: "填入1号机场订阅"
     override:
       additional-prefix: "① "
   Provider_B:
-    <<: [*p, *global_exclude_filter]
+    <<: *airport
     url: "填入2号机场订阅"
     override:
       additional-prefix: "② "
@@ -42,7 +42,7 @@ proxy-providers:
 ### 方式二：客户端 JS 脚本远程导入
 如果客户端支持订阅转换或 Remote Script（如 Bettbox / FlClash 等），直接填入 Raw 链接：
 ```text
-[https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/mihomo.js](https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/mihomo.js)
+https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/mihomo.js
 ```
 > **注意**：若客户端不支持远程脚本，可直接复制仓库脚本源码覆盖至客户端脚本配置中。
 ---
