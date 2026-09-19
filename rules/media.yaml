@@ -1,0 +1,19 @@
+payload:
+  # 进程名匹配
+  - PROCESS-NAME,com.av.playground
+  - PROCESS-NAME,com.mb.android
+  - PROCESS-NAME,tv.emby.embyatv
+  - PROCESS-NAME,com.hush.yamby
+  - PROCESS-NAME,com.jellycine.app
+  - PROCESS-NAME,com.mountains.hills
+  - PROCESS-NAME,RodelPlayer.App.exe
+  - PROCESS-NAME,com.feifeiduck.capyplayer
+
+  # 域名后缀匹配
+  - DOMAIN-SUFFIX,mb3admin.com
+  - DOMAIN-SUFFIX,nubebelle.com
+
+  # 域名关键字匹配
+  - DOMAIN-KEYWORD,emby
+  - DOMAIN-KEYWORD,hanime
+  - DOMAIN-KEYWORD,javchu
