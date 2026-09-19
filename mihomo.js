@@ -1,6 +1,6 @@
 /**
- * 通用 Mihomo 预处理脚本
- * DNS 与 Hosts 逻辑：集成 AIsouler兼容方案
+ * 通用 Mihomo 预处理脚本 https://github.com/aaANDkk/ClashConfig
+ * DNS 与 Hosts 逻辑：AIsouler 方案
  */
 
 // ==========================================
