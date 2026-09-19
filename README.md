@@ -51,4 +51,4 @@ https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/mihomo.js
 * 分流规则高度贴合个人开发与追番习惯，使用前可根据自身网络环境微调。
 ---
 ## 💖 鸣谢（参考了以下优秀项目）
-DNS 部分*[AIsouler/MyClash](https://github.com/AIsouler/MyClash)
+DNS 部分 [AIsouler/MyClash](https://github.com/AIsouler/MyClash)
