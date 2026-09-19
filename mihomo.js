@@ -319,6 +319,12 @@ function buildProxyGroups() {
 
     // 拦截组
     {
+      name: 'WebRTC',
+      type: 'select',
+      proxies: ['Reject', 'Pass'],
+      icon: 'https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/WebRTC(2).png',
+    },
+    {
       name: 'QUIC',
       type: 'select',
       proxies: ['Reject', 'Pass'],
@@ -635,8 +641,8 @@ const rules = [
   'RULE-SET,emos,Direct',
 
   // WebRTC 防泄漏
-  'OR,((AND,((NETWORK,TCP),(DST-PORT,5349))),(AND,((NETWORK,UDP),(DST-PORT,5350-5351))),(AND,((NETWORK,UDP),(DST-PORT,19302-19305))),(AND,((NETWORK,UDP),(DST-PORT,19308-19309))),(DST-PORT,3478)),REJECT',
-  'DOMAIN-KEYWORD,stun,REJECT',
+  'OR,((AND,((NETWORK,TCP),(DST-PORT,5349))),(AND,((NETWORK,UDP),(DST-PORT,5350-5351))),(AND,((NETWORK,UDP),(DST-PORT,19302-19305))),(AND,((NETWORK,UDP),(DST-PORT,19308-19309))),(DST-PORT,3478)),WebRTC',
+  'DOMAIN-KEYWORD,stun,WebRTC',
 
   // 主要规则
   'RULE-SET,openai,ChatGPT',
