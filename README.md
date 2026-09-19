@@ -12,8 +12,8 @@
 | **Residential** | `RSD-Auto` | 家宽解锁与风控服务 |
 | **Hong Kong** | `HKG-Auto` | 低延迟通用出口 |
 | **Taiwan Province of China** | `TWN-Auto` | 巴哈姆特等台区限制内容 |
-| **Japan** | `JPN-Auto` | 日区流媒体与 DMM/Niconico |
-| **Singapore** | `SGP-Auto` | 东南亚与海外通用节点 |
+| **Japan** | `JPN-Auto` | 日区 Niconico |
+| **Singapore** | `SGP-Auto` | 海外通用节点 |
 | **United States** | `USA-Auto` | AI 服务与美区专用 |
 | **Rest of World** | `ROW-Auto` | 其他冷门区域分流 |
 

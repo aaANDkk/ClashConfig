@@ -43,14 +43,20 @@ const commonDnsRegex = new RegExp(
 );
 
 // 国内外基础 DNS 定义
-const chinaDNS = ['223.5.5.5', '119.29.29.29'];
-const chinaDohDNS = [
-  'https://223.5.5.5/dns-query#Direct',
-  'https://1.12.12.12/dns-query#Direct',
-];
+const chinaDNS = ['223.5.5.5#Direct', '119.29.29.29#Direct'];
 const foreignDNS = [
   'https://cloudflare-dns.com/dns-query#Default',
   'https://dns.google/dns-query#Default',
+];
+const defaultDNS = [
+  '114.114.114.114#Direct',
+  'tls://223.5.5.5#Direct',
+  'https://1.12.12.12/dns-query#Direct',
+];
+const proxyDNS = [
+  '114.114.114.114#Direct',
+  'tls://223.5.5.5#Direct',
+  'https://doh.pub/dns-query#Direct',
 ];
 
 function hostSpecificity(pattern) {
@@ -218,23 +224,25 @@ function buildDnsAndHostsConfig(config, filteredProxies) {
       'rule-set:private',
       'rule-set:fakeip_filter',
       'rule-set:geolocation-cn',
+      'rule-set:googlefcm',
       ...proxyFakeIpFilter,
     ],
-    'direct-nameserver': ['system', ...chinaDNS],
-    'default-nameserver': chinaDohDNS,
+    'direct-nameserver': chinaDNS,
+    'default-nameserver': defaultDNS,
     nameserver: foreignDNS,
     'nameserver-policy': {
       'rule-set:cn': chinaDNS,
     },
-    'proxy-server-nameserver': chinaDohDNS,
+    'proxy-server-nameserver': proxyDNS,
     ...(Object.keys(proxyServerPolicy).length > 0 && {
       'proxy-server-nameserver-policy': proxyServerPolicy,
     }),
   };
 
   const hosts = {
-    'cloudflare-dns.com': ['1.1.1.1', '1.0.0.1'],
+    'doh.pub': ['1.12.12.12', '120.53.53.53'],
     'dns.google': ['8.8.8.8', '8.8.4.4'],
+    'cloudflare-dns.com': ['1.1.1.1', '1.0.0.1'],
     'services.googleapis.cn': 'services.googleapis.com',
     'google.cn': 'google.com',
     '+.mcdn.bilivideo.com': ['0.0.0.0'],
@@ -273,8 +281,8 @@ const manualOption = {
 };
 
 // 排除正则
-const autoExclude = '(?i)(卖|版本|泄露|剩余|到期|过期|重置|流量|套餐|订阅|官网|网址|网站|客服|工单|群组|频道|通知|超时|备用|下载|(?<!\\d)0\\.[0-5]|(?:https?:\\/\\/|\\.com|\\.org|\\.net|@|⚠️))';
-const manualExclude = '(?i)(卖|版本|泄露|剩余|到期|过期|重置|流量|套餐|订阅|官网|网址|网站|客服|工单|群组|频道|通知|超时|(?:https?:\\/\\/|\\.com|\\.org|\\.net|@|⚠️))';
+const autoExclude = '(?i)(vpn|卖|版本|泄露|剩余|到期|过期|重置|流量|套餐|订阅|官网|网址|网站|客服|工单|群组|频道|通知|超时|备用|下载|(?<!\\d)0\\.[0-5]|(?:https?:\\/\\/|\\.com|\\.org|\\.net|@|⚠️))';
+const manualExclude = '(?i)(vpn|卖|版本|泄露|剩余|到期|过期|重置|流量|套餐|订阅|官网|网址|网站|客服|工单|群组|频道|通知|超时|备用|(?:https?:\\/\\/|\\.com|\\.org|\\.net|@|⚠️))';
 
 // 地区过滤正则
 const filterHome = '(?i)(🏠|🏡|家庭|家宽|住宅|HOME|ISP|HINET|HKT)';
@@ -311,6 +319,12 @@ function buildProxyGroups() {
 
     // 拦截组
     {
+      name: 'QUIC',
+      type: 'select',
+      proxies: ['Reject', 'Pass'],
+      icon: 'https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Quic(2).png',
+    },
+    {
       name: 'AdBlock',
       type: 'select',
       proxies: ['Reject', 'Pass'],
@@ -333,13 +347,6 @@ function buildProxyGroups() {
 
     // 策略分组
     {
-      name: 'Speedtest',
-      type: 'select',
-      proxies: standardGroupProxies,
-      'default-selected': 'Direct',
-      icon: 'https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Speedtest(2).png',
-    },
-    {
       name: 'ChatGPT',
       type: 'select',
       proxies: standardGroupProxies,
@@ -359,6 +366,26 @@ function buildProxyGroups() {
       proxies: standardGroupProxies,
       'default-selected': 'Residential',
       icon: 'https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Gemini.png',
+    },
+    {
+      name: 'FCM',
+      type: 'select',
+      proxies: standardGroupProxies,
+      'default-selected': 'Direct',
+      icon: 'https://fastly.jsdelivr.net/gh/MiToverG422/Qure@master/IconSet/Color/fcm.png',
+    },
+    {
+      name: 'Speedtest',
+      type: 'select',
+      proxies: standardGroupProxies,
+      'default-selected': 'Direct',
+      icon: 'https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Speedtest(2).png',
+    },
+    {
+      name: 'Twitter',
+      type: 'select',
+      proxies: standardGroupProxies,
+      icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Twitter.png',
     },
     {
       name: 'TikTok',
@@ -511,55 +538,78 @@ function buildProxyGroups() {
 // 3. 规则集合定义（Rule Providers）
 // ==========================================
 
-const domainProvider = (url, path) => ({ type: 'http', interval: 86400, behavior: 'domain', format: 'mrs', url, path });
-const ipcidrProvider = (url, path) => ({ type: 'http', interval: 86400, behavior: 'ipcidr', format: 'mrs', url, path });
+const domainProvider = (url, path, pathInBundle) => ({
+  type: 'http',
+  interval: 86400,
+  behavior: 'domain',
+  format: 'mrs',
+  url,
+  path,
+  ...(pathInBundle ? { 'path-in-bundle': pathInBundle } : {}),
+});
+const ipcidrProvider = (url, path, pathInBundle) => ({
+  type: 'http',
+  interval: 86400,
+  behavior: 'ipcidr',
+  format: 'mrs',
+  url,
+  path,
+  ...(pathInBundle ? { 'path-in-bundle': pathInBundle } : {}),
+});
 
 const ruleProviders = {
   // 基础
-  private: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/private.mrs', './ruleset/private.mrs'),
-  private_ip: ipcidrProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geoip/private.mrs', './ruleset/private_ip.mrs'),
-  fakeip_filter: domainProvider('https://fastly.jsdelivr.net/gh/wwqgtxx/clash-rules@release/fakeip-filter.mrs', './ruleset/fakeip-filter.mrs'),
-  'geolocation-!cn': domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/geolocation-!cn.mrs', './ruleset/geolocation-!cn.mrs'),
-  google: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/google.mrs', './ruleset/google.mrs'),
-  google_ip: ipcidrProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geoip/google.mrs', './ruleset/google_ip.mrs'),
-  steam: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/steam.mrs', './ruleset/steam.mrs'),
-  steam_asn: ipcidrProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/asn/AS32590.mrs', './ruleset/steam_asn.mrs'),
-  speedtest: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/category-speedtest.mrs', './ruleset/speedtest.mrs'),
+  private: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/private.mrs', './ruleset/private.mrs', 'geo/geosite/private.mrs'),
+  private_ip: ipcidrProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geoip/private.mrs', './ruleset/private_ip.mrs', 'geo/geoip/private.mrs'),
+  fakeip_filter: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/fakeip-filter.mrs', './ruleset/fakeip-filter.mrs', 'geo/geosite/fakeip-filter.mrs'),
+  'geolocation-!cn': domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/geolocation-!cn.mrs', './ruleset/geolocation-!cn.mrs', 'geo/geosite/geolocation-!cn.mrs'),
+  google: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/google.mrs', './ruleset/google.mrs', 'geo/geosite/google.mrs'),
+  google_ip: ipcidrProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geoip/google.mrs', './ruleset/google_ip.mrs', 'geo/geoip/google.mrs'),
+  googlefcm: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/googlefcm.mrs', './ruleset/googlefcm.mrs', 'geo/geosite/googlefcm.mrs'),
+  steam: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/steam.mrs', './ruleset/steam.mrs', 'geo/geosite/steam.mrs'),
+  steam_ip: ipcidrProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geoip/steam.mrs', './ruleset/steam_ip.mrs', 'geo/geoip/steam.mrs'),
+  twitter: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/twitter.mrs', './ruleset/twitter.mrs', 'geo/geosite/twitter.mrs'),
+  twitter_ip: ipcidrProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geoip/twitter.mrs', './ruleset/twitter_ip.mrs', 'geo/geoip/twitter.mrs'),
+  speedtest: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/category-speedtest.mrs', './ruleset/speedtest.mrs', 'geo/geosite/category-speedtest.mrs'),
   'AWAvenue-Ads-Rule': domainProvider('https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash.mrs', './ruleset/AWAvenue-Ads-Rule.mrs'),
 
   // 人工智能
-  openai: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/openai.mrs', './ruleset/openai.mrs'),
-  openai_ip: ipcidrProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geoip/openai.mrs', './ruleset/openai_ip.mrs'),
-  anthropic: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/anthropic.mrs', './ruleset/anthropic.mrs'),
-  gemini: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/google-gemini.mrs', './ruleset/gemini.mrs'),
+  openai: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/openai.mrs', './ruleset/openai.mrs', 'geo/geosite/openai.mrs'),
+  openai_ip: ipcidrProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geoip/openai.mrs', './ruleset/openai_ip.mrs', 'geo/geoip/openai.mrs'),
+  anthropic: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/anthropic.mrs', './ruleset/anthropic.mrs', 'geo/geosite/anthropic.mrs'),
+  gemini: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/google-gemini.mrs', './ruleset/gemini.mrs', 'geo/geosite/google-gemini.mrs'),
 
   // 动漫
+  anime_site: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/anime.mrs', './ruleset/anime_site.mrs', 'geo/geosite/anime.mrs'),
+  bangumi: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/bangumi.mrs', './ruleset/bangumi.mrs', 'geo/geosite/bangumi.mrs'),
+  bahamut: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/bahamut.mrs', './ruleset/bahamut.mrs', 'geo/geosite/bahamut.mrs'),
+  niconico: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/niconico.mrs', './ruleset/niconico.mrs', 'geo/geosite/niconico.mrs'),
+
+  // 视频
+  tiktok: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/tiktok.mrs', './ruleset/tiktok.mrs', 'geo/geosite/tiktok.mrs'),
+  tiktok_ip: ipcidrProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geoip/tiktok.mrs', './ruleset/tiktok_ip.mrs', 'geo/geoip/tiktok.mrs'),
+  netflix: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/netflix.mrs', './ruleset/netflix.mrs', 'geo/geosite/netflix.mrs'),
+  netflix_ip: ipcidrProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geoip/netflix.mrs', './ruleset/netflix_ip.mrs', 'geo/geoip/netflix.mrs'),
+  hbo: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/hbo.mrs', './ruleset/hbo.mrs', 'geo/geosite/hbo.mrs'),
+  disney: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/disney.mrs', './ruleset/disney.mrs', 'geo/geosite/disney.mrs'),
+  emby: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/category-emby.mrs', './ruleset/emby.mrs', 'geo/geosite/category-emby.mrs'),
+  emos: domainProvider('https://fastly.jsdelivr.net/gh/binaryu/emos-proxy-rule@main/rules/emos-mihomo.mrs', './ruleset/emos.mrs', 'geo/geosite/category-emby.mrs'),
+  youtube: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/youtube.mrs', './ruleset/youtube.mrs', 'geo/geosite/youtube.mrs'),
+  twitch: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/twitch.mrs', './ruleset/twitch.mrs', 'geo/geosite/twitch.mrs'),
+  category_porn: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/category-porn.mrs', './ruleset/category_porn.mrs', 'geo/geosite/category-porn.mrs'),
+
+  // CN
+  'geolocation-cn': domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/geolocation-cn.mrs', './ruleset/geolocation-cn.mrs', 'geo/geosite/geolocation-cn.mrs'),
+  cn: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/cn.mrs', './ruleset/cn.mrs', 'geo/geosite/cn.mrs'),
+  cn_ip: ipcidrProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geoip/cn.mrs', './ruleset/cn_ip.mrs', 'geo/geoip/cn.mrs'),
+  epicgames: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/epicgames.mrs', './ruleset/epicgames.mrs', 'geo/geosite/epicgames.mrs'),
+  games_cn: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/category-games@cn.mrs', './ruleset/category-games@cn.mrs', 'geo/geosite/category-games@cn.mrs'),
+  apple_cn: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/apple@cn.mrs', './ruleset/apple@cn.mrs', 'geo/geosite/apple@cn.mrs'),
+  microsoft_cn: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/microsoft@cn.mrs', './ruleset/microsoft@cn.mrs', 'geo/geosite/microsoft@cn.mrs'),
+
+  // 自用规则
   anime: { type: 'http', interval: 86400, behavior: 'classical', format: 'yaml', url: 'https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/rules/anime.yaml', path: './ruleset/anime.yaml' },
-  anime_site: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/anime.mrs', './ruleset/anime_site.mrs'),
-  bangumi: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/bangumi.mrs', './ruleset/bangumi.mrs'),
-  bahamut: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/bahamut.mrs', './ruleset/bahamut.mrs'),
-  niconico: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/niconico.mrs', './ruleset/niconico.mrs'),
-
-  // 视频与流媒体
-  tiktok: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/tiktok.mrs', './ruleset/tiktok.mrs'),
-  tiktok_ip: ipcidrProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geoip/tiktok.mrs', './ruleset/tiktok_ip.mrs'),
-  netflix: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/netflix.mrs', './ruleset/netflix.mrs'),
-  netflix_ip: ipcidrProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geoip/netflix.mrs', './ruleset/netflix_ip.mrs'),
-  hbo: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/hbo.mrs', './ruleset/hbo.mrs'),
-  disney: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/disney.mrs', './ruleset/disney.mrs'),
-  emby: domainProvider('https://fastly.jsdelivr.net/gh/666OS/rules@release/mihomo/domain/Emby.mrs', './ruleset/emby.mrs'),
-  youtube: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/youtube.mrs', './ruleset/youtube.mrs'),
-  twitch: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/twitch.mrs', './ruleset/twitch.mrs'),
-  category_porn: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/category-porn.mrs', './ruleset/category_porn.mrs'),
-
-  // 国内直连规则集
-  'geolocation-cn': domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/geolocation-cn.mrs', './ruleset/geolocation-cn.mrs'),
-  cn: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/cn.mrs', './ruleset/cn.mrs'),
-  cn_ip: ipcidrProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geoip/cn.mrs', './ruleset/cn_ip.mrs'),
-  epicgames: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/epicgames.mrs', './ruleset/epicgames.mrs'),
-  games_cn: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/category-games@cn.mrs', './ruleset/category-games@cn.mrs'),
-  apple_cn: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/apple@cn.mrs', './ruleset/apple@cn.mrs'),
-  microsoft_cn: domainProvider('https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/microsoft@cn.mrs', './ruleset/microsoft@cn.mrs'),
+  media: { type: 'http', interval: 86400, behavior: 'classical', format: 'yaml', url: 'https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/rules/media.yaml', path: './ruleset/media.yaml' },
 };
 
 // ==========================================
@@ -578,22 +628,31 @@ const rules = [
 
   // 特殊规则
   'DOMAIN,msmp.abchina.com.cn,REJECT',
-  'AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,cn),(RULE-SET,cn_ip,no-resolve)))))),Reject',
+  'AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,cn),(RULE-SET,cn_ip,no-resolve)))))),QUIC',
   'RULE-SET,AWAvenue-Ads-Rule,AdBlock',
   'RULE-SET,niconico,JPN-Auto',
   'RULE-SET,bahamut,TWN-Auto',
+  'RULE-SET,emos,Direct',
 
-  // 核心规则
-  'RULE-SET,speedtest,Speedtest',
+  // WebRTC 防泄漏
+  'OR,((AND,((NETWORK,TCP),(DST-PORT,5349))),(AND,((NETWORK,UDP),(DST-PORT,5350-5351))),(AND,((NETWORK,UDP),(DST-PORT,19302-19305))),(AND,((NETWORK,UDP),(DST-PORT,19308-19309))),(DST-PORT,3478)),REJECT',
+  'DOMAIN-KEYWORD,stun,REJECT',
+
+  // 主要规则
   'RULE-SET,openai,ChatGPT',
   'RULE-SET,openai_ip,ChatGPT,no-resolve',
   'RULE-SET,anthropic,Claude',
   'RULE-SET,gemini,Gemini',
+  'RULE-SET,googlefcm,FCM',
+  'RULE-SET,speedtest,Speedtest',
+  'RULE-SET,twitter,Twitter',
+  'RULE-SET,twitter_ip,Twitter,no-resolve',
   'RULE-SET,tiktok,TikTok',
   'RULE-SET,tiktok_ip,TikTok,no-resolve',
   'RULE-SET,anime,Anime',
   'RULE-SET,anime_site,Anime',
   'RULE-SET,bangumi,Anime',
+  'RULE-SET,media,Media',
   'RULE-SET,netflix,Media',
   'RULE-SET,netflix_ip,Media,no-resolve',
   'RULE-SET,category_porn,Media',
@@ -602,15 +661,12 @@ const rules = [
   'RULE-SET,hbo,Media',
   'RULE-SET,disney,Media',
   'RULE-SET,emby,Media',
-  'DOMAIN-KEYWORD,emby,Media',
-  'DOMAIN-KEYWORD,hanime,Media',
-  'DOMAIN-KEYWORD,javchu,Media',
 
   // 兜底规则
   'RULE-SET,google,Default',
   'RULE-SET,google_ip,Default,no-resolve',
   'RULE-SET,steam,Default',
-  'RULE-SET,steam_asn,Default,no-resolve',
+  'RULE-SET,steam_ip,Default,no-resolve',
   'RULE-SET,geolocation-!cn,Default',
   'RULE-SET,cn,Direct',
   'RULE-SET,cn_ip,Direct',
@@ -669,7 +725,7 @@ function main(config) {
     'auto-route': true,
     'auto-redirect': true,
     'auto-detect-interface': true,
-    stack: 'mixed',
+    stack: 'mips',
     'dns-hijack': ['any:53', 'tcp://any:53'],
   };
 

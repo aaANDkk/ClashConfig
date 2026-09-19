@@ -3,49 +3,49 @@
 # 订阅源健康统一检查参数
 airport: &airport
   type: http
-  exclude-type: 'Direct|Reject'
+  exclude-type: "Direct|Reject"
   interval: 86400
   health-check:
     enable: true
     lazy: true
     interval: 10800
     timeout: 3000
-    url: "http://g.cn/generate_204"     
-    
+    url: "http://g.cn/generate_204"
+
 proxy-providers:
-  # 输入机场订阅，可自行添加或删除多个订阅   
+  # 输入机场订阅，可自行添加或删除多个订阅
   # ❶ ❷ ❸ ❹ ❺ ❻ ❼ ❽ ❾ ❿
   # ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩
-        
+
   ❶|一号机场:
     <<: *airport
     url: "此处填入1号机场订阅地址"
     override:
-      additional-prefix: "① "  
+      additional-prefix: "① "
 
   ❷|二号机场:
     <<: *airport
     url: "此处填入2号机场订阅地址"
     override:
-      additional-prefix: "② "  
+      additional-prefix: "② "
 
   #模板:
-    #<<: *airport
-    #url: "填入订阅地址"
-    #override:
-      #additional-prefix: "模板 "
-      #proxy-name: # 可自定义节点名称
-        #- { pattern: 'A', target: '🇭🇰' }
-        #- { pattern: 'B', target: '🇸🇬' }
-        #- { pattern: 'C', target: '🇯🇵' }
-        #- { pattern: '^直连\s*(\S+)\s*([\p{Han}A-Za-z]+)\s*(\d*)(.*)$', target: '$1 $2直连 $3$4' }
-        #- { pattern: '-(?=\d+x|\d+\.\d+x)', target: ' ' }
-        #- { pattern: '[gG]emini', target: '送中' }
+  #<<: *airport
+  #url: "填入订阅地址"
+  #override:
+  #additional-prefix: "模板 "
+  #proxy-name: # 可自定义节点名称
+  #- { pattern: 'A', target: '🇭🇰' }
+  #- { pattern: 'B', target: '🇸🇬' }
+  #- { pattern: 'C', target: '🇯🇵' }
+  #- { pattern: '^直连\s*(\S+)\s*([\p{Han}A-Za-z]+)\s*(\d*)(.*)$', target: '$1 $2直连 $3$4' }
+  #- { pattern: '-(?=\d+x|\d+\.\d+x)', target: ' ' }
+  #- { pattern: '[gG]emini', target: '送中' }
 
 proxies:
-  - { name: '🇨🇳 直连 | 双栈', type: direct }
-  
-# ─── 🚀 节点提供区域 FINAL ─── 
+  - { name: "🇨🇳 直连 | 双栈", type: direct }
+
+# ─── 🚀 节点提供区域 FINAL ───
 
 # ─── 🛠 基础设置区域 START ───
 
@@ -56,23 +56,32 @@ etag-support: true
 tcp-concurrent: true
 reset-network-change: true
 auto-detect-interface: true
-udp-timeout: 30          
+udp-timeout: 30
 keep-alive-interval: 60
-bind-address: '*'
+bind-address: "*"
 find-process-mode: strict
 mode: rule
-log-level: info     
-external-controller: '127.0.0.1:9090'
+log-level: info
+external-controller: "127.0.0.1:9090"
 external-ui: ui
-external-ui-url: 'https://github.com/Zephyruso/zashboard/releases/latest/download/dist.zip'
-  
+external-ui-url: "https://github.com/Zephyruso/zashboard/releases/latest/download/dist.zip"
+
 # DNS 统一锚点
-chinaDNS: &chinaDNS
-  - 'https://223.5.5.5/dns-query#DIRECT'
-  - 'https://1.12.12.12/dns-query#DIRECT'
-foreignDNS: &foreignDNS
-  - 'https://cloudflare-dns.com/dns-query#Default'
-  - 'https://dns.google/dns-query#Default'
+dns_common:
+  chinaDNS: &chinaDNS
+    - "223.5.5.5#Direct"
+    - "119.29.29.29#Direct"
+  foreignDNS: &foreignDNS
+    - "https://cloudflare-dns.com/dns-query#Default"
+    - "https://dns.google/dns-query#Default"
+  defaultDNS: &defaultDNS
+    - "114.114.114.114#Direct"
+    - "tls://223.5.5.5#Direct"
+    - "https://1.12.12.12/dns-query#Direct"
+  proxyDNS: &proxyDNS
+    - "114.114.114.114#Direct"
+    - "tls://223.5.5.5#Direct"
+    - "https://doh.pub/dns-query#Direct"
 
 dns:
   enable: true
@@ -83,57 +92,60 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/15
   fake-ip-range6: 2001:2::1/48
-  fake-ip-filter: ['rule-set:private', 'rule-set:fakeip_filter', 'rule-set:geolocation-cn']
+  fake-ip-filter:
+    - "rule-set:private"
+    - "rule-set:fakeip_filter"
+    - "rule-set:geolocation-cn"
+    - "rule-set:googlefcm"
   # 基础解析 DNS
-  direct-nameserver: [system, 223.5.5.5, 119.29.29.29]
-  default-nameserver: [223.5.5.5, 119.29.29.29]
+  direct-nameserver: *chinaDNS
+  default-nameserver: *defaultDNS
   # 业务解析 DNS
   nameserver: *foreignDNS
   nameserver-policy:
-    'rule-set:cn': [223.5.5.5, 119.29.29.29]
+    "rule-set:cn": *chinaDNS
   # 节点解析 DNS
-  proxy-server-nameserver: *chinaDNS
-  #proxy-server-nameserver-policy:
+  proxy-server-nameserver: *proxyDNS
 
 hosts:
-  'cloudflare-dns.com': ['1.1.1.1', '1.0.0.1']
-  'dns.google': ['8.8.8.8', '8.8.4.4']
+  "doh.pub": ["1.12.12.12", "120.53.53.53"]
+  "dns.google": ["8.8.8.8", "8.8.4.4"]
+  "cloudflare-dns.com": ["1.1.1.1", "1.0.0.1"]
   # 解决部分谷歌问题
-  'services.googleapis.cn': ['services.googleapis.com']
-  'google.cn': ['google.com']
+  "services.googleapis.cn": "services.googleapis.com"
+  "google.cn": "google.com"
   # 解决部分卡顿问题
-  '+.mcdn.bilivideo.com': ['0.0.0.0']
-  '+.mcdn.bilivideo.cn': ['0.0.0.0']
-  '+.h2.smtcdns.net': ['0.0.0.0']
-  '+.edge.mountaintoys.cn': ['0.0.0.0']
- 
+  "+.mcdn.bilivideo.com": ["0.0.0.0"]
+  "+.mcdn.bilivideo.cn": ["0.0.0.0"]
+  "+.h2.smtcdns.net": ["0.0.0.0"]
+  "+.edge.mountaintoys.cn": ["0.0.0.0"]
+
 profile:
   store-selected: true
   store-fake-ip: true
-  disconnect-on-policy-change: true 
- 
+  disconnect-on-policy-change: true
+
 ntp:
-  enable: true
+  enable: false
   write-to-system: false
-  server: 'ntp.aliyun.com'
+  server: "ntp.aliyun.com"
   port: 123
   interval: 60
-  
+
 tun:
   enable: true
   auto-route: true
   auto-redirect: true
   auto-detect-interface: true
-  stack: mixed
-  dns-hijack: ['any:53', 'tcp://any:53']
-  
+  stack: mips
+  dns-hijack: ["any:53", "tcp://any:53"]
+
 # ─── 🛠 基础设置区域 FINAL ───
 
 # ─── 🧭 策略分组区域 START ───
 
 # 自动选择统一特性
 auto: &auto
-  include-all: true
   lazy: true
   hidden: true
   max-failed-times: 3
@@ -141,84 +153,241 @@ auto: &auto
   timeout: 3000
   tolerance: 80
   type: url-test
-  exclude-type: 'Direct|Reject|Hysteria2'
+  exclude-type: "Direct|Reject|Hysteria2"
   url: "http://g.cn/generate_204"
   icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png"
-  
+
 # 手动选择统一特性
 manual: &manual
   include-all: true
-  lazy: true
   timeout: 3000
   type: select
-  exclude-type: 'Direct|Reject'
+  exclude-type: "Direct|Reject"
   url: "http://g.cn/generate_204"
-  
-# 自动选择排除规则（排除垃圾/提示/备用/下载/低倍节点）
-auto_exclude: &auto_exclude
-  exclude-filter: '(?i)(卖|版本|泄露|剩余|到期|过期|重置|流量|套餐|订阅|官网|网址|网站|客服|工单|群组|频道|通知|超时|备用|下载|(?<!\d)0\.[0-5]|(?:https?:\/\/|\.com|\.org|\.net|@|⚠️))'
 
-# 手动选择排除规则（仅排除垃圾/提示节点）
+# 自动选择排除规则（排除垃圾/提示/备用/下载/低倍/节点）
+auto_exclude: &auto_exclude
+  exclude-filter: '(?i)(vpn|卖|版本|泄露|剩余|到期|过期|重置|流量|套餐|订阅|官网|网址|网站|客服|工单|群组|频道|通知|超时|备用|下载|(?<!\d)0\.[0-5]|(?:https?:\/\/|\.com|\.org|\.net|@|⚠️))'
+
+# 手动选择排除规则（排除垃圾/提示/备用/节点）
 manual_exclude: &manual_exclude
-  exclude-filter: '(?i)(卖|版本|泄露|剩余|到期|过期|重置|流量|套餐|订阅|官网|网址|网站|客服|工单|群组|频道|通知|超时|(?:https?:\/\/|\.com|\.org|\.net|@|⚠️))'
+  exclude-filter: '(?i)(vpn|卖|版本|泄露|剩余|到期|过期|重置|流量|套餐|订阅|官网|网址|网站|客服|工单|群组|频道|通知|超时|备用|(?:https?:\/\/|\.com|\.org|\.net|@|⚠️))'
 
 # 纯地区匹配正则
 group_filter:
   filter_Home: &filter_Home
-    filter: '(?i)(🏠|🏡|家庭|家宽|住宅|HOME|ISP|HINET|HKT)'
+    filter: "(?i)(🏠|🏡|家庭|家宽|住宅|HOME|ISP|HINET|HKT)"
   filter_HK: &filter_HK
     filter: '(?i)(🇭🇰|香港|(?<![A-Za-z])HKG?(?![A-Za-z])|hong\s*kong)'
   filter_TW: &filter_TW
-    filter: '(?i)(🇹🇼|台湾|(?<![A-Za-z])TWN?(?![A-Za-z])|taiwan)'
+    filter: "(?i)(🇹🇼|台湾|(?<![A-Za-z])TWN?(?![A-Za-z])|taiwan)"
   filter_JP: &filter_JP
-    filter: '(?i)(🇯🇵|日本|(?<![A-Za-z])JPN?(?![A-Za-z])|japan)'
+    filter: "(?i)(🇯🇵|日本|(?<![A-Za-z])JPN?(?![A-Za-z])|japan)"
   filter_SG: &filter_SG
-    filter: '(?i)(🇸🇬|新加坡|狮城|(?<![A-Za-z])SGP?(?![A-Za-z])|singapore)'
+    filter: "(?i)(🇸🇬|新加坡|狮城|(?<![A-Za-z])SGP?(?![A-Za-z])|singapore)"
   filter_US: &filter_US
     filter: '(?i)(🇺🇸|美国|(?<![A-Za-z])USA?(?![A-Za-z])|america|united\s*states)'
   filter_Others: &filter_Others
     filter: '^(?!.*(?i)(🇭🇰|香港|(?<![A-Za-z])HKG?(?![A-Za-z])|hong\s*kong|🇹🇼|台湾|(?<![A-Za-z])TWN?(?![A-Za-z])|taiwan|🇯🇵|日本|(?<![A-Za-z])JPN?(?![A-Za-z])|japan|🇸🇬|新加坡|狮城|(?<![A-Za-z])SGP?(?![A-Za-z])|singapore|🇺🇸|美国|(?<![A-Za-z])USA?(?![A-Za-z])|america|united\s*states)).*$'
-    
+
 # 策略组统一可选节点
-group: &group {type: select, proxies: [Default, Direct, All Proxies, Residential, Hong Kong, Taiwan, Japan, Singapore, United States, Other Regions]}
+group:
+  &group {
+    type: select,
+    proxies:
+      [
+        Default,
+        Direct,
+        All Proxies,
+        Residential,
+        Hong Kong,
+        Taiwan,
+        Japan,
+        Singapore,
+        United States,
+        Other Regions,
+      ],
+  }
 
 proxy-groups:
-  # 默认组
-  - {name: Default, type: select, proxies: [All Proxies, Residential, Hong Kong, Taiwan, Japan, Singapore, United States, Other Regions], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png"}
-  - {name: Direct, type: select, proxies: [🇨🇳 直连 | 双栈], url: "http://connectivitycheck.platform.hicloud.com/generate_204", interval: 10800, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png", hidden: true}
-  
+  # 基础组
+  - {
+      name: Default,
+      type: select,
+      proxies:
+        [
+          All Proxies,
+          Residential,
+          Hong Kong,
+          Taiwan,
+          Japan,
+          Singapore,
+          United States,
+          Other Regions,
+        ],
+      icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png",
+    }
+  - {
+      name: Direct,
+      type: select,
+      proxies: [🇨🇳 直连 | 双栈],
+      hidden: true,
+      interval: 10800,
+      url: "http://connectivitycheck.platform.hicloud.com/generate_204",
+      icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png",
+    }
+
   # 拦截组
-  - {name: AdBlock, type: select, proxies: [Reject, Pass], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png"}
-  - {name: QUIC, type: select, proxies: [Reject, Pass], icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Quic(2).png"}  
-  - {name: Reject, type: select, proxies: [REJECT], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Reject.png", hidden: true}
-  - {name: Pass, type: select, proxies: [PASS], icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Static.png", hidden: true}
-  
+  - {
+      name: QUIC,
+      type: select,
+      proxies: [Reject, Pass],
+      icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Quic(2).png",
+    }
+  - {
+      name: AdBlock,
+      type: select,
+      proxies: [Reject, Pass],
+      icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png",
+    }
+  - {
+      name: Reject,
+      type: select,
+      proxies: [REJECT],
+      hidden: true,
+      icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Reject.png",
+    }
+  - {
+      name: Pass,
+      type: select,
+      proxies: [PASS],
+      hidden: true,
+      icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Static.png",
+    }
+
   # 策略分组
-  - {name: Speedtest, <<: *group, default-selected: 'Direct', icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Speedtest(2).png"}  
-  - {name: ChatGPT, <<: *group, default-selected: 'Residential', icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/GPT.png"}
-  - {name: Claude, <<: *group, default-selected: 'Residential', icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Claude.png"}
-  - {name: Gemini, <<: *group, default-selected: 'Residential', icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Gemini.png"}
-  - {name: TikTok, <<: *group, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok_1.png"}
-  - {name: Anime, <<: *group, icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Bahamut.png"}
-  - {name: Media, <<: *group, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Media.png"}
-  
-  # 节点分组
-  - {name: ALL-Auto, <<: [*auto, *auto_exclude]}
-  - {name: All Proxies, <<: *manual, proxies: [ALL-Auto], icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Available.png"}
-  - {name: RSD-Auto, <<: [*auto, *auto_exclude, *filter_Home]}
-  - {name: Residential, <<: [*manual, *manual_exclude, *filter_Home], proxies: [RSD-Auto], icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Home.png"}
-  - {name: HKG-Auto, <<: [*auto, *auto_exclude, *filter_HK]}
-  - {name: Hong Kong, <<: [*manual, *manual_exclude, *filter_HK], proxies: [HKG-Auto], icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Hong_Kong(1).png"}
-  - {name: TWN-Auto, <<: [*auto, *auto_exclude, *filter_TW]}
-  - {name: Taiwan, <<: [*manual, *manual_exclude, *filter_TW], proxies: [TWN-Auto], icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Taiwan(1).png"}
-  - {name: JPN-Auto, <<: [*auto, *auto_exclude, *filter_JP]}
-  - {name: Japan, <<: [*manual, *manual_exclude, *filter_JP], proxies: [JPN-Auto], icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Japan(1).png"}
-  - {name: SGP-Auto, <<: [*auto, *auto_exclude, *filter_SG]}
-  - {name: Singapore, <<: [*manual, *manual_exclude, *filter_SG], proxies: [SGP-Auto], icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Singapore(1).png"}
-  - {name: USA-Auto, <<: [*auto, *auto_exclude, *filter_US]}
-  - {name: United States, <<: [*manual, *manual_exclude, *filter_US], proxies: [USA-Auto], icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/United_States(1).png"}
-  - {name: OTR-Auto, <<: [*auto, *auto_exclude, *filter_Others]}
-  - {name: Other Regions, <<: [*manual, *manual_exclude, *filter_Others], proxies: [OTR-Auto], icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Global.png"}
+  - {
+      name: ChatGPT,
+      <<: *group,
+      default-selected: "Residential",
+      icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Chatgpt(2).png",
+    }
+  - {
+      name: Claude,
+      <<: *group,
+      default-selected: "Residential",
+      icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Claude.png",
+    }
+  - {
+      name: Gemini,
+      <<: *group,
+      default-selected: "Residential",
+      icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Gemini.png",
+    }
+  - {
+      name: FCM,
+      <<: *group,
+      default-selected: "Direct",
+      icon: "https://fastly.jsdelivr.net/gh/MiToverG422/Qure@master/IconSet/Color/fcm.png",
+    }
+  - {
+      name: Speedtest,
+      <<: *group,
+      default-selected: "Direct",
+      icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Speedtest(2).png",
+    }
+  - {
+      name: Twitter,
+      <<: *group,
+      icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Twitter.png",
+    }
+  - {
+      name: TikTok,
+      <<: *group,
+      icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok_1.png",
+    }
+  - {
+      name: Anime,
+      <<: *group,
+      icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Bahamut.png",
+    }
+  - {
+      name: Media,
+      <<: *group,
+      icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Media.png",
+    }
+
+  # 全部节点
+  - name: "ALL-Auto"
+    <<: [*auto, *auto_exclude]
+    include-all: true
+  - name: "All Proxies"
+    <<: [*manual, *manual_exclude]
+    proxies: ["ALL-Auto"]
+    icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Available.png"
+
+  # 家宽
+  - name: "RSD-Auto"
+    <<: [*auto, *auto_exclude, *filter_Home]
+    include-all: true
+  - name: "Residential"
+    <<: [*manual, *manual_exclude, *filter_Home]
+    proxies: ["RSD-Auto"]
+    icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Home.png"
+
+  # 香港
+  - name: "HKG-Auto"
+    <<: [*auto, *auto_exclude, *filter_HK]
+    include-all: true
+  - name: "Hong Kong"
+    <<: [*manual, *manual_exclude, *filter_HK]
+    proxies: ["HKG-Auto"]
+    icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Hong_Kong(1).png"
+
+  # 台湾
+  - name: "TWN-Auto"
+    <<: [*auto, *auto_exclude, *filter_TW]
+    include-all: true
+  - name: "Taiwan"
+    <<: [*manual, *manual_exclude, *filter_TW]
+    proxies: ["TWN-Auto"]
+    icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Taiwan(1).png"
+
+  # 日本
+  - name: "JPN-Auto"
+    <<: [*auto, *auto_exclude, *filter_JP]
+    include-all: true
+  - name: "Japan"
+    <<: [*manual, *manual_exclude, *filter_JP]
+    proxies: ["JPN-Auto"]
+    icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Japan(1).png"
+
+  # 新加坡
+  - name: "SGP-Auto"
+    <<: [*auto, *auto_exclude, *filter_SG]
+    include-all: true
+  - name: "Singapore"
+    <<: [*manual, *manual_exclude, *filter_SG]
+    proxies: ["SGP-Auto"]
+    icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Singapore(1).png"
+
+  # 美国
+  - name: "USA-Auto"
+    <<: [*auto, *auto_exclude, *filter_US]
+    include-all: true
+  - name: "United States"
+    <<: [*manual, *manual_exclude, *filter_US]
+    proxies: ["USA-Auto"]
+    icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/United_States(1).png"
+
+  # 其他地区
+  - name: "OTR-Auto"
+    <<: [*auto, *auto_exclude, *filter_Others]
+    include-all: true
+  - name: "Other Regions"
+    <<: [*manual, *manual_exclude, *filter_Others]
+    proxies: ["OTR-Auto"]
+    icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/Global.png"
 
 # ─── 🧭 策略分组区域 FINAL ───
 
@@ -226,109 +395,414 @@ proxy-groups:
 
 # 规则统一声明
 anchors:
-  _domain_anchor: &rule_providers_domain { type: http, interval: 86400, behavior: domain }
-  _ip_anchor: &rule_providers_ip { type: http, interval: 86400, behavior: ipcidr }
-  _classical_anchor: &rule_providers_classical { type: http, interval: 86400, behavior: classical }
+  _domain_anchor:
+    &rule_providers_domain { type: http, interval: 86400, behavior: domain }
+  _ip_anchor:
+    &rule_providers_ip { type: http, interval: 86400, behavior: ipcidr }
+  _classical_anchor:
+    &rule_providers_classical {
+      type: http,
+      interval: 86400,
+      behavior: classical,
+    }
 
-rule-providers:  
+rule-providers:
   # 杂七杂八
-  private: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/private.mrs", path: "./ruleset/private.mrs" }
-  private_ip: { <<: *rule_providers_ip, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/private.mrs", path: "./ruleset/private_ip.mrs" }
-  fakeip_filter: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/wwqgtxx/clash-rules@release/fakeip-filter.mrs", path: "./ruleset/fakeip-filter.mrs" }
-  gfw: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/gfw.mrs", path: "./ruleset/gfw.mrs" }
-  google: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/google.mrs", path: "./ruleset/google.mrs" } 
-  google_ip: { <<: *rule_providers_ip, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/google.mrs", path: "./ruleset/google_ip.mrs" }
-  steam: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/steam.mrs", path: "./ruleset/steam.mrs" }
-  ehentai: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/ehentai.mrs", path: "./ruleset/enhentai.mrs" }
-  speedtest: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-speedtest.mrs", path: "./ruleset/speedtest.mrs" }
-  AWAvenue-Ads-Rule: { <<: *rule_providers_domain, format: mrs, url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash.mrs", path: "./ruleset/AWAvenue-Ads-Rule.mrs" }
-  captcha: { <<: *rule_providers_domain, format: text, url: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/rules/captcha.txt", path: "./ruleset/captcha.txt" }
+  private:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/private.mrs",
+      path: "./ruleset/private.mrs",
+      path-in-bundle: "geo/geosite/private.mrs",
+    }
+  private_ip:
+    {
+      <<: *rule_providers_ip,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geoip/private.mrs",
+      path: "./ruleset/private_ip.mrs",
+      path-in-bundle: "geo/geoip/private.mrs",
+    }
+  fakeip_filter:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/fakeip-filter.mrs",
+      path: "./ruleset/fakeip-filter.mrs",
+      path-in-bundle: "geo/geosite/fakeip-filter.mrs",
+    }
+  geolocation-!cn:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/geolocation-!cn.mrs",
+      path: "./ruleset/geolocation-!cn.mrs",
+      path-in-bundle: "geo/geosite/geolocation-!cn.mrs",
+    }
+  google:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/google.mrs",
+      path: "./ruleset/google.mrs",
+      path-in-bundle: "geo/geosite/google.mrs",
+    }
+  google_ip:
+    {
+      <<: *rule_providers_ip,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geoip/google.mrs",
+      path: "./ruleset/google_ip.mrs",
+      path-in-bundle: "geo/geoip/google.mrs",
+    }
+  googlefcm:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/googlefcm.mrs",
+      path: "./ruleset/googlefcm.mrs",
+      path-in-bundle: "geo/geosite/googlefcm.mrs",
+    }
+  steam:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/steam.mrs",
+      path: "./ruleset/steam.mrs",
+      path-in-bundle: "geo/geosite/steam.mrs",
+    }
+  steam_ip:
+    {
+      <<: *rule_providers_ip,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geoip/steam.mrs",
+      path: "./ruleset/steam_ip.mrs",
+      path-in-bundle: "geo/geoip/steam.mrs",
+    }
+  twitter:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/twitter.mrs",
+      path: "./ruleset/twitter.mrs",
+      path-in-bundle: "geo/geosite/twitter.mrs",
+    }
+  twitter_ip:
+    {
+      <<: *rule_providers_ip,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geoip/twitter.mrs",
+      path: "./ruleset/twitter_ip.mrs",
+      path-in-bundle: "geo/geoip/twitter.mrs",
+    }
+  speedtest:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/category-speedtest.mrs",
+      path: "./ruleset/speedtest.mrs",
+      path-in-bundle: "geo/geosite/category-speedtest.mrs",
+    }
+  AWAvenue-Ads-Rule:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash.mrs",
+      path: "./ruleset/AWAvenue-Ads-Rule.mrs",
+    }
 
   # 人工智能
-  openai: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/openai.mrs", path: "./ruleset/openai.mrs" }
-  anthropic: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/anthropic.mrs", path: "./ruleset/anthropic.mrs" }
-  gemini: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/google-gemini.mrs", path: "./ruleset/gemini.mrs" }
-  
+  openai:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/openai.mrs",
+      path: "./ruleset/openai.mrs",
+      path-in-bundle: "geo/geosite/openai.mrs",
+    }
+  openai_ip:
+    {
+      <<: *rule_providers_ip,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geoip/openai.mrs",
+      path: "./ruleset/openai_ip.mrs",
+      path-in-bundle: "geo/geoip/openai.mrs",
+    }
+  anthropic:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/anthropic.mrs",
+      path: "./ruleset/anthropic.mrs",
+      path-in-bundle: "geo/geosite/anthropic.mrs",
+    }
+  gemini:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/google-gemini.mrs",
+      path: "./ruleset/gemini.mrs",
+      path-in-bundle: "geo/geosite/google-gemini.mrs",
+    }
+
   # 动漫
-  anime: { <<: *rule_providers_classical, format: yaml, url: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/rules/anime.yaml", path: "./ruleset/anime.yaml" }
-  anime_site: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/anime.mrs", path: "./ruleset/anime_site.mrs" }
-  bangumi: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/bangumi.mrs", path: "./ruleset/bangumi.mrs" }
-  bahamut: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/bahamut.mrs", path: "./ruleset/bahamut.mrs" }
-  niconico: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/niconico.mrs", path: "./ruleset/niconico.mrs" }
+  anime_site:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/anime.mrs",
+      path: "./ruleset/anime_site.mrs",
+      path-in-bundle: "geo/geosite/anime.mrs",
+    }
+  bangumi:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/bangumi.mrs",
+      path: "./ruleset/bangumi.mrs",
+      path-in-bundle: "geo/geosite/bangumi.mrs",
+    }
+  bahamut:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/bahamut.mrs",
+      path: "./ruleset/bahamut.mrs",
+      path-in-bundle: "geo/geosite/bahamut.mrs",
+    }
+  niconico:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/niconico.mrs",
+      path: "./ruleset/niconico.mrs",
+      path-in-bundle: "geo/geosite/niconico.mrs",
+    }
 
   # 视频
-  tiktok: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/tiktok.mrs", path: "./ruleset/tiktok.mrs" }
-  netflix: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/netflix.mrs", path: "./ruleset/netflix.mrs" }
-  netflix_ip: { <<: *rule_providers_ip, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/netflix.mrs", path: "./ruleset/netflix_ip.mrs" }
-  hbo: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/hbo.mrs", path: "./ruleset/hbo.mrs" }
-  disney: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/disney.mrs", path: "./ruleset/disney.mrs" }
-  emby: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/666OS/rules@release/mihomo/domain/Emby.mrs", path: "./ruleset/emby.mrs" }
-  youtube: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/youtube.mrs", path: "./ruleset/youtube.mrs" }
-  twitch: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/twitch.mrs", path: "./ruleset/twitch.mrs" }
-  category_porn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-porn.mrs", path: "./ruleset/category_porn.mrs" }
+  tiktok:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/tiktok.mrs",
+      path: "./ruleset/tiktok.mrs",
+      path-in-bundle: "geo/geosite/tiktok.mrs",
+    }
+  tiktok_ip:
+    {
+      <<: *rule_providers_ip,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geoip/tiktok.mrs",
+      path: "./ruleset/tiktok_ip.mrs",
+      path-in-bundle: "geo/geoip/tiktok.mrs",
+    }
+  netflix:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/netflix.mrs",
+      path: "./ruleset/netflix.mrs",
+      path-in-bundle: "geo/geosite/netflix.mrs",
+    }
+  netflix_ip:
+    {
+      <<: *rule_providers_ip,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geoip/netflix.mrs",
+      path: "./ruleset/netflix_ip.mrs",
+      path-in-bundle: "geo/geoip/netflix.mrs",
+    }
+  hbo:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/hbo.mrs",
+      path: "./ruleset/hbo.mrs",
+      path-in-bundle: "geo/geosite/hbo.mrs",
+    }
+  disney:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/disney.mrs",
+      path: "./ruleset/disney.mrs",
+      path-in-bundle: "geo/geosite/disney.mrs",
+    }
+  emby:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/category-emby.mrs",
+      path: "./ruleset/emby.mrs",
+      path-in-bundle: "geo/geosite/category-emby.mrs",
+    }
+  emos:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/binaryu/emos-proxy-rule@main/rules/emos-mihomo.mrs",
+      path: "./ruleset/emos.mrs",
+      path-in-bundle: "geo/geosite/category-emby.mrs",
+    }
+  youtube:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/youtube.mrs",
+      path: "./ruleset/youtube.mrs",
+      path-in-bundle: "geo/geosite/youtube.mrs",
+    }
+  twitch:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/twitch.mrs",
+      path: "./ruleset/twitch.mrs",
+      path-in-bundle: "geo/geosite/twitch.mrs",
+    }
+  category_porn:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/category-porn.mrs",
+      path: "./ruleset/category_porn.mrs",
+      path-in-bundle: "geo/geosite/category-porn.mrs",
+    }
 
   # CN
-  geolocation-cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/geolocation-cn.mrs", path: "./ruleset/geolocation-cn.mrs" }    
-  cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/cn.mrs", path: "./ruleset/cn.mrs" }
-  cn_ip: { <<: *rule_providers_ip, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/cn.mrs", path: "./ruleset/cn_ip.mrs" }
-  epicgames: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/epicgames.mrs", path: "./ruleset/epicgames.mrs" }
-  games_cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-games@cn.mrs", path: "./ruleset/category-games@cn.mrs" }
-  apple_cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/apple@cn.mrs", path: "./ruleset/apple@cn.mrs" }
-  microsoft_cn: { <<: *rule_providers_domain, format: mrs, url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/microsoft@cn.mrs", path: "./ruleset/microsoft@cn.mrs" }
+  geolocation-cn:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/geolocation-cn.mrs",
+      path: "./ruleset/geolocation-cn.mrs",
+      path-in-bundle: "geo/geosite/geolocation-cn.mrs",
+    }
+  cn:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/cn.mrs",
+      path: "./ruleset/cn.mrs",
+      path-in-bundle: "geo/geosite/cn.mrs",
+    }
+  cn_ip:
+    {
+      <<: *rule_providers_ip,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geoip/cn.mrs",
+      path: "./ruleset/cn_ip.mrs",
+      path-in-bundle: "geo/geoip/cn.mrs",
+    }
+  epicgames:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/epicgames.mrs",
+      path: "./ruleset/epicgames.mrs",
+      path-in-bundle: "geo/geosite/epicgames.mrs",
+    }
+  games_cn:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/category-games@cn.mrs",
+      path: "./ruleset/category-games@cn.mrs",
+      path-in-bundle: "geo/geosite/category-games@cn.mrs",
+    }
+  apple_cn:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/apple@cn.mrs",
+      path: "./ruleset/apple@cn.mrs",
+      path-in-bundle: "geo/geosite/apple@cn.mrs",
+    }
+  microsoft_cn:
+    {
+      <<: *rule_providers_domain,
+      format: mrs,
+      url: "https://fastly.jsdelivr.net/gh/appshubcc/bett-rules@meta/geo/geosite/microsoft@cn.mrs",
+      path: "./ruleset/microsoft@cn.mrs",
+      path-in-bundle: "geo/geosite/microsoft@cn.mrs",
+    }
+
+  # 自用规则
+  anime:
+    {
+      <<: *rule_providers_classical,
+      format: yaml,
+      url: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/rules/anime.yaml",
+      path: "./ruleset/anime.yaml",
+    }
+  media:
+    {
+      <<: *rule_providers_classical,
+      format: yaml,
+      url: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/rules/media.yaml",
+      path: "./ruleset/media.yaml",
+    }
 
 # ─── 📦 规则集合区域 FINAL ───
 
 # ─── 🚦 规则分流区域 START ───
 
 rules:
-  # 优先直连 
-  - RULE-SET,private,DIRECT
-  - RULE-SET,games_cn,DIRECT # 已包含 steam 下载域名
-  - RULE-SET,epicgames,DIRECT
-  - RULE-SET,apple_cn,DIRECT
-  - RULE-SET,microsoft_cn,DIRECT
-  - DOMAIN,fsend.cn,DIRECT           
-  - DOMAIN,international-gfe.download.nvidia.com,DIRECT
-  - DOMAIN-SUFFIX,hdslb.com,DIRECT
-  
+  # 优先直连
+  - RULE-SET,private,Direct
+  - RULE-SET,games_cn,Direct # 已包含 steam 下载域名
+  - RULE-SET,epicgames,Direct
+  - RULE-SET,apple_cn,Direct
+  - RULE-SET,microsoft_cn,Direct
+  - DOMAIN,fsend.cn,Direct
+  - DOMAIN,international-gfe.download.nvidia.com,Direct
+
   # 特殊规则
-  - DOMAIN,msmp.abchina.com.cn,REJECT # 农业银行 
-  - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,geolocation-cn),(RULE-SET,cn_ip,no-resolve)))))),QUIC # QUIC 流量拦截
-  - RULE-SET,AWAvenue-Ads-Rule,AdBlock # 广告拦截
-  #- RULE-SET,captcha,RSD-Auto # 尝试跳人机验证
+  - DOMAIN,msmp.abchina.com.cn,REJECT # 解决中国农业银行检测 VPN
+  - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,cn),(RULE-SET,cn_ip,no-resolve)))))),QUIC # 国外 QUIC 拦截
+  - RULE-SET,AWAvenue-Ads-Rule,AdBlock # AD 拦截或临时放行
   - RULE-SET,niconico,JPN-Auto # niconico 固定日本自动选择
-  
-  # 核心规则
-  - RULE-SET,ehentai,Default
-  - RULE-SET,steam,Default
-  - RULE-SET,speedtest,Speedtest
+  - RULE-SET,bahamut,TWN-Auto # Bahamut 固定台湾自动选择
+  - RULE-SET,emos,Direct # 固定受限直连
+
+  # WebRTC 防泄漏
+  - OR,((AND,((NETWORK,TCP),(DST-PORT,5349))),(AND,((NETWORK,UDP),(DST-PORT,5350-5351))),(AND,((NETWORK,UDP),(DST-PORT,19302-19305))),(AND,((NETWORK,UDP),(DST-PORT,19308-19309))),(DST-PORT,3478)),REJECT
+  - DOMAIN-KEYWORD,stun,REJECT
+
+  # 主要规则
   - RULE-SET,openai,ChatGPT
+  - RULE-SET,openai_ip,ChatGPT,no-resolve
   - RULE-SET,anthropic,Claude
   - RULE-SET,gemini,Gemini
+  - RULE-SET,googlefcm,FCM
+  - RULE-SET,speedtest,Speedtest
+  - RULE-SET,twitter,Twitter
+  - RULE-SET,twitter_ip,Twitter,no-resolve
   - RULE-SET,tiktok,TikTok
+  - RULE-SET,tiktok_ip,TikTok,no-resolve
   - RULE-SET,anime,Anime
   - RULE-SET,anime_site,Anime
   - RULE-SET,bangumi,Anime
-  - RULE-SET,bahamut,Anime
+  - RULE-SET,media,Media
+  - RULE-SET,netflix,Media
+  - RULE-SET,netflix_ip,Media,no-resolve
   - RULE-SET,category_porn,Media
   - RULE-SET,twitch,Media
   - RULE-SET,youtube,Media
   - RULE-SET,hbo,Media
   - RULE-SET,disney,Media
-  - RULE-SET,netflix,Media
-  - RULE-SET,netflix_ip,Media,no-resolve  
   - RULE-SET,emby,Media
-  - DOMAIN-KEYWORD,emby,Media
-  - DOMAIN-KEYWORD,hanime,Media
-  - DOMAIN-KEYWORD,javchu,Media
-  
+
   # 兜底规则
   - RULE-SET,google,Default
   - RULE-SET,google_ip,Default,no-resolve
-  - RULE-SET,gfw,Default  
-  - RULE-SET,cn,DIRECT
-  - RULE-SET,cn_ip,DIRECT  
-  - RULE-SET,private_ip,DIRECT
+  - RULE-SET,steam,Default
+  - RULE-SET,steam_ip,Default,no-resolve
+  - RULE-SET,geolocation-!cn,Default
+  - RULE-SET,cn,Direct
+  - RULE-SET,cn_ip,Direct
+  - RULE-SET,private_ip,Direct
   - MATCH,Default
-  
+
 # ─── 🚦 规则分流区域 FINAL ───
