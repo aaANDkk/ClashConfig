@@ -40,7 +40,7 @@ proxy-providers:
       additional-prefix: "② "
 ```
 ### 方式二：客户端 JS 脚本远程导入
-如果客户端支持订阅转换或 Remote Script（如 Bettbox / FlClash 等），直接填入 Raw 链接：
+如果客户端 Remote Script（如 Bettbox / FlClash 等），直接填入 Raw 链接：
 ```text
 https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/mihomo.js
 ```
