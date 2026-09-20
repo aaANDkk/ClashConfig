@@ -152,11 +152,11 @@ manual: &manual
   exclude-type: "Direct|Reject"
   url: "http://g.cn/generate_204"
 
-# 自动选择排除规则（排除垃圾/提示/备用/下载/低倍/节点）
+# 自动选择排除规则（排除垃圾/提示/备用/下载/低倍节点）
 auto_exclude: &auto_exclude
   exclude-filter: '(?i)(vpn|卖|版本|泄露|剩余|到期|过期|重置|流量|套餐|订阅|官网|网址|网站|客服|工单|群组|频道|通知|超时|备用|下载|(?<!\d)0\.[0-5]|(?:https?:\/\/|\.com|\.org|\.net|@|⚠️))'
 
-# 手动选择排除规则（排除垃圾/提示/备用/节点）
+# 手动选择排除规则（排除垃圾/提示/备用节点）
 manual_exclude: &manual_exclude
   exclude-filter: '(?i)(vpn|卖|版本|泄露|剩余|到期|过期|重置|流量|套餐|订阅|官网|网址|网站|客服|工单|群组|频道|通知|超时|备用|(?:https?:\/\/|\.com|\.org|\.net|@|⚠️))'
 
