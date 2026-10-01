@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <defs>
+    <linearGradient id="media-outer" x1="0" y1="21" x2="0" y2="121" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#55BF20"/>
+      <stop offset="50%" stop-color="#4FB61B"/>
+      <stop offset="100%" stop-color="#3FA00E"/>
+    </linearGradient>
+    <linearGradient id="media-inner" x1="0" y1="38" x2="0" y2="105" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#67D228"/>
+      <stop offset="50%" stop-color="#5BBD1F"/>
+      <stop offset="100%" stop-color="#4AA817"/>
+    </linearGradient>
+    <linearGradient id="media-play" x1="0" y1="51" x2="0" y2="91" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7AE739"/>
+      <stop offset="50%" stop-color="#6BD52D"/>
+      <stop offset="100%" stop-color="#57BE20"/>
+    </linearGradient>
+  </defs>
+  <path d="M 31.00 24.33 A 62.5 62.5 0 0 0 31.00 118.67" fill="none" stroke="url(#media-outer)" stroke-width="13.2" stroke-linecap="round"/>
+  <path d="M 113.00 24.33 A 62.5 62.5 0 0 1 113.00 118.67" fill="none" stroke="url(#media-outer)" stroke-width="13.2" stroke-linecap="round"/>
+  <path d="M 46.74 42.44 A 38.5 38.5 0 0 0 46.74 100.56" fill="none" stroke="url(#media-inner)" stroke-width="12.5" stroke-linecap="round"/>
+  <path d="M 97.26 42.44 A 38.5 38.5 0 0 1 97.26 100.56" fill="none" stroke="url(#media-inner)" stroke-width="12.5" stroke-linecap="round"/>
+  <path d="M 62.0 55.00 L 89.0 71.50 L 62.0 88.00 Z" fill="url(#media-play)" stroke="url(#media-play)" stroke-width="7.0" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>
