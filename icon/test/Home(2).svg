@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 1024 1024">
+    <g transform="translate(-15.1318 -15.1318) scale(0.916751)">
+        <defs>
+            <linearGradient id="home1" gradientUnits="userSpaceOnUse" x1="0" y1="90" x2="0"
+                y2="1061">
+                <stop offset="0%" stop-color="#FDD02C" />
+                <stop offset="50%" stop-color="#FDBF17" />
+                <stop offset="100%" stop-color="#FDB00A" />
+            </linearGradient>
+        </defs>
+        <path fill="url(#home1)" d="M607.90 346.74 L907.11 608.16 A140.00 140.00 0 0 1 955 713.59 V973 A88 88 0 0 1 867 1061 H740 A48 48 0 0 1 692 1013 V808 A60 60 0 0 0 632 748 H520 A60 60 0 0 0 460 808 V1013 A48 48 0 0 1 412 1061 H283 A88 88 0 0 1 195 973 V713.59 A140.00 140.00 0 0 1 242.89 608.16 L542.10 346.74 A50.00 50.00 0 0 1 607.90 346.74 Z M823 455 V218 A66 66 0 0 1 955 218 V455 Z" />
+        <path fill="url(#home1)" d="M103.57 480.30 L531.57 106.30 A66.00 66.00 0 0 1 618.37 106.25 L1047.37 480.25 A66.00 66.00 0 0 1 960.63 579.75 L604.57 269.34 A45.00 45.00 0 0 0 545.46 269.37 L190.43 579.70 A66.00 66.00 0 0 1 103.57 480.30 Z" />
+    </g>
+</svg>
