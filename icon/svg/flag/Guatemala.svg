@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<title>危地马拉</title>
+
+<defs><mask id="gt-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="gt-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="gt-blue" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient>
+<linearGradient id="gt-green" x1="72" y1="56.16221" x2="72" y2="87.33136" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
+<linearGradient id="gt-red" x1="72" y1="61.46097" x2="72" y2="85.35732" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
+<linearGradient id="gt-black" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient>
+<linearGradient id="gt-wine" x1="72" y1="57.78993" x2="72" y2="84.65487" gradientUnits="userSpaceOnUse"><stop stop-color="#B63555" /><stop offset="1" stop-color="#77152C" /></linearGradient>
+<linearGradient id="gt-yellow" x1="72" y1="57.07729" x2="72" y2="84.59540" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#F7BE00" /></linearGradient><linearGradient id="gt-simple-green" x1="72" y1="55" x2="72" y2="89" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient></defs>
+<g mask="url(#gt-board)">
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#gt-white)" stroke="url(#gt-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,21.4745 l 140.9162,0 l 0,100.5781 L 1.329,122.0526 Z" fill="url(#gt-blue)" stroke="url(#gt-blue)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 48.29373,21.4745 l 46.98675,0 l 0,100.5781 L 48.29373,122.0526 Z" fill="url(#gt-white)" stroke="url(#gt-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 55.85,68.94 Q 63.16,69.96 67.75,70.13 Q 68.94,65.54 72,65.54 Q 75.06,65.54 76.25,70.13 Q 80.84,69.96 88.15,68.94 Q 86.79,73.53 82.54,74.72 Q 81.18,78.46 77.1,78.97 Q 76.25,83.56 72,83.56 Q 67.75,83.56 66.9,78.97 Q 62.82,78.46 61.46,74.72 Q 57.21,73.53 55.85,68.94 Z" fill="url(#gt-simple-green)" /><path d="M 69.11,65.54 a 2.89,2.89 0 0,0 5.78,0 a 2.89,2.89 0 0,0 -5.78,0 Z" fill="url(#gt-simple-green)" /></g>
+</svg>

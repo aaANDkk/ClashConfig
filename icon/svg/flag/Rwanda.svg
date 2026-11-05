@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<title>卢旺达</title>
+
+<defs><mask id="rw-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="rw-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="rw-green" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
+<linearGradient id="rw-yellow" x1="72" y1="21.47450" x2="72" y2="96.90807" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#F7BE00" /></linearGradient>
+<linearGradient id="rw-blue" x1="72" y1="21.47450" x2="72" y2="71.76355" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient></defs>
+<g mask="url(#rw-board)">
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#rw-white)" stroke="url(#rw-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,21.4745 l 140.9162,0 l 0,100.5781 L 1.329,122.0526 z" fill="url(#rw-green)" stroke="url(#rw-green)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,21.4745 l 140.9162,0 l 0,75.43358 L 1.329,96.90807 z" fill="url(#rw-yellow)" stroke="url(#rw-yellow)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,21.4745 l 140.9162,0 l 0,50.28905 L 1.329,71.76355 z" fill="url(#rw-blue)" stroke="url(#rw-blue)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 130.88392,47.75053 L 119.08213,48.40708 l 11.21464,3.54819 l -11.56693,-2.27699 L 128.6087,55.85269 l -10.56877,-5.05687 L 125.87843,59.21928 L 117.05645,51.74573 l 5.31374,10.05786 l -6.50273,-9.40131 L 118.24543,63.39609 L 114.53168,52.73755 L 113.84178,63.96883 L 113.69499,47.61084 z" fill="url(#rw-yellow)" />
+<path d="M 130.88392,47.75053 L 119.08213,47.09397 l 11.21464,-3.54819 l -11.56693,2.27699 L 128.6087,39.64836 l -10.56877,5.05687 L 125.87843,36.28177 L 117.05645,43.75532 l 5.31374,-10.05786 l -6.50273,9.40131 L 118.24543,32.10497 L 114.53168,42.76351 L 113.84178,31.53223 L 113.69499,47.89022 z" fill="url(#rw-yellow)" />
+<path d="M 96.79964,47.75053 L 108.60143,48.40708 l -11.21464,3.54819 l 11.56693,-2.27699 L 99.07486,55.85269 l 10.56877,-5.05687 L 101.80513,59.21928 L 110.62711,51.74573 l -5.31374,10.05786 l 6.50273,-9.40131 L 109.43813,63.39609 L 113.15187,52.73755 L 113.84178,63.96883 L 113.98857,47.61084 z" fill="url(#rw-yellow)" />
+<path d="M 96.79964,47.75053 L 108.60143,47.09397 l -11.21464,-3.54819 l 11.56693,2.27699 L 99.07486,39.64836 l 10.56877,5.05687 L 101.80513,36.28177 L 110.62711,43.75532 l -5.31374,-10.05786 l 6.50273,9.40131 L 109.43813,32.10497 L 113.15187,42.76351 L 113.84178,31.53223 L 113.98857,47.89022 z" fill="url(#rw-yellow)" />
+<path d="M 118.87662,47.75053 A 5.03484,4.79145 0 0,1 113.84178,52.54198 A 5.03484,4.79145 0 0,1 108.80693,47.75053 A 5.03484,4.79145 0 0,1 113.84178,42.95908 A 5.03484,4.79145 0 0,1 118.87662,47.75053 Z" fill="url(#rw-yellow)" stroke="#1A359E" stroke-width="0.48702" />
+</g>
+</svg>

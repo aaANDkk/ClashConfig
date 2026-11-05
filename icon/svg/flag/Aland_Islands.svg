@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<title>奥兰群岛</title>
+
+<defs><mask id="ax-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="ax-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="ax-blue" x1="72" y1="21.47450" x2="72" y2="122.05197" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient>
+<linearGradient id="ax-yellow" x1="72" y1="21.47450" x2="72" y2="122.05197" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#F7BE00" /></linearGradient>
+<linearGradient id="ax-red" x1="72" y1="21.47450" x2="72" y2="122.05197" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient></defs>
+<g mask="url(#ax-board)">
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#ax-white)" stroke="url(#ax-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M -11.88189,21.45355 l 161.64321,0 l 0,100.59843 L -11.88189,122.05197 z" fill="url(#ax-blue)" stroke="url(#ax-blue)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 37.85448,21.45355 l 31.08523,0 l 0,100.59843 L 37.85448,122.05197 z" fill="url(#ax-yellow)" stroke="url(#ax-yellow)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M -11.88189,56.95887 l 161.64321,0 l 0,29.58777 L -11.88189,86.54664 z" fill="url(#ax-yellow)" />
+<path d="M 47.18005,21.45355 l 12.43409,0 l 0,100.59843 L 47.18005,122.05197 z" fill="url(#ax-red)" stroke="url(#ax-red)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M -11.88189,65.8352 l 161.64321,0 l 0,11.83511 L -11.88189,77.67031 z" fill="url(#ax-red)" />
+</g>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 210" width="210" height="210">
+  <defs>
+    <linearGradient id="bezel-l" x1="40.71" y1="60.24" x2="40.71" y2="129.24" gradientUnits="userSpaceOnUse">
+      <stop offset="0.0%" stop-color="#31A3FD"/>
+      <stop offset="20.0%" stop-color="#2D9CFD"/>
+      <stop offset="40.0%" stop-color="#2A97FD"/>
+      <stop offset="60.0%" stop-color="#2590FD"/>
+      <stop offset="80.0%" stop-color="#1E83FD"/>
+      <stop offset="100.0%" stop-color="#1A79FC"/>
+    </linearGradient>
+    <linearGradient id="stand-l" x1="42.55" y1="136.23" x2="42.55" y2="150.23" gradientUnits="userSpaceOnUse">
+      <stop offset="0.0%" stop-color="#146BFA"/>
+      <stop offset="50.0%" stop-color="#156DFA"/>
+      <stop offset="100.0%" stop-color="#156CF9"/>
+    </linearGradient>
+    <linearGradient id="inner-l" x1="24.12" y1="62.71" x2="46.77" y2="124.93" gradientUnits="userSpaceOnUse">
+      <stop offset="0.0%" stop-color="#49B1FD"/>
+      <stop offset="20.0%" stop-color="#4AB1FD"/>
+      <stop offset="40.0%" stop-color="#3FA7FD"/>
+      <stop offset="60.0%" stop-color="#319AFD"/>
+      <stop offset="80.0%" stop-color="#238CFD"/>
+      <stop offset="100.0%" stop-color="#1F84FD"/>
+    </linearGradient>
+    <linearGradient id="bezel-r" x1="168.05" y1="60.30" x2="168.05" y2="129.30" gradientUnits="userSpaceOnUse">
+      <stop offset="0.0%" stop-color="#926FFB"/>
+      <stop offset="20.0%" stop-color="#8F6EFA"/>
+      <stop offset="40.0%" stop-color="#9578FA"/>
+      <stop offset="60.0%" stop-color="#8F70FA"/>
+      <stop offset="80.0%" stop-color="#8264FA"/>
+      <stop offset="100.0%" stop-color="#7757F9"/>
+    </linearGradient>
+    <linearGradient id="stand-r" x1="166.63" y1="136.24" x2="166.63" y2="150.24" gradientUnits="userSpaceOnUse">
+      <stop offset="0.0%" stop-color="#694CF6"/>
+      <stop offset="50.0%" stop-color="#6C4EF6"/>
+      <stop offset="100.0%" stop-color="#6C4DF6"/>
+    </linearGradient>
+    <linearGradient id="inner-r" x1="173.80" y1="66.79" x2="173.80" y2="119.79" gradientUnits="userSpaceOnUse">
+      <stop offset="0.0%" stop-color="#A688FB"/>
+      <stop offset="20.0%" stop-color="#A98CFB"/>
+      <stop offset="40.0%" stop-color="#A284FB"/>
+      <stop offset="60.0%" stop-color="#9A7CFB"/>
+      <stop offset="80.0%" stop-color="#9475FB"/>
+      <stop offset="100.0%" stop-color="#8868FB"/>
+    </linearGradient>
+    <linearGradient id="arrow" x1="104.11" y1="86.32" x2="104.11" y2="123.32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.0%" stop-color="#2CA4FD"/>
+      <stop offset="33.3%" stop-color="#29A0FD"/>
+      <stop offset="66.7%" stop-color="#259AFD"/>
+      <stop offset="100.0%" stop-color="#2397FD"/>
+    </linearGradient>
+  </defs>
+  <!-- Left Monitor -->
+  <path d="M 10.5 60.5 H 75.5 A 10 10 0 0 1 85.5 70.5 V 74.1716 A 2 2 0 0 1 84.9142 75.5858 L 61.1569 99.3431 A 8 8 0 0 0 61.1569 110.6569 L 77.5858 127.0858 A 2 2 0 0 1 76.1716 130.5 H 10.5 A 10 10 0 0 1 .5 120.5 V 70.5 A 10 10 0 0 1 10.5 60.5 Z" fill="url(#bezel-l)"/>
+  <path d="M 35.50 135.00 L 51.50 135.00 L 51.50 140.00 L 59.50 140.00 C 61.99 140.00, 64.00 142.01, 64.00 144.50 C 64.00 146.99, 61.99 149.00, 59.50 149.00 L 27.50 149.00 C 25.01 149.00, 23.00 146.99, 23.00 144.50 C 23.00 142.01, 25.01 140.00, 27.50 140.00 L 35.50 140.00 Z" fill="url(#stand-l)"/>
+  <path d="M 14.5 68.5 H 71.0294 A 4 4 0 0 1 73.8578 75.3284 L 55.5 93.6863 A 16 16 0 0 0 55.5 116.3137 L 58.2721 119.0858 A 2 2 0 0 1 56.8579 122.5 H 14.5 A 6 6 0 0 1 8.5 116.5 V 74.5 A 6 6 0 0 1 14.5 68.5 Z" fill="url(#inner-l)"/>
+  <!-- Right Monitor -->
+  <path d="M 10.5 60.5 H 75.5 A 10 10 0 0 1 85.5 70.5 V 74.1716 A 2 2 0 0 1 84.9142 75.5858 L 61.1569 99.3431 A 8 8 0 0 0 61.1569 110.6569 L 77.5858 127.0858 A 2 2 0 0 1 76.1716 130.5 H 10.5 A 10 10 0 0 1 .5 120.5 V 70.5 A 10 10 0 0 1 10.5 60.5 Z" fill="url(#bezel-r)" transform="translate(209 0) scale(-1 1)"/>
+  <path d="M 157.50 135.00 L 173.50 135.00 L 173.50 140.00 L 181.50 140.00 C 183.99 140.00, 186.00 142.01, 186.00 144.50 C 186.00 146.99, 183.99 149.00, 181.50 149.00 L 149.50 149.00 C 147.01 149.00, 145.00 146.99, 145.00 144.50 C 145.00 142.01, 147.01 140.00, 149.50 140.00 L 157.50 140.00 Z" fill="url(#stand-r)"/>
+  <path d="M 14.5 68.5 H 71.0294 A 4 4 0 0 1 73.8578 75.3284 L 55.5 93.6863 A 16 16 0 0 0 55.5 116.3137 L 58.2721 119.0858 A 2 2 0 0 1 56.8579 122.5 H 14.5 A 6 6 0 0 1 8.5 116.5 V 74.5 A 6 6 0 0 1 14.5 68.5 Z" fill="url(#inner-r)" transform="translate(209 0) scale(-1 1)"/>
+  <!-- Center Arrow -->
+  <path d="M 86.5 90 L 71.5 105 L 86.5 120 M 71.5 105 H 137.5 M 122.5 90 L 137.5 105 L 122.5 120" fill="none" stroke="url(#arrow)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

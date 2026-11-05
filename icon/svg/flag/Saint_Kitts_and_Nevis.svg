@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<title>圣基茨和尼维斯</title>
+
+<defs><mask id="kn-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="kn-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="kn-yellow" x1="72" y1="21.51379" x2="72" y2="121.95438" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#F7BE00" /></linearGradient>
+<linearGradient id="kn-green" x1="72" y1="21.47450" x2="72" y2="93.92216" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
+<linearGradient id="kn-red" x1="72" y1="46.67796" x2="72" y2="122.01331" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
+<linearGradient id="kn-black" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient></defs>
+<g mask="url(#kn-board)">
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#kn-white)" stroke="url(#kn-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M -4.38746,21.51379 l 152.25555,0 l 0,100.44059 l -152.25555,0 z" fill="url(#kn-yellow)" fill-rule="evenodd" stroke="url(#kn-yellow)" stroke-width=".5" stroke-linejoin="round" />
+<path d="m -4.47003,21.51379 l 0.16514,72.40837 L 114.18031,21.4745 z" fill="url(#kn-green)" fill-rule="evenodd" />
+<path d="m 148.05386,121.95438 l -0.28899,-75.27642 l -119.5173,75.33535 z" fill="url(#kn-red)" fill-rule="evenodd" />
+<path d="m -4.40811,99.38324 l 0.10321,22.66936 l 25.86445,-0.03929 l 126.26725,-80.5607 L 147.70295,21.74952 L 122.14813,21.51379 z" fill="url(#kn-black)" fill-rule="evenodd" stroke="url(#kn-black)" stroke-width=".5" stroke-linejoin="round" />
+<path d="m 96.38689,52.23725 l -2.02292,-8.28984 l 6.87379,5.30392 l 7.84397,-4.83246 l -3.59171,8.11304 l 6.89444,5.30392 l -9.12377,-0.29466 l -3.57107,8.11304 l -2.04356,-8.28984 l -9.10313,-0.29466 z m -56.80684,35.16305 l -2.04356,-8.30948 l 6.87379,5.30392 l 7.84397,-4.83246 l -3.59171,8.11304 l 6.89444,5.30392 l -9.10313,-0.29466 l -3.59171,8.11304 l -2.02292,-8.28984 l -9.10313,-0.29466 z" fill="url(#kn-white)" fill-rule="evenodd" />
+</g>
+</svg>

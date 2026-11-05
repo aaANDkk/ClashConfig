@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<title>冈比亚</title>
+
+<defs><mask id="gm-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="gm-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="gm-red" x1="72" y1="21.47450" x2="72" y2="49.40588" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
+<linearGradient id="gm-blue" x1="72" y1="56.86542" x2="72" y2="86.64073" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient>
+<linearGradient id="gm-green" x1="72" y1="94.12122" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient></defs>
+<g mask="url(#gm-board)">
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#gm-white)" stroke="url(#gm-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,4.71148 l 140.9162,0 L 142.2452,49.40588 L 1.329,49.40588 z" fill="url(#gm-red)" fill-rule="evenodd" stroke="url(#gm-red)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,49.40588 l 140.9162,0 L 142.2452,56.88637 L 1.329,56.88637 z" fill="url(#gm-white)" fill-rule="evenodd" stroke="url(#gm-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,56.86542 l 140.9162,0 L 142.2452,86.64073 L 1.329,86.64073 z" fill="url(#gm-blue)" fill-rule="evenodd" stroke="url(#gm-blue)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,86.66168 l 140.9162,0 l 0,7.45954 L 1.329,94.12122 z" fill="url(#gm-white)" fill-rule="evenodd" stroke="url(#gm-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,94.12122 l 140.9162,0 L 142.2452,138.81562 L 1.329,138.81562 z" fill="url(#gm-green)" fill-rule="evenodd" stroke="url(#gm-green)" stroke-width=".5" stroke-linejoin="round" />
+</g>
+</svg>

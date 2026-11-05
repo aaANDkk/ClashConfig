@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<title>阿尔巴尼亚</title>
+
+<defs><mask id="al-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="al-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="al-red" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
+<linearGradient id="al-black" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient><linearGradient id="al-simple-black" x1="72" y1="48" x2="72" y2="96" gradientUnits="userSpaceOnUse"><stop stop-color="#414141" /><stop offset="1" stop-color="#252525" /></linearGradient></defs>
+<g mask="url(#al-board)">
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#al-white)" stroke="url(#al-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,21.4745 l 140.9162,0 l 0,100.5781 L 1.329,122.0526 z" fill="url(#al-red)" stroke="url(#al-red)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 49.2,67.68 Q 59.52,69.12 66,69.36 Q 67.68,62.88 72,62.88 Q 76.32,62.88 78,69.36 Q 84.48,69.12 94.8,67.68 Q 92.88,74.16 86.88,75.84 Q 84.96,81.12 79.2,81.84 Q 78,88.32 72,88.32 Q 66,88.32 64.8,81.84 Q 59.04,81.12 57.12,75.84 Q 51.12,74.16 49.2,67.68 Z" fill="url(#al-simple-black)" /><path d="M 64.56,62.88 a 4.08,4.08 0 0,0 8.16,0 a 4.08,4.08 0 0,0 -8.16,0 Z" fill="url(#al-simple-black)" /><path d="M 72,62.88 a 4.08,4.08 0 0,0 8.16,0 a 4.08,4.08 0 0,0 -8.16,0 Z" fill="url(#al-simple-black)" /></g>
+</svg>

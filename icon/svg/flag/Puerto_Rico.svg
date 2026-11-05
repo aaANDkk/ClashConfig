@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<title>波多黎各</title>
+
+<defs><mask id="pr-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="pr-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="pr-red" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
+<linearGradient id="pr-blue" x1="72" y1="21.47450" x2="72" y2="121.85616" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient></defs>
+<g mask="url(#pr-board)">
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#pr-white)" stroke="url(#pr-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.33588,21.4745 l 158.53072,0 l 0,100.5781 l -158.53072,0 z" fill="url(#pr-red)" fill-rule="evenodd" stroke="url(#pr-red)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.33588,41.59012 l 158.53072,0 l 0,20.11562 l -158.53072,0 z m 0,40.23124 l 158.53072,0 l 0,20.11562 l -158.53072,0 z" fill="url(#pr-white)" fill-rule="evenodd" />
+<path d="m 1.33588,21.4745 l 90.96939,50.23012 L 1.33588,121.85616 z" fill="url(#pr-blue)" fill-rule="evenodd" stroke="url(#pr-blue)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 41.31948,85.41624 L 31.53516,78.44256 l -9.74303,7.03261 l 3.633,-11.41326 l -9.74303,-7.0719 l 12.0343,-0.07858 l 3.73621,-11.39361 l 3.81877,11.35432 l 12.0343,0.01964 l -9.68111,7.13083 z" fill="url(#pr-white)" fill-rule="evenodd" />
+</g>
+</svg>

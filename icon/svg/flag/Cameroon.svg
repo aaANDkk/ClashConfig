@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<title>喀麦隆</title>
+
+<defs><mask id="cm-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="cm-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="cm-teal" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#21B797" /><stop offset="1" stop-color="#006D55" /></linearGradient>
+<linearGradient id="cm-red" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
+<linearGradient id="cm-yellow" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#F7BE00" /></linearGradient></defs>
+<g mask="url(#cm-board)">
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#cm-white)" stroke="url(#cm-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,21.4745 l 46.96473,0 l 0,100.5781 L 1.329,122.0526 z" fill="url(#cm-teal)" stroke="url(#cm-teal)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 48.29373,21.4745 l 46.98675,0 l 0,100.5781 L 48.29373,122.0526 z" fill="url(#cm-red)" stroke="url(#cm-red)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 95.28047,21.4745 L 142.2452,21.4745 l 0,100.5781 L 95.28047,122.0526 z" fill="url(#cm-yellow)" stroke="url(#cm-yellow)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 71.7871,59.8432 L 67.87277,71.16753 L 73.82255,73.10459 z" fill="url(#cm-yellow)" />
+<path d="M 71.7871,59.8432 L 75.70143,71.16753 L 69.75165,73.10459 z" fill="url(#cm-yellow)" />
+<path d="M 83.69991,68.07996 L 71.17314,68.03658 L 71.0759,74.0202 z" fill="url(#cm-yellow)" />
+<path d="M 83.69991,68.07996 L 73.59234,75.12216 L 69.81792,70.3357 z" fill="url(#cm-yellow)" />
+<path d="M 79.14962,81.40731 L 75.32199,70.05617 L 69.3121,71.8172 z" fill="url(#cm-yellow)" />
+<path d="M 79.14962,81.40731 L 68.98846,74.4353 L 72.60553,69.54005 z" fill="url(#cm-yellow)" />
+<path d="M 64.42458,81.40731 L 74.58574,74.4353 L 70.96867,69.54005 z" fill="url(#cm-yellow)" />
+<path d="M 64.42458,81.40731 L 68.25221,70.05617 L 74.2621,71.8172 z" fill="url(#cm-yellow)" />
+<path d="M 59.87429,68.07996 L 69.98186,75.12216 L 73.75628,70.3357 z" fill="url(#cm-yellow)" />
+<path d="M 59.87429,68.07996 L 72.40106,68.03658 L 72.4983,74.0202 z" fill="url(#cm-yellow)" />
+</g>
+</svg>

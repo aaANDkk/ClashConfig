@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<title>苏丹</title>
+
+<defs><mask id="sd-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="sd-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="sd-black" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient>
+<linearGradient id="sd-red" x1="72" y1="21.47450" x2="72" y2="55.00708" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
+<linearGradient id="sd-green" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient></defs>
+<g mask="url(#sd-board)">
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#sd-white)" stroke="url(#sd-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,88.52002 l 211.3743,0 L 212.7033,122.0526 L 1.329,122.0526 z" fill="url(#sd-black)" fill-rule="evenodd" stroke="url(#sd-black)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,54.98744 l 211.3743,0 l 0,33.53258 L 1.329,88.52002 z" fill="url(#sd-white)" fill-rule="evenodd" />
+<path d="M 1.329,21.4745 l 211.53944,0 l 0,33.53258 L 1.329,55.00708 z" fill="url(#sd-red)" fill-rule="evenodd" stroke="url(#sd-red)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,21.4745 l 0,100.5781 l 70.45122,-50.28905 z" fill="url(#sd-green)" fill-rule="evenodd" stroke="url(#sd-green)" stroke-width=".5" stroke-linejoin="round" />
+</g>
+</svg>

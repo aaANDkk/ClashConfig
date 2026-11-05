@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<title>贝宁</title>
+
+<defs><mask id="bj-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="bj-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="bj-green" x1="72" y1="21.47706" x2="72" y2="122.05226" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
+<linearGradient id="bj-yellow" x1="72" y1="21.47706" x2="72" y2="71.76466" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#F7BE00" /></linearGradient>
+<linearGradient id="bj-red" x1="72" y1="71.76466" x2="72" y2="122.05226" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient></defs>
+<g mask="url(#bj-board)">
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#bj-white)" stroke="url(#bj-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M -12.9828,21.47706 l 70.46096,0 l 0,100.57521 L -12.9828,122.05226 z" fill="url(#bj-green)" fill-rule="evenodd" stroke="url(#bj-green)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 57.47816,21.47706 l 140.92192,0 l 0,50.2876 L 57.47816,71.76466 z" fill="url(#bj-yellow)" fill-rule="evenodd" />
+<path d="M 57.47816,71.76466 l 140.92192,0 l 0,50.2876 L 57.47816,122.05226 z" fill="url(#bj-red)" fill-rule="evenodd" />
+</g>
+</svg>

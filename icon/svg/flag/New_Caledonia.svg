@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<title>新喀里多尼亚</title>
+
+<defs><mask id="nc-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="nc-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="nc-green" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
+<linearGradient id="nc-red" x1="72" y1="21.47450" x2="72" y2="88.52657" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
+<linearGradient id="nc-blue" x1="72" y1="21.47450" x2="72" y2="55.00053" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient>
+<linearGradient id="nc-yellow" x1="72" y1="38.23752" x2="72" y2="105.28958" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#F7BE00" /></linearGradient>
+<linearGradient id="nc-black" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient><linearGradient id="nc-simple-gold" x1="72" y1="21.4745" x2="72" y2="122.05260000000001" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#E5AF00" /></linearGradient><linearGradient id="nc-simple-black" x1="72" y1="21.4745" x2="72" y2="122.05260000000001" gradientUnits="userSpaceOnUse"><stop stop-color="#414141" /><stop offset="1" stop-color="#252525" /></linearGradient></defs>
+<g mask="url(#nc-board)">
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#nc-white)" stroke="url(#nc-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,21.4745 l 140.9162,0 l 0,100.5781 L 1.329,122.0526 z" fill="url(#nc-green)" stroke="url(#nc-green)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,21.4745 l 140.9162,0 l 0,67.05207 L 1.329,88.52657 z" fill="url(#nc-red)" stroke="url(#nc-red)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,21.4745 l 140.9162,0 l 0,33.52603 L 1.329,55.00053 z" fill="url(#nc-blue)" stroke="url(#nc-blue)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 91.92931,71.76355 A 35.229,33.526 0 0,1 56.70026,105.28958 A 35.229,33.526 0 0,1 21.47121,71.76355 A 35.229,33.526 0 0,1 56.70026,38.23752 A 35.229,33.526 0 0,1 91.92931,71.76355 Z" fill="url(#nc-yellow)" />
+<path d="M42 72A20 35 0 1 0 82 72A20 35 0 1 0 42 72Z" fill="url(#nc-simple-gold)" /><path d="M62 43V99" fill="none" stroke="url(#nc-simple-black)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><path d="M58 53a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z" fill="url(#nc-simple-black)" /><path d="M56 66a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z" fill="url(#nc-simple-black)" /><path d="M54 82a8 8 0 1 0 16 0a8 8 0 1 0 -16 0Z" fill="url(#nc-simple-black)" /></g>
+</svg>

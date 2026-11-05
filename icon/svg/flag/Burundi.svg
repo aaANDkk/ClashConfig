@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<title>布隆迪</title>
+
+<defs><mask id="bi-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="bi-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="bi-green" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
+<linearGradient id="bi-red" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient></defs>
+<g mask="url(#bi-board)">
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#bi-white)" stroke="url(#bi-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="m -16.72038,21.4745 l 88.51299,50.28905 L -16.72038,122.0526 z m 177.02598,0 L 71.7926,71.76355 l 88.51299,50.28905 z" fill="url(#bi-green)" fill-rule="evenodd" stroke="url(#bi-green)" stroke-width=".5" stroke-linejoin="round" />
+<path d="m -16.72038,21.4745 l 88.51299,50.28905 L 160.30559,21.4745 z m 0,100.5781 l 88.51299,-50.28905 l 88.51299,50.28905 z" fill="url(#bi-red)" fill-rule="evenodd" stroke="url(#bi-red)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 160.30559,21.4745 l -16.49298,0 L -16.72038,112.68234 L -16.72038,122.0526 l 16.49298,0 L 160.30559,30.84476 z" fill="url(#bi-white)" fill-rule="evenodd" stroke="url(#bi-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 102.36344,71.76355 a 30.5605,29.0832 0 1,1 -61.12103,0 a 30.5502,29.0734 0 0,1 61.10038,0 z" fill="url(#bi-white)" fill-rule="evenodd" />
+<path d="M -16.72038,21.4745 l 0,9.37026 L 143.81262,122.0526 l 16.49298,0 l 0,-9.37026 L -0.22741,21.4745 z" fill="url(#bi-white)" fill-rule="evenodd" stroke="url(#bi-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="m 77.82007,60.80211 l -3.98391,0.05893 l -2.0642,3.22164 l -2.04356,-3.22164 l -3.96327,-0.07858 l 1.91971,-3.31986 l -1.89907,-3.30022 l 3.96327,-0.07858 l 2.0642,-3.22164 l 2.04356,3.24129 l 3.96327,0.07858 l -1.91971,3.30022 z m -13.33475,21.92288 l -3.96327,0.05893 l -2.0642,3.22164 l -2.04356,-3.22164 l -3.96327,-0.07858 l 1.91971,-3.31986 l -1.89907,-3.30022 l 3.96327,-0.07858 l 2.0642,-3.22164 l 2.04356,3.24129 l 3.96327,0.07858 l -1.91971,3.30022 z m 26.95848,0 l -3.96327,0.05893 l -2.0642,3.22164 l -2.0642,-3.22164 l -3.94263,-0.07858 l 1.91971,-3.31986 l -1.91971,-3.30022 l 3.96327,-0.07858 l 2.0642,-3.22164 l 2.0642,3.24129 l 3.96327,0.07858 l -1.94035,3.30022 z" fill="url(#bi-red)" fill-rule="evenodd" stroke="#008344" stroke-width="0.78558" />
+</g>
+</svg>

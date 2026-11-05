@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<title>库拉索</title>
+
+<defs><mask id="cw-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="cw-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="cw-blue" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient>
+<linearGradient id="cw-yellow" x1="72" y1="84.50344" x2="72" y2="97.10923" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#F7BE00" /></linearGradient></defs>
+<g mask="url(#cw-board)">
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#cw-white)" stroke="url(#cw-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,21.4745 l 158.95347,0 l 0,100.84631 L 1.329,122.32081 z" fill="url(#cw-blue)" stroke="url(#cw-blue)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,84.50344 l 158.95347,0 l 0,12.60579 L 1.329,97.10923 z" fill="url(#cw-yellow)" />
+<path d="m 18.99188,29.87902 l 1.76629,5.88316 L 27.82332,35.76218 L 21.64131,38.28353 l 1.76629,5.88316 L 18.99188,41.64534 l -5.29886,3.36181 l 1.76629,-5.88316 l -4.41572,-3.36181 l 6.18201,0 z" fill="url(#cw-white)" />
+<path d="m 36.65889,43.88917 l 2.35533,7.84513 L 48.43552,51.7343 L 40.19188,55.0965 l 2.35533,7.84513 L 36.65889,59.57944 l -7.06598,4.48293 l 2.35533,-7.84513 l -5.88832,-4.48293 l 8.24364,0 z" fill="url(#cw-white)" />
+</g>
+</svg>

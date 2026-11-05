@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<title>巴哈马</title>
+
+<defs><mask id="bs-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="bs-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="bs-yellow" x1="72" y1="51.50125" x2="72" y2="93.66024" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#F7BE00" /></linearGradient>
+<linearGradient id="bs-blue" x1="72" y1="21.89358" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient>
+<linearGradient id="bs-black" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient></defs>
+<g mask="url(#bs-board)">
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#bs-white)" stroke="url(#bs-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 217.21702,122.0526 l -215.55775,0 L 1.65927,21.85167 l 215.55775,0 z" fill="url(#bs-white)" fill-rule="evenodd" stroke="url(#bs-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 217.21702,93.66024 l -215.55775,0 L 1.65927,51.50125 l 215.55775,0 z" fill="url(#bs-yellow)" fill-rule="evenodd" />
+<path d="M 217.21702,122.0526 l -215.55775,0 L 1.65927,88.65229 l 215.55775,0 z m 0,-66.77967 l -215.55775,0 L 1.65927,21.89358 l 215.55775,0 z" fill="url(#bs-blue)" fill-rule="evenodd" stroke="url(#bs-blue)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.54918,21.4745 c 0.50642,0 86.26714,49.61853 86.26714,49.61853 L 1.329,121.88497 z" fill="url(#bs-black)" fill-rule="evenodd" stroke="url(#bs-black)" stroke-width=".5" stroke-linejoin="round" />
+</g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<title>纳米比亚</title>
+
+<defs><mask id="na-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="na-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="na-blue" x1="72" y1="21.47450" x2="72" y2="93.93264" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient>
+<linearGradient id="na-green" x1="72" y1="46.68189" x2="72" y2="122.01069" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
+<linearGradient id="na-red" x1="72" y1="21.53736" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
+<linearGradient id="na-yellow" x1="72" y1="30.69416" x2="72" y2="59.37987" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#F7BE00" /></linearGradient></defs>
+<g mask="url(#na-board)">
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#na-white)" stroke="url(#na-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,21.4745 l 140.9162,0 l 0,100.5781 L 1.329,122.0526 z" fill="url(#na-white)" fill-rule="evenodd" stroke="url(#na-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="m -4.48379,21.51641 l 0.17615,72.41623 L 114.17205,21.4745 z" fill="url(#na-blue)" fill-rule="evenodd" />
+<path d="M 148.05799,121.96878 L 147.74974,46.68189 L 28.25721,122.01069 l 119.77877,-0.04191 z" fill="url(#na-green)" fill-rule="evenodd" />
+<path d="m -4.39572,99.38062 l 0.08807,22.67198 l 25.87133,-0.02095 L 147.83781,41.4644 l -0.15413,-19.7175 l -25.54106,-0.20954 L -4.39572,99.35967 z" fill="url(#na-red)" fill-rule="evenodd" stroke="url(#na-red)" stroke-width=".5" stroke-linejoin="round" />
+<path d="m 49.68087,57.51499 l -4.79996,-2.7659 l -2.77429,4.63078 l -2.68622,-4.65174 l -4.84399,2.70304 l 0.13211,-5.32226 l -5.59261,0.04191 l 2.9064,-4.56792 l -4.86601,-2.61922 l 4.88803,-2.57731 l -2.81832,-4.60983 l 5.59261,0.12572 l -0.02202,-5.34321 l 4.77794,2.7659 L 42.34883,30.69416 l 2.68622,4.65174 l 4.84399,-2.70304 l -0.13211,5.32226 l 5.59261,-0.04191 l -2.9064,4.56792 l 4.86601,2.61922 l -4.88803,2.57731 l 2.81832,4.60983 l -5.59261,-0.12572 z" fill="url(#na-yellow)" fill-rule="evenodd" />
+<path d="M 52.4992,45.02654 c 0,5.36417 -4.60179,9.7016 -10.26046,9.7016 s -10.26046,-4.33743 -10.26046,-9.7016 s 4.57978,-9.68064 10.26046,-9.68064 s 10.26046,4.33743 10.26046,9.68064" fill="url(#na-blue)" fill-rule="evenodd" />
+<path d="M 50.27536,45.02654 a 8.03663,7.64813 0 0,1 -16.07325,0 a 8.03663,7.64813 0 0,1 16.07325,0" fill="url(#na-yellow)" fill-rule="evenodd" />
+</g>
+</svg>

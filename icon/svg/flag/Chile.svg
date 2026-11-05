@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<title>智利</title>
+
+<defs><mask id="cl-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="cl-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="cl-blue" x1="72" y1="21.47450" x2="72" y2="71.76355" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient>
+<linearGradient id="cl-red" x1="72" y1="71.76355" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient></defs>
+<g mask="url(#cl-board)">
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#cl-white)" stroke="url(#cl-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 54.17258,21.4745 l 105.68715,0 l 0,50.28905 L 54.17258,71.76355 z" fill="url(#cl-white)" fill-rule="evenodd" />
+<path d="M 1.329,21.4745 l 52.84358,0 l 0,50.28905 L 1.329,71.76355 z" fill="url(#cl-blue)" fill-rule="evenodd" />
+<path d="M 35.96631,59.13236 L 27.79207,53.29804 l -8.1536,5.89325 l 3.03438,-9.58635 L 14.53989,43.69205 l 10.05266,-0.09822 L 27.7095,34.04676 l 3.19951,9.52742 l 10.05266,0.01964 l -8.09167,5.97182 z" fill="url(#cl-white)" fill-rule="evenodd" />
+<path d="M 1.329,71.76355 l 158.53072,0 l 0,50.28905 L 1.329,122.0526 z" fill="url(#cl-red)" fill-rule="evenodd" stroke="url(#cl-red)" stroke-width=".5" stroke-linejoin="round" />
+</g>
+</svg>

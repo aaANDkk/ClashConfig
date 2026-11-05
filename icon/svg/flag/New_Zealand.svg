@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<title>新西兰</title>
+
+<defs><mask id="nz-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="nz-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="nz-blue" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient>
+<linearGradient id="nz-red" x1="72" y1="21.47450" x2="72" y2="100.45676" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient><linearGradient id="nz-canton-gb-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F4F4F4" /><stop offset="1" stop-color="#E5E5E5" /></linearGradient><linearGradient id="nz-canton-gb-blue" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#3C66D0" /><stop offset="1" stop-color="#0937A9" /></linearGradient><linearGradient id="nz-canton-gb-red" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#E33B50" /><stop offset="1" stop-color="#CF152C" /></linearGradient><clipPath id="nz-canton-box"><rect x="1.329" y="21.4745" width="70.4581" height="50.28905" /></clipPath></defs>
+<g mask="url(#nz-board)">
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#nz-white)" stroke="url(#nz-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,21.4745 l 140.9162,0 l 0,100.5781 L 1.329,122.0526 z" fill="url(#nz-blue)" fill-rule="evenodd" stroke="url(#nz-blue)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 109.31154,43.93452 l 0,3.17854 l 6.67999,-3.17854 z" fill="url(#nz-white)" />
+<path d="M 110.64754,47.74876 L 109.31154,45.20593 l 6.67999,-1.27141 z" fill="url(#nz-white)" />
+<path d="M 109.31154,43.93452 l 0,3.17854 l -6.67999,-3.17854 z" fill="url(#nz-white)" />
+<path d="M 107.97554,47.74876 L 109.31154,45.20593 l -6.67999,-1.27141 z" fill="url(#nz-white)" />
+<path d="M 111.21746,45.25231 l -3.17652,0.98222 l 5.24075,5.06371 z" fill="url(#nz-white)" />
+<path d="M 107.81847,47.64016 L 109.94685,45.6452 l 3.33484,5.65304 z" fill="url(#nz-white)" />
+<path d="M 107.40563,45.25231 l 3.17652,0.98222 l -1.11229,-7.02815 z" fill="url(#nz-white)" />
+<path d="M 111.6303,45.22179 L 108.67624,45.6452 l 0.79362,-6.43882 z" fill="url(#nz-white)" />
+<path d="M 107.40563,45.25231 l 3.17652,0.98222 l -5.24075,5.06371 z" fill="url(#nz-white)" />
+<path d="M 110.80461,47.64016 L 108.67624,45.6452 l -3.33484,5.65304 z" fill="url(#nz-white)" />
+<path d="M 109.31154,44.58143 l 0,2.10035 l 4.41409,-2.10035 z" fill="url(#nz-red)" />
+<path d="M 110.19436,47.10185 L 109.31154,45.42157 l 4.41409,-0.84014 z" fill="url(#nz-red)" />
+<path d="M 109.31154,44.58143 l 0,2.10035 l -4.41409,-2.10035 z" fill="url(#nz-red)" />
+<path d="M 108.42872,47.10185 L 109.31154,45.42157 l -4.41409,-0.84014 z" fill="url(#nz-red)" />
+<path d="M 110.57096,45.45221 l -2.09902,0.64904 l 3.46305,3.34607 z" fill="url(#nz-red)" />
+<path d="M 108.32493,47.03009 L 109.73135,45.71183 l 2.20364,3.73549 z" fill="url(#nz-red)" />
+<path d="M 108.05213,45.45221 l 2.09902,0.64904 l -0.735,-4.64415 z" fill="url(#nz-red)" />
+<path d="M 110.84376,45.43205 L 108.89174,45.71183 l 0.52442,-4.25473 z" fill="url(#nz-red)" />
+<path d="M 108.05213,45.45221 l 2.09902,0.64904 l -3.46305,3.34607 z" fill="url(#nz-red)" />
+<path d="M 110.29815,47.03009 L 108.89174,45.71183 l -2.20364,3.73549 z" fill="url(#nz-red)" />
+<path d="M 126.81465,58.6046 l 0,2.82848 l 5.94431,-2.82848 z" fill="url(#nz-white)" />
+<path d="M 128.00351,61.99877 L 126.81465,59.73599 l 5.94431,-1.13139 z" fill="url(#nz-white)" />
+<path d="M 126.81465,58.6046 l 0,2.82848 l -5.94431,-2.82848 z" fill="url(#nz-white)" />
+<path d="M 125.62578,61.99877 L 126.81465,59.73599 l -5.94431,-1.13139 z" fill="url(#nz-white)" />
+<path d="M 128.51066,59.77726 l -2.82669,0.87405 l 4.66358,4.50603 z" fill="url(#nz-white)" />
+<path d="M 125.48601,61.90213 L 127.37998,60.12688 l 2.96757,5.03046 z" fill="url(#nz-white)" />
+<path d="M 125.11863,59.77726 l 2.82669,0.87405 l -0.98979,-6.25413 z" fill="url(#nz-white)" />
+<path d="M 128.87804,59.7501 L 126.24931,60.12688 l 0.70622,-5.7297 z" fill="url(#nz-white)" />
+<path d="M 125.11863,59.77726 l 2.82669,0.87405 l -4.66358,4.50603 z" fill="url(#nz-white)" />
+<path d="M 128.14328,61.90213 L 126.24931,60.12688 l -2.96757,5.03046 z" fill="url(#nz-white)" />
+<path d="M 126.81465,59.25151 l 0,1.75029 l 3.67841,-1.75029 z" fill="url(#nz-red)" />
+<path d="M 127.55033,61.35187 L 126.81465,59.95163 l 3.67841,-0.70012 z" fill="url(#nz-red)" />
+<path d="M 126.81465,59.25151 l 0,1.75029 l -3.67841,-1.75029 z" fill="url(#nz-red)" />
+<path d="M 126.07896,61.35187 L 126.81465,59.95163 l -3.67841,-0.70012 z" fill="url(#nz-red)" />
+<path d="M 127.86416,59.97717 l -1.74919,0.54087 l 2.88588,2.78839 z" fill="url(#nz-red)" />
+<path d="M 125.99247,61.29206 L 127.16448,60.19351 l 1.83637,3.11291 z" fill="url(#nz-red)" />
+<path d="M 125.76513,59.97717 l 1.74919,0.54087 l -0.6125,-3.87013 z" fill="url(#nz-red)" />
+<path d="M 128.0915,59.96036 L 126.46481,60.19351 l 0.43702,-3.54561 z" fill="url(#nz-red)" />
+<path d="M 125.76513,59.97717 l 1.74919,0.54087 l -2.88588,2.78839 z" fill="url(#nz-red)" />
+<path d="M 127.63682,61.29206 L 126.46481,60.19351 l -1.83637,3.11291 z" fill="url(#nz-red)" />
+<path d="M 88.9249,63.46855 l 0,3.17854 l 6.67999,-3.17854 z" fill="url(#nz-white)" />
+<path d="M 90.2609,67.28279 L 88.9249,64.73996 l 6.67999,-1.27141 z" fill="url(#nz-white)" />
+<path d="M 88.9249,63.46855 l 0,3.17854 l -6.67999,-3.17854 z" fill="url(#nz-white)" />
+<path d="M 87.5889,67.28279 L 88.9249,64.73996 l -6.67999,-1.27141 z" fill="url(#nz-white)" />
+<path d="M 90.83081,64.78634 l -3.17652,0.98222 l 5.24075,5.06371 z" fill="url(#nz-white)" />
+<path d="M 87.43183,67.17419 L 89.5602,65.17922 l 3.33484,5.65304 z" fill="url(#nz-white)" />
+<path d="M 87.01899,64.78634 l 3.17652,0.98222 l -1.11229,-7.02815 z" fill="url(#nz-white)" />
+<path d="M 91.24366,64.75581 L 88.28959,65.17922 l 0.79362,-6.43882 z" fill="url(#nz-white)" />
+<path d="M 87.01899,64.78634 l 3.17652,0.98222 l -5.24075,5.06371 z" fill="url(#nz-white)" />
+<path d="M 90.41797,67.17419 L 88.28959,65.17922 l -3.33484,5.65304 z" fill="url(#nz-white)" />
+<path d="M 88.9249,64.11546 l 0,2.10035 l 4.41409,-2.10035 z" fill="url(#nz-red)" />
+<path d="M 89.80772,66.63588 L 88.9249,64.9556 l 4.41409,-0.84014 z" fill="url(#nz-red)" />
+<path d="M 88.9249,64.11546 l 0,2.10035 l -4.41409,-2.10035 z" fill="url(#nz-red)" />
+<path d="M 88.04208,66.63588 L 88.9249,64.9556 l -4.41409,-0.84014 z" fill="url(#nz-red)" />
+<path d="M 90.18431,64.98624 l -2.09902,0.64904 l 3.46305,3.34607 z" fill="url(#nz-red)" />
+<path d="M 87.93829,66.56412 L 89.3447,65.24586 l 2.20364,3.73549 z" fill="url(#nz-red)" />
+<path d="M 87.66548,64.98624 l 2.09902,0.64904 l -0.735,-4.64415 z" fill="url(#nz-red)" />
+<path d="M 90.45712,64.96607 L 88.50509,65.24586 l 0.52442,-4.25473 z" fill="url(#nz-red)" />
+<path d="M 87.66548,64.98624 l 2.09902,0.64904 l -3.46305,3.34607 z" fill="url(#nz-red)" />
+<path d="M 89.91151,66.56412 L 88.50509,65.24586 l -2.20364,3.73549 z" fill="url(#nz-red)" />
+<path d="M 109.31154,94.13297 l 0,3.52859 l 7.41567,-3.52859 z" fill="url(#nz-white)" />
+<path d="M 110.79468,98.36728 L 109.31154,95.54441 l 7.41567,-1.41144 z" fill="url(#nz-white)" />
+<path d="M 109.31154,94.13297 l 0,3.52859 l -7.41567,-3.52859 z" fill="url(#nz-white)" />
+<path d="M 107.82841,98.36728 L 109.31154,95.54441 l -7.41567,-1.41144 z" fill="url(#nz-white)" />
+<path d="M 111.42736,95.59589 l -3.52636,1.0904 l 5.81793,5.62139 z" fill="url(#nz-white)" />
+<path d="M 107.65404,98.24672 L 110.01682,96.03205 l 3.70211,6.27563 z" fill="url(#nz-white)" />
+<path d="M 107.19573,95.59589 l 3.52636,1.0904 l -1.23479,-7.80218 z" fill="url(#nz-white)" />
+<path d="M 111.88567,95.56201 L 108.60627,96.03205 l 0.88102,-7.14794 z" fill="url(#nz-white)" />
+<path d="M 107.19573,95.59589 l 3.52636,1.0904 l -5.81793,5.62139 z" fill="url(#nz-white)" />
+<path d="M 110.96905,98.24672 L 108.60627,96.03205 l -3.70211,6.27563 z" fill="url(#nz-white)" />
+<path d="M 109.31154,94.77988 l 0,2.45041 l 5.14977,-2.45041 z" fill="url(#nz-red)" />
+<path d="M 110.3415,97.72037 L 109.31154,95.76004 l 5.14977,-0.98017 z" fill="url(#nz-red)" />
+<path d="M 109.31154,94.77988 l 0,2.45041 l -5.14977,-2.45041 z" fill="url(#nz-red)" />
+<path d="M 108.28159,97.72037 L 109.31154,95.76004 l -5.14977,-0.98017 z" fill="url(#nz-red)" />
+<path d="M 110.78086,95.7958 l -2.44886,0.75722 l 4.04023,3.90374 z" fill="url(#nz-red)" />
+<path d="M 108.1605,97.63665 L 109.80132,96.09868 l 2.57091,4.35807 z" fill="url(#nz-red)" />
+<path d="M 107.84223,95.7958 l 2.44886,0.75722 l -0.85749,-5.41818 z" fill="url(#nz-red)" />
+<path d="M 111.09913,95.77227 L 108.82177,96.09868 l 0.61182,-4.96385 z" fill="url(#nz-red)" />
+<path d="M 107.84223,95.7958 l 2.44886,0.75722 l -4.04023,3.90374 z" fill="url(#nz-red)" />
+<path d="M 110.46259,97.63665 L 108.82177,96.09868 l -2.57091,4.35807 z" fill="url(#nz-red)" />
+<g clip-path="url(#nz-canton-box)"><g transform="matrix(.5 0 0 .5 0.6645 10.73725)"><path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#nz-canton-gb-white)" /><path d="M 1.329,21.4745 l 140.9162,0 l 0,100.5781 L 1.329,122.0526 z" fill="url(#nz-canton-gb-blue)" /><path d="m 17.84262,21.4745 l 53.7243,37.92633 L 125.07104,21.4745 l 17.17416,0 l 0,12.99134 L 89.40162,71.97309 l 52.84358,37.29771 l 0,12.7818 l -17.61453,0 L 71.7871,84.54535 L 19.16371,122.0526 L 1.329,122.0526 l 0,-12.57226 l 52.62339,-37.29771 L 1.329,34.88491 L 1.329,21.4745 z" fill="url(#nz-canton-gb-white)" /><path d="m 94.68598,80.3546 l 47.55922,33.3165 l 0,8.38151 L 82.576,80.3546 z m -40.51341,4.19075 l 1.32109,7.33382 L 13.2188,122.0526 L 1.329,122.0526 z M 142.2452,21.4745 l 0,0.62861 L 87.41999,61.4962 l 0.44036,-9.21966 L 131.23612,21.4745 z M 1.329,21.4745 l 52.62339,36.87864 l -13.21089,0 L 1.329,30.27508 z" fill="url(#nz-canton-gb-red)" /><path d="M 54.39276,21.4745 l 0,100.5781 l 35.22905,0 L 89.62181,21.4745 z M 1.329,55.00053 l 0,33.52603 l 140.9162,0 L 142.2452,55.00053 z" fill="url(#nz-canton-gb-white)" /><path d="M 1.329,61.91528 l 0,20.11562 l 140.9162,0 l 0,-20.11562 z M 61.43857,21.4745 l 0,100.5781 l 21.13743,0 L 82.576,21.4745 z" fill="url(#nz-canton-gb-red)" /></g></g></g>
+</svg>

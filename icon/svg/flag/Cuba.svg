@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<title>古巴</title>
+
+<defs><mask id="cu-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="cu-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="cu-blue" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient>
+<linearGradient id="cu-red" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient></defs>
+<g mask="url(#cu-board)">
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#cu-white)" stroke="url(#cu-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.31139,21.4745 l 158.95347,0 l 0,100.84631 L 1.31139,122.32081 z" fill="url(#cu-blue)" fill-rule="evenodd" stroke="url(#cu-blue)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.31139,41.64376 l 158.95347,0 l 0,20.16926 L 1.31139,61.81302 z m 0,40.33852 l 158.95347,0 l 0,20.16926 L 1.31139,102.15155 z" fill="url(#cu-white)" fill-rule="evenodd" />
+<path d="m 1.31139,21.4745 l 91.21197,50.36406 L 1.31139,122.12384 z" fill="url(#cu-red)" fill-rule="evenodd" stroke="url(#cu-red)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 41.4223,85.58675 L 31.59119,78.59448 l -9.76902,7.05136 l 3.64268,-11.44369 l -9.76902,-7.09076 l 12.06639,-0.07879 l 3.74617,-11.424 l 3.82896,11.3846 l 12.06639,0.0197 l -9.70692,7.14985 z" fill="url(#cu-white)" fill-rule="evenodd" />
+</g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<title>阿塞拜疆</title>
+
+<defs><mask id="az-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="az-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="az-green" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
+<linearGradient id="az-red" x1="72" y1="21.47450" x2="72" y2="88.52657" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
+<linearGradient id="az-blue" x1="72" y1="21.47450" x2="72" y2="55.00053" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient></defs>
+<g mask="url(#az-board)">
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#az-white)" stroke="url(#az-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.35102,21.4745 l 140.9162,0 l 0,100.5781 L 1.35102,122.0526 z" fill="url(#az-green)" stroke="url(#az-green)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.35102,21.4745 l 140.9162,0 l 0,67.05207 L 1.35102,88.52657 z" fill="url(#az-red)" stroke="url(#az-red)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.35102,21.4745 l 140.9162,0 l 0,33.52603 L 1.35102,55.00053 z" fill="url(#az-blue)" stroke="url(#az-blue)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 84.11727,71.76355 A 15.8531,15.0867 0 0,1 68.2642,86.85026 A 15.8531,15.0867 0 0,1 52.41112,71.76355 A 15.8531,15.0867 0 0,1 68.2642,56.67683 A 15.8531,15.0867 0 0,1 84.11727,71.76355 Z" fill="url(#az-white)" />
+<path d="M 84.99799,71.76355 A 13.2109,12.5723 0 0,1 71.7871,84.33581 A 13.2109,12.5723 0 0,1 58.57621,71.76355 A 13.2109,12.5723 0 0,1 71.7871,59.19129 A 13.2109,12.5723 0 0,1 84.99799,71.76355 Z" fill="url(#az-red)" />
+<path d="m 85.87872,63.38204 l 1.6954,4.50506 l 4.53574,-2.05347 l -2.15778,4.33743 L 94.68598,71.76355 l -4.7339,1.61344 l 2.15778,4.31648 l -4.53574,-2.05347 L 85.87872,80.14506 l -1.6954,-4.50506 l -4.53574,2.05347 l 2.15778,-4.31648 L 77.07146,71.76355 l 4.7339,-1.61344 l -2.15778,-4.31648 l 4.53574,2.05347 z" fill="url(#az-white)" />
+</g>
+</svg>

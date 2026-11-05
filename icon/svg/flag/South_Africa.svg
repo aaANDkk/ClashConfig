@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<title>南非</title>
+
+<defs><mask id="za-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="za-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="za-black" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient>
+<linearGradient id="za-blue" x1="72" y1="88.55788" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient>
+<linearGradient id="za-red" x1="72" y1="21.47450" x2="72" y2="55.02601" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
+<linearGradient id="za-yellow" x1="72" y1="34.04649" x2="72" y2="109.49810" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#F7BE00" /></linearGradient>
+<linearGradient id="za-teal" x1="72" y1="21.47450" x2="72" y2="122.05045" gradientUnits="userSpaceOnUse"><stop stop-color="#21B797" /><stop offset="1" stop-color="#006D55" /></linearGradient></defs>
+<g mask="url(#za-board)">
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#za-white)" stroke="url(#za-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.32794,101.58168 L 1.32794,41.98257 L 47.95727,71.78212 z" fill="url(#za-black)" fill-rule="evenodd" />
+<path d="m 33.13662,122.0701 l 52.34705,-33.51222 L 159.83464,88.55788 L 159.83464,122.05045 L 33.13662,122.05045 z" fill="url(#za-blue)" fill-rule="evenodd" />
+<path d="M 29.79268,21.4745 l 130.04196,0 l 0,33.55151 L 85.46303,55.02601 S 30.47385,21.14056 29.79268,21.4745" fill="url(#za-red)" fill-rule="evenodd" />
+<path d="M 1.32794,34.04649 l 0,7.93607 L 47.95727,71.76248 L 1.3073,101.58168 l 0,7.91643 l 58.7253,-37.71598 z" fill="url(#za-yellow)" fill-rule="evenodd" />
+<path d="M 1.32794,34.04649 L 1.32794,21.4745 l 19.6095,0 l 62.17244,40.07323 l 76.7454,0 l 0,20.46878 L 83.10988,82.01651 L 20.9168,122.05045 l -19.58886,0 l 0,-12.55235 l 58.70466,-37.71598 L 1.34858,34.04649 z" fill="url(#za-teal)" fill-rule="evenodd" stroke="url(#za-teal)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 20.9168,21.4745 l 12.21982,0 l 52.34705,33.53187 L 159.83464,55.00637 L 159.83464,61.54773 L 83.10988,61.54773 z m 0,100.5956 l 12.21982,0 l 52.34705,-33.51222 L 159.83464,88.55788 l 0,-6.52172 L 83.10988,82.03615 L 20.9168,122.05045 z" fill="url(#za-white)" fill-rule="evenodd" stroke="url(#za-white)" stroke-width=".5" stroke-linejoin="round" />
+</g>
+</svg>

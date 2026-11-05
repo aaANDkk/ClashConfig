@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<title>北马其顿</title>
+
+<defs><mask id="mk-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="mk-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="mk-red" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
+<linearGradient id="mk-yellow" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#F7BE00" /></linearGradient></defs>
+<g mask="url(#mk-board)">
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#mk-white)" stroke="url(#mk-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,21.4745 l 140.9162,0 l 0,100.5781 L 1.329,122.0526 z" fill="url(#mk-red)" stroke="url(#mk-red)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,21.4745 l 21.13743,0 l 49.32067,48.48703 L 121.10777,21.4745 l 21.13743,0 L 1.329,122.0526 l 21.13743,0 l 49.32067,-48.48703 L 121.10777,122.0526 l 21.13743,0 z m 140.9162,40.23124 l 0,20.11562 L 1.329,61.70574 l 0,20.11562 z M 62.97984,21.4745 l 8.80726,43.10191 L 80.59436,21.4745 z m 0,100.5781 l 8.80726,-43.10191 L 80.59436,122.0526 z" fill="url(#mk-yellow)" stroke="url(#mk-yellow)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 88.7631,71.76355 A 16.976,16.1554 0 0,1 71.7871,87.91891 A 16.976,16.1554 0 0,1 54.8111,71.76355 A 16.976,16.1554 0 0,1 71.7871,55.60819 A 16.976,16.1554 0 0,1 88.7631,71.76355 Z" fill="url(#mk-yellow)" stroke="#C00405" stroke-width="3.67410" />
+</g>
+</svg>

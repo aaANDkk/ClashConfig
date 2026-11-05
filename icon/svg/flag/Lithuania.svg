@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<title>立陶宛</title>
+
+<defs><mask id="lt-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="lt-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="lt-teal" x1="72" y1="21.47450" x2="72" y2="121.61837" gradientUnits="userSpaceOnUse"><stop stop-color="#21B797" /><stop offset="1" stop-color="#006D55" /></linearGradient>
+<linearGradient id="lt-red" x1="72" y1="88.67984" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
+<linearGradient id="lt-yellow" x1="72" y1="21.47450" x2="72" y2="54.85142" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#F7BE00" /></linearGradient></defs>
+<g mask="url(#lt-board)">
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#lt-white)" stroke="url(#lt-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,21.4745 L 142.24723,21.4745 L 142.24723,121.61837 L 1.329,121.61837 Z" fill="url(#lt-teal)" fill-rule="evenodd" stroke="url(#lt-teal)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,88.67984 L 142.24723,88.67984 L 142.24723,122.05642 L 1.329,122.05642 Z" fill="url(#lt-red)" fill-rule="evenodd" stroke="url(#lt-red)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,21.4745 l 140.92035,0 l 0,33.37692 L 1.329,54.85142 z" fill="url(#lt-yellow)" fill-rule="evenodd" stroke="url(#lt-yellow)" stroke-width=".5" stroke-linejoin="round" />
+</g>
+</svg>

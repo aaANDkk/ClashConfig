@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<title>芬兰</title>
+
+<defs><mask id="fi-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="fi-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F4F4F4" /><stop offset="1" stop-color="#E5E5E5" /></linearGradient>
+<linearGradient id="fi-blue" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#00AEE5" /><stop offset="1" stop-color="#004797" /></linearGradient></defs>
+<g mask="url(#fi-board)">
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#fi-white)" stroke="url(#fi-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,21.4745 l 140.9162,0 l 0,100.5781 L 1.329,122.0526 z" fill="url(#fi-white)" stroke="url(#fi-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 1.329,58.03883 l 140.9162,0 l 0,27.44944 L 1.329,85.48827 z" fill="url(#fi-blue)" stroke="url(#fi-blue)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 39.97086,21.4745 l 28.82177,0 l 0,100.5781 l -28.84378,0 z" fill="url(#fi-blue)" stroke="url(#fi-blue)" stroke-width=".5" stroke-linejoin="round" />
+</g>
+</svg>

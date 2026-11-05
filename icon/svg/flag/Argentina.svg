@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<title>阿根廷</title>
+
+<defs><mask id="ar-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="ar-sky" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#59B1FF" /><stop offset="1" stop-color="#439BF5" /></linearGradient>
+<linearGradient id="ar-white" x1="72" y1="55.00053" x2="72" y2="88.52657" gradientUnits="userSpaceOnUse"><stop stop-color="#F4F4F4" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="ar-orange" x1="72" y1="54.00000" x2="72" y2="90.00000" gradientUnits="userSpaceOnUse"><stop stop-color="#FF9710" /><stop offset="1" stop-color="#FE9811" /></linearGradient></defs>
+<g mask="url(#ar-board)">
+<path d="M1.329 21.4745h140.9162v33.52603h-140.9162Z" fill="url(#ar-sky)" stroke="url(#ar-sky)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M1.329 55.00053h140.9162v33.52603h-140.9162Z" fill="url(#ar-white)" stroke="url(#ar-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M1.329 88.52657h140.9162v33.52603h-140.9162Z" fill="url(#ar-sky)" stroke="url(#ar-sky)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M71.8 54.3 L74.64701 61.17482 L80.55 56.64456 L79.57817 64.02183 L86.95544 63.05 L82.42518 68.95299 L89.3 71.8 L82.42518 74.64701 L86.95544 80.55 L79.57817 79.57817 L80.55 86.95544 L74.64701 82.42518 L71.8 89.3 L68.95299 82.42518 L63.05 86.95544 L64.02183 79.57817 L56.64456 80.55 L61.17482 74.64701 L54.3 71.8 L61.17482 68.95299 L56.64456 63.05 L64.02183 64.02183 L63.05 56.64456 L68.95299 61.17482Z" fill="url(#ar-orange)" />
+</g>
+</svg>
