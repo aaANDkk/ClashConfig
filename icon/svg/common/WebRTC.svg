@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 210" width="210" height="210">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<g transform="translate(0 0) scale(0.685714285714)">
   <defs>
     <linearGradient id="bezel-l" x1="40.71" y1="60.24" x2="40.71" y2="129.24" gradientUnits="userSpaceOnUse">
       <stop offset="0.0%" stop-color="#31A3FD"/>
@@ -59,4 +60,5 @@
   <path d="M 14.5 68.5 H 71.0294 A 4 4 0 0 1 73.8578 75.3284 L 55.5 93.6863 A 16 16 0 0 0 55.5 116.3137 L 58.2721 119.0858 A 2 2 0 0 1 56.8579 122.5 H 14.5 A 6 6 0 0 1 8.5 116.5 V 74.5 A 6 6 0 0 1 14.5 68.5 Z" fill="url(#inner-r)" transform="translate(209 0) scale(-1 1)"/>
   <!-- Center Arrow -->
   <path d="M 86.5 90 L 71.5 105 L 86.5 120 M 71.5 105 H 137.5 M 122.5 90 L 137.5 105 L 122.5 120" fill="none" stroke="url(#arrow)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
 </svg>

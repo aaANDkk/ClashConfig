@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 410" width="410" height="410">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<g transform="translate(0 0) scale(0.351219512195)">
   <g transform="translate(-0.3907 0.1768) scale(0.3996624)">
       <g transform="translate(1.7545 0) scale(.6243902)">
       <defs>
@@ -25,4 +26,5 @@
       <path fill="url(#fcm4)" d="M463.92 0L473.02 0L473.54.78C464.95 4.93 448.56 5.97 438.95 5.53C449.87-1.43 452.33 3.24 463.92 0Z" />
       </g>
   </g>
+</g>
 </svg>
