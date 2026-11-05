@@ -1,17 +1,21 @@
 # Qure 风格通用图标素材索引
 
-共 **138** 个 SVG，统一为 **144×144**。按英文文件名排序，点击图标或文件名可查看原始素材。
+共 **224** 个 SVG，统一为 **144×144**。按英文文件名排序，点击图标或文件名可查看原始素材。
 
-[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/common-overview.png?v=9d96aa92cc11) · [可缩放 SVG 总览](../../../docs/assets/common-overview.svg?v=19dfdd169ea5)
+[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/common-overview.png?v=3b2ee5f9330e) · [可缩放 SVG 总览](../../../docs/assets/common-overview.svg?v=b0f040130c3a)
 
 | 预览 | 用途 / 名称 | SVG 文件 |
 | :---: | :--- | :--- |
+| [<img src="5iTV.svg" width="56" height="56" alt="5iTV">](5iTV.svg) | 5iTV | [5iTV.svg](5iTV.svg) |
+| [<img src="AbemaTV.svg" width="56" height="56" alt="ABEMA TV">](AbemaTV.svg) | ABEMA TV | [AbemaTV.svg](AbemaTV.svg) |
 | [<img src="AdBlock.svg" width="56" height="56" alt="广告拦截">](AdBlock.svg) | 广告拦截 | [AdBlock.svg](AdBlock.svg) |
+| [<img src="Adobe.svg" width="56" height="56" alt="Adobe">](Adobe.svg) | Adobe | [Adobe.svg](Adobe.svg) |
 | [<img src="Advertising.svg" width="56" height="56" alt="广告">](Advertising.svg) | 广告 | [Advertising.svg](Advertising.svg) |
 | [<img src="AdWhite.svg" width="56" height="56" alt="广告放行">](AdWhite.svg) | 广告放行 | [AdWhite.svg](AdWhite.svg) |
 | [<img src="Africa_Map.svg" width="56" height="56" alt="非洲地图">](Africa_Map.svg) | 非洲地图 | [Africa_Map.svg](Africa_Map.svg) |
 | [<img src="Airport.svg" width="56" height="56" alt="机场订阅">](Airport.svg) | 机场订阅 | [Airport.svg](Airport.svg) |
 | [<img src="Amazon.svg" width="56" height="56" alt="亚马逊">](Amazon.svg) | 亚马逊 | [Amazon.svg](Amazon.svg) |
+| [<img src="Anime.svg" width="56" height="56" alt="动漫">](Anime.svg) | 动漫 | [Anime.svg](Anime.svg) |
 | [<img src="Apple.svg" width="56" height="56" alt="苹果">](Apple.svg) | 苹果 | [Apple.svg](Apple.svg) |
 | [<img src="Apple_Fitness+.svg" width="56" height="56" alt="Apple Fitness+">](Apple_Fitness+.svg) | Apple Fitness+ | [Apple_Fitness+.svg](Apple_Fitness+.svg) |
 | [<img src="Apple_Music.svg" width="56" height="56" alt="Apple Music">](Apple_Music.svg) | Apple Music | [Apple_Music.svg](Apple_Music.svg) |
@@ -22,7 +26,11 @@
 | [<img src="Available.svg" width="56" height="56" alt="全部节点">](Available.svg) | 全部节点 | [Available.svg](Available.svg) |
 | [<img src="Available(1).svg" width="56" height="56" alt="全部节点 · 备选">](Available(1).svg) | 全部节点 · 备选 | [Available(1).svg](Available(1).svg) |
 | [<img src="Bahamut.svg" width="56" height="56" alt="巴哈姆特">](Bahamut.svg) | 巴哈姆特 | [Bahamut.svg](Bahamut.svg) |
+| [<img src="Baidu.svg" width="56" height="56" alt="百度">](Baidu.svg) | 百度 | [Baidu.svg](Baidu.svg) |
 | [<img src="Bamboo.svg" width="56" height="56" alt="竹子">](Bamboo.svg) | 竹子 | [Bamboo.svg](Bamboo.svg) |
+| [<img src="Bangumi.svg" width="56" height="56" alt="Bangumi">](Bangumi.svg) | Bangumi | [Bangumi.svg](Bangumi.svg) |
+| [<img src="Bettbox.svg" width="56" height="56" alt="Bettbox">](Bettbox.svg) | Bettbox | [Bettbox.svg](Bettbox.svg) |
+| [<img src="BGP.svg" width="56" height="56" alt="BGP">](BGP.svg) | BGP | [BGP.svg](BGP.svg) |
 | [<img src="bilibili.svg" width="56" height="56" alt="哔哩哔哩">](bilibili.svg) | 哔哩哔哩 | [bilibili.svg](bilibili.svg) |
 | [<img src="Binance.svg" width="56" height="56" alt="币安">](Binance.svg) | 币安 | [Binance.svg](Binance.svg) |
 | [<img src="Blackhole.svg" width="56" height="56" alt="黑洞">](Blackhole.svg) | 黑洞 | [Blackhole.svg](Blackhole.svg) |
@@ -30,58 +38,101 @@
 | [<img src="Bookpedia.svg" width="56" height="56" alt="Bookpedia">](Bookpedia.svg) | Bookpedia | [Bookpedia.svg](Bookpedia.svg) |
 | [<img src="BosLife.svg" width="56" height="56" alt="BosLife">](BosLife.svg) | BosLife | [BosLife.svg](BosLife.svg) |
 | [<img src="Bot.svg" width="56" height="56" alt="机器人">](Bot.svg) | 机器人 | [Bot.svg](Bot.svg) |
+| [<img src="Brave.svg" width="56" height="56" alt="Brave">](Brave.svg) | Brave | [Brave.svg](Brave.svg) |
+| [<img src="Browser.svg" width="56" height="56" alt="浏览器">](Browser.svg) | 浏览器 | [Browser.svg](Browser.svg) |
 | [<img src="Bypass.svg" width="56" height="56" alt="绕过代理">](Bypass.svg) | 绕过代理 | [Bypass.svg](Bypass.svg) |
 | [<img src="Cat.svg" width="56" height="56" alt="猫">](Cat.svg) | 猫 | [Cat.svg](Cat.svg) |
+| [<img src="CC.svg" width="56" height="56" alt="CC">](CC.svg) | CC | [CC.svg](CC.svg) |
 | [<img src="Cellular.svg" width="56" height="56" alt="移动网络">](Cellular.svg) | 移动网络 | [Cellular.svg](Cellular.svg) |
 | [<img src="ChatGPT.svg" width="56" height="56" alt="ChatGPT">](ChatGPT.svg) | ChatGPT | [ChatGPT.svg](ChatGPT.svg) |
+| [<img src="CherryStudio.svg" width="56" height="56" alt="CherryStudio">](CherryStudio.svg) | CherryStudio | [CherryStudio.svg](CherryStudio.svg) |
 | [<img src="China_Map.svg" width="56" height="56" alt="中国地图">](China_Map.svg) | 中国地图 | [China_Map.svg](China_Map.svg) |
+| [<img src="Civitai.svg" width="56" height="56" alt="Civitai">](Civitai.svg) | Civitai | [Civitai.svg](Civitai.svg) |
 | [<img src="Claude.svg" width="56" height="56" alt="Claude">](Claude.svg) | Claude | [Claude.svg](Claude.svg) |
+| [<img src="Cline.svg" width="56" height="56" alt="Cline">](Cline.svg) | Cline | [Cline.svg](Cline.svg) |
+| [<img src="Cloudflare.svg" width="56" height="56" alt="Cloudflare">](Cloudflare.svg) | Cloudflare | [Cloudflare.svg](Cloudflare.svg) |
+| [<img src="ComfyUI.svg" width="56" height="56" alt="ComfyUI">](ComfyUI.svg) | ComfyUI | [ComfyUI.svg](ComfyUI.svg) |
+| [<img src="Coze.svg" width="56" height="56" alt="Coze">](Coze.svg) | Coze | [Coze.svg](Coze.svg) |
 | [<img src="crypto.svg" width="56" height="56" alt="加密货币 · 备选">](crypto.svg) | 加密货币 · 备选 | [crypto.svg](crypto.svg) |
 | [<img src="Cryptocurrency.svg" width="56" height="56" alt="加密货币">](Cryptocurrency.svg) | 加密货币 | [Cryptocurrency.svg](Cryptocurrency.svg) |
+| [<img src="Cursor.svg" width="56" height="56" alt="Cursor">](Cursor.svg) | Cursor | [Cursor.svg](Cursor.svg) |
 | [<img src="Daily.svg" width="56" height="56" alt="日常">](Daily.svg) | 日常 | [Daily.svg](Daily.svg) |
+| [<img src="DeepL.svg" width="56" height="56" alt="DeepL">](DeepL.svg) | DeepL | [DeepL.svg](DeepL.svg) |
+| [<img src="DeepSeek.svg" width="56" height="56" alt="DeepSeek">](DeepSeek.svg) | DeepSeek | [DeepSeek.svg](DeepSeek.svg) |
+| [<img src="Dify.svg" width="56" height="56" alt="Dify">](Dify.svg) | Dify | [Dify.svg](Dify.svg) |
 | [<img src="Dinosaur.svg" width="56" height="56" alt="恐龙">](Dinosaur.svg) | 恐龙 | [Dinosaur.svg](Dinosaur.svg) |
 | [<img src="Direct.svg" width="56" height="56" alt="直连">](Direct.svg) | 直连 | [Direct.svg](Direct.svg) |
 | [<img src="Discord.svg" width="56" height="56" alt="Discord">](Discord.svg) | Discord | [Discord.svg](Discord.svg) |
 | [<img src="Disney.svg" width="56" height="56" alt="Disney">](Disney.svg) | Disney | [Disney.svg](Disney.svg) |
 | [<img src="Docker.svg" width="56" height="56" alt="Docker">](Docker.svg) | Docker | [Docker.svg](Docker.svg) |
 | [<img src="Domestic.svg" width="56" height="56" alt="国内服务">](Domestic.svg) | 国内服务 | [Domestic.svg](Domestic.svg) |
+| [<img src="Doubao.svg" width="56" height="56" alt="豆包">](Doubao.svg) | 豆包 | [Doubao.svg](Doubao.svg) |
 | [<img src="Download.svg" width="56" height="56" alt="下载">](Download.svg) | 下载 | [Download.svg](Download.svg) |
 | [<img src="Drill.svg" width="56" height="56" alt="Drill">](Drill.svg) | Drill | [Drill.svg](Drill.svg) |
+| [<img src="eBay.svg" width="56" height="56" alt="eBay">](eBay.svg) | eBay | [eBay.svg](eBay.svg) |
+| [<img src="EHentai.svg" width="56" height="56" alt="EHentai">](EHentai.svg) | EHentai | [EHentai.svg](EHentai.svg) |
+| [<img src="ElevenLabs.svg" width="56" height="56" alt="ElevenLabs">](ElevenLabs.svg) | ElevenLabs | [ElevenLabs.svg](ElevenLabs.svg) |
 | [<img src="Emby.svg" width="56" height="56" alt="Emby">](Emby.svg) | Emby | [Emby.svg](Emby.svg) |
 | [<img src="Epic_Games.svg" width="56" height="56" alt="Epic Games">](Epic_Games.svg) | Epic Games | [Epic_Games.svg](Epic_Games.svg) |
 | [<img src="ESPN+.svg" width="56" height="56" alt="ESPN+">](ESPN+.svg) | ESPN+ | [ESPN+.svg](ESPN+.svg) |
 | [<img src="Europe_Map.svg" width="56" height="56" alt="欧洲地图">](Europe_Map.svg) | 欧洲地图 | [Europe_Map.svg](Europe_Map.svg) |
 | [<img src="Facebook.svg" width="56" height="56" alt="Facebook">](Facebook.svg) | Facebook | [Facebook.svg](Facebook.svg) |
 | [<img src="FCM.svg" width="56" height="56" alt="消息推送">](FCM.svg) | 消息推送 | [FCM.svg](FCM.svg) |
+| [<img src="Figma.svg" width="56" height="56" alt="Figma">](Figma.svg) | Figma | [Figma.svg](Figma.svg) |
 | [<img src="Filter.svg" width="56" height="56" alt="过滤">](Filter.svg) | 过滤 | [Filter.svg](Filter.svg) |
 | [<img src="Final.svg" width="56" height="56" alt="兜底策略">](Final.svg) | 兜底策略 | [Final.svg](Final.svg) |
+| [<img src="FireworksAI.svg" width="56" height="56" alt="FireworksAI">](FireworksAI.svg) | FireworksAI | [FireworksAI.svg](FireworksAI.svg) |
+| [<img src="FishAudio.svg" width="56" height="56" alt="FishAudio">](FishAudio.svg) | FishAudio | [FishAudio.svg](FishAudio.svg) |
+| [<img src="FlClash.svg" width="56" height="56" alt="FlClash">](FlClash.svg) | FlClash | [FlClash.svg](FlClash.svg) |
 | [<img src="friDay.svg" width="56" height="56" alt="friDay">](friDay.svg) | friDay | [friDay.svg](friDay.svg) |
 | [<img src="Fries.svg" width="56" height="56" alt="薯条">](Fries.svg) | 薯条 | [Fries.svg](Fries.svg) |
 | [<img src="Frog.svg" width="56" height="56" alt="青蛙">](Frog.svg) | 青蛙 | [Frog.svg](Frog.svg) |
 | [<img src="fuboTV.svg" width="56" height="56" alt="fuboTV">](fuboTV.svg) | fuboTV | [fuboTV.svg](fuboTV.svg) |
 | [<img src="Game.svg" width="56" height="56" alt="游戏">](Game.svg) | 游戏 | [Game.svg](Game.svg) |
 | [<img src="Gemini.svg" width="56" height="56" alt="Gemini">](Gemini.svg) | Gemini | [Gemini.svg](Gemini.svg) |
+| [<img src="GIA.svg" width="56" height="56" alt="GIA">](GIA.svg) | GIA | [GIA.svg](GIA.svg) |
 | [<img src="GitHub.svg" width="56" height="56" alt="GitHub">](GitHub.svg) | GitHub | [GitHub.svg](GitHub.svg) |
 | [<img src="Gitlab.svg" width="56" height="56" alt="GitLab">](Gitlab.svg) | GitLab | [Gitlab.svg](Gitlab.svg) |
+| [<img src="GLM.svg" width="56" height="56" alt="智谱 GLM">](GLM.svg) | 智谱 GLM | [GLM.svg](GLM.svg) |
 | [<img src="Global.svg" width="56" height="56" alt="全局策略">](Global.svg) | 全局策略 | [Global.svg](Global.svg) |
 | [<img src="Google.svg" width="56" height="56" alt="Google">](Google.svg) | Google | [Google.svg](Google.svg) |
 | [<img src="Google_Opinion_Rewards.svg" width="56" height="56" alt="谷歌意见奖励">](Google_Opinion_Rewards.svg) | 谷歌意见奖励 | [Google_Opinion_Rewards.svg](Google_Opinion_Rewards.svg) |
 | [<img src="Grok.svg" width="56" height="56" alt="Grok">](Grok.svg) | Grok | [Grok.svg](Grok.svg) |
+| [<img src="Grok(1).svg" width="56" height="56" alt="Grok · 备选">](Grok(1).svg) | Grok · 备选 | [Grok(1).svg](Grok(1).svg) |
+| [<img src="Groq.svg" width="56" height="56" alt="Groq">](Groq.svg) | Groq | [Groq.svg](Groq.svg) |
 | [<img src="HBO.svg" width="56" height="56" alt="HBO">](HBO.svg) | HBO | [HBO.svg](HBO.svg) |
+| [<img src="HBO(1).svg" width="56" height="56" alt="HBO · 备选">](HBO(1).svg) | HBO · 备选 | [HBO(1).svg](HBO(1).svg) |
 | [<img src="Heart.svg" width="56" height="56" alt="喜欢">](Heart.svg) | 喜欢 | [Heart.svg](Heart.svg) |
 | [<img src="Hijacking.svg" width="56" height="56" alt="劫持">](Hijacking.svg) | 劫持 | [Hijacking.svg](Hijacking.svg) |
 | [<img src="Home.svg" width="56" height="56" alt="家宽">](Home.svg) | 家宽 | [Home.svg](Home.svg) |
 | [<img src="Home(1).svg" width="56" height="56" alt="家宽 · 备选">](Home(1).svg) | 家宽 · 备选 | [Home(1).svg](Home(1).svg) |
+| [<img src="Huawei.svg" width="56" height="56" alt="华为">](Huawei.svg) | 华为 | [Huawei.svg](Huawei.svg) |
+| [<img src="HuggingFace.svg" width="56" height="56" alt="HuggingFace">](HuggingFace.svg) | HuggingFace | [HuggingFace.svg](HuggingFace.svg) |
 | [<img src="Hulu.svg" width="56" height="56" alt="Hulu">](Hulu.svg) | Hulu | [Hulu.svg](Hulu.svg) |
+| [<img src="Huobi.svg" width="56" height="56" alt="Huobi">](Huobi.svg) | Huobi | [Huobi.svg](Huobi.svg) |
 | [<img src="iCloud.svg" width="56" height="56" alt="iCloud">](iCloud.svg) | iCloud | [iCloud.svg](iCloud.svg) |
+| [<img src="Ideogram.svg" width="56" height="56" alt="Ideogram">](Ideogram.svg) | Ideogram | [Ideogram.svg](Ideogram.svg) |
+| [<img src="IEPL.svg" width="56" height="56" alt="IEPL">](IEPL.svg) | IEPL | [IEPL.svg](IEPL.svg) |
+| [<img src="Infuse.svg" width="56" height="56" alt="Infuse">](Infuse.svg) | Infuse | [Infuse.svg](Infuse.svg) |
+| [<img src="Ingress.svg" width="56" height="56" alt="Ingress">](Ingress.svg) | Ingress | [Ingress.svg](Ingress.svg) |
 | [<img src="Instagram.svg" width="56" height="56" alt="Instagram">](Instagram.svg) | Instagram | [Instagram.svg](Instagram.svg) |
+| [<img src="IPLC.svg" width="56" height="56" alt="IPLC">](IPLC.svg) | IPLC | [IPLC.svg](IPLC.svg) |
 | [<img src="iQIYI.svg" width="56" height="56" alt="爱奇艺">](iQIYI.svg) | 爱奇艺 | [iQIYI.svg](iQIYI.svg) |
+| [<img src="ITV.svg" width="56" height="56" alt="ITV">](ITV.svg) | ITV | [ITV.svg](ITV.svg) |
+| [<img src="KiloCode.svg" width="56" height="56" alt="KiloCode">](KiloCode.svg) | KiloCode | [KiloCode.svg](KiloCode.svg) |
+| [<img src="Kimi.svg" width="56" height="56" alt="Kimi">](Kimi.svg) | Kimi | [Kimi.svg](Kimi.svg) |
+| [<img src="Kling.svg" width="56" height="56" alt="可灵">](Kling.svg) | 可灵 | [Kling.svg](Kling.svg) |
+| [<img src="Kraken.svg" width="56" height="56" alt="Kraken">](Kraken.svg) | Kraken | [Kraken.svg](Kraken.svg) |
 | [<img src="LA_Map.svg" width="56" height="56" alt="LA Map">](LA_Map.svg) | LA Map | [LA_Map.svg](LA_Map.svg) |
 | [<img src="Lab.svg" width="56" height="56" alt="实验室">](Lab.svg) | 实验室 | [Lab.svg](Lab.svg) |
+| [<img src="LangChain.svg" width="56" height="56" alt="LangChain">](LangChain.svg) | LangChain | [LangChain.svg](LangChain.svg) |
+| [<img src="Langfuse.svg" width="56" height="56" alt="Langfuse">](Langfuse.svg) | Langfuse | [Langfuse.svg](Langfuse.svg) |
 | [<img src="Line.svg" width="56" height="56" alt="LINE">](Line.svg) | LINE | [Line.svg](Line.svg) |
 | [<img src="LineTV.svg" width="56" height="56" alt="LINE TV">](LineTV.svg) | LINE TV | [LineTV.svg](LineTV.svg) |
 | [<img src="Linkedin.svg" width="56" height="56" alt="LinkedIn">](Linkedin.svg) | LinkedIn | [Linkedin.svg](Linkedin.svg) |
 | [<img src="LiTV.svg" width="56" height="56" alt="LiTV">](LiTV.svg) | LiTV | [LiTV.svg](LiTV.svg) |
+| [<img src="LlamaIndex.svg" width="56" height="56" alt="LlamaIndex">](LlamaIndex.svg) | LlamaIndex | [LlamaIndex.svg](LlamaIndex.svg) |
+| [<img src="LMStudio.svg" width="56" height="56" alt="LMStudio">](LMStudio.svg) | LMStudio | [LMStudio.svg](LMStudio.svg) |
 | [<img src="Lock.svg" width="56" height="56" alt="锁定">](Lock.svg) | 锁定 | [Lock.svg](Lock.svg) |
 | [<img src="Loop.svg" width="56" height="56" alt="循环">](Loop.svg) | 循环 | [Loop.svg](Loop.svg) |
 | [<img src="Magic.svg" width="56" height="56" alt="魔法">](Magic.svg) | 魔法 | [Magic.svg](Magic.svg) |
@@ -90,7 +141,12 @@
 | [<img src="Meta.svg" width="56" height="56" alt="Meta">](Meta.svg) | Meta | [Meta.svg](Meta.svg) |
 | [<img src="Mickey.svg" width="56" height="56" alt="米奇">](Mickey.svg) | 米奇 | [Mickey.svg](Mickey.svg) |
 | [<img src="Microsoft.svg" width="56" height="56" alt="Microsoft">](Microsoft.svg) | Microsoft | [Microsoft.svg](Microsoft.svg) |
+| [<img src="Midjourney.svg" width="56" height="56" alt="Midjourney">](Midjourney.svg) | Midjourney | [Midjourney.svg](Midjourney.svg) |
+| [<img src="MiniMax.svg" width="56" height="56" alt="MiniMax">](MiniMax.svg) | MiniMax | [MiniMax.svg](MiniMax.svg) |
 | [<img src="MissAV.svg" width="56" height="56" alt="MissAV">](MissAV.svg) | MissAV | [MissAV.svg](MissAV.svg) |
+| [<img src="Mistral.svg" width="56" height="56" alt="Mistral">](Mistral.svg) | Mistral | [Mistral.svg](Mistral.svg) |
+| [<img src="ModelScope.svg" width="56" height="56" alt="ModelScope">](ModelScope.svg) | ModelScope | [ModelScope.svg](ModelScope.svg) |
+| [<img src="n8n.svg" width="56" height="56" alt="n8n">](n8n.svg) | n8n | [n8n.svg](n8n.svg) |
 | [<img src="NBA.svg" width="56" height="56" alt="NBA">](NBA.svg) | NBA | [NBA.svg](NBA.svg) |
 | [<img src="NBC.svg" width="56" height="56" alt="NBC">](NBC.svg) | NBC | [NBC.svg](NBC.svg) |
 | [<img src="Netflix.svg" width="56" height="56" alt="Netflix">](Netflix.svg) | Netflix | [Netflix.svg](Netflix.svg) |
@@ -99,47 +155,77 @@
 | [<img src="Ninja.svg" width="56" height="56" alt="忍者">](Ninja.svg) | 忍者 | [Ninja.svg](Ninja.svg) |
 | [<img src="Nintendo.svg" width="56" height="56" alt="Nintendo">](Nintendo.svg) | Nintendo | [Nintendo.svg](Nintendo.svg) |
 | [<img src="Notion.svg" width="56" height="56" alt="Notion">](Notion.svg) | Notion | [Notion.svg](Notion.svg) |
+| [<img src="NVIDIA.svg" width="56" height="56" alt="NVIDIA">](NVIDIA.svg) | NVIDIA | [NVIDIA.svg](NVIDIA.svg) |
+| [<img src="Obsidian.svg" width="56" height="56" alt="Obsidian">](Obsidian.svg) | Obsidian | [Obsidian.svg](Obsidian.svg) |
 | [<img src="Oceania_Map.svg" width="56" height="56" alt="大洋洲地图">](Oceania_Map.svg) | 大洋洲地图 | [Oceania_Map.svg](Oceania_Map.svg) |
+| [<img src="Ollama.svg" width="56" height="56" alt="Ollama">](Ollama.svg) | Ollama | [Ollama.svg](Ollama.svg) |
+| [<img src="OpenCode.svg" width="56" height="56" alt="OpenCode">](OpenCode.svg) | OpenCode | [OpenCode.svg](OpenCode.svg) |
+| [<img src="OpenRouter.svg" width="56" height="56" alt="OpenRouter">](OpenRouter.svg) | OpenRouter | [OpenRouter.svg](OpenRouter.svg) |
+| [<img src="OpenWebUI.svg" width="56" height="56" alt="OpenWebUI">](OpenWebUI.svg) | OpenWebUI | [OpenWebUI.svg](OpenWebUI.svg) |
 | [<img src="Ox.svg" width="56" height="56" alt="牛">](Ox.svg) | 牛 | [Ox.svg](Ox.svg) |
 | [<img src="Panda.svg" width="56" height="56" alt="熊猫">](Panda.svg) | 熊猫 | [Panda.svg](Panda.svg) |
 | [<img src="Paramount.svg" width="56" height="56" alt="Paramount">](Paramount.svg) | Paramount | [Paramount.svg](Paramount.svg) |
 | [<img src="PayPal.svg" width="56" height="56" alt="PayPal">](PayPal.svg) | PayPal | [PayPal.svg](PayPal.svg) |
 | [<img src="PBS.svg" width="56" height="56" alt="PBS">](PBS.svg) | PBS | [PBS.svg](PBS.svg) |
+| [<img src="Perplexity.svg" width="56" height="56" alt="Perplexity">](Perplexity.svg) | Perplexity | [Perplexity.svg](Perplexity.svg) |
 | [<img src="Pig.svg" width="56" height="56" alt="猪">](Pig.svg) | 猪 | [Pig.svg](Pig.svg) |
+| [<img src="Pika.svg" width="56" height="56" alt="Pika">](Pika.svg) | Pika | [Pika.svg](Pika.svg) |
+| [<img src="Pixiv.svg" width="56" height="56" alt="Pixiv">](Pixiv.svg) | Pixiv | [Pixiv.svg](Pixiv.svg) |
+| [<img src="PixVerse.svg" width="56" height="56" alt="PixVerse">](PixVerse.svg) | PixVerse | [PixVerse.svg](PixVerse.svg) |
+| [<img src="Pornhub.svg" width="56" height="56" alt="Pornhub">](Pornhub.svg) | Pornhub | [Pornhub.svg](Pornhub.svg) |
 | [<img src="Prime_Video.svg" width="56" height="56" alt="Prime Video">](Prime_Video.svg) | Prime Video | [Prime_Video.svg](Prime_Video.svg) |
 | [<img src="Proxy.svg" width="56" height="56" alt="代理">](Proxy.svg) | 代理 | [Proxy.svg](Proxy.svg) |
 | [<img src="Puzzle.svg" width="56" height="56" alt="拼图">](Puzzle.svg) | 拼图 | [Puzzle.svg](Puzzle.svg) |
 | [<img src="Quic.svg" width="56" height="56" alt="QUIC">](Quic.svg) | QUIC | [Quic.svg](Quic.svg) |
+| [<img src="Qwen.svg" width="56" height="56" alt="通义千问">](Qwen.svg) | 通义千问 | [Qwen.svg](Qwen.svg) |
 | [<img src="Rainbow.svg" width="56" height="56" alt="彩虹">](Rainbow.svg) | 彩虹 | [Rainbow.svg](Rainbow.svg) |
+| [<img src="Recraft.svg" width="56" height="56" alt="Recraft">](Recraft.svg) | Recraft | [Recraft.svg](Recraft.svg) |
 | [<img src="Reddit.svg" width="56" height="56" alt="Reddit">](Reddit.svg) | Reddit | [Reddit.svg](Reddit.svg) |
 | [<img src="Reject.svg" width="56" height="56" alt="拒绝连接">](Reject.svg) | 拒绝连接 | [Reject.svg](Reject.svg) |
+| [<img src="Replicate.svg" width="56" height="56" alt="Replicate">](Replicate.svg) | Replicate | [Replicate.svg](Replicate.svg) |
 | [<img src="Ring.svg" width="56" height="56" alt="圆环">](Ring.svg) | 圆环 | [Ring.svg](Ring.svg) |
 | [<img src="Riot_Games.svg" width="56" height="56" alt="Riot Games">](Riot_Games.svg) | Riot Games | [Riot_Games.svg](Riot_Games.svg) |
 | [<img src="Rocket.svg" width="56" height="56" alt="火箭">](Rocket.svg) | 火箭 | [Rocket.svg](Rocket.svg) |
+| [<img src="RooCode.svg" width="56" height="56" alt="RooCode">](RooCode.svg) | RooCode | [RooCode.svg](RooCode.svg) |
 | [<img src="Round_Robin.svg" width="56" height="56" alt="轮询">](Round_Robin.svg) | 轮询 | [Round_Robin.svg](Round_Robin.svg) |
+| [<img src="Runway.svg" width="56" height="56" alt="Runway">](Runway.svg) | Runway | [Runway.svg](Runway.svg) |
 | [<img src="Scholar.svg" width="56" height="56" alt="学术">](Scholar.svg) | 学术 | [Scholar.svg](Scholar.svg) |
 | [<img src="Server.svg" width="56" height="56" alt="服务器">](Server.svg) | 服务器 | [Server.svg](Server.svg) |
+| [<img src="Shopee.svg" width="56" height="56" alt="Shopee">](Shopee.svg) | Shopee | [Shopee.svg](Shopee.svg) |
+| [<img src="SiliconFlow.svg" width="56" height="56" alt="SiliconFlow">](SiliconFlow.svg) | SiliconFlow | [SiliconFlow.svg](SiliconFlow.svg) |
 | [<img src="Spark.svg" width="56" height="56" alt="火花">](Spark.svg) | 火花 | [Spark.svg](Spark.svg) |
 | [<img src="Speedtest.svg" width="56" height="56" alt="网络测速">](Speedtest.svg) | 网络测速 | [Speedtest.svg](Speedtest.svg) |
 | [<img src="Spotify.svg" width="56" height="56" alt="Spotify">](Spotify.svg) | Spotify | [Spotify.svg](Spotify.svg) |
 | [<img src="SSID.svg" width="56" height="56" alt="无线网络">](SSID.svg) | 无线网络 | [SSID.svg](SSID.svg) |
 | [<img src="SSL.svg" width="56" height="56" alt="安全连接">](SSL.svg) | 安全连接 | [SSL.svg](SSL.svg) |
+| [<img src="StabilityAI.svg" width="56" height="56" alt="StabilityAI">](StabilityAI.svg) | StabilityAI | [StabilityAI.svg](StabilityAI.svg) |
 | [<img src="Stack.svg" width="56" height="56" alt="协议栈">](Stack.svg) | 协议栈 | [Stack.svg](Stack.svg) |
 | [<img src="Star.svg" width="56" height="56" alt="收藏">](Star.svg) | 收藏 | [Star.svg](Star.svg) |
 | [<img src="Static.svg" width="56" height="56" alt="静态规则">](Static.svg) | 静态规则 | [Static.svg](Static.svg) |
 | [<img src="Static(1).svg" width="56" height="56" alt="静态规则 · 备选">](Static(1).svg) | 静态规则 · 备选 | [Static(1).svg](Static(1).svg) |
 | [<img src="Steam.svg" width="56" height="56" alt="Steam">](Steam.svg) | Steam | [Steam.svg](Steam.svg) |
 | [<img src="Streaming.svg" width="56" height="56" alt="流媒体服务">](Streaming.svg) | 流媒体服务 | [Streaming.svg](Streaming.svg) |
+| [<img src="Suno.svg" width="56" height="56" alt="Suno">](Suno.svg) | Suno | [Suno.svg](Suno.svg) |
 | [<img src="Telegram.svg" width="56" height="56" alt="Telegram">](Telegram.svg) | Telegram | [Telegram.svg](Telegram.svg) |
+| [<img src="Tencent.svg" width="56" height="56" alt="腾讯">](Tencent.svg) | 腾讯 | [Tencent.svg](Tencent.svg) |
+| [<img src="Threads.svg" width="56" height="56" alt="Threads">](Threads.svg) | Threads | [Threads.svg](Threads.svg) |
 | [<img src="TikTok.svg" width="56" height="56" alt="TikTok">](TikTok.svg) | TikTok | [TikTok.svg](TikTok.svg) |
+| [<img src="TogetherAI.svg" width="56" height="56" alt="TogetherAI">](TogetherAI.svg) | TogetherAI | [TogetherAI.svg](TogetherAI.svg) |
+| [<img src="Trae.svg" width="56" height="56" alt="Trae">](Trae.svg) | Trae | [Trae.svg](Trae.svg) |
 | [<img src="TVB.svg" width="56" height="56" alt="TVB">](TVB.svg) | TVB | [TVB.svg](TVB.svg) |
 | [<img src="Twitch.svg" width="56" height="56" alt="Twitch">](Twitch.svg) | Twitch | [Twitch.svg](Twitch.svg) |
 | [<img src="Twitter.svg" width="56" height="56" alt="Twitter">](Twitter.svg) | Twitter | [Twitter.svg](Twitter.svg) |
+| [<img src="Udio.svg" width="56" height="56" alt="Udio">](Udio.svg) | Udio | [Udio.svg](Udio.svg) |
 | [<img src="ULB.svg" width="56" height="56" alt="负载均衡">](ULB.svg) | 负载均衡 | [ULB.svg](ULB.svg) |
 | [<img src="United_States_Map.svg" width="56" height="56" alt="美国地图">](United_States_Map.svg) | 美国地图 | [United_States_Map.svg](United_States_Map.svg) |
 | [<img src="Unlock.svg" width="56" height="56" alt="解锁">](Unlock.svg) | 解锁 | [Unlock.svg](Unlock.svg) |
+| [<img src="V2EX.svg" width="56" height="56" alt="V2EX">](V2EX.svg) | V2EX | [V2EX.svg](V2EX.svg) |
+| [<img src="Vercel.svg" width="56" height="56" alt="Vercel">](Vercel.svg) | Vercel | [Vercel.svg](Vercel.svg) |
 | [<img src="Vimeo.svg" width="56" height="56" alt="Vimeo">](Vimeo.svg) | Vimeo | [Vimeo.svg](Vimeo.svg) |
 | [<img src="WebRTC.svg" width="56" height="56" alt="WebRTC">](WebRTC.svg) | WebRTC | [WebRTC.svg](WebRTC.svg) |
+| [<img src="WiFi.svg" width="56" height="56" alt="无线网络">](WiFi.svg) | 无线网络 | [WiFi.svg](WiFi.svg) |
+| [<img src="Windsurf.svg" width="56" height="56" alt="Windsurf">](Windsurf.svg) | Windsurf | [Windsurf.svg](Windsurf.svg) |
+| [<img src="Wise.svg" width="56" height="56" alt="Wise">](Wise.svg) | Wise | [Wise.svg](Wise.svg) |
 | [<img src="World_Map.svg" width="56" height="56" alt="世界地图">](World_Map.svg) | 世界地图 | [World_Map.svg](World_Map.svg) |
 | [<img src="Xbox.svg" width="56" height="56" alt="Xbox">](Xbox.svg) | Xbox | [Xbox.svg](Xbox.svg) |
 | [<img src="Yahoo.svg" width="56" height="56" alt="Yahoo">](Yahoo.svg) | Yahoo | [Yahoo.svg](Yahoo.svg) |
