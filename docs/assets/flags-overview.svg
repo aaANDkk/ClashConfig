@@ -5636,12 +5636,7 @@
 <linearGradient id="flag212_gb-sct-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
 <linearGradient id="flag212_gb-sct-blue" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient>
 <linearGradient id="flag212_gb-sct-black" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient></defs>
-<g mask="url(#flag212_gb-sct-board)">
-<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#flag212_gb-sct-white)" stroke="url(#flag212_gb-sct-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,21.4745 l 140.9162,0 l 0,100.5781 L 1.329,122.0526 z" fill="url(#flag212_gb-sct-blue)" stroke="url(#flag212_gb-sct-blue)" stroke-width=".5" stroke-linejoin="round" />
-<path d="m 1.329,21.4745 l 140.9162,100.5781 M 1.329,122.0526 l 140.9162,-100.5781" fill="url(#flag212_gb-sct-black)" stroke="url(#flag212_gb-sct-black)" stroke-width=".5" stroke-linejoin="round" />
-</g>
-</svg>
+<g mask="url(#flag212_gb-sct-board)"><rect x="0" y="20" width="144" height="104" fill="url(#flag212_gb-sct-blue)" /><path d="M1.329 21.4745L142.2452 122.0526M1.329 122.0526L142.2452 21.4745" fill="none" stroke="url(#flag212_gb-sct-white)" stroke-width="19" stroke-linecap="square" /></g></svg>
 <text x="558.0" y="4648" text-anchor="middle" font-size="14" class="label">苏格兰</text>
 <text x="558.0" y="4678" text-anchor="middle" font-size="10" class="muted">Scotland</text>
 </g>
