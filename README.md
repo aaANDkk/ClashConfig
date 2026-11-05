@@ -2,6 +2,42 @@
 
 个人自用 Mihomo / Clash Meta 配置，提供 [YAML 配置](mihomo.yaml)、[JS 预处理脚本](mihomo.js)和自绘 Qure 风格 SVG 图标。项目不提供节点或机场订阅。
 
+## 🚀 使用方式
+
+YAML 与 JS 链接均放在独立代码块中，点击代码块右上角的复制按钮即可复制。
+
+### 方式一：导入 YAML
+
+复制下方 YAML 链接，可直接导入 **FlClash 的自定义配置**：
+
+```text
+https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/mihomo.yaml
+```
+
+也可下载 [mihomo.yaml](mihomo.yaml)，在文件已有的 `proxy-providers` 区域替换订阅链接后导入。保留文件前面的 `airport` 锚点：
+
+```yaml
+proxy-providers:
+  Provider_A:
+    <<: *airport
+    url: "填入1号机场订阅"
+    override:
+      additional-prefix: "① "
+  Provider_B:
+    <<: *airport
+    url: "填入2号机场订阅"
+    override:
+      additional-prefix: "② "
+```
+
+### 方式二：使用 JS 预处理脚本
+
+在支持订阅 JS 预处理的客户端中添加 [mihomo.js](mihomo.js)。如果客户端支持远程脚本，可使用：
+
+```text
+https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/mihomo.js
+```
+
 ## ✨ 配置亮点
 
 ### 策略分组与自动测速
@@ -53,42 +89,6 @@ YAML 提供国内、国外、AI、抖音等 DNS 分流。JS 在此基础上参�
 | `QUIC` | 拦截非国内目标的 UDP 443 流量。 |
 
 Hosts 内置部分 PCDN 域名屏蔽；动漫、流媒体分别使用 `Anime`、`Media` 分组，Niconico 优先使用日本自动测速组，Emos 固定直连。可在 [rules/anime.yaml](rules/anime.yaml) 和 [rules/media.yaml](rules/media.yaml) 中维护补充规则。
-
-## 🚀 使用方式
-
-YAML 与 JS 链接均放在独立代码块中，点击代码块右上角的复制按钮即可复制。
-
-### 方式一：导入 YAML
-
-复制下方 YAML 链接，可直接导入 **FlClash 的自定义配置**：
-
-```text
-https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/mihomo.yaml
-```
-
-也可下载 [mihomo.yaml](mihomo.yaml)，在文件已有的 `proxy-providers` 区域替换订阅链接后导入。保留文件前面的 `airport` 锚点：
-
-```yaml
-proxy-providers:
-  Provider_A:
-    <<: *airport
-    url: "填入1号机场订阅"
-    override:
-      additional-prefix: "① "
-  Provider_B:
-    <<: *airport
-    url: "填入2号机场订阅"
-    override:
-      additional-prefix: "② "
-```
-
-### 方式二：使用 JS 预处理脚本
-
-在支持订阅 JS 预处理的客户端中添加 [mihomo.js](mihomo.js)。如果客户端支持远程脚本，可使用：
-
-```text
-https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/mihomo.js
-```
 
 ## 🎨 Qure 风格 SVG 图标
 
