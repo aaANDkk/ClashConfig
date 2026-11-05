@@ -1,12 +1,12 @@
-# Qure 风格旗帜素材索引
+# Qure 风格地区旗帜素材索引
 
-共 **270** 个 SVG，按英文文件名排序，包含国家、地区和组织。点击图标或文件名可查看原始素材。
+共 **270** 个 SVG，统一为 **144×144**。按英文文件名排序，点击图标或文件名可查看原始素材。
 
 [返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/flags-overview.png) · [可缩放 SVG 总览](../../../docs/assets/flags-overview.svg)
 
-素材库完整展示所有旗帜；JS 的动态地区匹配仅覆盖 51 个常见机场地区，并在至少 3 个有效节点时生成分组。中国台湾图标文件为 `China_Taiwan.svg`。
+素材库展示全部地区和组织旗帜；JS 仅匹配 51 个常见机场地区。
 
-| 预览 | 名称 | SVG 文件 |
+| 预览 | 用途 / 名称 | SVG 文件 |
 | :---: | :--- | :--- |
 | [<img src="Afghanistan.svg" width="56" height="56" alt="阿富汗">](Afghanistan.svg) | 阿富汗 | [Afghanistan.svg](Afghanistan.svg) |
 | [<img src="Aland_Islands.svg" width="56" height="56" alt="奥兰群岛">](Aland_Islands.svg) | 奥兰群岛 | [Aland_Islands.svg](Aland_Islands.svg) |
