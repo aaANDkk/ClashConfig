@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Klarna</title>
+  <desc>Qure-style Klarna icon. Klarna 先享后付 BNPL 概念的全球行业开创者与购物金融超级 App</desc>
+  <defs>
+    <linearGradient id="p11-klarna-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#FED7E1" />
+      <stop offset="0.5" stop-color="#FFB3C7" />
+      <stop offset="1.0" stop-color="#FF769A" />
+    </linearGradient>
+  </defs>
+  <path d="M 34.342665136,21.166666 l 0,101.66666 L 11,122.833326 L 11,21.166666 l 23.342665136,0 z m 58.25499618,0 c 0,21.319498602 -8.046916139,41.200413965 -22.442915195,56.262329644 l -1.413166574,1.438583239 L 100.985160766,122.833326 l -28.812331444,0 l -35.039414369,-47.7833302 l 9.043249407,-6.770999556 c 14.528165714,-10.87833262 23.052915155,-27.338164874 23.571415121,-45.363663692 L 69.773496146,21.166666 l 22.82416517,0 z M 120.2916595,97.416661 a 12.7083,12.7083 0 0,1 0,25.416665 a 12.7083,12.7083 0 0,1 0,-25.416665 z" fill="url(#p11-klarna-grad)" />
+</svg>

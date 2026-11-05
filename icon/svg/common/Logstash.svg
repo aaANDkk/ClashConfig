@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Logstash</title>
+  <desc>Qure-style Logstash icon. Logstash 开源服务器端集中式数据收集与清洗管道</desc>
+  <defs>
+    <linearGradient id="p10-logstash-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#0481AA" />
+      <stop offset="0.5" stop-color="#005571" />
+      <stop offset="1.0" stop-color="#002734" />
+    </linearGradient>
+  </defs>
+  <path d="M 80.725,132 l 41.455,0 l 0,-45.82 l -41.45,0 z m -13.09,0 l 2.185,0 l 0,-45.82 l -48,0 A 45.815,45.815 0 0,0 67.635,132 m 2.19,-45.82 l -48,0 L 21.825,12 l 4.365,0 a 43.635,43.635 0 0,1 43.635,43.635 z" fill="url(#p10-logstash-grad)" />
+</svg>

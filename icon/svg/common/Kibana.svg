@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Kibana</title>
+  <desc>Qure-style Kibana icon. Kibana Elastic Stack 核心图表探索与数据交互看板</desc>
+  <defs>
+    <linearGradient id="p10-kibana-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#0481AA" />
+      <stop offset="0.5" stop-color="#005571" />
+      <stop offset="1.0" stop-color="#002734" />
+    </linearGradient>
+  </defs>
+  <path d="M 25.125,12 l 0,107.955 L 118.875,12 z m 54.32,62.35 L 29.385,132 l 87.61,0 a 93.775,93.775 0 0,0 -37.55,-57.65 z" fill="url(#p10-kibana-grad)" />
+</svg>

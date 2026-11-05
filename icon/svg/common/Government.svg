@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Government</title>
+  <desc>Qure-style Government icon with stately Capitol/Parliament temple columns.</desc>
+  <defs>
+    <linearGradient id="p6-gov-grad" gradientUnits="userSpaceOnUse" x1="72" y1="15" x2="72" y2="129">
+      <stop offset="0.0" stop-color="#2C3E50" />
+      <stop offset="0.5" stop-color="#1B2A38" />
+      <stop offset="1.0" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#p6-gov-grad)" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M 60.59684,106.199392 l 0,-39.901008" />
+  <path d="M 66.975301136,16.16561752 a 11.4003,11.4003 0 0,1 10.043653728,0 l 44.68912896,21.922753824 A 2.85007,2.85007 0 0,1 120.448352,43.497808 l -96.902448,0 a 2.85007,2.85007 0 0,1 -1.25403168,-5.409436656 z" />
+  <path d="M 83.397416,106.199392 l 0,-39.901008" />
+  <path d="M 106.197992,106.199392 l 0,-39.901008" />
+  <path d="M 20.695832,128.999968 l 102.602592,0" />
+  <path d="M 37.796264,106.199392 l 0,-39.901008" />
+  </g>
+</svg>

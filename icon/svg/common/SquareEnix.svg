@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>SquareEnix</title>
+  <desc>Qure-style SquareEnix icon. 史克威尔艾尼克斯 最终幻想/勇者斗恶龙巨头</desc>
+  <defs>
+    <linearGradient id="p9-squareenix-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#EE595E" />
+      <stop offset="0.5" stop-color="#ED1C24" />
+      <stop offset="1.0" stop-color="#C10B12" />
+    </linearGradient>
+  </defs>
+  <path d="M 20.615,12 l 0,120 l 102.77,0 l 0,-22.48 L 47.185,109.52 L 47.185,32.44 l 75.03,0 L 122.215,12 z m 48.755,47.3 l 0,22.485 l 42.92,0 L 112.29,59.295 z" fill="url(#p9-squareenix-grad)" />
+</svg>

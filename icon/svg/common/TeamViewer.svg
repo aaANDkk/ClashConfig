@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>TeamViewer</title>
+  <desc>Qure-style TeamViewer icon with solid blue disc and white bidirectional arrows.</desc>
+  <defs>
+    <linearGradient id="p6-tv-blue" gradientUnits="userSpaceOnUse" x1="72" y1="10" x2="72" y2="134">
+      <stop offset="0.0" stop-color="#1483FF" />
+      <stop offset="0.5" stop-color="#0062E6" />
+      <stop offset="1.0" stop-color="#0047B3" />
+    </linearGradient>
+  </defs>
+  <circle cx="72" cy="72" r="61" fill="url(#p6-tv-blue)" />
+  <path d="m 113.00002901,71.989999894 l -31.237379925,-17.066398253 l 3.437366305,10.758705632 L 58.80505661,65.682307273 l 3.432348252,-10.763723685 L 31.000024937,72.000036 l 31.237379925,17.081452412 l -3.427330199,-10.773759791 l 26.39495878,0 l -3.442384358,10.773759791 z" fill="#FFFFFF" />
+</svg>

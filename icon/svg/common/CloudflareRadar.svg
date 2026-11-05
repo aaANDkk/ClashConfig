@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>CloudflareRadar</title>
+  <desc>Qure-style CloudflareRadar icon. Cloudflare Radar 全球互联网流量、安全态势与连接中断趋势雷达</desc>
+  <defs>
+    <linearGradient id="p10-radar-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#429AFA" />
+      <stop offset="0.5" stop-color="#007AFF" />
+      <stop offset="1.0" stop-color="#005DC2" />
+    </linearGradient>
+  </defs>
+  <path d="M 72,12 L 22.985,131.875 L 72,111.76 L 121.015,132 z" fill="url(#p10-radar-grad)" />
+</svg>

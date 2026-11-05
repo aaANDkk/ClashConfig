@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Ansible</title>
+  <desc>Qure-style Ansible icon. Ansible 极简免 Agent 自动化 IT 运维与配置管理平台</desc>
+  <defs>
+    <linearGradient id="p10-ansible-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#FA3131" />
+      <stop offset="0.5" stop-color="#EE0000" />
+      <stop offset="1.0" stop-color="#B10000" />
+    </linearGradient>
+  </defs>
+  <path d="M 65.085,69.365 l 23.43,18.475 l -15.51,-38.31 z M 72,12 C 38.855,12 12,38.855 12,72 s 26.855,60 60,60 s 60,-26.855 60,-60 S 105.145,12 72,12 z m 28.985,86.525 c -0.055,2.355 -2.015,4.21 -4.375,4.15 c -1.18,0 -2.08,-0.45 -3.32,-1.465 l -30.95,-25 l -10.395,26.015 L 42.955,102.225 L 69.19,39.2 c 0.62,-1.57 2.135,-2.6 3.82,-2.53 c 1.63,-0.07 3.15,0.945 3.71,2.53 l 23.87,57.47 c 0.225,0.555 0.4,1.17 0.4,1.74 c -0.00500000000001,0.045 -0.00500000000001,0.045 -0.00500000000001,0.115 z" fill="url(#p10-ansible-grad)" />
+</svg>

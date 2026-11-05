@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Discourse</title>
+  <desc>Qure-style Discourse icon. Discourse 现代化开源社区论坛系统</desc>
+  <defs>
+    <linearGradient id="p7-discourse-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#4A4A4E" />
+      <stop offset="0.5" stop-color="#2B2B2F" />
+      <stop offset="1.0" stop-color="#16161A" />
+    </linearGradient>
+  </defs>
+  <path d="M 72.515,12 C 105.33,12 132,39.425 132,71.985 c 0,32.55 -26.65,59.95 -59.5,59.95 L 12,132 L 12,70.95 C 12,38.4 39.66,12 72.515,12 z m 0.58,22.815 c -12.965,-0.015 -24.98,6.76 -31.685,17.85 c -6.65,11.04 -6.935,24.785 -0.74,36.1 L 34,110.05 l 23.97,-5.37 c 13.725,6.125 29.825,3.38 40.68,-6.95 c 10.85,-10.27 14.3,-26.14 8.685,-39.985 c -5.675,-13.89 -19.2,-22.95 -34.2,-22.925 l -0.04,0 z" fill="url(#p7-discourse-grad)" />
+</svg>

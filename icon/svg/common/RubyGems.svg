@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>RubyGems</title>
+  <desc>Qure-style RubyGems icon. RubyGems 拥有悠久历史且高度成熟的 Ruby 语言包管理生态</desc>
+  <defs>
+    <linearGradient id="p11-rubygems-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#EC8979" />
+      <stop offset="0.5" stop-color="#E9573F" />
+      <stop offset="1.0" stop-color="#D72F13" />
+    </linearGradient>
+  </defs>
+  <path d="M 51.05,51.5 l -14.85,14.75 l 35.95,35.9 l 14.8,-14.75 l 21.1,-21.15 l -14.8,-14.8 l 0,-0.05 L 51,51.4 z M 72,12 L 19.65,42 l 0,60 L 72,132 l 52.35,-30 L 124.35,42 L 72,12 z m 42.35,84.25 L 72,120.65 l -42.35,-24.4 L 29.65,47.6 L 72,23.2 l 42.35,24.4 l 0,48.65 z" fill="url(#p11-rubygems-grad)" />
+</svg>

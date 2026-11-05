@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Ghost</title>
+  <desc>Qure-style Ghost icon. Ghost 专为专业创作者、独立出版与媒体团队设计的现代化内容平台</desc>
+  <defs>
+    <linearGradient id="p11-ghost-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#31353C" />
+      <stop offset="0.5" stop-color="#15171A" />
+      <stop offset="1.0" stop-color="#121417" />
+    </linearGradient>
+  </defs>
+  <path d="M 72,12 C 38.865,12 12,38.865 12,72 s 26.865,60 60,60 s 60,-26.865 60,-60 S 105.135,12 72,12 z m 1.28,11.565 c 12.35,0.025 25.58,10.04 29.49,14.81 l 1.22,1.5 c 8.2,9.97 17.845,21.7 17.845,34.83 c 0,18.595 -14.9,29.04 -30.79,37.54 c -7.165,3.83 -14.9,7.54 -23.74,7.54 c -22.715,0 -41.83,-17.845 -41.83,-40.56 c 0,-3.53 0.85,-7.125 1.71,-10.75 c 0.61,-2.575 1.22,-5.165 1.535,-7.745 c 2.74,-22.695 14.835,-33.975 42.11,-37.04 a 21.45,21.45 0 0,1 2.45,-0.13 Z" fill="url(#p11-ghost-grad)" />
+</svg>

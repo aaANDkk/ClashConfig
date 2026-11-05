@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>HackClub</title>
+  <desc>Qure-style HackClub icon. Hack Club 专为中学生打造的全球最大非营利性代码极客社群网络</desc>
+  <defs>
+    <linearGradient id="p11-hackclub-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#EE7283" />
+      <stop offset="0.5" stop-color="#EC3750" />
+      <stop offset="1.0" stop-color="#D70F2B" />
+    </linearGradient>
+  </defs>
+  <path d="M 72,12 C 24,12 12,24 12,72 s 12,60 60,60 s 60,-12 60,-60 S 120,12 72,12 z m 22.5,97.547 l -16.547,0 L 77.953,77.015 c 0,-4.875 -0.9375,-8.109 -4.1715,-8.109 c -3.5625,0 -7.875,5.015 -7.875,13.125 l 0,27.515 L 49.5,109.546 L 49.5,36.8445 l 16.453,-2.8125 l 0,27.14 c 3.5625,-3.234 8.5315,-4.64 13.594,-4.64 c 10.781,0 14.953,7.078 14.953,18.14 z" fill="url(#p11-hackclub-grad)" />
+</svg>

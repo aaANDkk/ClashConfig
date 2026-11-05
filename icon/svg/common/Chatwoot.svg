@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Chatwoot</title>
+  <desc>Qure-style Chatwoot icon. Chatwoot 开源全渠道客户即时对话中枢与技术支持服务工作台</desc>
+  <defs>
+    <linearGradient id="p11-chatwoot-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#60B0FB" />
+      <stop offset="0.5" stop-color="#1F93FF" />
+      <stop offset="1.0" stop-color="#0074E1" />
+    </linearGradient>
+  </defs>
+  <path d="M 12,72 c 0,33.145 26.855,60 60,60 s 60,-26.855 60,-60 S 105.145,12 72,12 S 12,38.855 12,72 m 85.04,26.45 L 69.2,98.45 a 27.85,27.85 0 0,1 -27.81,-27.835 A 27.85,27.85 0 0,1 69.2,42.8 a 27.85,27.85 0 0,1 27.835,27.815 Z" fill="url(#p11-chatwoot-grad)" />
+</svg>

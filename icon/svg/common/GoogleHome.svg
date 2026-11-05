@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>GoogleHome</title>
+  <desc>Qure-style GoogleHome icon. Google Home 谷歌智能家居设备集成控制与语音助手联动中枢</desc>
+  <defs>
+    <linearGradient id="p11-googlehome-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#7FABF4" />
+      <stop offset="0.5" stop-color="#4285F4" />
+      <stop offset="1.0" stop-color="#0860F1" />
+    </linearGradient>
+  </defs>
+  <path d="M 72,12 a 7.2,7.2 0 0,0 -4.735,1.995 L 14.735,65.81 a 6.3,6.3 0 0,0 -1.71,4.04 l 0,55.69 c 0,3.84 2.65,6.46 6.555,6.46 l 104.84,0 c 3.9,0 6.555,-2.61 6.555,-6.46 L 130.975,69.85 a 6.25,6.25 0 0,0 -1.7,-4.02 L 90.4,27.485 l -0.00500000000001,0 L 76.735,14 A 7.27,7.27 0 0,0 72,12 Z m 0,33.635 l 32.76,32.28 l 0,28.25 L 39.23,106.165 l 0,-28.25 z" fill="url(#p11-googlehome-grad)" />
+</svg>

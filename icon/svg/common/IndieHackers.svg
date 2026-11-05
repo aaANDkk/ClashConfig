@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>IndieHackers</title>
+  <desc>Qure-style IndieHackers icon. Indie Hackers 独立开发者交流独立盈利副业项目与出海经验的核心社区</desc>
+  <defs>
+    <linearGradient id="p11-indiehackers-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#1C4368" />
+      <stop offset="0.5" stop-color="#0E2439" />
+      <stop offset="1.0" stop-color="#071521" />
+    </linearGradient>
+  </defs>
+  <path d="M 12,12 l 120,0 l 0,120 L 12,132 L 12,12 Z m 27,86 l 12,0 L 51,46 L 39,46 l 0,52 Z m 24,0 l 12,0 l 0,-20 l 18,0 l 0,20 l 12,0 L 105,46 l -12,0 l 0,20 l -18,0 l 0,-20 l -12,0 l 0,52 Z" fill="url(#p11-indiehackers-grad)" />
+</svg>

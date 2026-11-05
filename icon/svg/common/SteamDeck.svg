@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>SteamDeck</title>
+  <desc>Qure-style SteamDeck icon. Steam Deck Valve 革命性便携式掌上 PC 游戏机与 SteamOS 生态</desc>
+  <defs>
+    <linearGradient id="p10-steamdeck-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#5BB8FB" />
+      <stop offset="0.5" stop-color="#1A9FFF" />
+      <stop offset="1.0" stop-color="#0080DC" />
+    </linearGradient>
+  </defs>
+  <path d="M 56.995,12 l 0,21.545 c 21.21,0 38.47,17.25 38.47,38.455 s -17.26,38.455 -38.47,38.455 L 56.995,132 c 33.085,0 60,-26.915 60,-60 s -26.915,-60 -60,-60 Z m 0,30.055 c -16.565,0 -30,13.435 -29.99,30 a 29.995,29.995 0 1,0 29.99,-30 z" fill="url(#p10-steamdeck-grad)" />
+</svg>

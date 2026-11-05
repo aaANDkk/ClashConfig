@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>BurpSuite</title>
+  <desc>Qure-style BurpSuite icon. Burp Suite 业界领先的 Web 应用程序安全审计与网络漏洞拦截调试平台</desc>
+  <defs>
+    <linearGradient id="p11-burpsuite-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#FB9674" />
+      <stop offset="0.5" stop-color="#FF6633" />
+      <stop offset="1.0" stop-color="#F53D00" />
+    </linearGradient>
+  </defs>
+  <path d="M 12,12 l 0,120 l 120,0 L 132,12 Z m 55.315,16.785 l 9.37,0 l 0,13.78 L 64.05,58 l 12.635,0 l 0,18.74 l 22.895,0 l -22.89,27.96 l 0,10.52 l -9.38,0 l 0,-13.79 l 12.64,-15.43 l -12.635,0 L 67.315,67.25 l -22.9,0 l 22.9,-27.96 Z" fill="url(#p11-burpsuite-grad)" />
+</svg>

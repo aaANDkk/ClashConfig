@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>PlayStation2</title>
+  <desc>Qure-style PlayStation2 icon. PlayStation 2 索尼全球历史销量最高的传奇经典游戏家用主机</desc>
+  <defs>
+    <linearGradient id="p10-playstation2-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#054FC9" />
+      <stop offset="0.5" stop-color="#003791" />
+      <stop offset="1.0" stop-color="#002054" />
+    </linearGradient>
+  </defs>
+  <path d="M 48.92166418,81.043245407 l 0,1.484333236 l 21.055165286,0 l 0,-19.57083205 l 19.296332068,0 L 89.273161534,61.47749669 l -20.917915295,0 l 0,19.57083205 z m 82.593994584,-18.086498814 l 0,8.23499946 l -36.574580935,0 l 0,11.33583259 L 132.999992,82.527578643 l 0,-1.484333236 l -36.437330944,0 l 0,-8.367166118 L 132.999992,72.676079289 L 132.999992,61.472413357 l -38.058914171,0 l 0,1.484333236 z m -83.941077829,0 l 0,8.23499946 L 11,71.191746053 l 0,11.33583259 l 1.484333236,0 l 0,-9.851499354 L 48.92166418,72.676079289 L 48.92166418,61.472413357 L 11,61.472413357 l 0,1.484333236 Z" fill="url(#p10-playstation2-grad)" />
+</svg>

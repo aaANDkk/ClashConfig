@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>PhoneRepair</title>
+  <desc>Qure-style Phone Repair icon with smartphone silhouette and repair cog.</desc>
+  <defs>
+    <linearGradient id="p6-repair-grad" gradientUnits="userSpaceOnUse" x1="72" y1="15" x2="72" y2="129">
+      <stop offset="0.0" stop-color="#38BDF8" />
+      <stop offset="0.5" stop-color="#0284C7" />
+      <stop offset="1.0" stop-color="#0369A1" />
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#p6-repair-grad)" stroke-width="8.0" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M 60.211248,120.230734 l -23.384616,0 a 11.6923,11.6923 0 0,1 -11.692308,-11.692308 l 0,-81.846156 a 11.6923,11.6923 0 0,1 11.692308,-11.692308 l 46.769232,0 a 11.6923,11.6923 0 0,1 11.692308,11.692308 l 0,38.000001" />
+  <path d="M 54.365094,20.846116 l 11.692308,0" />
+  <path d="M 60.211248,96.846118 l 0,0.05846154" />
+  <path d="M 89.447864154,108.538426 a 11.6923,11.6923 0 0,0 23.384616,0 a 11.6923,11.6923 0 0,0 -23.384616,0" />
+  <path d="M 101.140172154,88.076887 l 0,8.769231" />
+  <path d="M 101.140172154,120.230734 l 0,8.769231" />
+  <path d="M 118.859864928,98.3076565 l -7.594154046,4.3846155" />
+  <path d="M 91.02047958,114.38458 l -7.6000002,4.3846155" />
+  <path d="M 83.42047938,98.3076565 l 7.6000002,4.3846155" />
+  <path d="M 111.265710882,114.38458 l 7.6000002,4.3846155" />
+  </g>
+</svg>

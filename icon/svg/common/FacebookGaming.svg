@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>FacebookGaming</title>
+  <desc>Qure-style FacebookGaming icon. Facebook Gaming Meta 旗下全球游戏直播推流、锦标赛与游戏社区</desc>
+  <defs>
+    <linearGradient id="p11-facebookgaming-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#3081FA" />
+      <stop offset="0.5" stop-color="#005FED" />
+      <stop offset="1.0" stop-color="#0046B0" />
+    </linearGradient>
+  </defs>
+  <path d="M 12,12 l 0,120 l 78.35,0 l 0,-36.75 L 48.75,95.25 l 0,-46.5 L 132,48.75 L 132,12 z m 41.65,78.4 l 41.6,0 L 95.25,132 L 132,132 L 132,53.6 L 53.65,53.6 Z" fill="url(#p11-facebookgaming-grad)" />
+</svg>

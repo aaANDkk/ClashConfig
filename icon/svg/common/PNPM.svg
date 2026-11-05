@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>PNPM</title>
+  <desc>Qure-style PNPM icon. pnpm 基于硬链接与内容寻址的超节省磁盘极速包管理器</desc>
+  <defs>
+    <linearGradient id="p11-pnpm-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#F4AE5F" />
+      <stop offset="0.5" stop-color="#F69220" />
+      <stop offset="1.0" stop-color="#D57303" />
+    </linearGradient>
+  </defs>
+  <path d="M 12,12 l 0,37.5 l 37.5,0 L 49.5,12 z m 41.25,0 l 0,37.5 l 37.49,0 L 90.74,12 z m 41.25,0 l 0,37.5 L 132,49.5 L 132,12 z M 22,22 l 17.5,0 l 0,17.5 L 22,39.5 z m 41.25,0 l 17.49,0 l 0,17.5 L 63.25,39.5 z m 41.25,0 L 122,22 l 0,17.5 l -17.5,0 z M 53.25,53.25 l 0,37.5 l 37.49,0 l 0,-37.5 z m 41.25,0 l 0,37.5 L 132,90.75 l 0,-37.5 z m 10,10 L 122,63.25 l 0,17.5 l -17.5,0 z M 12,94.5 L 12,132 l 37.5,0 l 0,-37.5 z m 41.25,0 L 53.25,132 l 37.49,0 l 0,-37.5 z m 41.25,0 L 94.5,132 L 132,132 l 0,-37.5 z" fill="url(#p11-pnpm-grad)" />
+</svg>

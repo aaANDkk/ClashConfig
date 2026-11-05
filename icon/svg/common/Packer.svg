@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Packer</title>
+  <desc>Qure-style Packer icon. Packer HashiCorp 出品的跨平台全自动化多云虚拟机镜像构建工具</desc>
+  <defs>
+    <linearGradient id="p10-packer-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#36BEF8" />
+      <stop offset="0.5" stop-color="#02A8EF" />
+      <stop offset="1.0" stop-color="#007EB4" />
+    </linearGradient>
+  </defs>
+  <path d="M 51.22,12 l 0,16.9 l 28.75,16.6 l 0,50.74 l 13.525,7.76 c 8.38,4.835 15.225,1.94 15.225,-6.425 L 108.72,60.34 c -0.07,-8.435 -6.91,-19.16 -15.295,-23.995 L 51.22,12 z M 35.28,26.66 l 0,82.87 L 74.18,132 L 74.18,49.13 l -38.9,-22.47 Z" fill="url(#p10-packer-grad)" />
+</svg>

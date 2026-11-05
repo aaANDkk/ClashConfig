@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Bitdefender</title>
+  <desc>Qure-style Bitdefender icon. Bitdefender 全球享有盛誉的杀毒软件与终点网络威胁防护</desc>
+  <defs>
+    <linearGradient id="p10-bitdefender-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#EE595E" />
+      <stop offset="0.5" stop-color="#ED1C24" />
+      <stop offset="1.0" stop-color="#C10B12" />
+    </linearGradient>
+  </defs>
+  <path d="M 20.4225,12 l 0,1.785 l 6.16,5.23 c 7.385,6.02 8.35,7.195 8.35,12.63 L 34.9325,132 l 43.23,0 c 22.685,0 45.415,-8.145 45.415,-34.245 c 0,-15.41 -10.87,-27.29 -25.93,-28.985 l 0,-0.335 c 12.375,-3.725 20.845,-12.7 20.845,-26.265 c 0,-21.86 -18.65,-30.16 -36.745,-30.16 L 20.4275,12 z m 35.88,18.32 l 17.62,0 c 11.915,0 15.605,1.635 19.22,5.065 c 2.74,2.605 3.995,6.185 4.005,10.35 c 0,3.875 -1.335,7.33 -4.155,10.02 c -3.525,3.38 -8.37,5.055 -17.215,5.055 L 56.3075,60.81 L 56.3075,30.32 z m 0,48.79 l 20.495,0 c 17.28,0 25.425,4.405 25.425,16.95 c 0,15.765 -15.275,17.63 -26.28,17.63 L 56.2975,113.69 l 0,-34.58 z" fill="url(#p10-bitdefender-grad)" />
+</svg>

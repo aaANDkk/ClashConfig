@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Udemy</title>
+  <desc>Qure-style Udemy icon. Udemy 在线技能学习与培训平台</desc>
+  <defs>
+    <linearGradient id="p7-udemy-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#BD71F1" />
+      <stop offset="0.5" stop-color="#A435F0" />
+      <stop offset="1.0" stop-color="#880BDD" />
+    </linearGradient>
+  </defs>
+  <path d="M 72,12 L 41.05,29.865 l 0,17.87 l 30.945,-17.87 l 30.955,17.87 L 102.95,29.865 z M 41.05,62.74 l 0,40.72 c 0,9.25 2.945,16.215 8.705,21.17 S 62.885,132 71.865,132 s 16.345,-2.41 22.24,-7.37 c 5.895,-4.955 8.84,-12.195 8.84,-21.57 l 0,-40.32 l -16.21,0 l 0,39.25 c 0,10.18 -7.545,15.275 -14.74,15.275 c -7.14,0 -14.735,-4.955 -14.735,-15.135 l 0,-39.39 z" fill="url(#p7-udemy-grad)" />
+</svg>

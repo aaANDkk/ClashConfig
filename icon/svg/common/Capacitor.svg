@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Capacitor</title>
+  <desc>Qure-style Capacitor icon. Capacitor 跨平台原生移动与桌面应用现代容器</desc>
+  <defs>
+    <linearGradient id="p11-capacitor-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#53B6FB" />
+      <stop offset="0.5" stop-color="#119EFF" />
+      <stop offset="1.0" stop-color="#007DD3" />
+    </linearGradient>
+  </defs>
+  <path d="M 132,30.5 l -28.83,28.83 l 28.625,28.68 l -18.565,18.56 L 37.365,30.71 L 55.93,12.15 l 28.68,28.63 L 113.42,12 L 132,30.5 z M 12.145,55.925 l 18.565,-18.565 l 75.865,75.865 l -18.565,18.57 l -28.66,-28.63 L 30.5,132 L 12,113.425 l 28.77,-28.82 L 12.145,55.925 z" fill="url(#p11-capacitor-grad)" />
+</svg>

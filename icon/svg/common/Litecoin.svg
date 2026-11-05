@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Litecoin</title>
+  <desc>Qure-style Litecoin icon. Litecoin 莱特币经典点对点加密数字货币，比特币的白银兄弟</desc>
+  <defs>
+    <linearGradient id="p10-litecoin-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#C5C7C8" />
+      <stop offset="0.5" stop-color="#A6A9AA" />
+      <stop offset="1.0" stop-color="#878B8C" />
+    </linearGradient>
+  </defs>
+  <path d="M 72,12 a 60,60 0 1,0 60,60 A 60,60 0 0,0 72,12 z m -1.3085,18.3885 l 12.92,0 a 1.7125,1.7125 0 0,1 1.65,2.178 l -10.156,34.59 l 9.531,-2.91 l -2.041,6.9235 l -9.619,2.8025 l -6.24,21.065 l 33.3785,0 a 1.7125,1.7125 0 0,1 1.641,2.187 l -2.91,10 a 2.293,2.293 0 0,1 -2.1975,1.6505 L 45.662,108.875 l 8.6135,-29.1115 l -9.5315,2.9005 l 2.1,-6.8065 l 9.5505,-2.9 l 12.1095,-40.899 a 2.2785,2.2785 0 0,1 2.1875,-1.67 Z" fill="url(#p10-litecoin-grad)" />
+</svg>

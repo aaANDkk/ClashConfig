@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Pexels</title>
+  <desc>Qure-style Pexels icon. Pexels 免费高分辨率生活摄影与高清视频素材社区分享平台</desc>
+  <defs>
+    <linearGradient id="p10-pexels-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#0CD6AE" />
+      <stop offset="0.5" stop-color="#05A081" />
+      <stop offset="1.0" stop-color="#016753" />
+    </linearGradient>
+  </defs>
+  <path d="M 19.5,12 A 7.5,7.5 0 0,0 12,19.5 l 0,105 A 7.5,7.5 0 0,0 19.5,132 l 105,0 a 7.5,7.5 0 0,0 7.5,-7.5 l 0,-105 A 7.5,7.5 0 0,0 124.5,12 l -105,0 z m 33.75,33.75 l 26.3575,0 a 19.215,19.215 0 0,1 3.135,38.174 L 82.7425,98.25 L 53.25,98.25 L 53.25,45.75 z m 7.5,7.5 l 0,37.5 l 14.492,0 l 0,-14.0725 l 4.365,0 a 11.715,11.715 0 1,0 0,-23.4275 L 60.75,53.25 Z" fill="url(#p10-pexels-grad)" />
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Mozilla</title>
+  <desc>Qure-style Mozilla icon. Mozilla 全球开源互联网基金会</desc>
+  <defs>
+    <linearGradient id="p8-mozilla-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#4A4A4E" />
+      <stop offset="0.5" stop-color="#2B2B2F" />
+      <stop offset="1.0" stop-color="#16161A" />
+    </linearGradient>
+  </defs>
+  <path d="M 36.0975,132 L 20.7525,132 L 20.7525,12 L 36.1025,12 z M 48.6525,73.21 L 109.4025,73.21 l 0,-3.45 L 69.8125,55.35 L 69.8125,43.25 l 39.59,-14.36 l 0,-3.5 L 62.5025,25.39 L 62.5025,12 l 60.745,0 l 0,24.45 l -32.225,11.12 l 0,3.45 l 32.225,11.12 l 0,24.45 L 48.6525,86.59 z m 0,-47.825 l 13.85,0 l 0,13.85 L 48.6525,39.235 z" fill="url(#p8-mozilla-grad)" />
+</svg>

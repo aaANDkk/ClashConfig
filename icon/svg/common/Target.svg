@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Target</title>
+  <desc>Qure-style Target icon. 塔吉特 美国顶级百货零售商与时尚超市连锁</desc>
+  <defs>
+    <linearGradient id="p8-target-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#F91010" />
+      <stop offset="0.5" stop-color="#CC0000" />
+      <stop offset="1.0" stop-color="#8F0000" />
+    </linearGradient>
+  </defs>
+  <path d="M 72.0025,12 C 105.135,12 132,38.865 132,72.0025 C 132,105.135 105.135,132 71.9975,132 C 38.865,132 12,105.135 12,71.9975 C 12,38.865 38.865,12 72.0025,12 z m 0,99.13 a 39.1325,39.1325 0 1,0 -0.005,-78.26 C 50.5665,33.123 33.3265,50.568 33.3265,72 c 0,21.432 17.24,38.877 38.671,39.13 l 0.005,0 z m 0,-19.9265 a 19.201,19.201 0 1,1 0,-38.4015 c 10.602,0.00300000000001 19.195,8.5985 19.195,19.2005 s -8.593,19.198 -19.195,19.201 z" fill="url(#p8-target-grad)" />
+</svg>

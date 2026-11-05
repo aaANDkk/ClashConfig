@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Bulma</title>
+  <desc>Qure-style Bulma icon. Bulma 纯 CSS 打造、基于 Flexbox 响应式无 JavaScript 绑架的框架</desc>
+  <defs>
+    <linearGradient id="p11-bulma-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#15F9D7" />
+      <stop offset="0.5" stop-color="#00D1B2" />
+      <stop offset="1.0" stop-color="#00947E" />
+    </linearGradient>
+  </defs>
+  <path d="M 68.25,12 l -30,30 l -7.5,52.5 l 37.5,37.5 l 45,-30 l -30,-30 l 22.5,-22.5 l -37.5,-37.5 Z" fill="url(#p11-bulma-grad)" />
+</svg>

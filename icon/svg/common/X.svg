@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>X</title>
+  <desc>Qure-style X (formerly Twitter) icon. Black obsidian subtle gradient on transparent canvas.</desc>
+  <defs>
+    <linearGradient id="x-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#434348" />
+      <stop offset="0.5" stop-color="#212126" />
+      <stop offset="1.0" stop-color="#0B0B0E" />
+    </linearGradient>
+  </defs>
+  <path d="M 83.17,62.81 L 126.885,12 l -10.36,0 l -37.955,44.12 L 48.255,12 L 13.29,12 l 45.84,66.715 L 13.29,132 L 23.65,132 l 40.08,-46.59 L 95.745,132 l 34.965,0 z m -14.185,16.495 l -4.645,-6.645 L 27.38,19.8 l 15.91,0 l 29.825,42.66 l 4.645,6.645 l 38.77,55.45 l -15.91,0 z" fill="url(#x-grad)" />
+</svg>

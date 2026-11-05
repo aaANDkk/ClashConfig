@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Checkmk</title>
+  <desc>Qure-style Checkmk icon. Checkmk 强大全面的 IT 混合云基础设施综合性能监控解决方案</desc>
+  <defs>
+    <linearGradient id="p10-checkmk-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#3DE7BA" />
+      <stop offset="0.5" stop-color="#15D1A0" />
+      <stop offset="1.0" stop-color="#0C9D77" />
+    </linearGradient>
+  </defs>
+  <path d="M 37.935,55.69 l 0,19.925 l 24.415,-15.785 l 0,41.085 l 9.625,5.555 l 9.63,-5.555 L 81.605,59.85 l 24.41,15.79 L 106.015,55.71 l -34.04,-21.345 l -34.04,21.325 z M 72,12 l 51.875,29.995 L 123.875,102 L 72,132 L 20.125,102.03 L 20.125,42.015 L 72,12 z" fill="url(#p10-checkmk-grad)" />
+</svg>

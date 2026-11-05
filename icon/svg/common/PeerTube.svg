@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>PeerTube</title>
+  <desc>Qure-style PeerTube icon. PeerTube 基于 P2P 联邦网络的去中心化开源视频分享与直播平台</desc>
+  <defs>
+    <linearGradient id="p10-peertube-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#F18D4B" />
+      <stop offset="0.5" stop-color="#F1680D" />
+      <stop offset="1.0" stop-color="#BB4E06" />
+    </linearGradient>
+  </defs>
+  <path d="M 72,44.725 l 0,54.55 L 115.635,72 M 28.365,72 l 0,60 L 72,99.275 M 28.365,12 l 0,60 L 72,44.725" fill="url(#p10-peertube-grad)" />
+</svg>

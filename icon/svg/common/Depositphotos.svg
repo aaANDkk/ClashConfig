@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Depositphotos</title>
+  <desc>Qure-style Depositphotos icon. Depositphotos 全球数亿正版免版税高精度摄影素材与矢量插画库</desc>
+  <defs>
+    <linearGradient id="p10-depositphotos-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#4A4A4E" />
+      <stop offset="0.5" stop-color="#2B2B2F" />
+      <stop offset="1.0" stop-color="#16161A" />
+    </linearGradient>
+  </defs>
+  <path d="M 71.995,132 c 25.595,0 45.305,-19.71 45.305,-45.3 S 97.59,41.4 71.995,41.4 c -25.585,0 -45.295,19.71 -45.295,45.3 S 46.41,132 71.995,132 Z m 0,-27.99 c -9.77,0 -17.305,-7.54 -17.305,-17.31 c 0,-9.775 7.535,-17.31 17.305,-17.31 c 9.775,0 17.31,7.535 17.31,17.31 c 0,9.77 -7.535,17.31 -17.31,17.31 Z m 13.17,-61.205 l 30.805,0 L 115.97,12 l -30.805,0 l 0,30.805 Z" fill="url(#p10-depositphotos-grad)" />
+</svg>

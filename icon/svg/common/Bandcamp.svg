@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Bandcamp</title>
+  <desc>Qure-style Bandcamp icon. Bandcamp 独立音乐在线销售与发现</desc>
+  <defs>
+    <linearGradient id="p7-bandcamp-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#3FBCDE" />
+      <stop offset="0.5" stop-color="#1DA0C3" />
+      <stop offset="1.0" stop-color="#127691" />
+    </linearGradient>
+  </defs>
+  <path d="M 11,106.31249375 l 37.804747521,-68.6249955 L 132.999992,37.68749825 l -37.809830854,68.6249955 L 11,106.31249375 z" fill="url(#p7-bandcamp-grad)" />
+</svg>

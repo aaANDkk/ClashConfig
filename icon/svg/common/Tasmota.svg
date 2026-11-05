@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Tasmota</title>
+  <desc>Qure-style Tasmota icon. Tasmota 专为 ESP 芯片智能插座与传感器打造的开源通用固件</desc>
+  <defs>
+    <linearGradient id="p11-tasmota-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#5BB9ED" />
+      <stop offset="0.5" stop-color="#1FA3EC" />
+      <stop offset="1.0" stop-color="#0C81C2" />
+    </linearGradient>
+  </defs>
+  <path d="M 72,12 L 12,72 l 6.855,6.86 L 72,25.715 l 53.145,53.145 L 132,72 L 72,12 z m 0,42.315 a 37.05,37.05 0 0,0 -13.2,71.67 l 0,-10.665 a 27.32,27.32 0 0,1 8.355,-50.85 L 67.155,132 l 9.7,0 L 76.855,64.47 a 27.32,27.32 0 0,1 8.345,50.855 l 0,10.665 A 37.05,37.05 0 0,0 72,54.315 z" fill="url(#p11-tasmota-grad)" />
+</svg>

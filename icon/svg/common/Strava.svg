@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Strava</title>
+  <desc>Qure-style Strava icon. Strava 全球骑行与跑步爱好者必备的 GPS 轨迹记录与社交运动平台</desc>
+  <defs>
+    <linearGradient id="p11-strava-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#F97843" />
+      <stop offset="0.5" stop-color="#FC4C02" />
+      <stop offset="1.0" stop-color="#C13900" />
+    </linearGradient>
+  </defs>
+  <path d="M 88.935,101.72 l -10.445,-20.58 l -15.325,0 L 88.935,132 l 25.75,-50.86 l -15.33,0 m -35.04,-27.995 l 14.18,27.99 l 20.86,0 L 64.315,12 l -35,69.14 l 20.845,0" fill="url(#p11-strava-grad)" />
+</svg>

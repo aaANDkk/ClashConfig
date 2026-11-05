@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Auth0</title>
+  <desc>Qure-style Auth0 icon. Auth0 全球领先的现代化用户身份认证与授权通用云平台</desc>
+  <defs>
+    <linearGradient id="p10-auth0-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#EC8260" />
+      <stop offset="0.5" stop-color="#EB5424" />
+      <stop offset="1.0" stop-color="#C5390D" />
+    </linearGradient>
+  </defs>
+  <path d="M 121.8972,49.24 L 110.0972,12 L 33.7322,12 L 22.0972,49.24 c -6.76,21.56 0.15,46.03 19.075,60.075 L 72.0322,132 l 30.785,-22.76 c 18.775,-14.05 25.91,-38.44 19.075,-60.075 l -30.8,22.9 l 11.715,37.25 l -30.785,-22.985 l -30.79,22.9 l 11.79,-37.165 l -30.94,-22.75 l 38.15,-0.225 L 72.0372,12 l 11.78,37.02 l 38.075,0.22 z" fill="url(#p10-auth0-grad)" />
+</svg>

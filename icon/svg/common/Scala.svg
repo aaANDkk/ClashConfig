@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Scala</title>
+  <desc>Qure-style Scala icon. Scala 函数式与面向对象强类型语言</desc>
+  <defs>
+    <linearGradient id="p8-scala-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#E26967" />
+      <stop offset="0.5" stop-color="#DC322F" />
+      <stop offset="1.0" stop-color="#B41D1A" />
+    </linearGradient>
+  </defs>
+  <path d="M 34.9475,132 c 22.685,0 69.05,-7.58 74.105,-15 l 0,-28.645 c -4.785,7.04 -51.42,14.56 -74.105,14.56 L 34.9475,132 z M 34.9475,93.825 c 22.685,0 69.05,-7.58 74.105,-15 L 109.0525,50.18 c -4.785,7.04 -51.42,14.56 -74.105,14.56 l 0,29.085 z M 34.9475,55.645 c 22.685,0 69.05,-7.58 74.105,-15 L 109.0525,12 C 104.2675,19.04 57.6325,26.56 34.9475,26.56 l 0,29.085 z" fill="url(#p8-scala-grad)" />
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>HashiCorp</title>
+  <desc>Qure-style HashiCorp icon. HashiCorp Terraform/Vault 云多环境自动化构建</desc>
+  <defs>
+    <linearGradient id="p8-hashicorp-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#4A4A4E" />
+      <stop offset="0.5" stop-color="#2B2B2F" />
+      <stop offset="1.0" stop-color="#16161A" />
+    </linearGradient>
+  </defs>
+  <path d="M 62.57,32.47 L 33.075,49.5 l 0,65.45 L 15.33,104.71 L 15.33,39.25 L 62.57,12 l 0,20.47 z m 18.86,66.85 l 17.745,-10.245 L 99.175,22.25 L 81.425,12 l 0,52.13 l -18.85,0 l 0,-19.45 L 44.81,54.925 l 0,66.785 l 17.755,10.27 L 62.565,79.995 l 18.86,0 l 0,19.325 z M 110.915,29.05 L 110.915,94.5 l -29.485,17.025 L 81.43,132 l 47.24,-27.25 L 128.67,39.29 l -17.755,-10.25 z" fill="url(#p8-hashicorp-grad)" />
+</svg>

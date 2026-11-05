@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>KinoPoisk</title>
+  <desc>Qure-style KinoPoisk icon. KinoPoisk 俄罗斯与东欧最大影视评分与流媒体</desc>
+  <defs>
+    <linearGradient id="p9-kinopoisk-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#FA8C42" />
+      <stop offset="0.5" stop-color="#FF6600" />
+      <stop offset="1.0" stop-color="#C24E00" />
+    </linearGradient>
+  </defs>
+  <path d="M 72.245,12 C 39.25,12 12.52,38.865 12.52,72 S 39.25,132 72.245,132 c 19.64,0 37.07,-9.52 47.96,-24.22 l -49.015,-25.87 l 31.28,32.09 l -17.795,0 l -21.865,-30.43 L 62.81,114 l -14.45,0 L 48.36,30 l 14.45,0 l 0,30.475 L 84.675,30 l 17.795,0 l -32.11,33.135 l 49.9,-26.84 C 109.38,21.555 91.92,12 72.25,12 z m 54.62,35.665 l -49.97,20.135 l 54.585,-3.565 a 59.815,59.815 0 0,0 -4.615,-16.57 z m -50.325,28.4 l 50.325,20.27 c 2.29,-5.18 3.87,-10.745 4.615,-16.57 l -54.94,-3.7 z" fill="url(#p9-kinopoisk-grad)" />
+</svg>

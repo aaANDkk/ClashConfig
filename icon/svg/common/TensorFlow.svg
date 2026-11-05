@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>TensorFlow</title>
+  <desc>Qure-style TensorFlow icon. TensorFlow 谷歌打造的端到端开源机器学习与深度神经网络平台</desc>
+  <defs>
+    <linearGradient id="p11-tensorflow-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#FA9242" />
+      <stop offset="0.5" stop-color="#FF6F00" />
+      <stop offset="1.0" stop-color="#C25400" />
+    </linearGradient>
+  </defs>
+  <path d="M 18.46,41.28 L 69.7,12 l 0,120 l -20.475,-11.89 L 49.225,50.015 l -30.84,17.82 l 0.075,-26.55 z m 107.15,26.555 l -0.07,-26.55 L 74.3,12 l 0,120 l 20.475,-11.89 L 94.775,86.35 l 15.46,8.94 l -0.09,-23.09 l -15.37,-8.78 L 94.775,50.015 l 30.84,17.82 z" fill="url(#p11-tensorflow-grad)" />
+</svg>

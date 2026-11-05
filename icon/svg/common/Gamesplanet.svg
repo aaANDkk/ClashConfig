@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Gamesplanet</title>
+  <desc>Qure-style Gamesplanet icon. Gamesplanet 欧洲知名正版游戏数字零售商</desc>
+  <defs>
+    <linearGradient id="p9-planet-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#4D8EE9" />
+      <stop offset="0.5" stop-color="#166BE3" />
+      <stop offset="1.0" stop-color="#0D50AF" />
+    </linearGradient>
+  </defs>
+  <path d="M 76.455,44.91 c -5.795,0 -12,2.285 -16.085,8.165 l -0.165,0 a 7.95,7.95 0 0,0 -7.95,-7.95 l -0.24,0 l 0,54.3 a 8.96,8.96 0 0,0 8.92,8.92 l 0,-23.515 l 0.17,0 c 1.715,2.855 6.45,7.68 15.925,7.68 c 14.285,0 22.86,-11.76 22.86,-23.19 c 0.00999999999999,-12.08 -8.08,-24.41 -23.435,-24.41 z m -0.33,39.875 c -8.57,0 -15.35,-6.94 -15.35,-16.085 c 0,-8.33 6.21,-16 15.115,-16 c 9.225,0 15.515,8.08 15.515,16.165 c -0.005,9.525 -7.275,15.92 -15.28,15.92 z M 72.005,132 A 60,60 0 1,1 132,72.005 A 60.065,60.065 0 0,1 72.005,132 z m 0,-114.28 a 54.305,54.305 0 1,0 54.305,54.31 a 54.35,54.35 0 0,0 -54.3,-54.31 z" fill="url(#p9-planet-grad)" />
+</svg>

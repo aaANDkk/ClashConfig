@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Gravatar</title>
+  <desc>Qure-style Gravatar icon. Gravatar 全球通用头像自动识别与绑定服务</desc>
+  <defs>
+    <linearGradient id="p8-gravatar-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#3EAADC" />
+      <stop offset="0.5" stop-color="#1E8CBE" />
+      <stop offset="1.0" stop-color="#13668C" />
+    </linearGradient>
+  </defs>
+  <path d="M 72,12 c -6.63,0 -12,5.37 -12,12 l 0,42 c 0,6.62 5.37,11.99 12,11.99 s 12,-5.37 12,-11.99 L 84,38.05 c 13.975,4.95 23.995,18.27 23.995,33.945 c 0,19.875 -16.125,35.995 -35.995,35.995 S 36.005,91.875 36.005,72 c 0,-9.945 4.025,-18.945 10.54,-25.455 c 4.69,-4.69 4.69,-12.29 0,-16.98 s -12.29,-4.69 -16.98,0 C 18.72,40.43 12,55.43 12,72 c 0,33.135 26.865,60 60,60 s 60,-26.865 60,-60 S 105.135,12 72,12" fill="url(#p8-gravatar-grad)" />
+</svg>

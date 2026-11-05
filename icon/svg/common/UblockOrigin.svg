@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>UblockOrigin</title>
+  <desc>Qure-style UblockOrigin icon. uBlock Origin 高效极简内存占用网页广告净化器</desc>
+  <defs>
+    <linearGradient id="p9-ublockorigin-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#B80505" />
+      <stop offset="0.5" stop-color="#800000" />
+      <stop offset="1.0" stop-color="#430000" />
+    </linearGradient>
+  </defs>
+  <path d="M 72,12 C 49.51,27 42.01,27 19.5,27 c 0,75.01 0,75.01 52.5,105 c 52.5,-29.99 52.5,-29.99 52.5,-105 c -22.49,0 -29.99,0 -52.5,-15 z M 41.78,49.36 l 7.56,0 l 0,22.68 c 0,6.61 0.95,7.54 7.56,7.54 c 6.615,0 7.56,-0.95 7.56,-7.56 L 64.46,49.36 L 72,49.36 l 0,3.835 a 18.75,18.75 0 0,1 11.34,-3.835 a 18.95,18.95 0 0,1 18.88,18.9 a 18.95,18.95 0 0,1 -18.9,18.875 a 18.825,18.82 0 0,1 -13.42,-5.665 c -2.32,3.85 -6.575,5.665 -13,5.665 c -10.395,0 -15.12,-4.72 -15.12,-15.115 z m 41.54,7.56 A 11.27,11.27 0 0,0 72,68.26 a 11.27,11.27 0 0,0 11.34,11.32 a 11.27,11.27 0 0,0 11.32,-11.34 a 11.27,11.27 0 0,0 -11.34,-11.32 z" fill="url(#p9-ublockorigin-grad)" />
+</svg>

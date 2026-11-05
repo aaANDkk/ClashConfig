@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Pandas</title>
+  <desc>Qure-style Pandas icon. pandas 专为数据分析、清洗与结构化数据处理设计的核心库</desc>
+  <defs>
+    <linearGradient id="p11-pandas-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#250A8F" />
+      <stop offset="0.5" stop-color="#150458" />
+      <stop offset="1.0" stop-color="#090128" />
+    </linearGradient>
+  </defs>
+  <path d="M 96.61,12 l 13.115,0 l 0,90.52 l -13.115,0 z m -20.63,64.7 l 13.115,0 l 0,12.85 l -13.115,0 z m 0,-35.185 l 13.115,0 l 0,27.23 l -13.115,0 z m 0,55.985 l 13.115,0 l 0,27.23 l -13.115,0 z M 34.28,41.48 l 13.11,0 L 47.39,132 L 34.275,132 z m 21.065,12.795 l 13.115,0 l 0,12.85 L 55.35,67.125 z m 0,20.755 l 13.115,0 l 0,27.235 L 55.35,102.265 z m 0,-55.935 l 13.115,0 l 0,27.23 L 55.35,46.325 Z" fill="url(#p11-pandas-grad)" />
+</svg>

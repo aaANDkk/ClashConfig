@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>FontAwesome</title>
+  <desc>Qure-style FontAwesome icon. Font Awesome 互联网最受欢迎矢量图标套件</desc>
+  <defs>
+    <linearGradient id="p8-fontawesome-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#86AEE0" />
+      <stop offset="0.5" stop-color="#528DD7" />
+      <stop offset="1.0" stop-color="#296DC3" />
+    </linearGradient>
+  </defs>
+  <path d="M 33.967,34.5 c 3.4185,-2.1585 5.6895,-5.97 5.6895,-10.3125 C 39.6565,17.4565 34.199,12 27.469,12 C 20.7375,12 15.2815,17.4565 15.2815,24.1875 c 0,3.9025 1.834,7.3765 4.6875,9.607 L 19.969,132 l 15,0 l 0,-15 l 87.563,0 c 3.417,0 6.1865,-2.77 6.1865,-6.1865 a 6.185,6.185 0 0,0 -0.533,-2.5135 l -14.467,-32.55 l 14.467,-32.55 a 6.185,6.185 0 0,0 0.533,-2.513 c 0,-3.417 -2.7695,-6.187 -6.1865,-6.187 Z" fill="url(#p8-fontawesome-grad)" />
+</svg>

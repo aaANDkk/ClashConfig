@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Chainlink</title>
+  <desc>Qure-style Chainlink icon. Chainlink 行业标准的去中心化预言机网络，连接链上与链下现实数据</desc>
+  <defs>
+    <linearGradient id="p10-chainlink-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#6C86DA" />
+      <stop offset="0.5" stop-color="#375BD2" />
+      <stop offset="1.0" stop-color="#2242AA" />
+    </linearGradient>
+  </defs>
+  <path d="M 72,12 L 60.99,18.33 l -30,17.34 L 19.98,42 l 0,60 l 11.01,6.33 l 30.275,17.34 L 72.275,132 l 11.01,-6.33 l 29.725,-17.34 L 124.02,102 L 124.02,42 l -11.01,-6.33 l -30,-17.34 z M 42,89.34 L 42,54.66 l 30,-17.34 l 30,17.34 l 0,34.68 l -30,17.34 z" fill="url(#p10-chainlink-grad)" />
+</svg>

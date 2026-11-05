@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>RadixUI</title>
+  <desc>Qure-style RadixUI icon. Radix UI 构建高质量类型安全无样式可访问设计系统的底层核心</desc>
+  <defs>
+    <linearGradient id="p11-radixui-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#333338" />
+      <stop offset="0.5" stop-color="#161618" />
+      <stop offset="1.0" stop-color="#131315" />
+    </linearGradient>
+  </defs>
+  <path d="M 69.6,132 a 38.4,38.4 0 0,1 -38.4,-38.4 a 38.4,38.4 0 0,1 38.4,-38.4 L 69.6,132 Z m 0,-120 l 0,38.4 L 31.2,50.4 L 31.2,12 l 38.4,0 Z m 24,38.4 a 19.2,19.2 0 0,1 0,-38.4 a 19.2,19.2 0 0,1 0,38.4 Z" fill="url(#p11-radixui-grad)" />
+</svg>

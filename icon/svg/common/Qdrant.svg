@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Qdrant</title>
+  <desc>Qure-style Qdrant icon. Qdrant 基于 Rust 开发的高性能、具备丰富载荷过滤的向量数据库</desc>
+  <defs>
+    <linearGradient id="p11-qdrant-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#E15C79" />
+      <stop offset="0.5" stop-color="#DC244C" />
+      <stop offset="1.0" stop-color="#AB1738" />
+    </linearGradient>
+  </defs>
+  <path d="m 72,94.5 l 19.485,-11.25 l 0,-22.5 L 72,49.5 L 52.515,60.75 l 0,22.5 z M 20.035,102 L 72,132 l 19.485,-11.25 l 0,-22.5 L 72,109.5 l -32.475,-18.75 l 0,-37.5 L 72,34.5 l 32.475,18.75 l 0,75 L 123.965,117 L 123.965,42 L 72,12 L 20.035,42 Z" fill="url(#p11-qdrant-grad)" />
+</svg>

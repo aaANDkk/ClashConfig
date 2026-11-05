@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>DeutscheBank</title>
+  <desc>Qure-style DeutscheBank icon. Deutsche Bank 德意志银行 德国最大的全能投资与企业跨国银行</desc>
+  <defs>
+    <linearGradient id="p11-deutschebank-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#0625DF" />
+      <stop offset="0.5" stop-color="#0018A8" />
+      <stop offset="1.0" stop-color="#000F6B" />
+    </linearGradient>
+  </defs>
+  <path d="M 28.875,28.875 l 0,86.25 l 86.25,0 L 115.125,28.875 L 28.875,28.875 z M 12,12 l 120,0 l 0,120 L 12,132 L 12,12 z m 26.25,91.125 l 45.75,-62.25 l 21.75,0 L 60,103.125 L 38.25,103.125 z" fill="url(#p11-deutschebank-grad)" />
+</svg>

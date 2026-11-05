@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Unsplash</title>
+  <desc>Qure-style Unsplash icon. Unsplash 全球最高质量免版税精美摄影作品与创意灵感图库</desc>
+  <defs>
+    <linearGradient id="p10-unsplash-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#4A4A4E" />
+      <stop offset="0.5" stop-color="#2B2B2F" />
+      <stop offset="1.0" stop-color="#16161A" />
+    </linearGradient>
+  </defs>
+  <path d="M 49.5,45.75 L 49.5,12 l 45,0 l 0,33.75 l -45,0 z m 45,18.75 L 132,64.5 L 132,132 L 12,132 L 12,64.5 l 37.5,0 l 0,33.75 l 45,0 L 94.5,64.5 z" fill="url(#p10-unsplash-grad)" />
+</svg>

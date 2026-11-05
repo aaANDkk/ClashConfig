@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>CodeBlocks</title>
+  <desc>Qure-style CodeBlocks icon. Code::Blocks 经典轻量级可扩展开源 C/C++ 集成开发环境</desc>
+  <defs>
+    <linearGradient id="p11-codeblocks-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#68C36E" />
+      <stop offset="0.5" stop-color="#41AD48" />
+      <stop offset="1.0" stop-color="#2E8334" />
+    </linearGradient>
+  </defs>
+  <path d="M 12.055,12 l 0,42.03 L 55.05,54.03 L 55.05,12 z m 76.95,0 l 0,42.03 L 132,54.03 L 132,12 z M 56.86,15.29 l 0.06,39.345 l 12.7,12.15 l 0.035,-27.82 z m 30.33,0 l -12.775,23.675 l 0.02,27.82 l 12.7,-12.15 z M 13.66,55.84 l 27.6,13.385 l 28.275,-0.03 l -13.865,-13.35 z m 74.72,0 L 74.65,69.45 l 28.275,-0.45 l 27.49,-13.155 z m -46.615,19.275 L 13.59,88.16 l 42.025,0 l 13.74,-13.61 z m 32.825,-0.565 l 13.735,13.61 l 42.01,0 l -27.93,-13.045 z m -5.03,2.665 l -12.7,12.15 l -0.055,39.365 l 12.775,-23.7 z m 4.82,0 l -0.04,27.82 l 12.795,23.7 l -0.055,-39.37 z M 12,89.99 L 12,132 l 42.99,0 l 0,-42.01 z m 76.95,0 L 88.95,132 l 42.99,0 l 0,-42.01 z" fill="url(#p11-codeblocks-grad)" />
+</svg>

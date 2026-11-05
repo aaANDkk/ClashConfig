@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Gamemaker</title>
+  <desc>Qure-style Gamemaker icon. GameMaker 专为快速构建跨平台精美 2D 独立游戏的知名商业引擎</desc>
+  <defs>
+    <linearGradient id="p10-gamemaker-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#4A4A4E" />
+      <stop offset="0.5" stop-color="#2B2B2F" />
+      <stop offset="1.0" stop-color="#16161A" />
+    </linearGradient>
+  </defs>
+  <path d="M 12.06,71.97 L 72.03,12 l 59.91,60.03 l -34.155,0 l -25.815,-25.755 l -25.755,25.755 l 25.815,25.755 l 0,-25.755 l 25.755,0 l 0,34.515 L 72.03,132 z" fill="url(#p10-gamemaker-grad)" />
+</svg>

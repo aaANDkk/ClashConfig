@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>HaveIBeenPwned</title>
+  <desc>Qure-style HaveIBeenPwned icon. Have I Been Pwned 全球知名账号密码泄露查询服务</desc>
+  <defs>
+    <linearGradient id="p8-haveibeenpwned-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#36A0B9" />
+      <stop offset="0.5" stop-color="#26798C" />
+      <stop offset="1.0" stop-color="#17505E" />
+    </linearGradient>
+  </defs>
+  <path d="M 20.60749937,30.682665376 L 11,80.123162134 l 23.8916651,0 l 9.602416037,-49.440496758 Z M 47.452580943,54.51333048 l -4.98166634,25.609831654 l 23.8916651,0 l 4.98166634,-25.609831654 Z m 30.174664688,6.638832898 l -3.675249759,18.970998756 l 23.8916651,0 l 3.670166426,-18.970998756 Z m 31.475997936,0 l -3.675249759,18.970998756 l 23.8916651,0 L 132.999992,61.152163378 Z M 41.052664696,87.70749497 l -4.976583007,25.609831654 l 23.8916651,0 l 4.98166634,-25.609831654 z" fill="url(#p8-haveibeenpwned-grad)" />
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Faceit</title>
+  <desc>Qure-style Faceit icon. FACEIT 全球最大 CS/电竞赛事对战竞技平台</desc>
+  <defs>
+    <linearGradient id="p9-faceit-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#FA7F42" />
+      <stop offset="0.5" stop-color="#FF5500" />
+      <stop offset="1.0" stop-color="#C24100" />
+    </linearGradient>
+  </defs>
+  <path d="M 132.994452586,24.75133487 a 0.84893,0.84893 0 0,0 -1.586025168,-0.5083414 a 5801.55,5801.55 0 0,0 -30.769904942,47.65700625 L 12.105784252,71.89999972 c -1.123434494,0 -1.530107614,1.433522748 -0.55917554,1.789361728 c 36.737832978,13.87772022 89.808675138,34.750218104 119.460229,46.431903476 c 0.7625121,0.30500484 1.98253146,-0.40667312 1.98253146,-0.91501452 z" fill="url(#p9-faceit-grad)" />
+</svg>

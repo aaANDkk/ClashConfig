@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>AndroidAuto</title>
+  <desc>Qure-style AndroidAuto icon. Android Auto 谷歌官方车载智能互联与驾驶信息交互系统</desc>
+  <defs>
+    <linearGradient id="p11-androidauto-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#74E2A5" />
+      <stop offset="0.5" stop-color="#3DDC84" />
+      <stop offset="1.0" stop-color="#1EBE65" />
+    </linearGradient>
+  </defs>
+  <path d="M 71.999988,12 c -2.9999994,0 -5.54999889,1.59999968 -6.94999861,3.9999992 L 14.39999952,103.9999816 a 8,8 0 0,0 6.94999861,11.9999976 l 9.999998,0 l 38.4999923,-67.89998642 l 2.14999957,-3.84999923 l 40.64999187,71.74998565 l 9.999998,0 a 8,8 0 0,0 6.94999861,-11.9999976 L 78.94998661,15.9999992 A 8,8 0 0,0 71.999988,12 z m 0,37.34999253 l -45.34999093,79.999984 l 2.69999946,2.64999947 L 71.999988,115.9999792 l 42.64999147,15.9999968 l 2.69999946,-2.64999947 z" fill="url(#p11-androidauto-grad)" />
+</svg>

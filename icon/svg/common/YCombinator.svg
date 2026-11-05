@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>YCombinator</title>
+  <desc>Qure-style YCombinator icon. Y Combinator 硅谷顶级孵化器与 Hacker News</desc>
+  <defs>
+    <linearGradient id="p8-ycombinator-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#FA8C42" />
+      <stop offset="0.5" stop-color="#FF6600" />
+      <stop offset="1.0" stop-color="#C24E00" />
+    </linearGradient>
+  </defs>
+  <path d="M 12,132 L 12,12 l 120,0 l 0,120 L 12,132 z M 46.755,41.48 l 20.56,38.54 l 0,25.32 l 7.915,0 l 0,-24.86 l 20.74,-38.995 l -8.745,0 l -12.285,24.375 c -1.86,3.725 -3.44,7.17 -3.44,7.17 s -1.485,-3.54 -3.255,-7.17 L 56.155,41.48 l -9.4,0 z" fill="url(#p8-ycombinator-grad)" />
+</svg>

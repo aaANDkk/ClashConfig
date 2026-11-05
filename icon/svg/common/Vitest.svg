@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Vitest</title>
+  <desc>Qure-style Vitest icon. Vitest 基于 Vite 驱动的超快现代化原生 ESM 单元测试框架</desc>
+  <defs>
+    <linearGradient id="p11-vitest-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#42FA96" />
+      <stop offset="0.5" stop-color="#00FF74" />
+      <stop offset="1.0" stop-color="#00C258" />
+    </linearGradient>
+  </defs>
+  <path d="M 69.68674468,129.4417832 a 3.11607,3.11607 0 0,1 -4.54955708,1.001410888 L 12.280992608,92.008332544 A 3.10082,3.10082 0 0,1 11,89.481930456 L 11,43.1526978 c 0,-2.551818608 2.892399976,-4.025976768 4.9562214,-2.526402088 l 32.319646832,23.505197696 c 3.019482576,2.201070632 7.279291328,1.270826 9.114364072,-1.98248856 L 84.163994472,14.5591128 a 3.15165,3.15165 0 0,1 2.71956764,-1.596157456 l 42.97933532,0 a 3.11607,3.11607 0 0,1 2.729734248,4.656306464 z" fill="url(#p11-vitest-grad)" />
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Pandora</title>
+  <desc>Qure-style Pandora icon. Pandora 基于音乐基因组计划的个性化流媒体音乐电台服务</desc>
+  <defs>
+    <linearGradient id="p10-pandora-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#3157C7" />
+      <stop offset="0.5" stop-color="#224099" />
+      <stop offset="1.0" stop-color="#152A69" />
+    </linearGradient>
+  </defs>
+  <path d="M 21.405,12 l 0,120 L 53.595,132 a 5.425,5.425 0 0,0 5.425,-5.425 l 0,-23.05 l 8.06,0 c 39.4,0 55.515,-22.21 55.515,-48.18 C 122.59,23.285 98.23,12 75.305,12 L 21.405,12 Z" fill="url(#p10-pandora-grad)" />
+</svg>

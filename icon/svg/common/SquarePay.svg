@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>SquarePay</title>
+  <desc>Qure-style SquarePay icon. Square 移动支付刷卡、商业零售结算与全渠道商家服务系统</desc>
+  <defs>
+    <linearGradient id="p10-square-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#5B6269" />
+      <stop offset="0.5" stop-color="#3E4348" />
+      <stop offset="1.0" stop-color="#222427" />
+    </linearGradient>
+  </defs>
+  <path d="M 32.05,12 A 20.05,20.05 0 0,0 12,32.05 l 0,79.9 c 0,11.05 9,20 20.05,20.05 l 79.9,0 C 123,132 132,123 132,111.95 L 132,32 A 20.05,20.05 0 0,0 111.95,12 L 32,12 z m 8.1,21.8 l 63.7,0 c 3.5,0 6.3,2.85 6.3,6.35 l 0,63.7 c 0,3.5 -2.8,6.35 -6.3,6.35 L 40.15,110.2 c -3.5,0 -6.3,-2.85 -6.3,-6.35 L 33.85,40.15 a 6.35,6.35 0 0,1 6.3,-6.35 z m 19.15,21.75 a 3.65,3.65 0 0,0 -3.65,3.65 l 0,25.45 c 0,2 1.6,3.6 3.6,3.6 l 25.5,0 a 3.65,3.65 0 0,0 3.65,-3.6 L 88.4,59.2 a 3.65,3.65 0 0,0 -3.65,-3.65 l -25.5,0 Z" fill="url(#p10-square-grad)" />
+</svg>

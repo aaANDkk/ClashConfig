@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Zotero</title>
+  <desc>Qure-style Zotero icon. Zotero 开源文献与科研管理工具</desc>
+  <defs>
+    <linearGradient id="p7-zotero-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#DA5963" />
+      <stop offset="0.5" stop-color="#CC2936" />
+      <stop offset="1.0" stop-color="#9C1C26" />
+    </linearGradient>
+  </defs>
+  <path d="M 118.155,24.31 L 47.9,116.615 l 72.82,0 L 120.72,132 L 23.28,132 l 0,-12.31 L 93.54,27.38 L 26.875,27.38 L 26.875,12 l 91.28,0 l 0,12.31 z" fill="url(#p7-zotero-grad)" />
+</svg>

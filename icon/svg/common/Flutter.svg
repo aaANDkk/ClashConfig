@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Flutter</title>
+  <desc>Qure-style Flutter icon. Flutter 谷歌多平台跨端 UI 框架</desc>
+  <defs>
+    <linearGradient id="p7-flutter-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#0877D2" />
+      <stop offset="0.5" stop-color="#02569B" />
+      <stop offset="1.0" stop-color="#003560" />
+    </linearGradient>
+  </defs>
+  <path d="M 83.57,12 L 23.5,72 L 42,90.5 L 120.42,12.065 l -36.785,0 z m 0.07,55.36 L 51.285,99.65 l 32.35,32.35 L 120.5,132 l -32.3,-32.34 l 32.3,-32.3 l -36.85,0 z" fill="url(#p7-flutter-grad)" />
+</svg>

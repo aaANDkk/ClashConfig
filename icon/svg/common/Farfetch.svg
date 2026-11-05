@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Farfetch</title>
+  <desc>Qure-style Farfetch icon. 发发奇 FARFETCH 全球奢侈品与时尚在线商城</desc>
+  <defs>
+    <linearGradient id="p9-farfetch-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#4A4A4E" />
+      <stop offset="0.5" stop-color="#2B2B2F" />
+      <stop offset="1.0" stop-color="#16161A" />
+    </linearGradient>
+  </defs>
+  <path d="M 132,63.24 L 132,45.745 L 79.93,45.745 c -15.31,0 -23.685,9.185 -23.685,22.44 l 0,11.155 L 33.605,79.34 L 33.605,54.995 c 0,-17.125 1.66,-25.37 21.06,-25.37 L 132,29.625 L 132,12 L 43.295,12 C 23.68,12 12,24.945 12,43.93 L 12,132 l 21.605,0 l 0,-35.165 l 22.635,0 L 56.24,132 l 21.695,0 l 0,-35.165 L 132,96.835 l 0,-17.495 L 77.94,79.34 l 0,-5.775 c 0,-7.305 1.16,-10.32 11.285,-10.32 L 132,63.245 z" fill="url(#p9-farfetch-grad)" />
+</svg>

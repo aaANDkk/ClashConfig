@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>PagerDuty</title>
+  <desc>Qure-style PagerDuty icon. PagerDuty 业界首屈一指的企业级数字化运维故障响应指挥平台</desc>
+  <defs>
+    <linearGradient id="p10-pagerduty-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#0EE24D" />
+      <stop offset="0.5" stop-color="#06AC38" />
+      <stop offset="1.0" stop-color="#017424" />
+    </linearGradient>
+  </defs>
+  <path d="M 96.825,17.9 C 87.425,12.82 80.845,12 65.415,12 L 30.65,12 l 0,72.75 l 34.63,0 c 13.715,0 24,-0.82 33.05,-6.85 c 9.875,-6.515 15.02,-17.42 15.02,-30.035 c 0,-13.58 -6.31,-24.48 -16.525,-29.97 z m -27.5,51.63 l -21.05,0 L 48.275,27.565 l 19.885,-0.135 c 18.1,-0.14 27.15,6.17 27.15,20.64 c 0,15.565 -11.24,21.46 -25.985,21.46 z M 30.65,100.05 l 17.625,0 L 48.275,132 L 30.65,132 Z" fill="url(#p10-pagerduty-grad)" />
+</svg>

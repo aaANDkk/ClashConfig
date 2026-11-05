@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Netdata</title>
+  <desc>Qure-style Netdata icon. Netdata 秒级实时极低开销系统性能与健康监控可视化工具</desc>
+  <defs>
+    <linearGradient id="p10-netdata-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#06E25E" />
+      <stop offset="0.5" stop-color="#00AB44" />
+      <stop offset="1.0" stop-color="#006E2C" />
+    </linearGradient>
+  </defs>
+  <path d="M 86.050328412,121.953909391 L 61.436830026,121.953909391 L 11,22.046082609 l 71.593661972,0 c 27.836331508,0.05083333 50.391080029,23.205415145 50.406330028,51.763579939 c -0.045749997,26.611248255 -21.04499862,48.13916351 -46.959830254,48.13916351 z" fill="url(#p10-netdata-grad)" />
+</svg>

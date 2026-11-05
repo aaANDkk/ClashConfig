@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Vagrant</title>
+  <desc>Qure-style Vagrant icon. Vagrant 声明式可复现本地虚拟化开发环境</desc>
+  <defs>
+    <linearGradient id="p10-vagrant-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#568FF1" />
+      <stop offset="0.5" stop-color="#1868F2" />
+      <stop offset="1.0" stop-color="#064DC6" />
+    </linearGradient>
+  </defs>
+  <path d="M 29.78,12 L 13.96,21.23 L 13.96,32.55 l 35.62,86.5 L 71.99,132 l 22.615,-13.055 l 35.415,-86.725 L 130.02,21.24 l 0.02,-0.01 L 114.2,12 l -26.37,15.435 l 0,10.555 l -15.84,36.92 l -15.82,-36.92 L 56.17,27.545 l -0.085,-0.04 l 0.085,-0.05 z" fill="url(#p10-vagrant-grad)" />
+</svg>

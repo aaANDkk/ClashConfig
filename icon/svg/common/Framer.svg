@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Framer</title>
+  <desc>Qure-style Framer icon. Framer 现代交互与网站设计构建</desc>
+  <defs>
+    <linearGradient id="p7-framer-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#427FFA" />
+      <stop offset="0.5" stop-color="#0055FF" />
+      <stop offset="1.0" stop-color="#0041C2" />
+    </linearGradient>
+  </defs>
+  <path d="M 32,12 l 80,0 l 0,40 l -40,0 z M 32,52 l 40,0 l 40,40 L 32,92 z M 32,92 l 40,0 l 0,40 z" fill="url(#p7-framer-grad)" />
+</svg>

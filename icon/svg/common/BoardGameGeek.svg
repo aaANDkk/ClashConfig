@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>BoardGameGeek</title>
+  <desc>Qure-style BoardGameGeek icon. BoardGameGeek 全球最大最权威的桌面游戏信息数据库与玩家社区</desc>
+  <defs>
+    <linearGradient id="p10-boardgamegeek-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#FA7D42" />
+      <stop offset="0.5" stop-color="#FF5100" />
+      <stop offset="1.0" stop-color="#C23E00" />
+    </linearGradient>
+  </defs>
+  <path d="m 110.5,34.2 l -11.9,3.2 L 110.25,12 L 34.65,39.8 l 4.15,33.35 l -7,6.7 L 52.6,132 l 44.25,-16.3 l 15.35,-36.1 l -6.6,-6.35 l 4.9,-39.05 Z" fill="url(#p10-boardgamegeek-grad)" />
+</svg>

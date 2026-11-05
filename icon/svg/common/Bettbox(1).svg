@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Bettbox</title>
+  <desc>Qure-style Bettbox 3-bars logo with signature black, navy and blue gradients on transparent background.</desc>
+  <defs>
+    <linearGradient id="p5-bettbox-blue" gradientUnits="userSpaceOnUse" x1="72" y1="10" x2="72" y2="134">
+      <stop offset="0.0" stop-color="#70A8E8" />
+      <stop offset="0.5" stop-color="#518CD6" />
+      <stop offset="1.0" stop-color="#3470BF" />
+    </linearGradient>
+    <linearGradient id="p5-bettbox-navy" gradientUnits="userSpaceOnUse" x1="72" y1="10" x2="72" y2="134">
+      <stop offset="0.0" stop-color="#465E85" />
+      <stop offset="0.5" stop-color="#304464" />
+      <stop offset="1.0" stop-color="#1D2D45" />
+    </linearGradient>
+    <linearGradient id="p5-bettbox-black" gradientUnits="userSpaceOnUse" x1="72" y1="10" x2="72" y2="134">
+      <stop offset="0.0" stop-color="#3E4259" />
+      <stop offset="0.5" stop-color="#282B3E" />
+      <stop offset="1.0" stop-color="#161825" />
+    </linearGradient>
+  </defs>
+  <path d="M 33.94517998,130.2075364 l -18.88048416,0 c -3.37874616,0 -5.80840632,-3.24587412 -4.8561567,-6.485421 l 29.86140918,-101.75151006 c 1.423629,-4.84982946 5.87484234,-8.18112132 10.92714348,-8.18112132 l 18.87732054,0 c 3.37874616,0 5.80840632,3.24587412 4.85932032,6.48858462 l -29.86140918,101.75151006 c -1.423629,4.84982946 -5.87167872,8.18112132 -10.92714348,8.18112132 Z" fill="url(#p5-bettbox-black)" />
+  <path d="M 76.81223098,115.6548844 l -12.97400562,0 c -2.53405962,0 -4.35630474,-2.4359874 -3.64449024,-4.86564756 l 22.06308588,-75.17710206 c 1.265448,-4.31201406 5.219973,-7.27316238 9.7123134,-7.27316238 l 12.97716924,0 c 2.53405962,0 4.35630474,2.43282378 3.64132662,4.86564756 l -22.06308588,75.18026568 c -1.265448,4.31201406 -5.219973,7.27316238 -9.7123134,7.27316238 Z" fill="url(#p5-bettbox-navy)" />
+  <path d="M 112.08343036,101.1022324 l -8.0197767,0 c -1.68937308,0 -2.90420316,-1.62293706 -2.42966016,-3.2427105 l 14.53050666,-49.510653 c 0.949086,-3.23321964 3.91656156,-5.45408088 7.28581686,-5.45408088 l 8.01661308,0 c 1.68937308,0 2.90420316,1.62293706 2.42966016,3.2427105 l -14.53050666,49.51381662 c -0.949086,3.23321964 -3.91656156,5.45408088 -7.28581686,5.45408088 Z" fill="url(#p5-bettbox-blue)" />
+</svg>

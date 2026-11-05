@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Julia</title>
+  <desc>Qure-style Julia icon. Julia 专为高性能科学计算与数值分析设计的高级动态语言</desc>
+  <defs>
+    <linearGradient id="p10-julia-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#AF84C4" />
+      <stop offset="0.5" stop-color="#9558B2" />
+      <stop offset="1.0" stop-color="#753F8E" />
+    </linearGradient>
+  </defs>
+  <path d="M 67.618162954,100.309077477 a 28.3091,28.3091 0 0,1 -56.618162954,0 a 28.3091,28.3091 0 0,1 56.618162954,0 z m 32.690914523,-56.618162954 a 28.3091,28.3091 0 0,1 -56.618162954,0 a 28.3091,28.3091 0 0,1 56.618162954,0 z M 132.999992,100.309077477 a 28.3091,28.3091 0 0,1 -56.618162954,0 a 28.3091,28.3091 0 0,1 56.618162954,0 z" fill="url(#p10-julia-grad)" />
+</svg>

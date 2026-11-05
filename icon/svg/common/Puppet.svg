@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Puppet</title>
+  <desc>Qure-style Puppet icon. Puppet 经典企业级自动化配置管理与基础设施合规工具</desc>
+  <defs>
+    <linearGradient id="p10-puppet-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#FBC25B" />
+      <stop offset="0.5" stop-color="#FFAE1A" />
+      <stop offset="1.0" stop-color="#DC8E00" />
+    </linearGradient>
+  </defs>
+  <path d="M 56.92,120.055 L 44.975,120.055 l 0,-11.94 l 11.95,0 z M 44.975,23.95 l 11.95,0 l 0,11.94 l -11.95,0 z m 65.99,30.14 l -27.4,0 l 0.005,-0.01 l -14.705,-14.705 L 68.865,12 L 33.035,12 l 0,35.83 l 27.4,0 l 14.69,14.69 l 0.01,-0.005 l 0,18.97 l -0.015,-0.015 l -14.7,14.7 L 33.035,96.17 L 33.035,132 l 35.83,0 l 0,-27.385 l 14.7,-14.7 l 27.4,0 L 110.965,54.085" fill="url(#p10-puppet-grad)" />
+</svg>

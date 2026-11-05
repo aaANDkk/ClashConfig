@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>VirusTotal</title>
+  <desc>Qure-style VirusTotal icon. VirusTotal 全球权威多引擎可疑文件与网址病毒检测安全平台</desc>
+  <defs>
+    <linearGradient id="p10-virustotal-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#7A87FC" />
+      <stop offset="0.5" stop-color="#394EFF" />
+      <stop offset="1.0" stop-color="#001BFB" />
+    </linearGradient>
+  </defs>
+  <path d="M 66.25582971,71.999996 L 11,126.28999244 l 121.999992,0 L 132.999992,17.70999956 L 11,17.70999956 z m 54.54416309,43.30999716 L 37.83999824,115.30999316 l 43.904747121,-42.943997184 L 37.83999824,28.68999884 L 120.7999928,28.68999884 z" fill="url(#p10-virustotal-grad)" />
+</svg>

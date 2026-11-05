@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Vuetify</title>
+  <desc>Qure-style Vuetify icon. Vuetify 专为 Vue 深度定制的精美 Material Design 组件框架</desc>
+  <defs>
+    <linearGradient id="p11-vuetify-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#3585E1" />
+      <stop offset="0.5" stop-color="#1867C0" />
+      <stop offset="1.0" stop-color="#0E4A8D" />
+    </linearGradient>
+  </defs>
+  <path d="M 43.085997896,74.866995812 L 75.232995788,17.0999996 L 11,17.0999996 l 32.085997896,57.766996212 Z M 86.94499502,17.0999996 L 48.941997512,85.41999512 L 71.999996,126.8999924 L 132.999992,17.0999996 l -46.05499698,0 Z m 25.31499834,12.1999992 L 71.999996,101.767994048 l -9.088999404,-16.347998928 L 94.081994552,29.2999988 l 18.177998808,0 Z M 43.085997896,49.73499746 L 31.73999864,29.2999988 l 22.752998508,0 L 43.085997896,49.73499746 Z" fill="url(#p11-vuetify-grad)" />
+</svg>

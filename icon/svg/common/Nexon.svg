@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Nexon</title>
+  <desc>Qure-style Nexon icon. Nexon 韩国老牌大型跨平台在线游戏网络巨头</desc>
+  <defs>
+    <linearGradient id="p8-nexon-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#4A4A4E" />
+      <stop offset="0.5" stop-color="#2B2B2F" />
+      <stop offset="1.0" stop-color="#16161A" />
+    </linearGradient>
+  </defs>
+  <path d="M 65.57,88.79 L 65.57,12 L 12,40.485 l 0,76.79 L 78.45,132 L 132,103.515 z m -47.475,-6.095 l 36.455,7.84 l -36.455,19.16 z m 59.475,42.89 L 23.75,113.635 l 37.27,-19.63 l 54.23,12.03 z" fill="url(#p8-nexon-grad)" />
+</svg>

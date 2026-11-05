@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>AxisBank</title>
+  <desc>Qure-style AxisBank icon. Axis Bank 印度领先的高增长创新型私营商业零售与数字银行</desc>
+  <defs>
+    <linearGradient id="p11-axisbank-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#C72768" />
+      <stop offset="0.5" stop-color="#971A4D" />
+      <stop offset="1.0" stop-color="#650F32" />
+    </linearGradient>
+  </defs>
+  <path d="M 71.888162674,19.112999468 L 11,124.886992532 l 37.886080849,0 l 42.013747245,-73.042411877 Z m 0.137249991,65.554662368 l 23.042748489,40.173580699 L 132.999992,124.841242535 l -23.042748489,-40.173580699 z" fill="url(#p11-axisbank-grad)" />
+</svg>

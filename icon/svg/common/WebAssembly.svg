@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>WebAssembly</title>
+  <desc>Qure-style WebAssembly icon. WebAssembly 高性能跨平台原生速度底层二进制执行标准</desc>
+  <defs>
+    <linearGradient id="p10-webassembly-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#988AF2" />
+      <stop offset="0.5" stop-color="#654FF0" />
+      <stop offset="1.0" stop-color="#3011F1" />
+    </linearGradient>
+  </defs>
+  <path d="M 85.725,12 c 0,0.21 0,0.425 0,0.645 c 0,7.6 -6.16,13.76 -13.76,13.76 c -7.6,0 -13.76,-6.16 -13.76,-13.76 c 0,-0.225 0,-0.435 0,-0.645 L 12,12 l 0,120 l 120,0 L 132,12 L 85.725,12 z M 69.27,119.155 l -5.845,-28.915 l -0.1,0 l -6.32,28.915 L 48.95,119.155 l -9.12,-42.485 l 7.95,0 l 5.44,28.915 l 0.1,0 l 6.555,-28.915 l 7.435,0 l 5.885,29.27 l 0.1,0 l 6.21,-29.27 l 7.805,0 l -10.135,42.485 L 69.27,119.155 z M 113.045,119.155 l -2.71,-9.455 l -14.305,0 l -2.085,9.455 l -7.95,0 l 10.28,-42.485 l 12.545,0 l 12.5,42.485 L 113.045,119.155 z M 101.06,87.14 l -3.47,15.59 l 10.795,0 l -3.98,-15.59 L 101.06,87.14 z" fill="url(#p10-webassembly-grad)" />
+</svg>

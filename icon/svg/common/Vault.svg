@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Vault</title>
+  <desc>Qure-style Vault icon. Vault 业界公认安全机密信息与动态证书加密管理中枢</desc>
+  <defs>
+    <linearGradient id="p10-vault-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#FDF2AD" />
+      <stop offset="0.5" stop-color="#FFEC6E" />
+      <stop offset="1.0" stop-color="#FFE431" />
+    </linearGradient>
+  </defs>
+  <path d="M 12,12 l 59.775,120 L 132,12 z m 66.83,24.135 l 6.965,0 l 0,6.9 l -6.965,0 z m -13.85,27.845 L 58.1,63.98 L 58.1,56.965 l 6.945,0 z m 0,-10.435 L 58.1,53.545 L 58.1,46.53 l 6.945,0 z m 0,-10.43 L 58.1,43.115 L 58.1,36.095 l 6.945,0 z m 10.435,31.315 l -6.885,0 L 68.53,67.4 l 6.94,0 z m 0,-10.45 l -6.885,0 L 68.53,56.965 l 6.94,0 z m 0,-10.435 l -6.885,0 L 68.53,46.53 l 6.94,0 z m 0,-10.43 l -6.885,0 L 68.53,36.095 l 6.94,0 z m 3.415,3.415 l 6.965,0 l 0,6.945 l -6.965,0 z m 0,17.375 L 78.83,56.965 l 6.945,0 l 0,6.94 Z" fill="url(#p10-vault-grad)" />
+</svg>

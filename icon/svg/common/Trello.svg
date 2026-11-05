@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Trello</title>
+  <desc>Qure-style Trello icon. Trello 经典看板式任务与项目协作</desc>
+  <defs>
+    <linearGradient id="p8-trello-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#106EF9" />
+      <stop offset="0.5" stop-color="#0052CC" />
+      <stop offset="1.0" stop-color="#00398F" />
+    </linearGradient>
+  </defs>
+  <path d="M 117.735,12 L 26.265,12 A 14.3,14.3 0 0,0 12,26.265 l 0,91.47 A 14.3,14.3 0 0,0 26.265,132 l 91.47,0 A 14.3,14.3 0 0,0 132,117.735 L 132,26.265 A 14.3,14.3 0 0,0 117.735,12 z M 63.7,98.435 a 4.765,4.765 0 0,1 -4.765,4.765 l -20,0 a 4.77,4.77 0 0,1 -4.77,-4.765 L 34.165,38.9 a 4.765,4.765 0 0,1 4.77,-4.765 l 20,0 a 4.77,4.77 0 0,1 4.765,4.765 z m 46.165,-27.335 a 4.72,4.72 0 0,1 -4.765,4.735 l -20,0 a 4.735,4.735 0 0,1 -4.765,-4.735 L 80.335,38.9 a 4.765,4.765 0 0,1 4.765,-4.765 l 20,0 a 4.77,4.77 0 0,1 4.765,4.765 z" fill="url(#p8-trello-grad)" />
+</svg>

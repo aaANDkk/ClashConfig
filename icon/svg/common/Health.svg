@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Health</title>
+  <desc>Qure-style Healthcare/Medical icon with smooth rounded cross.</desc>
+  <defs>
+    <linearGradient id="p6-health-grad" gradientUnits="userSpaceOnUse" x1="72" y1="13" x2="72" y2="131">
+      <stop offset="0.0" stop-color="#FF4D4D" />
+      <stop offset="0.5" stop-color="#E60000" />
+      <stop offset="1.0" stop-color="#B80000" />
+    </linearGradient>
+  </defs>
+  <path d="M 24.8,54.3 a 11.8,11.8 0 0,0 -11.8,11.8 l 0,11.8 a 11.8,11.8 0 0,0 11.8,11.8 l 23.6,0 a 5.9,5.9 0 0,1 5.9,5.9 l 0,23.6 a 11.8,11.8 0 0,0 11.8,11.8 l 11.8,0 a 11.8,11.8 0 0,0 11.8,-11.8 l 0,-23.6 a 5.9,5.9 0 0,1 5.9,-5.9 l 23.6,0 a 11.8,11.8 0 0,0 11.8,-11.8 l 0,-11.8 a 11.8,11.8 0 0,0 -11.8,-11.8 l -23.6,0 a 5.9,5.9 0 0,1 -5.9,-5.9 L 89.7,24.8 a 11.8,11.8 0 0,0 -11.8,-11.8 l -11.8,0 a 11.8,11.8 0 0,0 -11.8,11.8 l 0,23.6 a 5.9,5.9 0 0,1 -5.9,5.9 z" fill="url(#p6-health-grad)" />
+</svg>

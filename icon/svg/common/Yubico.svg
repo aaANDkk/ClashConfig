@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Yubico</title>
+  <desc>Qure-style Yubico icon. Yubico 硬件安全密钥与强身份认证标准的行业引领者</desc>
+  <defs>
+    <linearGradient id="p10-yubico-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#ACF406" />
+      <stop offset="0.5" stop-color="#84BD00" />
+      <stop offset="1.0" stop-color="#598000" />
+    </linearGradient>
+  </defs>
+  <path d="m 73.78,73.94 l 12.605,-35.69 l 18.2,0 l -30.675,75.465 L 54.695,113.715 l 8.775,-20.68 L 42,38.25 l 18.585,0 Z M 72,12 C 38.905,12 12,38.905 12,72 s 26.905,60 60,60 s 60,-26.905 60,-60 S 105.095,12 72,12 Z m 0,7.5 c 29.04,0 52.5,23.46 52.5,52.5 S 101.04,124.5 72,124.5 S 19.5,101.04 19.5,72 S 42.96,19.5 72,19.5 Z" fill="url(#p10-yubico-grad)" />
+</svg>

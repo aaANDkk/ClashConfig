@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Ethereum</title>
+  <desc>Qure-style Ethereum icon. 以太坊 全球去中心化智能合约公链</desc>
+  <defs>
+    <linearGradient id="p7-ethereum-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#5A5A5C" />
+      <stop offset="0.5" stop-color="#3C3C3D" />
+      <stop offset="1.0" stop-color="#1E1E1E" />
+    </linearGradient>
+  </defs>
+  <path d="M 71.72,101.85 L 34.9,80.1 L 71.715,132 l 36.85,-51.9 l -36.86,21.75 l 0.015,0 z M 72.28,12 L 35.45,73.115 l 36.825,21.77 l 36.825,-21.75 L 72.28,12 z" fill="url(#p7-ethereum-grad)" />
+</svg>

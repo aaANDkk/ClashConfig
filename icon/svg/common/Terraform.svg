@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Terraform</title>
+  <desc>Qure-style Terraform icon. Terraform 行业标准基础设施即代码 IaC 声明式编排工具</desc>
+  <defs>
+    <linearGradient id="p10-terraform-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#A37DC9" />
+      <stop offset="0.5" stop-color="#844FBA" />
+      <stop offset="1.0" stop-color="#653795" />
+    </linearGradient>
+  </defs>
+  <path d="M 19.2,12 l 0,37.875 l 32.805,18.95 L 52.005,30.935 z m 105.6,21.135 l -32.805,18.955 l 0,37.87 l 32.8,-18.935 z M 55.6,33.15 l 0,37.875 l 32.805,18.935 L 88.405,52.09 z m 0,42.025 l 0,37.875 L 88.4,132 l 0,-37.89 z" fill="url(#p10-terraform-grad)" />
+</svg>

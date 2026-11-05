@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Nomad</title>
+  <desc>Qure-style Nomad icon. Nomad 极轻量灵活的大规模异构工作负载与容器集群调度器</desc>
+  <defs>
+    <linearGradient id="p10-nomad-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#0EF9B3" />
+      <stop offset="0.5" stop-color="#00CA8E" />
+      <stop offset="1.0" stop-color="#008D63" />
+    </linearGradient>
+  </defs>
+  <path d="m 72.02,12 l -52,30 l 0,60 l 51.96,30 l 52,-30 L 123.98,42 L 72.02,12 z m 23.195,66.02 l -13.85,8 l -16.735,-9.16 l 0,19.13 l -15.72,9.975 L 48.91,66 L 61.4,58.36 l 17.31,9.115 L 78.71,47.955 l 16.505,-9.92 l 0,39.985 z" fill="url(#p10-nomad-grad)" />
+</svg>

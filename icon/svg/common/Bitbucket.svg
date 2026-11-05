@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Bitbucket</title>
+  <desc>Qure-style Bitbucket icon. Bitbucket Atlassian 出品深度集成 Jira 的专业企业代码托管服务</desc>
+  <defs>
+    <linearGradient id="p11-bitbucket-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#106EF9" />
+      <stop offset="0.5" stop-color="#0052CC" />
+      <stop offset="1.0" stop-color="#00398F" />
+    </linearGradient>
+  </defs>
+  <path d="M 14.955231518,17.163580503 a 3.904,3.904 0 0,0 -3.903998208,4.534331252 l 16.586909053,100.70078711 c 0.426999804,2.5416655 2.617915465,4.412331308 5.195164282,4.437747963 L 112.41285345,126.836446828 a 3.92433,3.92433 0 0,0 3.91416487,-3.283831826 l 16.62249237,-101.81911993 a 3.904,3.904 0 0,0 -3.903998208,-4.529247921 z M 84.81036612,89.94163043 L 59.403877782,89.94163043 L 52.53121427,54.032980246 l 38.435065691,0 z" fill="url(#p11-bitbucket-grad)" />
+</svg>

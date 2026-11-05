@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>KasaSmart</title>
+  <desc>Qure-style KasaSmart icon. Kasa Smart 广受欢迎的智能插座、照明与家用安防产品线</desc>
+  <defs>
+    <linearGradient id="p11-kasasmart-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#7ED7DF" />
+      <stop offset="0.5" stop-color="#4ACBD6" />
+      <stop offset="1.0" stop-color="#26B1BC" />
+    </linearGradient>
+  </defs>
+  <path d="M 72,12 c -2.5,0 -5,1.25 -7.5,3.75 L 51.85,28.4 l 44.15,44.15 c 5,5 7.5,10 7.5,15 L 103.5,132 l 16.5,0 c 8,0 12,-4 12,-12 l 0,-44.25 c 0,-5 -2.5,-10 -7.5,-15 l -45,-45 C 77,13.25 74.5,12 72,12 z M 46.5,33.7 L 26.45,53.85 L 60,87.5 c 5,5 7.5,10 7.5,15 L 67.5,132 l 28.5,0 l 0,-44.45 c -0.15,-4.15 -3,-7.3 -5.3,-9.7 L 46.55,33.7 z m -25.4,25.5 l -1.6,1.55 c -5,5 -7.5,10 -7.5,15 l 0,44.25 C 12,128 16,132 24,132 l 36,0 l 0,-29.5 c -0.15,-4 -2.8,-7.1 -5.3,-9.75 Z" fill="url(#p11-kasasmart-grad)" />
+</svg>

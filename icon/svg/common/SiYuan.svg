@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>SiYuan</title>
+  <desc>Qure-style SiYuan icon. 思源笔记 本地优先高隐私保护个人双链笔记系统</desc>
+  <defs>
+    <linearGradient id="p10-siyuan-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#DA7066" />
+      <stop offset="0.5" stop-color="#D23F31" />
+      <stop offset="1.0" stop-color="#A62C20" />
+    </linearGradient>
+  </defs>
+  <path d="m 11,53.979580515 l 34.658164394,-34.663247727 L 71.999996,45.658164394 l 26.341831606,-26.341831606 L 132.999992,53.979580515 l 0,70.704078697 l -34.658164394,-34.663247727 l 0,-11.762832562 l 26.341831606,26.341831606 l 0,-47.17333024 L 98.341827606,31.07916535 l 0,58.936162802 L 71.999996,116.362243091 l -26.341831606,-26.341831606 l 0,-11.762832562 L 71.999996,104.599410529 l 0,-47.17333024 L 45.658164394,31.07916535 l 0,58.936162802 L 11,124.683659212 Z" fill="url(#p10-siyuan-grad)" />
+</svg>

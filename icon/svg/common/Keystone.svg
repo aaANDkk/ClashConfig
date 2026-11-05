@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Keystone</title>
+  <desc>Qure-style Keystone icon. KeystoneJS 强大灵活、以 GraphQL 为核心的开源 Node.js 无头 CMS</desc>
+  <defs>
+    <linearGradient id="p11-keystone-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#5793FB" />
+      <stop offset="0.5" stop-color="#166BFF" />
+      <stop offset="1.0" stop-color="#004FD8" />
+    </linearGradient>
+  </defs>
+  <path d="M 34.5,12 A 22.5,22.5 0 0,0 12,34.5 l 0,75 A 22.5,22.5 0 0,0 34.5,132 l 75,0 a 22.5,22.5 0 0,0 22.5,-22.5 l 0,-75 A 22.5,22.5 0 0,0 109.5,12 z m 27.35,73.945 l 0,17.93 L 45.72,103.875 L 45.72,40.46 L 61.85,40.46 l 0,27.25 l 0.835,0 l 21.09,-27.25 l 17.315,0 l -21.925,27.995 l 23.2,35.42 l -18.94,0 l -16,-25.005 z" fill="url(#p11-keystone-grad)" />
+</svg>

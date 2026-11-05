@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>GameBanana</title>
+  <desc>Qure-style GameBanana icon. GameBanana 全球著名的游戏 Mod 模组、皮肤与自制内容社群</desc>
+  <defs>
+    <linearGradient id="p10-gamebanana-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#FAF17F" />
+      <stop offset="0.5" stop-color="#FCEF40" />
+      <stop offset="1.0" stop-color="#FFED00" />
+    </linearGradient>
+  </defs>
+  <path d="M 83.2475,12 l 0,15 l 7.5,0 L 90.7475,19.5 l 7.525,0 L 98.2725,27 l -7.525,0 L 90.7475,49.5 l 7.5,0 L 98.2475,34.5 l 15.01,0 l 0,-7.5 l -7.525,0 L 105.7325,12 Z m 30.01,22.49 l 0,7.5 l 7.5,0 L 120.7575,34.505 Z m 7.5,7.5 l 0,52.515 l 7.5,0 L 128.2575,41.99 Z m 0,52.515 l -7.5,0 L 113.2575,109.5 l 7.5,0 z m -7.5,14.99 l -7.525,0 l 0,7.5 l 7.5,0 z m -7.5,7.5 l -15.01,0 l 0,7.5 l 15.005,0 z m -15.01,7.5 L 45.7525,124.495 L 45.7525,132 l 45,0 z m -44.995,0 L 45.7525,117 l -15,0 l 0,7.5 z m -15,-7.5 l 0,-7.485 L 23.2425,109.51 l 0,7.5 z m -7.505,-7.485 l 0,-14.985 L 60.7525,94.525 l 0,-7.5 L 15.7425,87.025 l 0,22.485 z m 37.51,-22.485 l 14.985,0 l 0,-7.5 L 60.7575,79.525 Z m 14.985,-7.5 l 7.5,0 l 0,-7.505 l -7.5,0 z m 7.5,-7.505 l 7.505,0 L 90.7475,49.53 l -7.5,0 z" fill="url(#p10-gamebanana-grad)" />
+</svg>

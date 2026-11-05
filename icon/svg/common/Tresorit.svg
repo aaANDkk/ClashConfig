@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Tresorit</title>
+  <desc>Qure-style Tresorit icon. Tresorit 瑞士级最高军事安全标准的端到端加密云协同平台</desc>
+  <defs>
+    <linearGradient id="p11-tresorit-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#26C4F9" />
+      <stop offset="0.5" stop-color="#00A9E2" />
+      <stop offset="1.0" stop-color="#007BA5" />
+    </linearGradient>
+  </defs>
+  <path d="M 72,12 L 20.18,42 l 0,60 L 72,132 l 51.82,-30 L 123.82,42 z M 31.09,48.29 L 72,24.605 l 17.87,10.345 l -58.78,33.765 z m 81.82,47.42 L 72,119.4 L 31.1,95.71 L 31.1,81.3 l 69.69,-40.03 l 12.125,7.02 z" fill="url(#p11-tresorit-grad)" />
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>GoogleChat</title>
+  <desc>Qure-style GoogleChat icon. Google Chat 深度集成在 Gmail 与 Workspace 生态中的企业团队消息协作器</desc>
+  <defs>
+    <linearGradient id="p11-googlechat-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#53C672" />
+      <stop offset="0.5" stop-color="#34A853" />
+      <stop offset="1.0" stop-color="#237B3B" />
+    </linearGradient>
+  </defs>
+  <path d="M 20.185770677,12 C 15.665842093,12 12.0009,15.664942093 12.0009,20.184870677 l 0,82.4986965 c 0,4.519928584 3.664942093,8.179870756 8.184870677,8.179870756 l 19.774687555,0 l 0,16.614737483 c 0,4.019936484 4.84992337,6.034904647 7.694878419,3.189949598 l 19.814686923,-19.79968716 l 56.34910967,0 c 4.514928663,0 8.179870756,-3.664942093 8.179870756,-8.184870677 L 131.999004,39.959558232 L 104.039445768,12 Z m 19.774687555,27.959558232 l 64.078987536,0 l 0,42.94932139 L 54.275232055,82.908879622 l -14.314773823,14.314773823 Z" fill="url(#p11-googlechat-grad)" />
+</svg>

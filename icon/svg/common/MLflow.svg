@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>MLflow</title>
+  <desc>Qure-style MLflow icon. MLflow 管理端到端机器学习生命周期的工业级 MLOps 开源平台</desc>
+  <defs>
+    <linearGradient id="p11-mlflow-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#28B0F9" />
+      <stop offset="0.5" stop-color="#0194E2" />
+      <stop offset="1.0" stop-color="#006CA6" />
+    </linearGradient>
+  </defs>
+  <path d="M 71.415057039,12.006200666 a 60.224,60.224 0 0,0 -46.633105558,97.321481179 l 18.341221444,-13.470897102 A 37.8675,37.8675 0 0,1 72.215110319,34.24768185 l 0,14.335954711 l 34.542300364,-25.70171162 A 60.064,60.064 0 0,0 71.415057039,12.006200666 z m 47.813184146,22.666509489 L 100.887019741,48.14860759 a 37.8675,37.8675 0 0,1 -29.091937394,61.614103226 l 0,-14.335954711 l -34.542300364,25.70171162 a 60.234,60.234 0 0,0 81.975459202,-86.45575757 z" fill="url(#p11-mlflow-grad)" />
+</svg>
