@@ -2,14 +2,13 @@
 
 共 **224** 个 SVG，统一为 **144×144**。按英文文件名排序，点击图标或文件名可查看原始素材。
 
-[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/common-overview.png?v=3b2ee5f9330e) · [可缩放 SVG 总览](../../../docs/assets/common-overview.svg?v=b0f040130c3a)
+[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/common-overview.png?v=a10d00a35502) · [可缩放 SVG 总览](../../../docs/assets/common-overview.svg?v=141a568837ca)
 
 | 预览 | 用途 / 名称 | SVG 文件 |
 | :---: | :--- | :--- |
 | [<img src="5iTV.svg" width="56" height="56" alt="5iTV">](5iTV.svg) | 5iTV | [5iTV.svg](5iTV.svg) |
 | [<img src="AbemaTV.svg" width="56" height="56" alt="ABEMA TV">](AbemaTV.svg) | ABEMA TV | [AbemaTV.svg](AbemaTV.svg) |
 | [<img src="AdBlock.svg" width="56" height="56" alt="广告拦截">](AdBlock.svg) | 广告拦截 | [AdBlock.svg](AdBlock.svg) |
-| [<img src="Adobe.svg" width="56" height="56" alt="Adobe">](Adobe.svg) | Adobe | [Adobe.svg](Adobe.svg) |
 | [<img src="Advertising.svg" width="56" height="56" alt="广告">](Advertising.svg) | 广告 | [Advertising.svg](Advertising.svg) |
 | [<img src="AdWhite.svg" width="56" height="56" alt="广告放行">](AdWhite.svg) | 广告放行 | [AdWhite.svg](AdWhite.svg) |
 | [<img src="Africa_Map.svg" width="56" height="56" alt="非洲地图">](Africa_Map.svg) | 非洲地图 | [Africa_Map.svg](Africa_Map.svg) |
@@ -49,6 +48,7 @@
 | [<img src="China_Map.svg" width="56" height="56" alt="中国地图">](China_Map.svg) | 中国地图 | [China_Map.svg](China_Map.svg) |
 | [<img src="Civitai.svg" width="56" height="56" alt="Civitai">](Civitai.svg) | Civitai | [Civitai.svg](Civitai.svg) |
 | [<img src="Claude.svg" width="56" height="56" alt="Claude">](Claude.svg) | Claude | [Claude.svg](Claude.svg) |
+| [<img src="Claude_Code.svg" width="56" height="56" alt="Claude Code">](Claude_Code.svg) | Claude Code | [Claude_Code.svg](Claude_Code.svg) |
 | [<img src="Cline.svg" width="56" height="56" alt="Cline">](Cline.svg) | Cline | [Cline.svg](Cline.svg) |
 | [<img src="Cloudflare.svg" width="56" height="56" alt="Cloudflare">](Cloudflare.svg) | Cloudflare | [Cloudflare.svg](Cloudflare.svg) |
 | [<img src="ComfyUI.svg" width="56" height="56" alt="ComfyUI">](ComfyUI.svg) | ComfyUI | [ComfyUI.svg](ComfyUI.svg) |
@@ -231,4 +231,4 @@
 | [<img src="Yahoo.svg" width="56" height="56" alt="Yahoo">](Yahoo.svg) | Yahoo | [Yahoo.svg](Yahoo.svg) |
 | [<img src="YouTube.svg" width="56" height="56" alt="YouTube">](YouTube.svg) | YouTube | [YouTube.svg](YouTube.svg) |
 
-部分图标参考 [Koolson/Qure](https://github.com/Koolson/Qure) 重绘；Riot Games 的图标轮廓来自 Simple Icons，许可见 [CC0 1.0](SimpleIcons-LICENSE.md)。
+部分图标参考 [Koolson/Qure](https://github.com/Koolson/Qure) 重绘；Riot Games 的图标轮廓来自 Simple Icons，许可见 [CC0 1.0](SimpleIcons-LICENSE.md)。Claude Code 标志参考 [asvg](https://asvg.app/icons/claude-code)，配色已适配本图标集。
