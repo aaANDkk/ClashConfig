@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>小黑盒</title>
+  <desc>Qure standard boutique pure vector icon for 小黑盒. Transparent background, no squircle baseplate.</desc>
+  <defs>
+    <linearGradient id="p12-xiaoheihe-grad" gradientUnits="userSpaceOnUse" x1="72" y1="16" x2="72" y2="128">
+      <stop offset="0.0" stop-color="#38383D" />
+      <stop offset="0.5" stop-color="#1C1C1F" />
+      <stop offset="1.0" stop-color="#0A0A0D" />
+    </linearGradient>
+  </defs>
+  <path d="M 32 18 H 112 A 16 16 0 0 1 128 34 V 110 A 16 16 0 0 1 112 126 H 32 A 16 16 0 0 1 16 110 V 34 A 16 16 0 0 1 32 18 Z" fill="url(#p12-xiaoheihe-grad)" />
+  <path d="M 48 56 H 60 V 44 H 70 V 56 H 82 V 66 H 70 V 78 H 60 V 66 H 48 Z" fill="#FFFFFF" />
+  <path d="M 96 52 A 6 6 0 1 1 95.9 52 Z" fill="#FFFFFF" />
+  <path d="M 106 68 A 6 6 0 1 1 105.9 68 Z" fill="#FFFFFF" />
+</svg>

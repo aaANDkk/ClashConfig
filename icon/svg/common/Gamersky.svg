@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>游民星空</title>
+  <desc>Qure standard boutique pure vector icon for 游民星空. Transparent background, no squircle baseplate.</desc>
+  <defs>
+    <linearGradient id="p12-gamersky-grad" gradientUnits="userSpaceOnUse" x1="72" y1="16" x2="72" y2="128">
+      <stop offset="0.0" stop-color="#FF4C26" />
+      <stop offset="0.5" stop-color="#FF2A00" />
+      <stop offset="1.0" stop-color="#D11F00" />
+    </linearGradient>
+  </defs>
+  <path d="M 72 16 L 86 52 L 124 52 L 94 76 L 106 112 L 72 90 L 38 112 L 50 76 L 20 52 L 58 52 Z" fill="url(#p12-gamersky-grad)" />
+  <path d="M 72 40 V 62 M 72 82 V 104 M 40 72 H 62 M 82 72 H 104" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" />
+</svg>

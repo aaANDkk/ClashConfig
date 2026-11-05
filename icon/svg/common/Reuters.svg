@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>路透社 (Reuters)</title>
+  <desc>Qure standard boutique pure vector icon for 路透社 (Reuters). Transparent background, no squircle baseplate.</desc>
+  <defs>
+    <linearGradient id="p12-reuters-grad" gradientUnits="userSpaceOnUse" x1="72" y1="16" x2="72" y2="128">
+      <stop offset="0.0" stop-color="#FF9729" />
+      <stop offset="0.5" stop-color="#FF8000" />
+      <stop offset="1.0" stop-color="#D66600" />
+    </linearGradient>
+  </defs>
+  <path d="M 72 20 A 7 7 0 1 1 72 19.9 Z" fill="url(#p12-reuters-grad)" />
+  <path d="M 72 124 A 7 7 0 1 1 72 123.9 Z" fill="url(#p12-reuters-grad)" />
+  <path d="M 20 72 A 7 7 0 1 1 20 71.9 Z" fill="url(#p12-reuters-grad)" />
+  <path d="M 124 72 A 7 7 0 1 1 124 71.9 Z" fill="url(#p12-reuters-grad)" />
+  <path d="M 35 35 A 8 8 0 1 1 35 34.9 Z" fill="url(#p12-reuters-grad)" />
+  <path d="M 109 35 A 8 8 0 1 1 109 34.9 Z" fill="url(#p12-reuters-grad)" />
+  <path d="M 35 109 A 8 8 0 1 1 35 108.9 Z" fill="url(#p12-reuters-grad)" />
+  <path d="M 109 109 A 8 8 0 1 1 109 108.9 Z" fill="url(#p12-reuters-grad)" />
+  <path d="M 72 40 A 32 32 0 1 1 71.9 40 Z" fill="none" stroke="url(#p12-reuters-grad)" stroke-width="11" />
+</svg>

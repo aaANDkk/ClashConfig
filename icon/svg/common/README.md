@@ -1,8 +1,8 @@
 # Qure 风格通用图标素材索引
 
-共 **1241** 个 SVG，统一为 **144×144**。按英文文件名排序，点击图标或文件名可查看原始素材。
+共 **1245** 个 SVG，统一为 **144×144**。按英文文件名排序，点击图标或文件名可查看原始素材。
 
-[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/common-overview.png?v=11292a5bea88) · [可缩放 SVG 总览](../../../docs/assets/common-overview.svg?v=ad3b1148093c)
+[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/common-overview.png?v=f022e65d1580) · [可缩放 SVG 总览](../../../docs/assets/common-overview.svg?v=477a8f41b5e5)
 
 | 预览 | 用途 / 名称 | SVG 文件 |
 | :---: | :--- | :--- |
@@ -449,6 +449,7 @@
 | [<img src="GameJolt.svg" width="56" height="56" alt="GameJolt">](GameJolt.svg) | GameJolt | [GameJolt.svg](GameJolt.svg) |
 | [<img src="Gameloft.svg" width="56" height="56" alt="Gameloft">](Gameloft.svg) | Gameloft | [Gameloft.svg](Gameloft.svg) |
 | [<img src="Gamemaker.svg" width="56" height="56" alt="Gamemaker">](Gamemaker.svg) | Gamemaker | [Gamemaker.svg](Gamemaker.svg) |
+| [<img src="Gamersky.svg" width="56" height="56" alt="Gamersky">](Gamersky.svg) | Gamersky | [Gamersky.svg](Gamersky.svg) |
 | [<img src="GameScience.svg" width="56" height="56" alt="GameScience">](GameScience.svg) | GameScience | [GameScience.svg](GameScience.svg) |
 | [<img src="Gamesplanet.svg" width="56" height="56" alt="Gamesplanet">](Gamesplanet.svg) | Gamesplanet | [Gamesplanet.svg](Gamesplanet.svg) |
 | [<img src="Gandi.svg" width="56" height="56" alt="Gandi">](Gandi.svg) | Gandi | [Gandi.svg](Gandi.svg) |
@@ -954,6 +955,7 @@
 | [<img src="Renren.svg" width="56" height="56" alt="Renren">](Renren.svg) | Renren | [Renren.svg](Renren.svg) |
 | [<img src="Replicate.svg" width="56" height="56" alt="Replicate">](Replicate.svg) | Replicate | [Replicate.svg](Replicate.svg) |
 | [<img src="RetroArch.svg" width="56" height="56" alt="RetroArch">](RetroArch.svg) | RetroArch | [RetroArch.svg](RetroArch.svg) |
+| [<img src="Reuters.svg" width="56" height="56" alt="Reuters">](Reuters.svg) | Reuters | [Reuters.svg](Reuters.svg) |
 | [<img src="Revolt.svg" width="56" height="56" alt="Revolt">](Revolt.svg) | Revolt | [Revolt.svg](Revolt.svg) |
 | [<img src="Revolut.svg" width="56" height="56" alt="Revolut">](Revolut.svg) | Revolut | [Revolut.svg](Revolut.svg) |
 | [<img src="Ring.svg" width="56" height="56" alt="圆环">](Ring.svg) | 圆环 | [Ring.svg](Ring.svg) |
@@ -1104,6 +1106,7 @@
 | [<img src="Threema.svg" width="56" height="56" alt="Threema">](Threema.svg) | Threema | [Threema.svg](Threema.svg) |
 | [<img src="Tianyancha.svg" width="56" height="56" alt="Tianyancha">](Tianyancha.svg) | Tianyancha | [Tianyancha.svg](Tianyancha.svg) |
 | [<img src="Tidal.svg" width="56" height="56" alt="Tidal">](Tidal.svg) | Tidal | [Tidal.svg](Tidal.svg) |
+| [<img src="Tieba.svg" width="56" height="56" alt="Tieba">](Tieba.svg) | Tieba | [Tieba.svg](Tieba.svg) |
 | [<img src="TikTok.svg" width="56" height="56" alt="TikTok">](TikTok.svg) | TikTok | [TikTok.svg](TikTok.svg) |
 | [<img src="TimescaleDB.svg" width="56" height="56" alt="TimescaleDB">](TimescaleDB.svg) | TimescaleDB | [TimescaleDB.svg](TimescaleDB.svg) |
 | [<img src="Todoist.svg" width="56" height="56" alt="Todoist">](Todoist.svg) | Todoist | [Todoist.svg](Todoist.svg) |
@@ -1217,6 +1220,7 @@
 | [<img src="X.svg" width="56" height="56" alt="X">](X.svg) | X | [X.svg](X.svg) |
 | [<img src="Xbox.svg" width="56" height="56" alt="Xbox">](Xbox.svg) | Xbox | [Xbox.svg](Xbox.svg) |
 | [<img src="Xcode.svg" width="56" height="56" alt="Xcode">](Xcode.svg) | Xcode | [Xcode.svg](Xcode.svg) |
+| [<img src="Xiaoheihe.svg" width="56" height="56" alt="Xiaoheihe">](Xiaoheihe.svg) | Xiaoheihe | [Xiaoheihe.svg](Xiaoheihe.svg) |
 | [<img src="Xiaohongshu.svg" width="56" height="56" alt="Xiaohongshu">](Xiaohongshu.svg) | Xiaohongshu | [Xiaohongshu.svg](Xiaohongshu.svg) |
 | [<img src="Xiaomi.svg" width="56" height="56" alt="Xiaomi">](Xiaomi.svg) | Xiaomi | [Xiaomi.svg](Xiaomi.svg) |
 | [<img src="Xiaoyuzhou.svg" width="56" height="56" alt="Xiaoyuzhou">](Xiaoyuzhou.svg) | Xiaoyuzhou | [Xiaoyuzhou.svg](Xiaoyuzhou.svg) |
