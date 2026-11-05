@@ -2,7 +2,7 @@
 
 共 **91** 个 SVG，统一为 **144×144**。按英文文件名排序，点击图标或文件名可查看原始素材。
 
-[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/common-overview.png) · [可缩放 SVG 总览](../../../docs/assets/common-overview.svg)
+[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/common-overview.png?v=168a873d0c87) · [可缩放 SVG 总览](../../../docs/assets/common-overview.svg?v=cb3d065a9f10)
 
 | 预览 | 用途 / 名称 | SVG 文件 |
 | :---: | :--- | :--- |

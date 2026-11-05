@@ -39,15 +39,15 @@ JS 仅统计客户端传入的节点，不主动下载远程 provider；未单�
 
 ### 通用图标 · 91 个
 
-全部 SVG 素材已统一为 **144×144**。通用图标覆盖业务、策略和网络工具，支持查看[可缩放 SVG](docs/assets/common-overview.svg)或[逐项索引](icon/svg/common/README.md)。
+全部 SVG 素材已统一为 **144×144**。通用图标覆盖业务、策略和网络工具，支持查看[可缩放 SVG](docs/assets/common-overview.svg?v=cb3d065a9f10)或[逐项索引](icon/svg/common/README.md)。
 
-[![Qure 风格通用图标总览：91 个 144×144 SVG](docs/assets/common-overview.png)](docs/assets/common-overview.png)
+[![Qure 风格通用图标总览：91 个 144×144 SVG](docs/assets/common-overview.png?v=168a873d0c87)](docs/assets/common-overview.png?v=168a873d0c87)
 
 ### 地区旗帜 · 270 个
 
-共 **270 个旗帜图标**，按英文文件名排序并附中文名称。点击下图查看大图，也可查看[可缩放 SVG](docs/assets/flags-overview.svg)或[逐项索引](icon/svg/flag/README.md)。
+共 **270 个旗帜图标**，按英文文件名排序并附中文名称。点击下图查看大图，也可查看[可缩放 SVG](docs/assets/flags-overview.svg?v=671c9fd3a11c)或[逐项索引](icon/svg/flag/README.md)。
 
-[![Qure 风格地区旗帜总览：270 个旗帜图标](docs/assets/flags-overview.png)](docs/assets/flags-overview.png)
+[![Qure 风格地区旗帜总览：270 个旗帜图标](docs/assets/flags-overview.png?v=0d6891dccb28)](docs/assets/flags-overview.png?v=0d6891dccb28)
 
 图标链接示例，文件名区分大小写：
 
