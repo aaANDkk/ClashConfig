@@ -1,7 +1,7 @@
 /**
  * 通用 Mihomo 预处理脚本 https://github.com/aaANDkk/ClashConfig
  * 基础配置与 mihomo.yaml 同步；私有 DNS / Hosts 处理参考 AIsouler 脚本。
- * 地区至少有 3 个有效节点时生成手动与自动组；未识别节点仍可在 All Proxies 使用。
+ * 地区至少有 3 个手动可见节点时生成分组；家宽有 1 个即可，直连只在自动测速中排除。
  * 地区统计基于客户端传入的 config.proxies；远程 proxy-providers 不主动下载。
  */
 
@@ -151,7 +151,7 @@ const manualOption = {
   "timeout": 3000,
   "type": "select",
   "empty-fallback": "REJECT",
-  "exclude-type": "DIRECT|REJECT",
+  "exclude-type": "REJECT",
   "url": "http://g.cn/generate_204"
 };
 const autoExclude = "(?i)(vpn|卖|版本|泄露|剩余|到期|过期|重置|流量|套餐|订阅|官网|网址|网站|客服|工单|群组|频道|通知|超时|备用|直连|下载|(?<!\\d)0\\.[0-5]|(?:https?:\\/\\/|\\.com|\\.org|\\.net|@|⚠️))";
@@ -690,16 +690,20 @@ function nameRegex(pattern) {
 function buildProxyGroups(proxies) {
   const excluded = nameRegex(manualExclude);
   const autoExcluded = nameRegex(autoExclude);
+  const manualExcludedTypes = nameRegex(manualOption['exclude-type']);
+  const autoExcludedTypes = nameRegex(autoOption['exclude-type']);
+  // 生成门槛按手动可见节点计数；自动测速的排除条件不影响生成分组。
   const eligible = proxies.filter((proxy) =>
-    !/^(direct|reject|reject-drop|pass|compatible|dns)$/i.test(proxy.type || '') &&
+    !manualExcludedTypes.test(proxy.type || '') &&
     !excluded.test(toMatchableName(proxy.name)));
+  const canAutoSelect = (proxy) => !autoExcludedTypes.test(proxy.type || '') &&
+    !autoExcluded.test(toMatchableName(proxy.name));
   const regionGroups = [];
   for (const definition of regionDefinitions) {
     const nodes = eligible.filter((proxy) => definition.regex.test(toMatchableName(proxy.name)));
     if (nodes.length < MIN_REGION_NODES) continue;
     const autoName = `${definition.code}-Auto`;
-    const autoNodes = nodes.filter((proxy) => !/^hysteria2$/i.test(proxy.type || '') &&
-      !autoExcluded.test(toMatchableName(proxy.name)));
+    const autoNodes = nodes.filter(canAutoSelect);
     const automatic = {
       ...clone(autoOption), name: autoName,
       proxies: autoNodes.length ? autoNodes.map((proxy) => proxy.name) : ['REJECT'],
@@ -719,10 +723,9 @@ function buildProxyGroups(proxies) {
   const homeNodes = eligible.filter((proxy) => homePattern.test(toMatchableName(proxy.name)));
   const groups = clone(groupTemplates).filter((group) =>
     homeNodes.length > 0 || !['Residential', 'RSD-Auto'].includes(group.name));
-  // 家宽只需一个有效节点；显式成员与识别结果保持一致。
+  // 家宽只需一个手动可见节点；直连节点也计数并保留在手动组。
   if (homeNodes.length) {
-    const autoHomeNodes = homeNodes.filter((proxy) => !/^hysteria2$/i.test(proxy.type || '') &&
-      !autoExcluded.test(toMatchableName(proxy.name)));
+    const autoHomeNodes = homeNodes.filter(canAutoSelect);
     const automatic = groups.find((group) => group.name === 'RSD-Auto');
     const manual = groups.find((group) => group.name === 'Residential');
     automatic.proxies = autoHomeNodes.length ? autoHomeNodes.map((proxy) => proxy.name) : ['REJECT'];
