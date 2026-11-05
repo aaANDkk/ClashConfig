@@ -14,7 +14,7 @@ YAML 与 JS 链接均放在独立代码块中，点击代码块右上角的复�
 https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/mihomo.yaml
 ```
 
-也可下载 [mihomo.yaml](mihomo.yaml)，在文件已有的 `proxy-providers` 区域替换订阅链接后导入。保留文件前面的 `airport` 锚点：
+也可下载 [mihomo.yaml](mihomo.yaml)，在文件已有的 `proxy-providers` 区域替换订阅链接后导入。
 
 ```yaml
 proxy-providers:
