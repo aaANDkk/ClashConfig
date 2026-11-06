@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
   <title>Anytype</title>
-  <desc>Qure-style Anytype icon. Anytype 基于去中心化架构与本地加密的下一代全能操作系统</desc>
+  <desc>Qure-style Anytype icon. 开源下一代基于本地优先加密协同知识库 官方无底板标志</desc>
   <defs>
-    <linearGradient id="p10-anytype-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
-      <stop offset="0.0" stop-color="#FDA9B3" />
-      <stop offset="0.5" stop-color="#FF6A7B" />
-      <stop offset="1.0" stop-color="#FF2D45" />
+    <linearGradient id="anytype-pure-grad" gradientUnits="userSpaceOnUse" x1="72" y1="14.0" x2="72" y2="130.0">
+      <stop offset="0.0" stop-color="#FF5B37" />
+      <stop offset="0.5" stop-color="#E03612" />
+      <stop offset="1.0" stop-color="#B32405" />
     </linearGradient>
   </defs>
-  <path d="M 38.665073335,12.0001 l 66.66993333,0 A 26.61,26.61 0 0,1 131.99998,38.665073335 l 0,66.66993333 A 26.61,26.61 0 0,1 105.335006665,131.99998 L 38.665073335,131.99998 A 26.61,26.61 0 0,1 12.0001,105.335006665 L 12.0001,38.665073335 A 26.61,26.61 0 0,1 38.665073335,12.0001 Z m 51.66994833,38.334961665 l 0,-14.999985 L 43.72006828,35.335076665 l 0,14.999985 z m 0,0 l 0,58.32994167 l 14.999985,0 L 105.335006665,50.335061665 Z M 59.5000525,108.665003335 a 24.165,24.165 0 0,0 0,-48.32995167 a 24.165,24.165 0 0,0 0,48.32995167 z" fill="url(#p10-anytype-grad)" />
+  <path d="m 103.610790683,37.7283512887 l 0,-23.7283512887 L 29.8709843281,14 l 0,23.7283512887 z m 0,0 l 0,92.2716487113 l 23.7283512887,0 L 127.339141972,37.7283512887 Z M 54.8332098838,130 a 38.2264,38.2264 0 0,0 0,-76.4527478522 a 38.2264,38.2264 0 0,0 0,76.4527478522 z" fill="url(#anytype-pure-grad)" />
 </svg>
