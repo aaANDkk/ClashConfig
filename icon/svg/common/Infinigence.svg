@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Infinigence</title>
+  <desc>Qure-style Infinigence icon. 无问芯穹 软硬件协同大模型加速平台</desc>
+  <defs>
+    <linearGradient id="p15-infinigence-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#A58BEE" />
+      <stop offset="0.5" stop-color="#7952EA" />
+      <stop offset="1.0" stop-color="#4C17E8" />
+    </linearGradient>
+  </defs>
+  <path d="M 84.193338062,110.767923295 L 84.193338062,33.777834742 L 39.028835,33.777834742 l 0,20.340251379 l 20.777834742,0 l 0,56.649837174 L 39.028835,110.767923295 L 39.028835,131.000008 l 65.942337804,0 l 0,-20.232084705 l -20.777834742,0 z M 104.971172804,13 l -20.777834742,0 l 0,20.777834742 l 20.777834742,0 L 104.971172804,13 z" fill="url(#p15-infinigence-grad)" fill-rule="evenodd" />
+</svg>

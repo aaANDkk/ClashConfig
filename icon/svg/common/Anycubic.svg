@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Anycubic</title>
+  <desc>Qure-style Anycubic icon. 纵维立方 全球消费级高精 3D 打印与智能制造硬核创新品牌</desc>
+  <defs>
+    <linearGradient id="p16-anycubic-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#6685B3" />
+      <stop offset="0.5" stop-color="#476695" />
+      <stop offset="1.0" stop-color="#32496D" />
+    </linearGradient>
+  </defs>
+  <path d="m 46.246502254,15.625500178 l 42.912669576,17.114917827 l 41.639252823,36.624252483 l -31.928835498,-3.102416877 L 46.246502254,15.625500178 Z m 52.70667024,51.443086821 l 32.046835506,2.856583527 l -38.477835942,43.015919583 l -42.524252883,15.433417713 l 48.955253319,-61.305920823 Z M 45.410668864,15.954916867 l 52.603420233,50.794086777 L 49.162085785,128.24667448 L 13,74.286254155 L 45.410668864,15.954916867 Z" fill="url(#p16-anycubic-grad)" fill-rule="evenodd" />
+</svg>

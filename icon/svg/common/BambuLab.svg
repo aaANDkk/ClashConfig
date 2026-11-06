@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>BambuLab</title>
+  <desc>Qure-style BambuLab icon. 拓竹科技 全球消费级高速高精3D打印机革新者</desc>
+  <defs>
+    <linearGradient id="p15-bambu-lab-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#06E55B" />
+      <stop offset="0.5" stop-color="#00AE42" />
+      <stop offset="1.0" stop-color="#00712B" />
+    </linearGradient>
+  </defs>
+  <path d="M 75.254837554,131.000008 L 75.254837554,57.048419653 l 41.963752845,16.564251123 L 117.218590399,131.000008 z m -48.473419953,-0.014750001 l 0,-36.978252507 l 41.958836178,-16.574084457 l -0.00491666699999,53.552336964 z M 26.781417601,13 l 41.953919511,0 l 0.004916667,57.387337224 l -41.958836178,16.564251123 z m 48.473419953,0 l 41.963752845,0 l 0,53.552336964 l -41.963752845,-16.574084457 z" fill="url(#p15-bambu-lab-grad)" fill-rule="evenodd" />
+</svg>

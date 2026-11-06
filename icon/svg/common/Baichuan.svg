@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Baichuan</title>
+  <desc>Qure-style Baichuan icon. 百川智能 王小川创立的通用人工智能大模型</desc>
+  <defs>
+    <linearGradient id="p15-baichuan-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#FB9874" />
+      <stop offset="0.5" stop-color="#FF6933" />
+      <stop offset="1.0" stop-color="#F54100" />
+    </linearGradient>
+  </defs>
+  <path d="M 52.331542788,18.363672 l -17.1636352,0 l -10.727272,23.240634788 L 24.440635588,103.1091208 L 13,125.636392 l 27.8909072,0 l 10.877453808,-22.5272712 L 52.331542788,18.363672 z m 39.336906424,0 l -27.8909072,0 l 0,107.27272 l 27.8909072,0 L 91.668449212,18.363672 z M 103.1090848,49.113397188 L 130.999992,49.113397188 L 130.999992,125.636392 l -27.8909072,0 L 103.1090848,49.113397188 z M 130.999992,18.363672 l -27.8909072,0 l 0,22.167907588 L 130.999992,40.531579588 L 130.999992,18.363672 z" fill="url(#p15-baichuan-grad)" fill-rule="evenodd" />
+</svg>

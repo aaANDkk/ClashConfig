@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>GuangzhouMetro</title>
+  <desc>Qure-style GuangzhouMetro icon. 广州地铁 羊城千年商都安全准点高品质城市轨道交通</desc>
+  <defs>
+    <linearGradient id="p16-guangzhoumetro-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#E13A55" />
+      <stop offset="0.5" stop-color="#C51935" />
+      <stop offset="1.0" stop-color="#920F24" />
+    </linearGradient>
+  </defs>
+  <path d="M 93.795588811,73.617587443 A 79.591,79.591 0 0,1 121.746840706,13.044250003 L 99.946339228,13 a 79.65,79.65 0 0,0 -23.482001592,55.922170458 L 76.464337636,131.000008 l 17.331251175,0 z m -43.605919623,0 A 79.5222,79.5222 0 0,0 22.253167294,13.044250003 L 44.068418773,13 a 79.8368,79.8368 0 0,1 23.467251591,55.922170458 L 67.535670364,131.000008 L 50.189669188,131.000008 z" fill="url(#p16-guangzhoumetro-grad)" fill-rule="evenodd" />
+</svg>

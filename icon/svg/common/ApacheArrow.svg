@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>ApacheArrow</title>
+  <desc>Qure-style ApacheArrow icon. Apache Arrow 跨语言内存数据标准化列式分析格式</desc>
+  <defs>
+    <linearGradient id="p15-apache-arrow-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#EA6C61" />
+      <stop offset="0.5" stop-color="#E83526" />
+      <stop offset="1.0" stop-color="#C11D10" />
+    </linearGradient>
+  </defs>
+  <path d="m 13,22.833334 l 49.16667,49.16667 L 13,121.166674 l 0,-19.666668 l 29.500002,-29.500002 l -29.500002,-29.500002 z m 34.416669,0 l 49.16667,49.16667 L 47.416669,121.166674 l 0,-19.666668 l 29.500002,-29.500002 l -29.500002,-29.500002 z m 34.416669,0 l 49.16667,49.16667 l -49.16667,49.16667 l 0,-19.666668 l 29.500002,-29.500002 l -29.500002,-29.500002 z" fill="url(#p15-apache-arrow-grad)" fill-rule="evenodd" />
+</svg>

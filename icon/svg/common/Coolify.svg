@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Coolify</title>
+  <desc>Qure-style Coolify icon. Coolify 现代化开源独立可替代 Heroku 的自托管平台</desc>
+  <defs>
+    <linearGradient id="p15-coolify-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#A275EF" />
+      <stop offset="0.5" stop-color="#7C3AED" />
+      <stop offset="1.0" stop-color="#5A0FDB" />
+    </linearGradient>
+  </defs>
+  <path d="M 34.456334788,34.456334788 L 34.456334788,13 l 85.815505818,0 l 0,21.456334788 z m 0,64.35917103 L 13,98.815505818 L 13,34.461251455 l 21.456334788,0 z m 0,0 l 85.815505818,0 l 0,21.456334788 L 34.456334788,120.271840606 Z M 45.179585515,45.184502182 l 0,-8.3583339 L 122.6416741,36.826168282 L 122.6416741,23.728167394 L 131.000008,23.728167394 l 0,21.451418121 z m 0,0 l 0,51.1333368 l -8.3583339,0 l 0,-51.1333368 Z M 32.086501294,101.185339312 l 0,8.3583339 l -8.3583339,0 l 0,-8.3583339 Z M 131.000008,131.000008 L 45.179585515,131.000008 l 0,-8.3583339 L 122.6416741,122.6416741 l 0,-13.098000888 L 131.000008,109.543673212 Z" fill="url(#p15-coolify-grad)" fill-rule="evenodd" />
+</svg>

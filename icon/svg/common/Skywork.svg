@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Skywork</title>
+  <desc>Qure-style Skywork icon. 天工AI 昆仑万维自研双千亿架构通用大模型</desc>
+  <defs>
+    <linearGradient id="p15-skywork-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#4281FA" />
+      <stop offset="0.5" stop-color="#0057FF" />
+      <stop offset="1.0" stop-color="#0042C2" />
+    </linearGradient>
+  </defs>
+  <path d="M 79.048699716,22.871989712 a 40.8852,40.8852 0 0,0 -52.55687188,1.927249184 a 40.9786,40.9786 0 0,0 -2.940038296,57.84205778 a 40.8901,40.8901 0 0,0 52.094725392,7.256683152 L 43.871485656,54.681434152 l 35.17721406,-31.80944444 z M 64.963064736,121.132199384 a 40.8852,40.8852 0 0,0 52.547038976,-1.927249184 a 40.9835,40.9835 0 0,0 2.940038296,-57.84205778 a 40.8901,40.8901 0 0,0 -52.094725392,-7.256683152 l 31.775029276,35.216545676 l -35.17721406,31.80944444 l 0.00983290399999,0 z" fill="url(#p15-skywork-grad)" fill-rule="evenodd" />
+</svg>

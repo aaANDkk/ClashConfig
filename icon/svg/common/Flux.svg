@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Flux</title>
+  <desc>Qure-style Flux icon. Flux 黑森林实验室新一代极高画质开源文生图大模型</desc>
+  <defs>
+    <linearGradient id="p15-flux-black-forest-labs-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#4A4A4E" />
+      <stop offset="0.5" stop-color="#2B2B2F" />
+      <stop offset="1.0" stop-color="#16161A" />
+    </linearGradient>
+  </defs>
+  <path d="M 13,116.699923561 L 72.04917067,27.3001675 L 131.000008,116.699923561 l -10.978917411,0 L 72.044254003,43.908668626 L 30.065751157,107.471339602 l 59.599837374,0 l 6.091750413,9.228583959 L 13,116.699923561 z M 52.672586023,97.234838908 l 10.192250691,-15.315417705 l 10.197167358,15.315417705 L 52.672586023,97.234838908 z M 102.68000608,116.699923561 l -27.867668556,-42.809419569 l 10.703584059,0 l 27.956168562,42.809419569 l -10.797000732,0 z M 110.05500658,72.415503892 l 10.47250071,-15.68416773 l 10.47250071,15.68416773 l -20.94500142,0 z" fill="url(#p15-flux-black-forest-labs-grad)" fill-rule="evenodd" />
+</svg>

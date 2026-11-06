@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Polestar</title>
+  <desc>Qure-style Polestar icon. 极星 高性能豪华纯电动汽车品牌</desc>
+  <defs>
+    <linearGradient id="p15-polestar-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
+      <stop offset="0.0" stop-color="#FA9742" />
+      <stop offset="0.5" stop-color="#FF7500" />
+      <stop offset="1.0" stop-color="#C25900" />
+    </linearGradient>
+  </defs>
+  <path d="m 74.699254183,13 l -2.246916819,2.728750185 l 0,55.022420397 l 55.01750373,0 l 2.723833518,-2.246916819 l -46.2166698,-9.29250063 z M 16.535083573,73.27833742 l -2.728750185,2.246916819 L 60.018086521,84.7833382 l 9.272833962,46.2166698 l 2.246916819,-2.728750185 L 71.537837302,73.27833742 Z" fill="url(#p15-polestar-grad)" fill-rule="evenodd" />
+</svg>
