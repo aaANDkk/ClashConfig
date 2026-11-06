@@ -1,8 +1,8 @@
 # Qure 风格通用图标素材索引
 
-共 **1491** 个 SVG，统一为 **144×144**。按英文文件名排序，点击图标或文件名可查看原始素材。
+共 **1494** 个 SVG，统一为 **144×144**。按英文文件名排序，点击图标或文件名可查看原始素材。
 
-[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/common-overview.png?v=dfbc30922ded) · [可缩放 SVG 总览](../../../docs/assets/common-overview.svg?v=526704a05bf9)
+[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/common-overview.png?v=efe680bb13ba) · [可缩放 SVG 总览](../../../docs/assets/common-overview.svg?v=38d9af1216e6)
 
 | 预览 | 图标名称 | SVG 文件 |
 | :---: | :--- | :--- |
@@ -286,6 +286,8 @@
 | [<img src="CiviCRM.svg" width="56" height="56" alt="CiviCRM">](CiviCRM.svg) | CiviCRM | [CiviCRM.svg](CiviCRM.svg) |
 | [<img src="Civitai.svg" width="56" height="56" alt="Civitai">](Civitai.svg) | Civitai | [Civitai.svg](Civitai.svg) |
 | [<img src="Clarivate.svg" width="56" height="56" alt="Clarivate">](Clarivate.svg) | Clarivate | [Clarivate.svg](Clarivate.svg) |
+| [<img src="Clash.svg" width="56" height="56" alt="Clash">](Clash.svg) | Clash | [Clash.svg](Clash.svg) |
+| [<img src="ClashVergeRev.svg" width="56" height="56" alt="Clash Verge Rev">](ClashVergeRev.svg) | Clash Verge Rev | [ClashVergeRev.svg](ClashVergeRev.svg) |
 | [<img src="Claude.svg" width="56" height="56" alt="Claude">](Claude.svg) | Claude | [Claude.svg](Claude.svg) |
 | [<img src="ClaudeCode.svg" width="56" height="56" alt="ClaudeCode">](ClaudeCode.svg) | ClaudeCode | [ClaudeCode.svg](ClaudeCode.svg) |
 | [<img src="CleverCloud.svg" width="56" height="56" alt="CleverCloud">](CleverCloud.svg) | CleverCloud | [CleverCloud.svg](CleverCloud.svg) |
@@ -1277,6 +1279,7 @@
 | [<img src="Supabase.svg" width="56" height="56" alt="Supabase">](Supabase.svg) | Supabase | [Supabase.svg](Supabase.svg) |
 | [<img src="Supercell.svg" width="56" height="56" alt="Supercell">](Supercell.svg) | Supercell | [Supercell.svg](Supercell.svg) |
 | [<img src="Surfshark.svg" width="56" height="56" alt="Surfshark">](Surfshark.svg) | Surfshark | [Surfshark.svg](Surfshark.svg) |
+| [<img src="Surge.svg" width="56" height="56" alt="Surge">](Surge.svg) | Surge | [Surge.svg](Surge.svg) |
 | [<img src="SurrealDB.svg" width="56" height="56" alt="SurrealDB">](SurrealDB.svg) | SurrealDB | [SurrealDB.svg](SurrealDB.svg) |
 | [<img src="Svelte.svg" width="56" height="56" alt="Svelte">](Svelte.svg) | Svelte | [Svelte.svg](Svelte.svg) |
 | [<img src="Swagger.svg" width="56" height="56" alt="Swagger">](Swagger.svg) | Swagger | [Swagger.svg](Swagger.svg) |
