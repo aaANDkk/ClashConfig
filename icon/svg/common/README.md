@@ -2,9 +2,9 @@
 
 共 **1492** 个 SVG，统一为 **144×144**。按英文文件名排序，点击图标或文件名可查看原始素材。
 
-[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/common-overview.png?v=d2c658df6fc0) · [可缩放 SVG 总览](../../../docs/assets/common-overview.svg?v=d3be11118750)
+[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/common-overview.png?v=592d81a5a3fc) · [可缩放 SVG 总览](../../../docs/assets/common-overview.svg?v=caaeaa47b775)
 
-| 预览 | 用途 / 名称 | SVG 文件 |
+| 预览 | 图标名称 | SVG 文件 |
 | :---: | :--- | :--- |
 | [<img src="36Kr.svg" width="56" height="56" alt="36Kr">](36Kr.svg) | 36Kr | [36Kr.svg](36Kr.svg) |
 | [<img src="5iTV.svg" width="56" height="56" alt="5iTV">](5iTV.svg) | 5iTV | [5iTV.svg](5iTV.svg) |
@@ -15,20 +15,20 @@
 | [<img src="AcFun.svg" width="56" height="56" alt="AcFun">](AcFun.svg) | AcFun | [AcFun.svg](AcFun.svg) |
 | [<img src="Activision.svg" width="56" height="56" alt="Activision">](Activision.svg) | Activision | [Activision.svg](Activision.svg) |
 | [<img src="Adafruit.svg" width="56" height="56" alt="Adafruit">](Adafruit.svg) | Adafruit | [Adafruit.svg](Adafruit.svg) |
-| [<img src="AdBlock.svg" width="56" height="56" alt="广告拦截">](AdBlock.svg) | 广告拦截 | [AdBlock.svg](AdBlock.svg) |
+| [<img src="AdBlock.svg" width="56" height="56" alt="AdBlock">](AdBlock.svg) | AdBlock | [AdBlock.svg](AdBlock.svg) |
 | [<img src="Adblock_site.svg" width="56" height="56" alt="Adblock_site">](Adblock_site.svg) | Adblock_site | [Adblock_site.svg](Adblock_site.svg) |
 | [<img src="AdblockPlus.svg" width="56" height="56" alt="AdblockPlus">](AdblockPlus.svg) | AdblockPlus | [AdblockPlus.svg](AdblockPlus.svg) |
 | [<img src="AdGuard.svg" width="56" height="56" alt="AdGuard">](AdGuard.svg) | AdGuard | [AdGuard.svg](AdGuard.svg) |
 | [<img src="Adidas.svg" width="56" height="56" alt="Adidas">](Adidas.svg) | Adidas | [Adidas.svg](Adidas.svg) |
 | [<img src="Adobe.svg" width="56" height="56" alt="Adobe">](Adobe.svg) | Adobe | [Adobe.svg](Adobe.svg) |
-| [<img src="Advertising.svg" width="56" height="56" alt="广告">](Advertising.svg) | 广告 | [Advertising.svg](Advertising.svg) |
-| [<img src="AdWhite.svg" width="56" height="56" alt="广告放行">](AdWhite.svg) | 广告放行 | [AdWhite.svg](AdWhite.svg) |
+| [<img src="Advertising.svg" width="56" height="56" alt="Advertising">](Advertising.svg) | Advertising | [Advertising.svg](Advertising.svg) |
+| [<img src="AdWhite.svg" width="56" height="56" alt="AdWhite">](AdWhite.svg) | AdWhite | [AdWhite.svg](AdWhite.svg) |
 | [<img src="Adyen.svg" width="56" height="56" alt="Adyen">](Adyen.svg) | Adyen | [Adyen.svg](Adyen.svg) |
 | [<img src="AegisAuthenticator.svg" width="56" height="56" alt="AegisAuthenticator">](AegisAuthenticator.svg) | AegisAuthenticator | [AegisAuthenticator.svg](AegisAuthenticator.svg) |
 | [<img src="Afdian.svg" width="56" height="56" alt="Afdian">](Afdian.svg) | Afdian | [Afdian.svg](Afdian.svg) |
 | [<img src="Affine.svg" width="56" height="56" alt="Affine">](Affine.svg) | Affine | [Affine.svg](Affine.svg) |
 | [<img src="AfreecaTV.svg" width="56" height="56" alt="AfreecaTV">](AfreecaTV.svg) | AfreecaTV | [AfreecaTV.svg](AfreecaTV.svg) |
-| [<img src="Africa_Map.svg" width="56" height="56" alt="非洲地图">](Africa_Map.svg) | 非洲地图 | [Africa_Map.svg](Africa_Map.svg) |
+| [<img src="Africa_Map.svg" width="56" height="56" alt="Africa Map">](Africa_Map.svg) | Africa Map | [Africa_Map.svg](Africa_Map.svg) |
 | [<img src="AGA.svg" width="56" height="56" alt="AGA">](AGA.svg) | AGA | [AGA.svg](AGA.svg) |
 | [<img src="Agora.svg" width="56" height="56" alt="Agora">](Agora.svg) | Agora | [Agora.svg](Agora.svg) |
 | [<img src="AI.svg" width="56" height="56" alt="AI">](AI.svg) | AI | [AI.svg](AI.svg) |
@@ -38,7 +38,7 @@
 | [<img src="Airbnb.svg" width="56" height="56" alt="Airbnb">](Airbnb.svg) | Airbnb | [Airbnb.svg](Airbnb.svg) |
 | [<img src="Aircall.svg" width="56" height="56" alt="Aircall">](Aircall.svg) | Aircall | [Aircall.svg](Aircall.svg) |
 | [<img src="AirChina.svg" width="56" height="56" alt="AirChina">](AirChina.svg) | AirChina | [AirChina.svg](AirChina.svg) |
-| [<img src="Airport.svg" width="56" height="56" alt="机场订阅">](Airport.svg) | 机场订阅 | [Airport.svg](Airport.svg) |
+| [<img src="Airport.svg" width="56" height="56" alt="Airport">](Airport.svg) | Airport | [Airport.svg](Airport.svg) |
 | [<img src="Airtable.svg" width="56" height="56" alt="Airtable">](Airtable.svg) | Airtable | [Airtable.svg](Airtable.svg) |
 | [<img src="AITO.svg" width="56" height="56" alt="AITO">](AITO.svg) | AITO | [AITO.svg](AITO.svg) |
 | [<img src="Akamai.svg" width="56" height="56" alt="Akamai">](Akamai.svg) | Akamai | [Akamai.svg](Akamai.svg) |
@@ -52,16 +52,16 @@
 | [<img src="AlmaLinux.svg" width="56" height="56" alt="AlmaLinux">](AlmaLinux.svg) | AlmaLinux | [AlmaLinux.svg](AlmaLinux.svg) |
 | [<img src="AlpineLinux.svg" width="56" height="56" alt="AlpineLinux">](AlpineLinux.svg) | AlpineLinux | [AlpineLinux.svg](AlpineLinux.svg) |
 | [<img src="Amap.svg" width="56" height="56" alt="Amap">](Amap.svg) | Amap | [Amap.svg](Amap.svg) |
-| [<img src="Amazon.svg" width="56" height="56" alt="亚马逊">](Amazon.svg) | 亚马逊 | [Amazon.svg](Amazon.svg) |
+| [<img src="Amazon.svg" width="56" height="56" alt="Amazon">](Amazon.svg) | Amazon | [Amazon.svg](Amazon.svg) |
 | [<img src="AMD.svg" width="56" height="56" alt="AMD">](AMD.svg) | AMD | [AMD.svg](AMD.svg) |
-| [<img src="America_Map.svg" width="56" height="56" alt="美洲地图">](America_Map.svg) | 美洲地图 | [America_Map.svg](America_Map.svg) |
+| [<img src="America_Map.svg" width="56" height="56" alt="America Map">](America_Map.svg) | America Map | [America_Map.svg](America_Map.svg) |
 | [<img src="Anaconda.svg" width="56" height="56" alt="Anaconda">](Anaconda.svg) | Anaconda | [Anaconda.svg](Anaconda.svg) |
 | [<img src="Android.svg" width="56" height="56" alt="Android">](Android.svg) | Android | [Android.svg](Android.svg) |
 | [<img src="AndroidAuto.svg" width="56" height="56" alt="AndroidAuto">](AndroidAuto.svg) | AndroidAuto | [AndroidAuto.svg](AndroidAuto.svg) |
 | [<img src="AndroidStudio.svg" width="56" height="56" alt="AndroidStudio">](AndroidStudio.svg) | AndroidStudio | [AndroidStudio.svg](AndroidStudio.svg) |
 | [<img src="Angular.svg" width="56" height="56" alt="Angular">](Angular.svg) | Angular | [Angular.svg](Angular.svg) |
 | [<img src="AniList.svg" width="56" height="56" alt="AniList">](AniList.svg) | AniList | [AniList.svg](AniList.svg) |
-| [<img src="Anime.svg" width="56" height="56" alt="动漫">](Anime.svg) | 动漫 | [Anime.svg](Anime.svg) |
+| [<img src="Anime.svg" width="56" height="56" alt="Anime">](Anime.svg) | Anime | [Anime.svg](Anime.svg) |
 | [<img src="AnimeDotJs.svg" width="56" height="56" alt="AnimeDotJs">](AnimeDotJs.svg) | AnimeDotJs | [AnimeDotJs.svg](AnimeDotJs.svg) |
 | [<img src="Anker.svg" width="56" height="56" alt="Anker">](Anker.svg) | Anker | [Anker.svg](Anker.svg) |
 | [<img src="AnkerMake.svg" width="56" height="56" alt="AnkerMake">](AnkerMake.svg) | AnkerMake | [AnkerMake.svg](AnkerMake.svg) |
@@ -97,11 +97,11 @@
 | [<img src="AppGallery.svg" width="56" height="56" alt="AppGallery">](AppGallery.svg) | AppGallery | [AppGallery.svg](AppGallery.svg) |
 | [<img src="AppImage.svg" width="56" height="56" alt="AppImage">](AppImage.svg) | AppImage | [AppImage.svg](AppImage.svg) |
 | [<img src="Appium.svg" width="56" height="56" alt="Appium">](Appium.svg) | Appium | [Appium.svg](Appium.svg) |
-| [<img src="Apple.svg" width="56" height="56" alt="苹果">](Apple.svg) | 苹果 | [Apple.svg](Apple.svg) |
+| [<img src="Apple.svg" width="56" height="56" alt="Apple">](Apple.svg) | Apple | [Apple.svg](Apple.svg) |
 | [<img src="Apple_Fitness+.svg" width="56" height="56" alt="Apple Fitness+">](Apple_Fitness+.svg) | Apple Fitness+ | [Apple_Fitness+.svg](Apple_Fitness+.svg) |
 | [<img src="Apple_Music.svg" width="56" height="56" alt="Apple Music">](Apple_Music.svg) | Apple Music | [Apple_Music.svg](Apple_Music.svg) |
 | [<img src="Apple_News.svg" width="56" height="56" alt="Apple News">](Apple_News.svg) | Apple News | [Apple_News.svg](Apple_News.svg) |
-| [<img src="Apple_Update.svg" width="56" height="56" alt="苹果更新">](Apple_Update.svg) | 苹果更新 | [Apple_Update.svg](Apple_Update.svg) |
+| [<img src="Apple_Update.svg" width="56" height="56" alt="Apple Update">](Apple_Update.svg) | Apple Update | [Apple_Update.svg](Apple_Update.svg) |
 | [<img src="AppleArcade.svg" width="56" height="56" alt="AppleArcade">](AppleArcade.svg) | AppleArcade | [AppleArcade.svg](AppleArcade.svg) |
 | [<img src="ApplePay.svg" width="56" height="56" alt="ApplePay">](ApplePay.svg) | ApplePay | [ApplePay.svg](ApplePay.svg) |
 | [<img src="ApplePodcasts.svg" width="56" height="56" alt="ApplePodcasts">](ApplePodcasts.svg) | ApplePodcasts | [ApplePodcasts.svg](ApplePodcasts.svg) |
@@ -113,14 +113,14 @@
 | [<img src="ArchLinux.svg" width="56" height="56" alt="ArchLinux">](ArchLinux.svg) | ArchLinux | [ArchLinux.svg](ArchLinux.svg) |
 | [<img src="Ardour.svg" width="56" height="56" alt="Ardour">](Ardour.svg) | Ardour | [Ardour.svg](Ardour.svg) |
 | [<img src="Arduino.svg" width="56" height="56" alt="Arduino">](Arduino.svg) | Arduino | [Arduino.svg](Arduino.svg) |
-| [<img src="Area.svg" width="56" height="56" alt="区域">](Area.svg) | 区域 | [Area.svg](Area.svg) |
+| [<img src="Area.svg" width="56" height="56" alt="Area">](Area.svg) | Area | [Area.svg](Area.svg) |
 | [<img src="ArgoCD.svg" width="56" height="56" alt="ArgoCD">](ArgoCD.svg) | ArgoCD | [ArgoCD.svg](ArgoCD.svg) |
 | [<img src="Arm.svg" width="56" height="56" alt="Arm">](Arm.svg) | Arm | [Arm.svg](Arm.svg) |
 | [<img src="ArsTechnica.svg" width="56" height="56" alt="ArsTechnica">](ArsTechnica.svg) | ArsTechnica | [ArsTechnica.svg](ArsTechnica.svg) |
 | [<img src="ArtifactHub.svg" width="56" height="56" alt="ArtifactHub">](ArtifactHub.svg) | ArtifactHub | [ArtifactHub.svg](ArtifactHub.svg) |
 | [<img src="ArtStation.svg" width="56" height="56" alt="ArtStation">](ArtStation.svg) | ArtStation | [ArtStation.svg](ArtStation.svg) |
 | [<img src="Asana.svg" width="56" height="56" alt="Asana">](Asana.svg) | Asana | [Asana.svg](Asana.svg) |
-| [<img src="Asia_Map.svg" width="56" height="56" alt="亚洲地图">](Asia_Map.svg) | 亚洲地图 | [Asia_Map.svg](Asia_Map.svg) |
+| [<img src="Asia_Map.svg" width="56" height="56" alt="Asia Map">](Asia_Map.svg) | Asia Map | [Asia_Map.svg](Asia_Map.svg) |
 | [<img src="Astro.svg" width="56" height="56" alt="Astro">](Astro.svg) | Astro | [Astro.svg](Astro.svg) |
 | [<img src="Asus.svg" width="56" height="56" alt="Asus">](Asus.svg) | Asus | [Asus.svg](Asus.svg) |
 | [<img src="Atari.svg" width="56" height="56" alt="Atari">](Atari.svg) | Atari | [Atari.svg](Atari.svg) |
@@ -136,11 +136,11 @@
 | [<img src="Authelia.svg" width="56" height="56" alt="Authelia">](Authelia.svg) | Authelia | [Authelia.svg](Authelia.svg) |
 | [<img src="Authentik.svg" width="56" height="56" alt="Authentik">](Authentik.svg) | Authentik | [Authentik.svg](Authentik.svg) |
 | [<img src="Authy.svg" width="56" height="56" alt="Authy">](Authy.svg) | Authy | [Authy.svg](Authy.svg) |
-| [<img src="Auto.svg" width="56" height="56" alt="自动选择">](Auto.svg) | 自动选择 | [Auto.svg](Auto.svg) |
+| [<img src="Auto.svg" width="56" height="56" alt="Auto">](Auto.svg) | Auto | [Auto.svg](Auto.svg) |
 | [<img src="Autodesk.svg" width="56" height="56" alt="Autodesk">](Autodesk.svg) | Autodesk | [Autodesk.svg](Autodesk.svg) |
 | [<img src="Autohome.svg" width="56" height="56" alt="Autohome">](Autohome.svg) | Autohome | [Autohome.svg](Autohome.svg) |
-| [<img src="Available.svg" width="56" height="56" alt="全部节点">](Available.svg) | 全部节点 | [Available.svg](Available.svg) |
-| [<img src="Available(1).svg" width="56" height="56" alt="全部节点 · 备选">](Available(1).svg) | 全部节点 · 备选 | [Available(1).svg](Available(1).svg) |
+| [<img src="Available.svg" width="56" height="56" alt="Available">](Available.svg) | Available | [Available.svg](Available.svg) |
+| [<img src="Available(1).svg" width="56" height="56" alt="Available (Alt)">](Available(1).svg) | Available (Alt) | [Available(1).svg](Available(1).svg) |
 | [<img src="Avalanche.svg" width="56" height="56" alt="Avalanche">](Avalanche.svg) | Avalanche | [Avalanche.svg](Avalanche.svg) |
 | [<img src="AvaloniaUI.svg" width="56" height="56" alt="AvaloniaUI">](AvaloniaUI.svg) | AvaloniaUI | [AvaloniaUI.svg](AvaloniaUI.svg) |
 | [<img src="Avatr.svg" width="56" height="56" alt="Avatr">](Avatr.svg) | Avatr | [Avatr.svg](Avatr.svg) |
@@ -150,13 +150,13 @@
 | [<img src="Babel.svg" width="56" height="56" alt="Babel">](Babel.svg) | Babel | [Babel.svg](Babel.svg) |
 | [<img src="Back.svg" width="56" height="56" alt="Back">](Back.svg) | Back | [Back.svg](Back.svg) |
 | [<img src="Backblaze.svg" width="56" height="56" alt="Backblaze">](Backblaze.svg) | Backblaze | [Backblaze.svg](Backblaze.svg) |
-| [<img src="Bahamut.svg" width="56" height="56" alt="巴哈姆特">](Bahamut.svg) | 巴哈姆特 | [Bahamut.svg](Bahamut.svg) |
+| [<img src="Bahamut.svg" width="56" height="56" alt="Bahamut">](Bahamut.svg) | Bahamut | [Bahamut.svg](Bahamut.svg) |
 | [<img src="Baichuan.svg" width="56" height="56" alt="Baichuan">](Baichuan.svg) | Baichuan | [Baichuan.svg](Baichuan.svg) |
-| [<img src="Baidu.svg" width="56" height="56" alt="百度">](Baidu.svg) | 百度 | [Baidu.svg](Baidu.svg) |
+| [<img src="Baidu.svg" width="56" height="56" alt="Baidu">](Baidu.svg) | Baidu | [Baidu.svg](Baidu.svg) |
 | [<img src="BaiduCloud.svg" width="56" height="56" alt="BaiduCloud">](BaiduCloud.svg) | BaiduCloud | [BaiduCloud.svg](BaiduCloud.svg) |
 | [<img src="BaiduMap.svg" width="56" height="56" alt="BaiduMap">](BaiduMap.svg) | BaiduMap | [BaiduMap.svg](BaiduMap.svg) |
 | [<img src="Bailian.svg" width="56" height="56" alt="Bailian">](Bailian.svg) | Bailian | [Bailian.svg](Bailian.svg) |
-| [<img src="Bamboo.svg" width="56" height="56" alt="竹子">](Bamboo.svg) | 竹子 | [Bamboo.svg](Bamboo.svg) |
+| [<img src="Bamboo.svg" width="56" height="56" alt="Bamboo">](Bamboo.svg) | Bamboo | [Bamboo.svg](Bamboo.svg) |
 | [<img src="BambuLab.svg" width="56" height="56" alt="BambuLab">](BambuLab.svg) | BambuLab | [BambuLab.svg](BambuLab.svg) |
 | [<img src="Bandcamp.svg" width="56" height="56" alt="Bandcamp">](Bandcamp.svg) | Bandcamp | [Bandcamp.svg](Bandcamp.svg) |
 | [<img src="Bangumi.svg" width="56" height="56" alt="Bangumi">](Bangumi.svg) | Bangumi | [Bangumi.svg](Bangumi.svg) |
@@ -176,8 +176,8 @@
 | [<img src="BetterAuth.svg" width="56" height="56" alt="BetterAuth">](BetterAuth.svg) | BetterAuth | [BetterAuth.svg](BetterAuth.svg) |
 | [<img src="BGP.svg" width="56" height="56" alt="BGP">](BGP.svg) | BGP | [BGP.svg](BGP.svg) |
 | [<img src="BigBlueButton.svg" width="56" height="56" alt="BigBlueButton">](BigBlueButton.svg) | BigBlueButton | [BigBlueButton.svg](BigBlueButton.svg) |
-| [<img src="bilibili.svg" width="56" height="56" alt="哔哩哔哩">](bilibili.svg) | 哔哩哔哩 | [bilibili.svg](bilibili.svg) |
-| [<img src="Binance.svg" width="56" height="56" alt="币安">](Binance.svg) | 币安 | [Binance.svg](Binance.svg) |
+| [<img src="bilibili.svg" width="56" height="56" alt="Bilibili">](bilibili.svg) | Bilibili | [bilibili.svg](bilibili.svg) |
+| [<img src="Binance.svg" width="56" height="56" alt="Binance">](Binance.svg) | Binance | [Binance.svg](Binance.svg) |
 | [<img src="Bing.svg" width="56" height="56" alt="Bing">](Bing.svg) | Bing | [Bing.svg](Bing.svg) |
 | [<img src="Bitbucket.svg" width="56" height="56" alt="Bitbucket">](Bitbucket.svg) | Bitbucket | [Bitbucket.svg](Bitbucket.svg) |
 | [<img src="Bitcoin.svg" width="56" height="56" alt="Bitcoin">](Bitcoin.svg) | Bitcoin | [Bitcoin.svg](Bitcoin.svg) |
@@ -187,7 +187,7 @@
 | [<img src="Bitly.svg" width="56" height="56" alt="Bitly">](Bitly.svg) | Bitly | [Bitly.svg](Bitly.svg) |
 | [<img src="Bitrise.svg" width="56" height="56" alt="Bitrise">](Bitrise.svg) | Bitrise | [Bitrise.svg](Bitrise.svg) |
 | [<img src="Bitwarden.svg" width="56" height="56" alt="Bitwarden">](Bitwarden.svg) | Bitwarden | [Bitwarden.svg](Bitwarden.svg) |
-| [<img src="Blackhole.svg" width="56" height="56" alt="黑洞">](Blackhole.svg) | 黑洞 | [Blackhole.svg](Blackhole.svg) |
+| [<img src="Blackhole.svg" width="56" height="56" alt="Blackhole">](Blackhole.svg) | Blackhole | [Blackhole.svg](Blackhole.svg) |
 | [<img src="BlackmagicDesign.svg" width="56" height="56" alt="BlackmagicDesign">](BlackmagicDesign.svg) | BlackmagicDesign | [BlackmagicDesign.svg](BlackmagicDesign.svg) |
 | [<img src="Blender.svg" width="56" height="56" alt="Blender">](Blender.svg) | Blender | [Blender.svg](Blender.svg) |
 | [<img src="Blinkload.svg" width="56" height="56" alt="Blinkload">](Blinkload.svg) | Blinkload | [Blinkload.svg](Blinkload.svg) |
@@ -210,14 +210,14 @@
 | [<img src="Bose.svg" width="56" height="56" alt="Bose">](Bose.svg) | Bose | [Bose.svg](Bose.svg) |
 | [<img src="BosLife.svg" width="56" height="56" alt="BosLife">](BosLife.svg) | BosLife | [BosLife.svg](BosLife.svg) |
 | [<img src="BossZhipin.svg" width="56" height="56" alt="BossZhipin">](BossZhipin.svg) | BossZhipin | [BossZhipin.svg](BossZhipin.svg) |
-| [<img src="Bot.svg" width="56" height="56" alt="机器人">](Bot.svg) | 机器人 | [Bot.svg](Bot.svg) |
+| [<img src="Bot.svg" width="56" height="56" alt="Bot">](Bot.svg) | Bot | [Bot.svg](Bot.svg) |
 | [<img src="Bower.svg" width="56" height="56" alt="Bower">](Bower.svg) | Bower | [Bower.svg](Bower.svg) |
 | [<img src="Box.svg" width="56" height="56" alt="Box">](Box.svg) | Box | [Box.svg](Box.svg) |
 | [<img src="Braintree.svg" width="56" height="56" alt="Braintree">](Braintree.svg) | Braintree | [Braintree.svg](Braintree.svg) |
 | [<img src="Brave.svg" width="56" height="56" alt="Brave">](Brave.svg) | Brave | [Brave.svg](Brave.svg) |
 | [<img src="Broadcom.svg" width="56" height="56" alt="Broadcom">](Broadcom.svg) | Broadcom | [Broadcom.svg](Broadcom.svg) |
 | [<img src="Brown.svg" width="56" height="56" alt="Brown">](Brown.svg) | Brown | [Brown.svg](Brown.svg) |
-| [<img src="Browser.svg" width="56" height="56" alt="浏览器">](Browser.svg) | 浏览器 | [Browser.svg](Browser.svg) |
+| [<img src="Browser.svg" width="56" height="56" alt="Browser">](Browser.svg) | Browser | [Browser.svg](Browser.svg) |
 | [<img src="Bruno.svg" width="56" height="56" alt="Bruno">](Bruno.svg) | Bruno | [Bruno.svg](Bruno.svg) |
 | [<img src="Buildkite.svg" width="56" height="56" alt="Buildkite">](Buildkite.svg) | Buildkite | [Buildkite.svg](Buildkite.svg) |
 | [<img src="Bulma.svg" width="56" height="56" alt="Bulma">](Bulma.svg) | Bulma | [Bulma.svg](Bulma.svg) |
@@ -227,7 +227,7 @@
 | [<img src="BuyMeACoffee.svg" width="56" height="56" alt="BuyMeACoffee">](BuyMeACoffee.svg) | BuyMeACoffee | [BuyMeACoffee.svg](BuyMeACoffee.svg) |
 | [<img src="Bybit.svg" width="56" height="56" alt="Bybit">](Bybit.svg) | Bybit | [Bybit.svg](Bybit.svg) |
 | [<img src="BYD.svg" width="56" height="56" alt="BYD">](BYD.svg) | BYD | [BYD.svg](BYD.svg) |
-| [<img src="Bypass.svg" width="56" height="56" alt="绕过代理">](Bypass.svg) | 绕过代理 | [Bypass.svg](Bypass.svg) |
+| [<img src="Bypass.svg" width="56" height="56" alt="Bypass">](Bypass.svg) | Bypass | [Bypass.svg](Bypass.svg) |
 | [<img src="ByteDance.svg" width="56" height="56" alt="ByteDance">](ByteDance.svg) | ByteDance | [ByteDance.svg](ByteDance.svg) |
 | [<img src="Caddy.svg" width="56" height="56" alt="Caddy">](Caddy.svg) | Caddy | [Caddy.svg](Caddy.svg) |
 | [<img src="Cainiao.svg" width="56" height="56" alt="Cainiao">](Cainiao.svg) | Cainiao | [Cainiao.svg](Cainiao.svg) |
@@ -239,7 +239,7 @@
 | [<img src="Cardano.svg" width="56" height="56" alt="Cardano">](Cardano.svg) | Cardano | [Cardano.svg](Cardano.svg) |
 | [<img src="Carrd.svg" width="56" height="56" alt="Carrd">](Carrd.svg) | Carrd | [Carrd.svg](Carrd.svg) |
 | [<img src="CashApp.svg" width="56" height="56" alt="CashApp">](CashApp.svg) | CashApp | [CashApp.svg](CashApp.svg) |
-| [<img src="Cat.svg" width="56" height="56" alt="猫">](Cat.svg) | 猫 | [Cat.svg](Cat.svg) |
+| [<img src="Cat.svg" width="56" height="56" alt="Cat">](Cat.svg) | Cat | [Cat.svg](Cat.svg) |
 | [<img src="CathayPacific.svg" width="56" height="56" alt="CathayPacific">](CathayPacific.svg) | CathayPacific | [CathayPacific.svg](CathayPacific.svg) |
 | [<img src="CATL.svg" width="56" height="56" alt="CATL">](CATL.svg) | CATL | [CATL.svg](CATL.svg) |
 | [<img src="Catnet.svg" width="56" height="56" alt="Catnet">](Catnet.svg) | Catnet | [Catnet.svg](Catnet.svg) |
@@ -250,7 +250,7 @@
 | [<img src="Cdnjs.svg" width="56" height="56" alt="cdnjs">](Cdnjs.svg) | cdnjs | [Cdnjs.svg](Cdnjs.svg) |
 | [<img src="CDProjekt.svg" width="56" height="56" alt="CDProjekt">](CDProjekt.svg) | CDProjekt | [CDProjekt.svg](CDProjekt.svg) |
 | [<img src="CEB.svg" width="56" height="56" alt="CEB">](CEB.svg) | CEB | [CEB.svg](CEB.svg) |
-| [<img src="Cellular.svg" width="56" height="56" alt="移动网络">](Cellular.svg) | 移动网络 | [Cellular.svg](Cellular.svg) |
+| [<img src="Cellular.svg" width="56" height="56" alt="Cellular">](Cellular.svg) | Cellular | [Cellular.svg](Cellular.svg) |
 | [<img src="CentOS.svg" width="56" height="56" alt="CentOS">](CentOS.svg) | CentOS | [CentOS.svg](CentOS.svg) |
 | [<img src="Ceph.svg" width="56" height="56" alt="Ceph">](Ceph.svg) | Ceph | [Ceph.svg](Ceph.svg) |
 | [<img src="Chai.svg" width="56" height="56" alt="Chai">](Chai.svg) | Chai | [Chai.svg](Chai.svg) |
@@ -268,7 +268,7 @@
 | [<img src="Chef.svg" width="56" height="56" alt="Chef">](Chef.svg) | Chef | [Chef.svg](Chef.svg) |
 | [<img src="CherryStudio.svg" width="56" height="56" alt="CherryStudio">](CherryStudio.svg) | CherryStudio | [CherryStudio.svg](CherryStudio.svg) |
 | [<img src="Chery.svg" width="56" height="56" alt="Chery">](Chery.svg) | Chery | [Chery.svg](Chery.svg) |
-| [<img src="China_Map.svg" width="56" height="56" alt="中国地图">](China_Map.svg) | 中国地图 | [China_Map.svg](China_Map.svg) |
+| [<img src="China_Map.svg" width="56" height="56" alt="China Map">](China_Map.svg) | China Map | [China_Map.svg](China_Map.svg) |
 | [<img src="ChinaEasternAirlines.svg" width="56" height="56" alt="ChinaEasternAirlines">](ChinaEasternAirlines.svg) | ChinaEasternAirlines | [ChinaEasternAirlines.svg](ChinaEasternAirlines.svg) |
 | [<img src="ChinaMobile.svg" width="56" height="56" alt="ChinaMobile">](ChinaMobile.svg) | ChinaMobile | [ChinaMobile.svg](ChinaMobile.svg) |
 | [<img src="ChinaPost.svg" width="56" height="56" alt="ChinaPost">](ChinaPost.svg) | ChinaPost | [ChinaPost.svg](ChinaPost.svg) |
@@ -347,9 +347,9 @@
 | [<img src="CreativeTechnology.svg" width="56" height="56" alt="CreativeTechnology">](CreativeTechnology.svg) | CreativeTechnology | [CreativeTechnology.svg](CreativeTechnology.svg) |
 | [<img src="CrowdStrike.svg" width="56" height="56" alt="CrowdStrike">](CrowdStrike.svg) | CrowdStrike | [CrowdStrike.svg](CrowdStrike.svg) |
 | [<img src="Crunchyroll.svg" width="56" height="56" alt="Crunchyroll">](Crunchyroll.svg) | Crunchyroll | [Crunchyroll.svg](Crunchyroll.svg) |
-| [<img src="crypto.svg" width="56" height="56" alt="加密货币 · 备选">](crypto.svg) | 加密货币 · 备选 | [crypto.svg](crypto.svg) |
+| [<img src="crypto.svg" width="56" height="56" alt="Crypto (Alt)">](crypto.svg) | Crypto (Alt) | [crypto.svg](crypto.svg) |
 | [<img src="Crypto(1).svg" width="56" height="56" alt="Crypto.com">](Crypto(1).svg) | Crypto.com | [Crypto(1).svg](Crypto(1).svg) |
-| [<img src="Cryptocurrency.svg" width="56" height="56" alt="加密货币">](Cryptocurrency.svg) | 加密货币 | [Cryptocurrency.svg](Cryptocurrency.svg) |
+| [<img src="Cryptocurrency.svg" width="56" height="56" alt="Cryptocurrency">](Cryptocurrency.svg) | Cryptocurrency | [Cryptocurrency.svg](Cryptocurrency.svg) |
 | [<img src="Cryptomator.svg" width="56" height="56" alt="Cryptomator">](Cryptomator.svg) | Cryptomator | [Cryptomator.svg](Cryptomator.svg) |
 | [<img src="Crystal.svg" width="56" height="56" alt="Crystal">](Crystal.svg) | Crystal | [Crystal.svg](Crystal.svg) |
 | [<img src="CSDN.svg" width="56" height="56" alt="CSDN">](CSDN.svg) | CSDN | [CSDN.svg](CSDN.svg) |
@@ -359,7 +359,7 @@
 | [<img src="Cursor.svg" width="56" height="56" alt="Cursor">](Cursor.svg) | Cursor | [Cursor.svg](Cursor.svg) |
 | [<img src="Cydia.svg" width="56" height="56" alt="Cydia">](Cydia.svg) | Cydia | [Cydia.svg](Cydia.svg) |
 | [<img src="Cypress.svg" width="56" height="56" alt="Cypress">](Cypress.svg) | Cypress | [Cypress.svg](Cypress.svg) |
-| [<img src="Daily.svg" width="56" height="56" alt="日常">](Daily.svg) | 日常 | [Daily.svg](Daily.svg) |
+| [<img src="Daily.svg" width="56" height="56" alt="Daily">](Daily.svg) | Daily | [Daily.svg](Daily.svg) |
 | [<img src="Dailymotion.svg" width="56" height="56" alt="Dailymotion">](Dailymotion.svg) | Dailymotion | [Dailymotion.svg](Dailymotion.svg) |
 | [<img src="DaisyUI.svg" width="56" height="56" alt="DaisyUI">](DaisyUI.svg) | DaisyUI | [DaisyUI.svg](DaisyUI.svg) |
 | [<img src="DarkReader.svg" width="56" height="56" alt="DarkReader">](DarkReader.svg) | DarkReader | [DarkReader.svg](DarkReader.svg) |
@@ -389,8 +389,8 @@
 | [<img src="DigiKey.svg" width="56" height="56" alt="DigiKey">](DigiKey.svg) | DigiKey | [DigiKey.svg](DigiKey.svg) |
 | [<img src="DigitalOcean.svg" width="56" height="56" alt="DigitalOcean">](DigitalOcean.svg) | DigitalOcean | [DigitalOcean.svg](DigitalOcean.svg) |
 | [<img src="DingTalk.svg" width="56" height="56" alt="DingTalk">](DingTalk.svg) | DingTalk | [DingTalk.svg](DingTalk.svg) |
-| [<img src="Dinosaur.svg" width="56" height="56" alt="恐龙">](Dinosaur.svg) | 恐龙 | [Dinosaur.svg](Dinosaur.svg) |
-| [<img src="Direct.svg" width="56" height="56" alt="直连">](Direct.svg) | 直连 | [Direct.svg](Direct.svg) |
+| [<img src="Dinosaur.svg" width="56" height="56" alt="Dinosaur">](Dinosaur.svg) | Dinosaur | [Dinosaur.svg](Dinosaur.svg) |
+| [<img src="Direct.svg" width="56" height="56" alt="Direct">](Direct.svg) | Direct | [Direct.svg](Direct.svg) |
 | [<img src="Directus.svg" width="56" height="56" alt="Directus">](Directus.svg) | Directus | [Directus.svg](Directus.svg) |
 | [<img src="Discord.svg" width="56" height="56" alt="Discord">](Discord.svg) | Discord | [Discord.svg](Discord.svg) |
 | [<img src="Discourse.svg" width="56" height="56" alt="Discourse">](Discourse.svg) | Discourse | [Discourse.svg](Discourse.svg) |
@@ -404,16 +404,16 @@
 | [<img src="Docusaurus.svg" width="56" height="56" alt="Docusaurus">](Docusaurus.svg) | Docusaurus | [Docusaurus.svg](Docusaurus.svg) |
 | [<img src="Dogecoin.svg" width="56" height="56" alt="Dogecoin">](Dogecoin.svg) | Dogecoin | [Dogecoin.svg](Dogecoin.svg) |
 | [<img src="DOI.svg" width="56" height="56" alt="DOI">](DOI.svg) | DOI | [DOI.svg](DOI.svg) |
-| [<img src="Domestic.svg" width="56" height="56" alt="国内服务">](Domestic.svg) | 国内服务 | [Domestic.svg](Domestic.svg) |
-| [<img src="DomesticMedia.svg" width="56" height="56" alt="国内媒体">](DomesticMedia.svg) | 国内媒体 | [DomesticMedia.svg](DomesticMedia.svg) |
+| [<img src="Domestic.svg" width="56" height="56" alt="Domestic">](Domestic.svg) | Domestic | [Domestic.svg](Domestic.svg) |
+| [<img src="DomesticMedia.svg" width="56" height="56" alt="Domestic Media">](DomesticMedia.svg) | Domestic Media | [DomesticMedia.svg](DomesticMedia.svg) |
 | [<img src="Dongqiudi.svg" width="56" height="56" alt="Dongqiudi">](Dongqiudi.svg) | Dongqiudi | [Dongqiudi.svg](Dongqiudi.svg) |
 | [<img src="DoorDash.svg" width="56" height="56" alt="DoorDash">](DoorDash.svg) | DoorDash | [DoorDash.svg](DoorDash.svg) |
 | [<img src="Douban.svg" width="56" height="56" alt="Douban">](Douban.svg) | Douban | [Douban.svg](Douban.svg) |
 | [<img src="DoubanRead.svg" width="56" height="56" alt="DoubanRead">](DoubanRead.svg) | DoubanRead | [DoubanRead.svg](DoubanRead.svg) |
-| [<img src="Doubao.svg" width="56" height="56" alt="豆包">](Doubao.svg) | 豆包 | [Doubao.svg](Doubao.svg) |
-| [<img src="Douyin.svg" width="56" height="56" alt="抖音">](Douyin.svg) | 抖音 | [Douyin.svg](Douyin.svg) |
+| [<img src="Doubao.svg" width="56" height="56" alt="Doubao">](Doubao.svg) | Doubao | [Doubao.svg](Doubao.svg) |
+| [<img src="Douyin.svg" width="56" height="56" alt="Douyin">](Douyin.svg) | Douyin | [Douyin.svg](Douyin.svg) |
 | [<img src="Douyu.svg" width="56" height="56" alt="Douyu">](Douyu.svg) | Douyu | [Douyu.svg](Douyu.svg) |
-| [<img src="Download.svg" width="56" height="56" alt="下载">](Download.svg) | 下载 | [Download.svg](Download.svg) |
+| [<img src="Download.svg" width="56" height="56" alt="Download">](Download.svg) | Download | [Download.svg](Download.svg) |
 | [<img src="Dragonfly.svg" width="56" height="56" alt="Dragonfly">](Dragonfly.svg) | Dragonfly | [Dragonfly.svg](Dragonfly.svg) |
 | [<img src="Dribbble.svg" width="56" height="56" alt="Dribbble">](Dribbble.svg) | Dribbble | [Dribbble.svg](Dribbble.svg) |
 | [<img src="Drill.svg" width="56" height="56" alt="Drill">](Drill.svg) | Drill | [Drill.svg](Drill.svg) |
@@ -462,7 +462,7 @@
 | [<img src="ESRI.svg" width="56" height="56" alt="ESRI">](ESRI.svg) | ESRI | [ESRI.svg](ESRI.svg) |
 | [<img src="Ethereum.svg" width="56" height="56" alt="Ethereum">](Ethereum.svg) | Ethereum | [Ethereum.svg](Ethereum.svg) |
 | [<img src="Ethers.svg" width="56" height="56" alt="Ethers">](Ethers.svg) | Ethers | [Ethers.svg](Ethers.svg) |
-| [<img src="Europe_Map.svg" width="56" height="56" alt="欧洲地图">](Europe_Map.svg) | 欧洲地图 | [Europe_Map.svg](Europe_Map.svg) |
+| [<img src="Europe_Map.svg" width="56" height="56" alt="Europe Map">](Europe_Map.svg) | Europe Map | [Europe_Map.svg](Europe_Map.svg) |
 | [<img src="Evernote.svg" width="56" height="56" alt="Evernote">](Evernote.svg) | Evernote | [Evernote.svg](Evernote.svg) |
 | [<img src="Excalidraw.svg" width="56" height="56" alt="Excalidraw">](Excalidraw.svg) | Excalidraw | [Excalidraw.svg](Excalidraw.svg) |
 | [<img src="Expedia.svg" width="56" height="56" alt="Expedia">](Expedia.svg) | Expedia | [Expedia.svg](Expedia.svg) |
@@ -483,7 +483,7 @@
 | [<img src="Fastify.svg" width="56" height="56" alt="Fastify">](Fastify.svg) | Fastify | [Fastify.svg](Fastify.svg) |
 | [<img src="Fastlane.svg" width="56" height="56" alt="Fastlane">](Fastlane.svg) | Fastlane | [Fastlane.svg](Fastlane.svg) |
 | [<img src="Fastly.svg" width="56" height="56" alt="Fastly">](Fastly.svg) | Fastly | [Fastly.svg](Fastly.svg) |
-| [<img src="FCM.svg" width="56" height="56" alt="消息推送">](FCM.svg) | 消息推送 | [FCM.svg](FCM.svg) |
+| [<img src="FCM.svg" width="56" height="56" alt="FCM">](FCM.svg) | FCM | [FCM.svg](FCM.svg) |
 | [<img src="FDroid.svg" width="56" height="56" alt="FDroid">](FDroid.svg) | FDroid | [FDroid.svg](FDroid.svg) |
 | [<img src="Fedora.svg" width="56" height="56" alt="Fedora">](Fedora.svg) | Fedora | [Fedora.svg](Fedora.svg) |
 | [<img src="Feedly.svg" width="56" height="56" alt="Feedly">](Feedly.svg) | Feedly | [Feedly.svg](Feedly.svg) |
@@ -493,8 +493,8 @@
 | [<img src="Filen.svg" width="56" height="56" alt="Filen">](Filen.svg) | Filen | [Filen.svg](Filen.svg) |
 | [<img src="FilesApp.svg" width="56" height="56" alt="FilesApp">](FilesApp.svg) | FilesApp | [FilesApp.svg](FilesApp.svg) |
 | [<img src="FileZilla.svg" width="56" height="56" alt="FileZilla">](FileZilla.svg) | FileZilla | [FileZilla.svg](FileZilla.svg) |
-| [<img src="Filter.svg" width="56" height="56" alt="过滤">](Filter.svg) | 过滤 | [Filter.svg](Filter.svg) |
-| [<img src="Final.svg" width="56" height="56" alt="兜底策略">](Final.svg) | 兜底策略 | [Final.svg](Final.svg) |
+| [<img src="Filter.svg" width="56" height="56" alt="Filter">](Filter.svg) | Filter | [Filter.svg](Filter.svg) |
+| [<img src="Final.svg" width="56" height="56" alt="Final">](Final.svg) | Final | [Final.svg](Final.svg) |
 | [<img src="Find_My.svg" width="56" height="56" alt="Find My">](Find_My.svg) | Find My | [Find_My.svg](Find_My.svg) |
 | [<img src="Firebase.svg" width="56" height="56" alt="Firebase">](Firebase.svg) | Firebase | [Firebase.svg](Firebase.svg) |
 | [<img src="Firefox.svg" width="56" height="56" alt="Firefox">](Firefox.svg) | Firefox | [Firefox.svg](Firefox.svg) |
@@ -520,7 +520,7 @@
 | [<img src="FontBase.svg" width="56" height="56" alt="FontBase">](FontBase.svg) | FontBase | [FontBase.svg](FontBase.svg) |
 | [<img src="FontForge.svg" width="56" height="56" alt="FontForge">](FontForge.svg) | FontForge | [FontForge.svg](FontForge.svg) |
 | [<img src="Foobar2000.svg" width="56" height="56" alt="Foobar2000">](Foobar2000.svg) | Foobar2000 | [Foobar2000.svg](Foobar2000.svg) |
-| [<img src="ForeignMedia.svg" width="56" height="56" alt="国外媒体">](ForeignMedia.svg) | 国外媒体 | [ForeignMedia.svg](ForeignMedia.svg) |
+| [<img src="ForeignMedia.svg" width="56" height="56" alt="Foreign Media">](ForeignMedia.svg) | Foreign Media | [ForeignMedia.svg](ForeignMedia.svg) |
 | [<img src="Forgejo.svg" width="56" height="56" alt="Forgejo">](Forgejo.svg) | Forgejo | [Forgejo.svg](Forgejo.svg) |
 | [<img src="Fortinet.svg" width="56" height="56" alt="Fortinet">](Fortinet.svg) | Fortinet | [Fortinet.svg](Fortinet.svg) |
 | [<img src="FourChan.svg" width="56" height="56" alt="FourChan">](FourChan.svg) | FourChan | [FourChan.svg](FourChan.svg) |
@@ -532,12 +532,12 @@
 | [<img src="FreeBSD.svg" width="56" height="56" alt="FreeBSD">](FreeBSD.svg) | FreeBSD | [FreeBSD.svg](FreeBSD.svg) |
 | [<img src="FreeCodeCamp.svg" width="56" height="56" alt="FreeCodeCamp">](FreeCodeCamp.svg) | FreeCodeCamp | [FreeCodeCamp.svg](FreeCodeCamp.svg) |
 | [<img src="friDay.svg" width="56" height="56" alt="friDay">](friDay.svg) | friDay | [friDay.svg](friDay.svg) |
-| [<img src="Fries.svg" width="56" height="56" alt="薯条">](Fries.svg) | 薯条 | [Fries.svg](Fries.svg) |
-| [<img src="Frog.svg" width="56" height="56" alt="青蛙">](Frog.svg) | 青蛙 | [Frog.svg](Frog.svg) |
+| [<img src="Fries.svg" width="56" height="56" alt="Fries">](Fries.svg) | Fries | [Fries.svg](Fries.svg) |
+| [<img src="Frog.svg" width="56" height="56" alt="Frog">](Frog.svg) | Frog | [Frog.svg](Frog.svg) |
 | [<img src="fuboTV.svg" width="56" height="56" alt="fuboTV">](fuboTV.svg) | fuboTV | [fuboTV.svg](fuboTV.svg) |
 | [<img src="FusionAuth.svg" width="56" height="56" alt="FusionAuth">](FusionAuth.svg) | FusionAuth | [FusionAuth.svg](FusionAuth.svg) |
 | [<img src="Gambling.svg" width="56" height="56" alt="Gambling">](Gambling.svg) | Gambling | [Gambling.svg](Gambling.svg) |
-| [<img src="Game.svg" width="56" height="56" alt="游戏">](Game.svg) | 游戏 | [Game.svg](Game.svg) |
+| [<img src="Game.svg" width="56" height="56" alt="Game">](Game.svg) | Game | [Game.svg](Game.svg) |
 | [<img src="Game4399.svg" width="56" height="56" alt="Game4399">](Game4399.svg) | Game4399 | [Game4399.svg](Game4399.svg) |
 | [<img src="GameBanana.svg" width="56" height="56" alt="GameBanana">](GameBanana.svg) | GameBanana | [GameBanana.svg](GameBanana.svg) |
 | [<img src="GameDeveloper.svg" width="56" height="56" alt="GameDeveloper">](GameDeveloper.svg) | GameDeveloper | [GameDeveloper.svg](GameDeveloper.svg) |
@@ -571,8 +571,8 @@
 | [<img src="GitKraken.svg" width="56" height="56" alt="GitKraken">](GitKraken.svg) | GitKraken | [GitKraken.svg](GitKraken.svg) |
 | [<img src="Gitlab.svg" width="56" height="56" alt="GitLab">](Gitlab.svg) | GitLab | [Gitlab.svg](Gitlab.svg) |
 | [<img src="Gleam.svg" width="56" height="56" alt="Gleam">](Gleam.svg) | Gleam | [Gleam.svg](Gleam.svg) |
-| [<img src="GLM.svg" width="56" height="56" alt="智谱 GLM">](GLM.svg) | 智谱 GLM | [GLM.svg](GLM.svg) |
-| [<img src="Global.svg" width="56" height="56" alt="全局策略">](Global.svg) | 全局策略 | [Global.svg](Global.svg) |
+| [<img src="GLM.svg" width="56" height="56" alt="GLM">](GLM.svg) | GLM | [GLM.svg](GLM.svg) |
+| [<img src="Global.svg" width="56" height="56" alt="Global">](Global.svg) | Global | [Global.svg](Global.svg) |
 | [<img src="Gmail.svg" width="56" height="56" alt="Gmail">](Gmail.svg) | Gmail | [Gmail.svg](Gmail.svg) |
 | [<img src="GNUBash.svg" width="56" height="56" alt="GNUBash">](GNUBash.svg) | GNUBash | [GNUBash.svg](GNUBash.svg) |
 | [<img src="GNUemacs.svg" width="56" height="56" alt="GNUemacs">](GNUemacs.svg) | GNUemacs | [GNUemacs.svg](GNUemacs.svg) |
@@ -584,7 +584,7 @@
 | [<img src="GOG.svg" width="56" height="56" alt="GOG">](GOG.svg) | GOG | [GOG.svg](GOG.svg) |
 | [<img src="Goodreads.svg" width="56" height="56" alt="Goodreads">](Goodreads.svg) | Goodreads | [Goodreads.svg](Goodreads.svg) |
 | [<img src="Google.svg" width="56" height="56" alt="Google">](Google.svg) | Google | [Google.svg](Google.svg) |
-| [<img src="Google_Opinion_Rewards.svg" width="56" height="56" alt="谷歌意见奖励">](Google_Opinion_Rewards.svg) | 谷歌意见奖励 | [Google_Opinion_Rewards.svg](Google_Opinion_Rewards.svg) |
+| [<img src="Google_Opinion_Rewards.svg" width="56" height="56" alt="Google Opinion Rewards">](Google_Opinion_Rewards.svg) | Google Opinion Rewards | [Google_Opinion_Rewards.svg](Google_Opinion_Rewards.svg) |
 | [<img src="GoogleAuthenticator.svg" width="56" height="56" alt="GoogleAuthenticator">](GoogleAuthenticator.svg) | GoogleAuthenticator | [GoogleAuthenticator.svg](GoogleAuthenticator.svg) |
 | [<img src="GoogleChat.svg" width="56" height="56" alt="GoogleChat">](GoogleChat.svg) | GoogleChat | [GoogleChat.svg](GoogleChat.svg) |
 | [<img src="GoogleCloudStorage.svg" width="56" height="56" alt="GoogleCloudStorage">](GoogleCloudStorage.svg) | GoogleCloudStorage | [GoogleCloudStorage.svg](GoogleCloudStorage.svg) |
@@ -608,7 +608,7 @@
 | [<img src="Gravatar.svg" width="56" height="56" alt="Gravatar">](Gravatar.svg) | Gravatar | [Gravatar.svg](Gravatar.svg) |
 | [<img src="Graylog.svg" width="56" height="56" alt="Graylog">](Graylog.svg) | Graylog | [Graylog.svg](Graylog.svg) |
 | [<img src="Grok.svg" width="56" height="56" alt="Grok">](Grok.svg) | Grok | [Grok.svg](Grok.svg) |
-| [<img src="Grok(1).svg" width="56" height="56" alt="Grok · 备选">](Grok(1).svg) | Grok · 备选 | [Grok(1).svg](Grok(1).svg) |
+| [<img src="Grok(1).svg" width="56" height="56" alt="Grok (Alt)">](Grok(1).svg) | Grok (Alt) | [Grok(1).svg](Grok(1).svg) |
 | [<img src="Groq.svg" width="56" height="56" alt="Groq">](Groq.svg) | Groq | [Groq.svg](Groq.svg) |
 | [<img src="GroupMe.svg" width="56" height="56" alt="GroupMe">](GroupMe.svg) | GroupMe | [GroupMe.svg](GroupMe.svg) |
 | [<img src="GStreamer.svg" width="56" height="56" alt="GStreamer">](GStreamer.svg) | GStreamer | [GStreamer.svg](GStreamer.svg) |
@@ -634,13 +634,13 @@
 | [<img src="Hasura.svg" width="56" height="56" alt="Hasura">](Hasura.svg) | Hasura | [Hasura.svg](Hasura.svg) |
 | [<img src="HaveIBeenPwned.svg" width="56" height="56" alt="HaveIBeenPwned">](HaveIBeenPwned.svg) | HaveIBeenPwned | [HaveIBeenPwned.svg](HaveIBeenPwned.svg) |
 | [<img src="HBO.svg" width="56" height="56" alt="HBO">](HBO.svg) | HBO | [HBO.svg](HBO.svg) |
-| [<img src="HBO(1).svg" width="56" height="56" alt="HBO · 备选">](HBO(1).svg) | HBO · 备选 | [HBO(1).svg](HBO(1).svg) |
+| [<img src="HBO(1).svg" width="56" height="56" alt="HBO (Alt)">](HBO(1).svg) | HBO (Alt) | [HBO(1).svg](HBO(1).svg) |
 | [<img src="HC.svg" width="56" height="56" alt="HC">](HC.svg) | HC | [HC.svg](HC.svg) |
 | [<img src="HDFCBank.svg" width="56" height="56" alt="HDFCBank">](HDFCBank.svg) | HDFCBank | [HDFCBank.svg](HDFCBank.svg) |
 | [<img src="HeadlessUI.svg" width="56" height="56" alt="HeadlessUI">](HeadlessUI.svg) | HeadlessUI | [HeadlessUI.svg](HeadlessUI.svg) |
 | [<img src="HeadphoneZone.svg" width="56" height="56" alt="HeadphoneZone">](HeadphoneZone.svg) | HeadphoneZone | [HeadphoneZone.svg](HeadphoneZone.svg) |
 | [<img src="Health.svg" width="56" height="56" alt="Health">](Health.svg) | Health | [Health.svg](Health.svg) |
-| [<img src="Heart.svg" width="56" height="56" alt="喜欢">](Heart.svg) | 喜欢 | [Heart.svg](Heart.svg) |
+| [<img src="Heart.svg" width="56" height="56" alt="Heart">](Heart.svg) | Heart | [Heart.svg](Heart.svg) |
 | [<img src="Helix.svg" width="56" height="56" alt="Helix">](Helix.svg) | Helix | [Helix.svg](Helix.svg) |
 | [<img src="Helm.svg" width="56" height="56" alt="Helm">](Helm.svg) | Helm | [Helm.svg](Helm.svg) |
 | [<img src="HERE.svg" width="56" height="56" alt="HERE">](HERE.svg) | HERE | [HERE.svg](HERE.svg) |
@@ -648,12 +648,12 @@
 | [<img src="Hetzner.svg" width="56" height="56" alt="Hetzner">](Hetzner.svg) | Hetzner | [Hetzner.svg](Hetzner.svg) |
 | [<img src="Hexo.svg" width="56" height="56" alt="Hexo">](Hexo.svg) | Hexo | [Hexo.svg](Hexo.svg) |
 | [<img src="Higress.svg" width="56" height="56" alt="Higress">](Higress.svg) | Higress | [Higress.svg](Higress.svg) |
-| [<img src="Hijacking.svg" width="56" height="56" alt="劫持">](Hijacking.svg) | 劫持 | [Hijacking.svg](Hijacking.svg) |
+| [<img src="Hijacking.svg" width="56" height="56" alt="Hijacking">](Hijacking.svg) | Hijacking | [Hijacking.svg](Hijacking.svg) |
 | [<img src="Hisense.svg" width="56" height="56" alt="Hisense">](Hisense.svg) | Hisense | [Hisense.svg](Hisense.svg) |
 | [<img src="HiveBlockchain.svg" width="56" height="56" alt="HiveBlockchain">](HiveBlockchain.svg) | HiveBlockchain | [HiveBlockchain.svg](HiveBlockchain.svg) |
-| [<img src="HKMTMedia.svg" width="56" height="56" alt="港澳台媒体">](HKMTMedia.svg) | 港澳台媒体 | [HKMTMedia.svg](HKMTMedia.svg) |
-| [<img src="Home.svg" width="56" height="56" alt="家宽">](Home.svg) | 家宽 | [Home.svg](Home.svg) |
-| [<img src="Home(1).svg" width="56" height="56" alt="家宽 · 备选">](Home(1).svg) | 家宽 · 备选 | [Home(1).svg](Home(1).svg) |
+| [<img src="HKMTMedia.svg" width="56" height="56" alt="HKMT Media">](HKMTMedia.svg) | HKMT Media | [HKMTMedia.svg](HKMTMedia.svg) |
+| [<img src="Home.svg" width="56" height="56" alt="Home">](Home.svg) | Home | [Home.svg](Home.svg) |
+| [<img src="Home(1).svg" width="56" height="56" alt="Home (Alt)">](Home(1).svg) | Home (Alt) | [Home(1).svg](Home(1).svg) |
 | [<img src="HomeAssistant.svg" width="56" height="56" alt="HomeAssistant">](HomeAssistant.svg) | HomeAssistant | [HomeAssistant.svg](HomeAssistant.svg) |
 | [<img src="Homebrew.svg" width="56" height="56" alt="Homebrew">](Homebrew.svg) | Homebrew | [Homebrew.svg](Homebrew.svg) |
 | [<img src="Homebridge.svg" width="56" height="56" alt="Homebridge">](Homebridge.svg) | Homebridge | [Homebridge.svg](Homebridge.svg) |
@@ -662,7 +662,7 @@
 | [<img src="HP.svg" width="56" height="56" alt="HP">](HP.svg) | HP | [HP.svg](HP.svg) |
 | [<img src="HSBC.svg" width="56" height="56" alt="HSBC">](HSBC.svg) | HSBC | [HSBC.svg](HSBC.svg) |
 | [<img src="HTC.svg" width="56" height="56" alt="HTC">](HTC.svg) | HTC | [HTC.svg](HTC.svg) |
-| [<img src="Huawei.svg" width="56" height="56" alt="华为">](Huawei.svg) | 华为 | [Huawei.svg](Huawei.svg) |
+| [<img src="Huawei.svg" width="56" height="56" alt="Huawei">](Huawei.svg) | Huawei | [Huawei.svg](Huawei.svg) |
 | [<img src="HuggingFace.svg" width="56" height="56" alt="HuggingFace">](HuggingFace.svg) | HuggingFace | [HuggingFace.svg](HuggingFace.svg) |
 | [<img src="Hugo.svg" width="56" height="56" alt="Hugo">](Hugo.svg) | Hugo | [Hugo.svg](Hugo.svg) |
 | [<img src="Hulu.svg" width="56" height="56" alt="Hulu">](Hulu.svg) | Hulu | [Hulu.svg](Hulu.svg) |
@@ -706,7 +706,7 @@
 | [<img src="IOTA.svg" width="56" height="56" alt="IOTA">](IOTA.svg) | IOTA | [IOTA.svg](IOTA.svg) |
 | [<img src="IPFS.svg" width="56" height="56" alt="IPFS">](IPFS.svg) | IPFS | [IPFS.svg](IPFS.svg) |
 | [<img src="IPLC.svg" width="56" height="56" alt="IPLC">](IPLC.svg) | IPLC | [IPLC.svg](IPLC.svg) |
-| [<img src="iQIYI.svg" width="56" height="56" alt="爱奇艺">](iQIYI.svg) | 爱奇艺 | [iQIYI.svg](iQIYI.svg) |
+| [<img src="iQIYI.svg" width="56" height="56" alt="iQIYI">](iQIYI.svg) | iQIYI | [iQIYI.svg](iQIYI.svg) |
 | [<img src="ItchIo.svg" width="56" height="56" alt="ItchIo">](ItchIo.svg) | ItchIo | [ItchIo.svg](ItchIo.svg) |
 | [<img src="ITV.svg" width="56" height="56" alt="ITV">](ITV.svg) | ITV | [ITV.svg](ITV.svg) |
 | [<img src="Jaeger.svg" width="56" height="56" alt="Jaeger">](Jaeger.svg) | Jaeger | [Jaeger.svg](Jaeger.svg) |
@@ -754,7 +754,7 @@
 | [<img src="KKBOX.svg" width="56" height="56" alt="KKBOX">](KKBOX.svg) | KKBOX | [KKBOX.svg](KKBOX.svg) |
 | [<img src="KKTV.svg" width="56" height="56" alt="KKTV">](KKTV.svg) | KKTV | [KKTV.svg](KKTV.svg) |
 | [<img src="Klarna.svg" width="56" height="56" alt="Klarna">](Klarna.svg) | Klarna | [Klarna.svg](Klarna.svg) |
-| [<img src="Kling.svg" width="56" height="56" alt="可灵">](Kling.svg) | 可灵 | [Kling.svg](Kling.svg) |
+| [<img src="Kling.svg" width="56" height="56" alt="Kling">](Kling.svg) | Kling | [Kling.svg](Kling.svg) |
 | [<img src="Knex.svg" width="56" height="56" alt="Knex">](Knex.svg) | Knex | [Knex.svg](Knex.svg) |
 | [<img src="Koa.svg" width="56" height="56" alt="Koa">](Koa.svg) | Koa | [Koa.svg](Koa.svg) |
 | [<img src="Kodi.svg" width="56" height="56" alt="Kodi">](Kodi.svg) | Kodi | [Kodi.svg](Kodi.svg) |
@@ -769,7 +769,7 @@
 | [<img src="KuCoin.svg" width="56" height="56" alt="KuCoin">](KuCoin.svg) | KuCoin | [KuCoin.svg](KuCoin.svg) |
 | [<img src="Kugou.svg" width="56" height="56" alt="Kugou">](Kugou.svg) | Kugou | [Kugou.svg](Kugou.svg) |
 | [<img src="LA_Map.svg" width="56" height="56" alt="LA Map">](LA_Map.svg) | LA Map | [LA_Map.svg](LA_Map.svg) |
-| [<img src="Lab.svg" width="56" height="56" alt="实验室">](Lab.svg) | 实验室 | [Lab.svg](Lab.svg) |
+| [<img src="Lab.svg" width="56" height="56" alt="Lab">](Lab.svg) | Lab | [Lab.svg](Lab.svg) |
 | [<img src="Lambda.svg" width="56" height="56" alt="Lambda">](Lambda.svg) | Lambda | [Lambda.svg](Lambda.svg) |
 | [<img src="LangChain.svg" width="56" height="56" alt="LangChain">](LangChain.svg) | LangChain | [LangChain.svg](LangChain.svg) |
 | [<img src="Langfuse.svg" width="56" height="56" alt="Langfuse">](Langfuse.svg) | Langfuse | [Langfuse.svg](Langfuse.svg) |
@@ -778,7 +778,7 @@
 | [<img src="LastDotFm.svg" width="56" height="56" alt="LastDotFm">](LastDotFm.svg) | LastDotFm | [LastDotFm.svg](LastDotFm.svg) |
 | [<img src="LastPass.svg" width="56" height="56" alt="LastPass">](LastPass.svg) | LastPass | [LastPass.svg](LastPass.svg) |
 | [<img src="Launchpad.svg" width="56" height="56" alt="Launchpad">](Launchpad.svg) | Launchpad | [Launchpad.svg](Launchpad.svg) |
-| [<img src="League_of_Legends.svg" width="56" height="56" alt="英雄联盟">](League_of_Legends.svg) | 英雄联盟 | [League_of_Legends.svg](League_of_Legends.svg) |
+| [<img src="League_of_Legends.svg" width="56" height="56" alt="League of Legends">](League_of_Legends.svg) | League of Legends | [League_of_Legends.svg](League_of_Legends.svg) |
 | [<img src="Ledger.svg" width="56" height="56" alt="Ledger">](Ledger.svg) | Ledger | [Ledger.svg](Ledger.svg) |
 | [<img src="LeetCode.svg" width="56" height="56" alt="LeetCode">](LeetCode.svg) | LeetCode | [LeetCode.svg](LeetCode.svg) |
 | [<img src="LegacyGames.svg" width="56" height="56" alt="LegacyGames">](LegacyGames.svg) | LegacyGames | [LegacyGames.svg](LegacyGames.svg) |
@@ -804,11 +804,11 @@
 | [<img src="LiveJournal.svg" width="56" height="56" alt="LiveJournal">](LiveJournal.svg) | LiveJournal | [LiveJournal.svg](LiveJournal.svg) |
 | [<img src="LlamaIndex.svg" width="56" height="56" alt="LlamaIndex">](LlamaIndex.svg) | LlamaIndex | [LlamaIndex.svg](LlamaIndex.svg) |
 | [<img src="LMStudio.svg" width="56" height="56" alt="LMStudio">](LMStudio.svg) | LMStudio | [LMStudio.svg](LMStudio.svg) |
-| [<img src="Lock.svg" width="56" height="56" alt="锁定">](Lock.svg) | 锁定 | [Lock.svg](Lock.svg) |
+| [<img src="Lock.svg" width="56" height="56" alt="Lock">](Lock.svg) | Lock | [Lock.svg](Lock.svg) |
 | [<img src="Locust.svg" width="56" height="56" alt="Locust">](Locust.svg) | Locust | [Locust.svg](Locust.svg) |
 | [<img src="Logseq.svg" width="56" height="56" alt="Logseq">](Logseq.svg) | Logseq | [Logseq.svg](Logseq.svg) |
 | [<img src="Logstash.svg" width="56" height="56" alt="Logstash">](Logstash.svg) | Logstash | [Logstash.svg](Logstash.svg) |
-| [<img src="Loop.svg" width="56" height="56" alt="循环">](Loop.svg) | 循环 | [Loop.svg](Loop.svg) |
+| [<img src="Loop.svg" width="56" height="56" alt="Loop">](Loop.svg) | Loop | [Loop.svg](Loop.svg) |
 | [<img src="Lua.svg" width="56" height="56" alt="Lua">](Lua.svg) | Lua | [Lua.svg](Lua.svg) |
 | [<img src="Lucide.svg" width="56" height="56" alt="Lucide">](Lucide.svg) | Lucide | [Lucide.svg](Lucide.svg) |
 | [<img src="LucidMotors.svg" width="56" height="56" alt="LucidMotors">](LucidMotors.svg) | LucidMotors | [LucidMotors.svg](LucidMotors.svg) |
@@ -816,7 +816,7 @@
 | [<img src="Luogu.svg" width="56" height="56" alt="Luogu">](Luogu.svg) | Luogu | [Luogu.svg](Luogu.svg) |
 | [<img src="Lyft.svg" width="56" height="56" alt="Lyft">](Lyft.svg) | Lyft | [Lyft.svg](Lyft.svg) |
 | [<img src="M5Stack.svg" width="56" height="56" alt="M5Stack">](M5Stack.svg) | M5Stack | [M5Stack.svg](M5Stack.svg) |
-| [<img src="Magic.svg" width="56" height="56" alt="魔法">](Magic.svg) | 魔法 | [Magic.svg](Magic.svg) |
+| [<img src="Magic.svg" width="56" height="56" alt="Magic">](Magic.svg) | Magic | [Magic.svg](Magic.svg) |
 | [<img src="Mail.svg" width="56" height="56" alt="Mail">](Mail.svg) | Mail | [Mail.svg](Mail.svg) |
 | [<img src="MajorLeagueHacking.svg" width="56" height="56" alt="MajorLeagueHacking">](MajorLeagueHacking.svg) | MajorLeagueHacking | [MajorLeagueHacking.svg](MajorLeagueHacking.svg) |
 | [<img src="Malwarebytes.svg" width="56" height="56" alt="Malwarebytes">](Malwarebytes.svg) | Malwarebytes | [Malwarebytes.svg](Malwarebytes.svg) |
@@ -836,7 +836,7 @@
 | [<img src="Mattermost.svg" width="56" height="56" alt="Mattermost">](Mattermost.svg) | Mattermost | [Mattermost.svg](Mattermost.svg) |
 | [<img src="McDonalds.svg" width="56" height="56" alt="McDonalds">](McDonalds.svg) | McDonalds | [McDonalds.svg](McDonalds.svg) |
 | [<img src="MDBook.svg" width="56" height="56" alt="MDBook">](MDBook.svg) | MDBook | [MDBook.svg](MDBook.svg) |
-| [<img src="Media.svg" width="56" height="56" alt="流媒体">](Media.svg) | 流媒体 | [Media.svg](Media.svg) |
+| [<img src="Media.svg" width="56" height="56" alt="Media">](Media.svg) | Media | [Media.svg](Media.svg) |
 | [<img src="MediaTek.svg" width="56" height="56" alt="MediaTek">](MediaTek.svg) | MediaTek | [MediaTek.svg](MediaTek.svg) |
 | [<img src="Medium.svg" width="56" height="56" alt="Medium">](Medium.svg) | Medium | [Medium.svg](Medium.svg) |
 | [<img src="Meetup.svg" width="56" height="56" alt="Meetup">](Meetup.svg) | Meetup | [Meetup.svg](Meetup.svg) |
@@ -851,7 +851,7 @@
 | [<img src="Metacritic.svg" width="56" height="56" alt="Metacritic">](Metacritic.svg) | Metacritic | [Metacritic.svg](Metacritic.svg) |
 | [<img src="Metasploit.svg" width="56" height="56" alt="Metasploit">](Metasploit.svg) | Metasploit | [Metasploit.svg](Metasploit.svg) |
 | [<img src="MGTV.svg" width="56" height="56" alt="MGTV">](MGTV.svg) | MGTV | [MGTV.svg](MGTV.svg) |
-| [<img src="Mickey.svg" width="56" height="56" alt="米奇">](Mickey.svg) | 米奇 | [Mickey.svg](Mickey.svg) |
+| [<img src="Mickey.svg" width="56" height="56" alt="Mickey">](Mickey.svg) | Mickey | [Mickey.svg](Mickey.svg) |
 | [<img src="Microsoft.svg" width="56" height="56" alt="Microsoft">](Microsoft.svg) | Microsoft | [Microsoft.svg](Microsoft.svg) |
 | [<img src="Midjourney.svg" width="56" height="56" alt="Midjourney">](Midjourney.svg) | Midjourney | [Midjourney.svg](Midjourney.svg) |
 | [<img src="MiguVideo.svg" width="56" height="56" alt="MiguVideo">](MiguVideo.svg) | MiguVideo | [MiguVideo.svg](MiguVideo.svg) |
@@ -885,7 +885,7 @@
 | [<img src="MUI.svg" width="56" height="56" alt="MUI">](MUI.svg) | MUI | [MUI.svg](MUI.svg) |
 | [<img src="Mullvad.svg" width="56" height="56" alt="Mullvad">](Mullvad.svg) | Mullvad | [Mullvad.svg](Mullvad.svg) |
 | [<img src="Mumble.svg" width="56" height="56" alt="Mumble">](Mumble.svg) | Mumble | [Mumble.svg](Mumble.svg) |
-| [<img src="Music_Enhance.svg" width="56" height="56" alt="音乐增强">](Music_Enhance.svg) | 音乐增强 | [Music_Enhance.svg](Music_Enhance.svg) |
+| [<img src="Music_Enhance.svg" width="56" height="56" alt="Music Enhance">](Music_Enhance.svg) | Music Enhance | [Music_Enhance.svg](Music_Enhance.svg) |
 | [<img src="My5.svg" width="56" height="56" alt="My5">](My5.svg) | My5 | [My5.svg](My5.svg) |
 | [<img src="MyAnimeList.svg" width="56" height="56" alt="MyAnimeList">](MyAnimeList.svg) | MyAnimeList | [MyAnimeList.svg](MyAnimeList.svg) |
 | [<img src="MySQL.svg" width="56" height="56" alt="MySQL">](MySQL.svg) | MySQL | [MySQL.svg](MySQL.svg) |
@@ -907,7 +907,7 @@
 | [<img src="Netcup.svg" width="56" height="56" alt="Netcup">](Netcup.svg) | Netcup | [Netcup.svg](Netcup.svg) |
 | [<img src="Netdata.svg" width="56" height="56" alt="Netdata">](Netdata.svg) | Netdata | [Netdata.svg](Netdata.svg) |
 | [<img src="Netdisk115.svg" width="56" height="56" alt="Netdisk115">](Netdisk115.svg) | Netdisk115 | [Netdisk115.svg](Netdisk115.svg) |
-| [<img src="Netease_Music.svg" width="56" height="56" alt="网易云音乐">](Netease_Music.svg) | 网易云音乐 | [Netease_Music.svg](Netease_Music.svg) |
+| [<img src="Netease_Music.svg" width="56" height="56" alt="NetEase Music">](Netease_Music.svg) | NetEase Music | [Netease_Music.svg](Netease_Music.svg) |
 | [<img src="Netflix.svg" width="56" height="56" alt="Netflix">](Netflix.svg) | Netflix | [Netflix.svg](Netflix.svg) |
 | [<img src="Netgear.svg" width="56" height="56" alt="Netgear">](Netgear.svg) | Netgear | [Netgear.svg](Netgear.svg) |
 | [<img src="Netlify.svg" width="56" height="56" alt="Netlify">](Netlify.svg) | Netlify | [Netlify.svg](Netlify.svg) |
@@ -926,7 +926,7 @@
 | [<img src="Nike.svg" width="56" height="56" alt="Nike">](Nike.svg) | Nike | [Nike.svg](Nike.svg) |
 | [<img src="Nim.svg" width="56" height="56" alt="Nim">](Nim.svg) | Nim | [Nim.svg](Nim.svg) |
 | [<img src="NinetyNineDesigns.svg" width="56" height="56" alt="NinetyNineDesigns">](NinetyNineDesigns.svg) | NinetyNineDesigns | [NinetyNineDesigns.svg](NinetyNineDesigns.svg) |
-| [<img src="Ninja.svg" width="56" height="56" alt="忍者">](Ninja.svg) | 忍者 | [Ninja.svg](Ninja.svg) |
+| [<img src="Ninja.svg" width="56" height="56" alt="Ninja">](Ninja.svg) | Ninja | [Ninja.svg](Ninja.svg) |
 | [<img src="Nintendo.svg" width="56" height="56" alt="Nintendo">](Nintendo.svg) | Nintendo | [Nintendo.svg](Nintendo.svg) |
 | [<img src="NIO.svg" width="56" height="56" alt="NIO">](NIO.svg) | NIO | [NIO.svg](NIO.svg) |
 | [<img src="NixOS.svg" width="56" height="56" alt="NixOS">](NixOS.svg) | NixOS | [NixOS.svg](NixOS.svg) |
@@ -955,7 +955,7 @@
 | [<img src="OBSStudio.svg" width="56" height="56" alt="OBSStudio">](OBSStudio.svg) | OBSStudio | [OBSStudio.svg](OBSStudio.svg) |
 | [<img src="OCaml.svg" width="56" height="56" alt="OCaml">](OCaml.svg) | OCaml | [OCaml.svg](OCaml.svg) |
 | [<img src="OceanBase.svg" width="56" height="56" alt="OceanBase">](OceanBase.svg) | OceanBase | [OceanBase.svg](OceanBase.svg) |
-| [<img src="Oceania_Map.svg" width="56" height="56" alt="大洋洲地图">](Oceania_Map.svg) | 大洋洲地图 | [Oceania_Map.svg](Oceania_Map.svg) |
+| [<img src="Oceania_Map.svg" width="56" height="56" alt="Oceania Map">](Oceania_Map.svg) | Oceania Map | [Oceania_Map.svg](Oceania_Map.svg) |
 | [<img src="OctoPrint.svg" width="56" height="56" alt="OctoPrint">](OctoPrint.svg) | OctoPrint | [OctoPrint.svg](OctoPrint.svg) |
 | [<img src="OctopusDeploy.svg" width="56" height="56" alt="OctopusDeploy">](OctopusDeploy.svg) | OctopusDeploy | [OctopusDeploy.svg](OctopusDeploy.svg) |
 | [<img src="Oculus.svg" width="56" height="56" alt="Oculus">](Oculus.svg) | Oculus | [Oculus.svg](Oculus.svg) |
@@ -1000,7 +1000,7 @@
 | [<img src="OVHcloud.svg" width="56" height="56" alt="OVHcloud">](OVHcloud.svg) | OVHcloud | [OVHcloud.svg](OVHcloud.svg) |
 | [<img src="OWASP.svg" width="56" height="56" alt="OWASP">](OWASP.svg) | OWASP | [OWASP.svg](OWASP.svg) |
 | [<img src="OwnCloud.svg" width="56" height="56" alt="OwnCloud">](OwnCloud.svg) | OwnCloud | [OwnCloud.svg](OwnCloud.svg) |
-| [<img src="Ox.svg" width="56" height="56" alt="牛">](Ox.svg) | 牛 | [Ox.svg](Ox.svg) |
+| [<img src="Ox.svg" width="56" height="56" alt="Ox">](Ox.svg) | Ox | [Ox.svg](Ox.svg) |
 | [<img src="PAB.svg" width="56" height="56" alt="PAB">](PAB.svg) | PAB | [PAB.svg](PAB.svg) |
 | [<img src="Packagist.svg" width="56" height="56" alt="Packagist">](Packagist.svg) | Packagist | [Packagist.svg](Packagist.svg) |
 | [<img src="Packer.svg" width="56" height="56" alt="Packer">](Packer.svg) | Packer | [Packer.svg](Packer.svg) |
@@ -1008,7 +1008,7 @@
 | [<img src="PagerDuty.svg" width="56" height="56" alt="PagerDuty">](PagerDuty.svg) | PagerDuty | [PagerDuty.svg](PagerDuty.svg) |
 | [<img src="PaloAltoNetworks.svg" width="56" height="56" alt="PaloAltoNetworks">](PaloAltoNetworks.svg) | PaloAltoNetworks | [PaloAltoNetworks.svg](PaloAltoNetworks.svg) |
 | [<img src="Panasonic.svg" width="56" height="56" alt="Panasonic">](Panasonic.svg) | Panasonic | [Panasonic.svg](Panasonic.svg) |
-| [<img src="Panda.svg" width="56" height="56" alt="熊猫">](Panda.svg) | 熊猫 | [Panda.svg](Panda.svg) |
+| [<img src="Panda.svg" width="56" height="56" alt="Panda">](Panda.svg) | Panda | [Panda.svg](Panda.svg) |
 | [<img src="Pandas.svg" width="56" height="56" alt="Pandas">](Pandas.svg) | Pandas | [Pandas.svg](Pandas.svg) |
 | [<img src="Pandora.svg" width="56" height="56" alt="Pandora">](Pandora.svg) | Pandora | [Pandora.svg](Pandora.svg) |
 | [<img src="Paramount.svg" width="56" height="56" alt="Paramount">](Paramount.svg) | Paramount | [Paramount.svg](Paramount.svg) |
@@ -1036,7 +1036,7 @@
 | [<img src="PHP.svg" width="56" height="56" alt="PHP">](PHP.svg) | PHP | [PHP.svg](PHP.svg) |
 | [<img src="PIA.svg" width="56" height="56" alt="PIA">](PIA.svg) | PIA | [PIA.svg](PIA.svg) |
 | [<img src="PicartoTV.svg" width="56" height="56" alt="PicartoTV">](PicartoTV.svg) | PicartoTV | [PicartoTV.svg](PicartoTV.svg) |
-| [<img src="Pig.svg" width="56" height="56" alt="猪">](Pig.svg) | 猪 | [Pig.svg](Pig.svg) |
+| [<img src="Pig.svg" width="56" height="56" alt="Pig">](Pig.svg) | Pig | [Pig.svg](Pig.svg) |
 | [<img src="PiHole.svg" width="56" height="56" alt="PiHole">](PiHole.svg) | PiHole | [PiHole.svg](PiHole.svg) |
 | [<img src="Pika.svg" width="56" height="56" alt="Pika">](Pika.svg) | Pika | [Pika.svg](Pika.svg) |
 | [<img src="PikPak.svg" width="56" height="56" alt="PikPak">](PikPak.svg) | PikPak | [PikPak.svg](PikPak.svg) |
@@ -1085,13 +1085,13 @@
 | [<img src="Proton.svg" width="56" height="56" alt="Proton">](Proton.svg) | Proton | [Proton.svg](Proton.svg) |
 | [<img src="ProtonMail.svg" width="56" height="56" alt="ProtonMail">](ProtonMail.svg) | ProtonMail | [ProtonMail.svg](ProtonMail.svg) |
 | [<img src="Proxmox.svg" width="56" height="56" alt="Proxmox">](Proxmox.svg) | Proxmox | [Proxmox.svg](Proxmox.svg) |
-| [<img src="Proxy.svg" width="56" height="56" alt="代理">](Proxy.svg) | 代理 | [Proxy.svg](Proxy.svg) |
+| [<img src="Proxy.svg" width="56" height="56" alt="Proxy">](Proxy.svg) | Proxy | [Proxy.svg](Proxy.svg) |
 | [<img src="PSBC.svg" width="56" height="56" alt="PSBC">](PSBC.svg) | PSBC | [PSBC.svg](PSBC.svg) |
 | [<img src="PUBG.svg" width="56" height="56" alt="PUBG">](PUBG.svg) | PUBG | [PUBG.svg](PUBG.svg) |
 | [<img src="Pulumi.svg" width="56" height="56" alt="Pulumi">](Pulumi.svg) | Pulumi | [Pulumi.svg](Pulumi.svg) |
 | [<img src="Puppet.svg" width="56" height="56" alt="Puppet">](Puppet.svg) | Puppet | [Puppet.svg](Puppet.svg) |
 | [<img src="Puppeteer.svg" width="56" height="56" alt="Puppeteer">](Puppeteer.svg) | Puppeteer | [Puppeteer.svg](Puppeteer.svg) |
-| [<img src="Puzzle.svg" width="56" height="56" alt="拼图">](Puzzle.svg) | 拼图 | [Puzzle.svg](Puzzle.svg) |
+| [<img src="Puzzle.svg" width="56" height="56" alt="Puzzle">](Puzzle.svg) | Puzzle | [Puzzle.svg](Puzzle.svg) |
 | [<img src="PyCharm.svg" width="56" height="56" alt="PyCharm">](PyCharm.svg) | PyCharm | [PyCharm.svg](PyCharm.svg) |
 | [<img src="PyCQA.svg" width="56" height="56" alt="PyCQA">](PyCQA.svg) | PyCQA | [PyCQA.svg](PyCQA.svg) |
 | [<img src="Pydantic.svg" width="56" height="56" alt="Pydantic">](Pydantic.svg) | Pydantic | [Pydantic.svg](Pydantic.svg) |
@@ -1116,12 +1116,12 @@
 | [<img src="Quora.svg" width="56" height="56" alt="Quora">](Quora.svg) | Quora | [Quora.svg](Quora.svg) |
 | [<img src="Qure.svg" width="56" height="56" alt="Qure">](Qure.svg) | Qure | [Qure.svg](Qure.svg) |
 | [<img src="Qwant.svg" width="56" height="56" alt="Qwant">](Qwant.svg) | Qwant | [Qwant.svg](Qwant.svg) |
-| [<img src="Qwen.svg" width="56" height="56" alt="通义千问">](Qwen.svg) | 通义千问 | [Qwen.svg](Qwen.svg) |
+| [<img src="Qwen.svg" width="56" height="56" alt="Qwen">](Qwen.svg) | Qwen | [Qwen.svg](Qwen.svg) |
 | [<img src="R.svg" width="56" height="56" alt="R">](R.svg) | R | [R.svg](R.svg) |
 | [<img src="RabbitMQ.svg" width="56" height="56" alt="RabbitMQ">](RabbitMQ.svg) | RabbitMQ | [RabbitMQ.svg](RabbitMQ.svg) |
 | [<img src="RadixUI.svg" width="56" height="56" alt="RadixUI">](RadixUI.svg) | RadixUI | [RadixUI.svg](RadixUI.svg) |
 | [<img src="Railway.svg" width="56" height="56" alt="Railway">](Railway.svg) | Railway | [Railway.svg](Railway.svg) |
-| [<img src="Rainbow.svg" width="56" height="56" alt="彩虹">](Rainbow.svg) | 彩虹 | [Rainbow.svg](Rainbow.svg) |
+| [<img src="Rainbow.svg" width="56" height="56" alt="Rainbow">](Rainbow.svg) | Rainbow | [Rainbow.svg](Rainbow.svg) |
 | [<img src="Rakuten.svg" width="56" height="56" alt="Rakuten">](Rakuten.svg) | Rakuten | [Rakuten.svg](Rakuten.svg) |
 | [<img src="RaspberryPi.svg" width="56" height="56" alt="RaspberryPi">](RaspberryPi.svg) | RaspberryPi | [RaspberryPi.svg](RaspberryPi.svg) |
 | [<img src="Ray.svg" width="56" height="56" alt="Ray">](Ray.svg) | Ray | [Ray.svg](Ray.svg) |
@@ -1133,7 +1133,7 @@
 | [<img src="Reddit.svg" width="56" height="56" alt="Reddit">](Reddit.svg) | Reddit | [Reddit.svg](Reddit.svg) |
 | [<img src="RedHat.svg" width="56" height="56" alt="RedHat">](RedHat.svg) | RedHat | [RedHat.svg](RedHat.svg) |
 | [<img src="Redis.svg" width="56" height="56" alt="Redis">](Redis.svg) | Redis | [Redis.svg](Redis.svg) |
-| [<img src="Reject.svg" width="56" height="56" alt="拒绝连接">](Reject.svg) | 拒绝连接 | [Reject.svg](Reject.svg) |
+| [<img src="Reject.svg" width="56" height="56" alt="Reject">](Reject.svg) | Reject | [Reject.svg](Reject.svg) |
 | [<img src="Render.svg" width="56" height="56" alt="Render">](Render.svg) | Render | [Render.svg](Render.svg) |
 | [<img src="Renren.svg" width="56" height="56" alt="Renren">](Renren.svg) | Renren | [Renren.svg](Renren.svg) |
 | [<img src="Renzhe.svg" width="56" height="56" alt="Renzhe">](Renzhe.svg) | Renzhe | [Renzhe.svg](Renzhe.svg) |
@@ -1142,7 +1142,7 @@
 | [<img src="Reuters.svg" width="56" height="56" alt="Reuters">](Reuters.svg) | Reuters | [Reuters.svg](Reuters.svg) |
 | [<img src="Revolt.svg" width="56" height="56" alt="Revolt">](Revolt.svg) | Revolt | [Revolt.svg](Revolt.svg) |
 | [<img src="Revolut.svg" width="56" height="56" alt="Revolut">](Revolut.svg) | Revolut | [Revolut.svg](Revolut.svg) |
-| [<img src="Ring.svg" width="56" height="56" alt="圆环">](Ring.svg) | 圆环 | [Ring.svg](Ring.svg) |
+| [<img src="Ring.svg" width="56" height="56" alt="Ring">](Ring.svg) | Ring | [Ring.svg](Ring.svg) |
 | [<img src="Riot_Games.svg" width="56" height="56" alt="Riot Games">](Riot_Games.svg) | Riot Games | [Riot_Games.svg](Riot_Games.svg) |
 | [<img src="Ripple.svg" width="56" height="56" alt="Ripple">](Ripple.svg) | Ripple | [Ripple.svg](Ripple.svg) |
 | [<img src="RISCV.svg" width="56" height="56" alt="RISCV">](RISCV.svg) | RISCV | [RISCV.svg](RISCV.svg) |
@@ -1150,14 +1150,14 @@
 | [<img src="RoamResearch.svg" width="56" height="56" alt="RoamResearch">](RoamResearch.svg) | RoamResearch | [RoamResearch.svg](RoamResearch.svg) |
 | [<img src="Roblox.svg" width="56" height="56" alt="Roblox">](Roblox.svg) | Roblox | [Roblox.svg](Roblox.svg) |
 | [<img src="Roborock.svg" width="56" height="56" alt="Roborock">](Roborock.svg) | Roborock | [Roborock.svg](Roborock.svg) |
-| [<img src="Rocket.svg" width="56" height="56" alt="火箭">](Rocket.svg) | 火箭 | [Rocket.svg](Rocket.svg) |
+| [<img src="Rocket.svg" width="56" height="56" alt="Rocket">](Rocket.svg) | Rocket | [Rocket.svg](Rocket.svg) |
 | [<img src="RocketChat.svg" width="56" height="56" alt="RocketChat">](RocketChat.svg) | RocketChat | [RocketChat.svg](RocketChat.svg) |
 | [<img src="RockstarGames.svg" width="56" height="56" alt="RockstarGames">](RockstarGames.svg) | RockstarGames | [RockstarGames.svg](RockstarGames.svg) |
 | [<img src="RockyLinux.svg" width="56" height="56" alt="RockyLinux">](RockyLinux.svg) | RockyLinux | [RockyLinux.svg](RockyLinux.svg) |
 | [<img src="Roku.svg" width="56" height="56" alt="Roku">](Roku.svg) | Roku | [Roku.svg](Roku.svg) |
 | [<img src="Rollup.svg" width="56" height="56" alt="Rollup">](Rollup.svg) | Rollup | [Rollup.svg](Rollup.svg) |
 | [<img src="RooCode.svg" width="56" height="56" alt="RooCode">](RooCode.svg) | RooCode | [RooCode.svg](RooCode.svg) |
-| [<img src="Round_Robin.svg" width="56" height="56" alt="轮询">](Round_Robin.svg) | 轮询 | [Round_Robin.svg](Round_Robin.svg) |
+| [<img src="Round_Robin.svg" width="56" height="56" alt="Round Robin">](Round_Robin.svg) | Round Robin | [Round_Robin.svg](Round_Robin.svg) |
 | [<img src="RTHK.svg" width="56" height="56" alt="RTHK">](RTHK.svg) | RTHK | [RTHK.svg](RTHK.svg) |
 | [<img src="Ruby.svg" width="56" height="56" alt="Ruby">](Ruby.svg) | Ruby | [Ruby.svg](Ruby.svg) |
 | [<img src="RubyGems.svg" width="56" height="56" alt="RubyGems">](RubyGems.svg) | RubyGems | [RubyGems.svg](RubyGems.svg) |
@@ -1172,7 +1172,7 @@
 | [<img src="Sass.svg" width="56" height="56" alt="Sass">](Sass.svg) | Sass | [Sass.svg](Sass.svg) |
 | [<img src="Scala.svg" width="56" height="56" alt="Scala">](Scala.svg) | Scala | [Scala.svg](Scala.svg) |
 | [<img src="Scaleway.svg" width="56" height="56" alt="Scaleway">](Scaleway.svg) | Scaleway | [Scaleway.svg](Scaleway.svg) |
-| [<img src="Scholar.svg" width="56" height="56" alt="学术">](Scholar.svg) | 学术 | [Scholar.svg](Scholar.svg) |
+| [<img src="Scholar.svg" width="56" height="56" alt="Scholar">](Scholar.svg) | Scholar | [Scholar.svg](Scholar.svg) |
 | [<img src="ScikitLearn.svg" width="56" height="56" alt="ScikitLearn">](ScikitLearn.svg) | ScikitLearn | [ScikitLearn.svg](ScikitLearn.svg) |
 | [<img src="SciPy.svg" width="56" height="56" alt="SciPy">](SciPy.svg) | SciPy | [SciPy.svg](SciPy.svg) |
 | [<img src="ScyllaDB.svg" width="56" height="56" alt="ScyllaDB">](ScyllaDB.svg) | ScyllaDB | [ScyllaDB.svg](ScyllaDB.svg) |
@@ -1184,10 +1184,10 @@
 | [<img src="SenseNova.svg" width="56" height="56" alt="SenseNova">](SenseNova.svg) | SenseNova | [SenseNova.svg](SenseNova.svg) |
 | [<img src="Sentry.svg" width="56" height="56" alt="Sentry">](Sentry.svg) | Sentry | [Sentry.svg](Sentry.svg) |
 | [<img src="Sequelize.svg" width="56" height="56" alt="Sequelize">](Sequelize.svg) | Sequelize | [Sequelize.svg](Sequelize.svg) |
-| [<img src="Server.svg" width="56" height="56" alt="服务器">](Server.svg) | 服务器 | [Server.svg](Server.svg) |
+| [<img src="Server.svg" width="56" height="56" alt="Server">](Server.svg) | Server | [Server.svg](Server.svg) |
 | [<img src="Session.svg" width="56" height="56" alt="Session">](Session.svg) | Session | [Session.svg](Session.svg) |
 | [<img src="Setapp.svg" width="56" height="56" alt="Setapp">](Setapp.svg) | Setapp | [Setapp.svg](Setapp.svg) |
-| [<img src="Settings.svg" width="56" height="56" alt="设置">](Settings.svg) | 设置 | [Settings.svg](Settings.svg) |
+| [<img src="Settings.svg" width="56" height="56" alt="Settings">](Settings.svg) | Settings | [Settings.svg](Settings.svg) |
 | [<img src="SFExpress.svg" width="56" height="56" alt="SFExpress">](SFExpress.svg) | SFExpress | [SFExpress.svg](SFExpress.svg) |
 | [<img src="ShadcnUI.svg" width="56" height="56" alt="ShadcnUI">](ShadcnUI.svg) | ShadcnUI | [ShadcnUI.svg](ShadcnUI.svg) |
 | [<img src="ShanghaiMetro.svg" width="56" height="56" alt="ShanghaiMetro">](ShanghaiMetro.svg) | ShanghaiMetro | [ShanghaiMetro.svg](ShanghaiMetro.svg) |
@@ -1224,9 +1224,9 @@
 | [<img src="SourceTree.svg" width="56" height="56" alt="SourceTree">](SourceTree.svg) | SourceTree | [SourceTree.svg](SourceTree.svg) |
 | [<img src="Spaceship.svg" width="56" height="56" alt="Spaceship">](Spaceship.svg) | Spaceship | [Spaceship.svg](Spaceship.svg) |
 | [<img src="SpaceX.svg" width="56" height="56" alt="SpaceX">](SpaceX.svg) | SpaceX | [SpaceX.svg](SpaceX.svg) |
-| [<img src="Spark.svg" width="56" height="56" alt="火花">](Spark.svg) | 火花 | [Spark.svg](Spark.svg) |
+| [<img src="Spark.svg" width="56" height="56" alt="Spark">](Spark.svg) | Spark | [Spark.svg](Spark.svg) |
 | [<img src="SPDB.svg" width="56" height="56" alt="SPDB">](SPDB.svg) | SPDB | [SPDB.svg](SPDB.svg) |
-| [<img src="Speedtest.svg" width="56" height="56" alt="网络测速">](Speedtest.svg) | 网络测速 | [Speedtest.svg](Speedtest.svg) |
+| [<img src="Speedtest.svg" width="56" height="56" alt="Speedtest">](Speedtest.svg) | Speedtest | [Speedtest.svg](Speedtest.svg) |
 | [<img src="Sphinx.svg" width="56" height="56" alt="Sphinx">](Sphinx.svg) | Sphinx | [Sphinx.svg](Sphinx.svg) |
 | [<img src="Spinnaker.svg" width="56" height="56" alt="Spinnaker">](Spinnaker.svg) | Spinnaker | [Spinnaker.svg](Spinnaker.svg) |
 | [<img src="Splunk.svg" width="56" height="56" alt="Splunk">](Splunk.svg) | Splunk | [Splunk.svg](Splunk.svg) |
@@ -1236,20 +1236,20 @@
 | [<img src="SquareEnix.svg" width="56" height="56" alt="SquareEnix">](SquareEnix.svg) | SquareEnix | [SquareEnix.svg](SquareEnix.svg) |
 | [<img src="SquarePay.svg" width="56" height="56" alt="SquarePay">](SquarePay.svg) | SquarePay | [SquarePay.svg](SquarePay.svg) |
 | [<img src="Squarespace.svg" width="56" height="56" alt="Squarespace">](Squarespace.svg) | Squarespace | [Squarespace.svg](Squarespace.svg) |
-| [<img src="SSID.svg" width="56" height="56" alt="无线网络">](SSID.svg) | 无线网络 | [SSID.svg](SSID.svg) |
-| [<img src="SSL.svg" width="56" height="56" alt="安全连接">](SSL.svg) | 安全连接 | [SSL.svg](SSL.svg) |
+| [<img src="SSID.svg" width="56" height="56" alt="SSID">](SSID.svg) | SSID | [SSID.svg](SSID.svg) |
+| [<img src="SSL.svg" width="56" height="56" alt="SSL">](SSL.svg) | SSL | [SSL.svg](SSL.svg) |
 | [<img src="ssLinks.svg" width="56" height="56" alt="ssLinks">](ssLinks.svg) | ssLinks | [ssLinks.svg](ssLinks.svg) |
 | [<img src="StabilityAI.svg" width="56" height="56" alt="StabilityAI">](StabilityAI.svg) | StabilityAI | [StabilityAI.svg](StabilityAI.svg) |
 | [<img src="StableDiffusion.svg" width="56" height="56" alt="StableDiffusion">](StableDiffusion.svg) | StableDiffusion | [StableDiffusion.svg](StableDiffusion.svg) |
-| [<img src="Stack.svg" width="56" height="56" alt="协议栈">](Stack.svg) | 协议栈 | [Stack.svg](Stack.svg) |
+| [<img src="Stack.svg" width="56" height="56" alt="Stack">](Stack.svg) | Stack | [Stack.svg](Stack.svg) |
 | [<img src="StackExchange.svg" width="56" height="56" alt="StackExchange">](StackExchange.svg) | StackExchange | [StackExchange.svg](StackExchange.svg) |
 | [<img src="StackOverflow.svg" width="56" height="56" alt="StackOverflow">](StackOverflow.svg) | StackOverflow | [StackOverflow.svg](StackOverflow.svg) |
-| [<img src="Star.svg" width="56" height="56" alt="收藏">](Star.svg) | 收藏 | [Star.svg](Star.svg) |
+| [<img src="Star.svg" width="56" height="56" alt="Star">](Star.svg) | Star | [Star.svg](Star.svg) |
 | [<img src="Starbucks.svg" width="56" height="56" alt="Starbucks">](Starbucks.svg) | Starbucks | [Starbucks.svg](Starbucks.svg) |
 | [<img src="Startpage.svg" width="56" height="56" alt="Startpage">](Startpage.svg) | Startpage | [Startpage.svg](Startpage.svg) |
 | [<img src="StateCloud.svg" width="56" height="56" alt="StateCloud">](StateCloud.svg) | StateCloud | [StateCloud.svg](StateCloud.svg) |
-| [<img src="Static.svg" width="56" height="56" alt="静态规则">](Static.svg) | 静态规则 | [Static.svg](Static.svg) |
-| [<img src="Static(1).svg" width="56" height="56" alt="静态规则 · 备选">](Static(1).svg) | 静态规则 · 备选 | [Static(1).svg](Static(1).svg) |
+| [<img src="Static.svg" width="56" height="56" alt="Static">](Static.svg) | Static | [Static.svg](Static.svg) |
+| [<img src="Static(1).svg" width="56" height="56" alt="Static (Alt)">](Static(1).svg) | Static (Alt) | [Static(1).svg](Static(1).svg) |
 | [<img src="Statuspage.svg" width="56" height="56" alt="Statuspage">](Statuspage.svg) | Statuspage | [Statuspage.svg](Statuspage.svg) |
 | [<img src="Steam.svg" width="56" height="56" alt="Steam">](Steam.svg) | Steam | [Steam.svg](Steam.svg) |
 | [<img src="SteamDeck.svg" width="56" height="56" alt="SteamDeck">](SteamDeck.svg) | SteamDeck | [SteamDeck.svg](SteamDeck.svg) |
@@ -1262,10 +1262,10 @@
 | [<img src="Storybook.svg" width="56" height="56" alt="Storybook">](Storybook.svg) | Storybook | [Storybook.svg](Storybook.svg) |
 | [<img src="Strapi.svg" width="56" height="56" alt="Strapi">](Strapi.svg) | Strapi | [Strapi.svg](Strapi.svg) |
 | [<img src="Strava.svg" width="56" height="56" alt="Strava">](Strava.svg) | Strava | [Strava.svg](Strava.svg) |
-| [<img src="Streaming.svg" width="56" height="56" alt="流媒体服务">](Streaming.svg) | 流媒体服务 | [Streaming.svg](Streaming.svg) |
-| [<img src="Streaming!CN.svg" width="56" height="56" alt="非大陆媒体">](Streaming!CN.svg) | 非大陆媒体 | [Streaming!CN.svg](Streaming!CN.svg) |
-| [<img src="StreamingCN.svg" width="56" height="56" alt="大陆媒体">](StreamingCN.svg) | 大陆媒体 | [StreamingCN.svg](StreamingCN.svg) |
-| [<img src="StreamingSE.svg" width="56" height="56" alt="东南亚媒体">](StreamingSE.svg) | 东南亚媒体 | [StreamingSE.svg](StreamingSE.svg) |
+| [<img src="Streaming.svg" width="56" height="56" alt="Streaming">](Streaming.svg) | Streaming | [Streaming.svg](Streaming.svg) |
+| [<img src="Streaming!CN.svg" width="56" height="56" alt="Streaming (!CN)">](Streaming!CN.svg) | Streaming (!CN) | [Streaming!CN.svg](Streaming!CN.svg) |
+| [<img src="StreamingCN.svg" width="56" height="56" alt="Streaming (CN)">](StreamingCN.svg) | Streaming (CN) | [StreamingCN.svg](StreamingCN.svg) |
+| [<img src="StreamingSE.svg" width="56" height="56" alt="Streaming (SE)">](StreamingSE.svg) | Streaming (SE) | [StreamingSE.svg](StreamingSE.svg) |
 | [<img src="Streamlit.svg" width="56" height="56" alt="Streamlit">](Streamlit.svg) | Streamlit | [Streamlit.svg](Streamlit.svg) |
 | [<img src="Stremio.svg" width="56" height="56" alt="Stremio">](Stremio.svg) | Stremio | [Stremio.svg](Stremio.svg) |
 | [<img src="Stripe.svg" width="56" height="56" alt="Stripe">](Stripe.svg) | Stripe | [Stripe.svg](Stripe.svg) |
@@ -1301,7 +1301,7 @@
 | [<img src="TED.svg" width="56" height="56" alt="TED">](TED.svg) | TED | [TED.svg](TED.svg) |
 | [<img src="Telegram.svg" width="56" height="56" alt="Telegram">](Telegram.svg) | Telegram | [Telegram.svg](Telegram.svg) |
 | [<img src="Telegram_X.svg" width="56" height="56" alt="Telegram X">](Telegram_X.svg) | Telegram X | [Telegram_X.svg](Telegram_X.svg) |
-| [<img src="Tencent.svg" width="56" height="56" alt="腾讯">](Tencent.svg) | 腾讯 | [Tencent.svg](Tencent.svg) |
+| [<img src="Tencent.svg" width="56" height="56" alt="Tencent">](Tencent.svg) | Tencent | [Tencent.svg](Tencent.svg) |
 | [<img src="TencentCloud.svg" width="56" height="56" alt="TencentCloud">](TencentCloud.svg) | TencentCloud | [TencentCloud.svg](TencentCloud.svg) |
 | [<img src="TencentMap.svg" width="56" height="56" alt="TencentMap">](TencentMap.svg) | TencentMap | [TencentMap.svg](TencentMap.svg) |
 | [<img src="TensorFlow.svg" width="56" height="56" alt="TensorFlow">](TensorFlow.svg) | TensorFlow | [TensorFlow.svg](TensorFlow.svg) |
@@ -1366,12 +1366,12 @@
 | [<img src="Udacity.svg" width="56" height="56" alt="Udacity">](Udacity.svg) | Udacity | [Udacity.svg](Udacity.svg) |
 | [<img src="Udemy.svg" width="56" height="56" alt="Udemy">](Udemy.svg) | Udemy | [Udemy.svg](Udemy.svg) |
 | [<img src="Udio.svg" width="56" height="56" alt="Udio">](Udio.svg) | Udio | [Udio.svg](Udio.svg) |
-| [<img src="ULB.svg" width="56" height="56" alt="负载均衡">](ULB.svg) | 负载均衡 | [ULB.svg](ULB.svg) |
+| [<img src="ULB.svg" width="56" height="56" alt="ULB">](ULB.svg) | ULB | [ULB.svg](ULB.svg) |
 | [<img src="UnionPay.svg" width="56" height="56" alt="UnionPay">](UnionPay.svg) | UnionPay | [UnionPay.svg](UnionPay.svg) |
 | [<img src="Unisoc.svg" width="56" height="56" alt="Unisoc">](Unisoc.svg) | Unisoc | [Unisoc.svg](Unisoc.svg) |
-| [<img src="United_States_Map.svg" width="56" height="56" alt="美国地图">](United_States_Map.svg) | 美国地图 | [United_States_Map.svg](United_States_Map.svg) |
+| [<img src="United_States_Map.svg" width="56" height="56" alt="United States Map">](United_States_Map.svg) | United States Map | [United_States_Map.svg](United_States_Map.svg) |
 | [<img src="Unity.svg" width="56" height="56" alt="Unity">](Unity.svg) | Unity | [Unity.svg](Unity.svg) |
-| [<img src="Unlock.svg" width="56" height="56" alt="解锁">](Unlock.svg) | 解锁 | [Unlock.svg](Unlock.svg) |
+| [<img src="Unlock.svg" width="56" height="56" alt="Unlock">](Unlock.svg) | Unlock | [Unlock.svg](Unlock.svg) |
 | [<img src="UnoCSS.svg" width="56" height="56" alt="UnoCSS">](UnoCSS.svg) | UnoCSS | [UnoCSS.svg](UnoCSS.svg) |
 | [<img src="Unpkg.svg" width="56" height="56" alt="unpkg">](Unpkg.svg) | unpkg | [Unpkg.svg](Unpkg.svg) |
 | [<img src="Unraid.svg" width="56" height="56" alt="Unraid">](Unraid.svg) | Unraid | [Unraid.svg](Unraid.svg) |
@@ -1436,7 +1436,7 @@
 | [<img src="WesternDigital.svg" width="56" height="56" alt="WesternDigital">](WesternDigital.svg) | WesternDigital | [WesternDigital.svg](WesternDigital.svg) |
 | [<img src="WeTV.svg" width="56" height="56" alt="WeTV">](WeTV.svg) | WeTV | [WeTV.svg](WeTV.svg) |
 | [<img src="WhatsApp.svg" width="56" height="56" alt="WhatsApp">](WhatsApp.svg) | WhatsApp | [WhatsApp.svg](WhatsApp.svg) |
-| [<img src="WiFi.svg" width="56" height="56" alt="无线网络">](WiFi.svg) | 无线网络 | [WiFi.svg](WiFi.svg) |
+| [<img src="WiFi.svg" width="56" height="56" alt="WiFi">](WiFi.svg) | WiFi | [WiFi.svg](WiFi.svg) |
 | [<img src="Wikipedia.svg" width="56" height="56" alt="Wikipedia">](Wikipedia.svg) | Wikipedia | [Wikipedia.svg](Wikipedia.svg) |
 | [<img src="Windows.svg" width="56" height="56" alt="Windows">](Windows.svg) | Windows | [Windows.svg](Windows.svg) |
 | [<img src="Windsurf.svg" width="56" height="56" alt="Windsurf">](Windsurf.svg) | Windsurf | [Windsurf.svg](Windsurf.svg) |
@@ -1448,7 +1448,7 @@
 | [<img src="Wistia.svg" width="56" height="56" alt="Wistia">](Wistia.svg) | Wistia | [Wistia.svg](Wistia.svg) |
 | [<img src="Wix.svg" width="56" height="56" alt="Wix">](Wix.svg) | Wix | [Wix.svg](Wix.svg) |
 | [<img src="WordPress.svg" width="56" height="56" alt="WordPress">](WordPress.svg) | WordPress | [WordPress.svg](WordPress.svg) |
-| [<img src="World_Map.svg" width="56" height="56" alt="世界地图">](World_Map.svg) | 世界地图 | [World_Map.svg](World_Map.svg) |
+| [<img src="World_Map.svg" width="56" height="56" alt="World Map">](World_Map.svg) | World Map | [World_Map.svg](World_Map.svg) |
 | [<img src="WPS.svg" width="56" height="56" alt="WPS">](WPS.svg) | WPS | [WPS.svg](WPS.svg) |
 | [<img src="WSJ.svg" width="56" height="56" alt="WSJ">](WSJ.svg) | WSJ | [WSJ.svg](WSJ.svg) |
 | [<img src="WWE.svg" width="56" height="56" alt="WWE">](WWE.svg) | WWE | [WWE.svg](WWE.svg) |

@@ -2,30 +2,29 @@
   <title>GoogleHome</title>
   <desc>Qure-style GoogleHome icon. Google Home 谷歌智能家居官方四色标志</desc>
   <defs>
-    <linearGradient id="ghome-roof-left" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#4285F4"/>
+    <linearGradient id="ghome-green" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4FD173"/>
+      <stop offset="50%" stop-color="#34A853"/>
+      <stop offset="100%" stop-color="#24883E"/>
+    </linearGradient>
+    <linearGradient id="ghome-red" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF6354"/>
+      <stop offset="50%" stop-color="#EA4335"/>
+      <stop offset="100%" stop-color="#C5221F"/>
+    </linearGradient>
+    <linearGradient id="ghome-blue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6AA8FD"/>
+      <stop offset="50%" stop-color="#4285F4"/>
       <stop offset="100%" stop-color="#1A73E8"/>
     </linearGradient>
-    <linearGradient id="ghome-roof-right" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#EA4335"/>
-      <stop offset="100%" stop-color="#D93025"/>
-    </linearGradient>
-    <linearGradient id="ghome-wall-right" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FBBC04"/>
-      <stop offset="100%" stop-color="#F29900"/>
-    </linearGradient>
-    <linearGradient id="ghome-base" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#1E8E3E"/>
-      <stop offset="100%" stop-color="#34A853"/>
-    </linearGradient>
-    <linearGradient id="ghome-multi" x1="12" y1="12" x2="132" y2="132" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#4285F4"/>
-      <stop offset="35%" stop-color="#EA4335"/>
-      <stop offset="68%" stop-color="#FBBC04"/>
-      <stop offset="100%" stop-color="#34A853"/>
+    <linearGradient id="ghome-yellow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFD642"/>
+      <stop offset="50%" stop-color="#FBBC04"/>
+      <stop offset="100%" stop-color="#EAA600"/>
     </linearGradient>
   </defs>
-  <g transform="translate(13.5, 13.5) scale(4.875)">
-    <path fill="url(#ghome-multi)" d="M12 0a1.44 1.44 0 0 0-.947.399L.547 10.762a1.26 1.26 0 0 0-.342.808v11.138c0 .768.53 1.292 1.311 1.292h20.968c.78 0 1.311-.522 1.311-1.292V11.57a1.25 1.25 0 0 0-.34-.804L15.68 3.097h-.001L12.947.4A1.454 1.454 0 0 0 12 0Zm0 6.727 6.552 6.456v5.65H5.446v-5.65z"/>
-  </g>
+  <path d="m 104.212808192,130.99995248 l -64.435886592,0 l 0,-25.407921792 l 64.435886592,0 z" fill="url(#ghome-green)"/>
+  <path d="m 71.994864896,12.999975968 c -1.7436834624,0 -3.595263936,0.91234220352 -4.6503872448,1.9626049344 l -51.657648768,50.953972608 c -0.94726539072,0.93351764352 -1.6791798144,2.6202815232 -1.6791798144,3.9674304384 l 0,33.332097216 l 76.090848768,-74.981907264 l -13.444123968,-13.270811136 c -1.0656784512,-1.05024969984 -2.9172589248,-1.9626049344 -4.6609423872,-1.9626049344 z" fill="url(#ghome-red)"/>
+  <path d="m 39.778224704,130.99995248 l 0,-53.182280448 l -25.770184704,25.396193856 l 0,21.42954528 c 0,3.7769166336 2.604904896,6.3547169664 6.4480192128,6.3547169664 z" fill="url(#ghome-yellow)"/>
+  <path d="m 90.098888768,28.233261728 l -18.105326976,17.83297824 l 32.217943296,31.751432064 l 0,53.182280448 l 19.332850944,0 c 3.8321682432,0 6.4480192128,-2.56711488 6.4480192128,-6.3543260352 l 0,-54.760339392 c 0,-1.3472792256 -0.7319535168,-3.0233315904 -1.6791798144,-3.956875296 z" fill="url(#ghome-blue)"/>
 </svg>
