@@ -1,8 +1,8 @@
 # Qure 风格通用图标素材索引
 
-共 **1491** 个 SVG，统一为 **144×144**。按英文文件名排序，点击图标或文件名可查看原始素材。
+共 **1492** 个 SVG，统一为 **144×144**。按英文文件名排序，点击图标或文件名可查看原始素材。
 
-[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/common-overview.png?v=6afd9fce4392) · [可缩放 SVG 总览](../../../docs/assets/common-overview.svg?v=ed94fbc4ee2e)
+[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/common-overview.png?v=d2c658df6fc0) · [可缩放 SVG 总览](../../../docs/assets/common-overview.svg?v=d3be11118750)
 
 | 预览 | 用途 / 名称 | SVG 文件 |
 | :---: | :--- | :--- |
@@ -411,6 +411,7 @@
 | [<img src="Douban.svg" width="56" height="56" alt="Douban">](Douban.svg) | Douban | [Douban.svg](Douban.svg) |
 | [<img src="DoubanRead.svg" width="56" height="56" alt="DoubanRead">](DoubanRead.svg) | DoubanRead | [DoubanRead.svg](DoubanRead.svg) |
 | [<img src="Doubao.svg" width="56" height="56" alt="豆包">](Doubao.svg) | 豆包 | [Doubao.svg](Doubao.svg) |
+| [<img src="Douyin.svg" width="56" height="56" alt="抖音">](Douyin.svg) | 抖音 | [Douyin.svg](Douyin.svg) |
 | [<img src="Douyu.svg" width="56" height="56" alt="Douyu">](Douyu.svg) | Douyu | [Douyu.svg](Douyu.svg) |
 | [<img src="Download.svg" width="56" height="56" alt="下载">](Download.svg) | 下载 | [Download.svg](Download.svg) |
 | [<img src="Dragonfly.svg" width="56" height="56" alt="Dragonfly">](Dragonfly.svg) | Dragonfly | [Dragonfly.svg](Dragonfly.svg) |
