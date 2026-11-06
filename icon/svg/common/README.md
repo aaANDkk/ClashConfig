@@ -2,7 +2,7 @@
 
 共 **1491** 个 SVG，统一为 **144×144**。按英文文件名排序，点击图标或文件名可查看原始素材。
 
-[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/common-overview.png?v=41c7a32afb46) · [可缩放 SVG 总览](../../../docs/assets/common-overview.svg?v=fe5c7e706d4c)
+[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/common-overview.png?v=af631fa1e53d) · [可缩放 SVG 总览](../../../docs/assets/common-overview.svg?v=6ee53afbcc3d)
 
 | 预览 | 图标名称 | SVG 文件 |
 | :---: | :--- | :--- |
@@ -384,6 +384,7 @@
 | [<img src="Depositphotos.svg" width="56" height="56" alt="Depositphotos">](Depositphotos.svg) | Depositphotos | [Depositphotos.svg](Depositphotos.svg) |
 | [<img src="DeutscheBank.svg" width="56" height="56" alt="DeutscheBank">](DeutscheBank.svg) | DeutscheBank | [DeutscheBank.svg](DeutscheBank.svg) |
 | [<img src="DeviantArt.svg" width="56" height="56" alt="DeviantArt">](DeviantArt.svg) | DeviantArt | [DeviantArt.svg](DeviantArt.svg) |
+| [<img src="Dewu.svg" width="56" height="56" alt="Dewu">](Dewu.svg) | Dewu | [Dewu.svg](Dewu.svg) |
 | [<img src="DiDi.svg" width="56" height="56" alt="DiDi">](DiDi.svg) | DiDi | [DiDi.svg](DiDi.svg) |
 | [<img src="Dify.svg" width="56" height="56" alt="Dify">](Dify.svg) | Dify | [Dify.svg](Dify.svg) |
 | [<img src="DigiKey.svg" width="56" height="56" alt="DigiKey">](DigiKey.svg) | DigiKey | [DigiKey.svg](DigiKey.svg) |
@@ -1060,7 +1061,6 @@
 | [<img src="Podman.svg" width="56" height="56" alt="Podman">](Podman.svg) | Podman | [Podman.svg](Podman.svg) |
 | [<img src="Poe.svg" width="56" height="56" alt="Poe">](Poe.svg) | Poe | [Poe.svg](Poe.svg) |
 | [<img src="Poetry.svg" width="56" height="56" alt="Poetry">](Poetry.svg) | Poetry | [Poetry.svg](Poetry.svg) |
-| [<img src="Poizon.svg" width="56" height="56" alt="Poizon">](Poizon.svg) | Poizon | [Poizon.svg](Poizon.svg) |
 | [<img src="Polars.svg" width="56" height="56" alt="Polars">](Polars.svg) | Polars | [Polars.svg](Polars.svg) |
 | [<img src="Polestar.svg" width="56" height="56" alt="Polestar">](Polestar.svg) | Polestar | [Polestar.svg](Polestar.svg) |
 | [<img src="Polkadot.svg" width="56" height="56" alt="Polkadot">](Polkadot.svg) | Polkadot | [Polkadot.svg](Polkadot.svg) |

@@ -39,9 +39,9 @@ JS 仅统计客户端传入的节点，不主动下载远程 provider；未单�
 
 ### 通用图标 · 1491 个
 
-全部 SVG 素材已统一为 **144×144**。通用图标覆盖业务、策略和网络工具，支持查看[可缩放 SVG](docs/assets/common-overview.svg?v=fe5c7e706d4c)或[逐项索引](icon/svg/common/README.md)。
+全部 SVG 素材已统一为 **144×144**。通用图标覆盖业务、策略和网络工具，支持查看[可缩放 SVG](docs/assets/common-overview.svg?v=6ee53afbcc3d)或[逐项索引](icon/svg/common/README.md)。
 
-[![Qure 风格通用图标总览：1491 个 144×144 SVG](docs/assets/common-overview.png?v=41c7a32afb46)](docs/assets/common-overview.png?v=41c7a32afb46)
+[![Qure 风格通用图标总览：1491 个 144×144 SVG](docs/assets/common-overview.png?v=af631fa1e53d)](docs/assets/common-overview.png?v=af631fa1e53d)
 
 ### 地区旗帜 · 270 个
 
