@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>WaveSpeed</title>
+  <desc>Qure-style WaveSpeed (WaveSpeed) icon from LobeHub (provider).</desc>
+  <defs>
+    <linearGradient id="p17-wavespeed-grad" gradientUnits="userSpaceOnUse" x1="12.0000" y1="6.0630" x2="12.0000" y2="17.9364"><stop offset="0.0" stop-color="#5F8EF3" /><stop offset="0.5" stop-color="#2563EB" /><stop offset="1.0" stop-color="#0A44C2" /></linearGradient>
+  </defs>
+  <g transform="translate(13.0039, 13.0033) scale(4.916506)" fill-rule="evenodd" fill="url(#p17-wavespeed-grad)">
+    <path d="m8.038 11.729 2.58-4.469a2.4 2.4 0 0 1 2.074-1.197h2.586c.409 0 .741.332.741.741v4.925l2.58-4.469a2.4 2.4 0 0 1 2.074-1.197h2.586c.409 0 .741.332.741.741v4.219a.74.74 0 0 1-.741.741h-.677l-3.038 5.26a1.823 1.823 0 0 1-2.491.668l-2.217-1.279a1.83 1.83 0 0 1-.912-1.58v-1.897l-2.36 4.088a1.824 1.824 0 0 1-2.492.668l-2.217-1.279a1.83 1.83 0 0 1-.912-1.58v-1.897l-.907 1.571a.74.74 0 0 1-1.012.271L.371 12.669a.74.74 0 0 1-.272-1.013L2.637 7.26a2.4 2.4 0 0 1 2.074-1.197h2.586c.409 0 .741.332.741.741z"></path>
+  </g>
+</svg>

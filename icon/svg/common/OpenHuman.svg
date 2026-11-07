@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>OpenHuman</title>
+  <desc>Qure-style OpenHuman (OpenHuman) icon from LobeHub (application).</desc>
+  <defs>
+    <linearGradient id="p17-openhuman-grad" gradientUnits="userSpaceOnUse" x1="12.0000" y1="0.0000" x2="12.0000" y2="23.9999"><stop offset="0.0" stop-color="#63636C" /><stop offset="0.5" stop-color="#2B2B2F" /><stop offset="1.0" stop-color="#151517" /></linearGradient>
+  </defs>
+  <g transform="translate(14.5059, 13.0000) scale(4.916687)" fill-rule="evenodd" fill="url(#p17-openhuman-grad)">
+    <path d="M8.46 8.03c3.754-2.568 6.512-2.523 9.28.081 3.337 3.419 3.256 11.234 1.22 14.409-.887 1.459-2.36 1.946-4.313.976-.917-.455-1.39-.784-2.198-1.465-.621-.436-1.052-.585-2.197-.407l-1.791.407c-1.547.244-3.103-.544-3.745-1.058-1.218-.977-1.544-1.791-1.71-3.093-.162-4.314 2.771-8.012 5.455-9.85zM12.05 0a2.652 2.652 0 110 5.305 2.652 2.652 0 010-5.305z"></path>
+  </g>
+</svg>

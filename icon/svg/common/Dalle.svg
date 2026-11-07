@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Dalle</title>
+  <desc>Qure-style Dalle (DALL·E (OpenAI)) icon from LobeHub (model).</desc>
+  <defs>
+    <linearGradient id="p17-dalle-g0" gradientUnits="userSpaceOnUse" x1="12.0000" y1="10.0000" x2="12.0000" y2="15.0000"><stop offset="0.0" stop-color="#FFFF95" /><stop offset="0.5" stop-color="#FFFF67" /><stop offset="1.0" stop-color="#FFFF0D" /></linearGradient>
+    <linearGradient id="p17-dalle-g1" gradientUnits="userSpaceOnUse" x1="12.0000" y1="10.0000" x2="12.0000" y2="15.0000"><stop offset="0.0" stop-color="#78FFFF" /><stop offset="0.5" stop-color="#43FFFF" /><stop offset="1.0" stop-color="#00F1F2" /></linearGradient>
+    <linearGradient id="p17-dalle-g2" gradientUnits="userSpaceOnUse" x1="12.0000" y1="10.0000" x2="12.0000" y2="15.0000"><stop offset="0.0" stop-color="#80E67B" /><stop offset="0.5" stop-color="#51DA4B" /><stop offset="1.0" stop-color="#26BC20" /></linearGradient>
+    <linearGradient id="p17-dalle-g3" gradientUnits="userSpaceOnUse" x1="12.0000" y1="10.0000" x2="12.0000" y2="15.0000"><stop offset="0.0" stop-color="#FF9773" /><stop offset="0.5" stop-color="#FF6E3D" /><stop offset="1.0" stop-color="#ED3C00" /></linearGradient>
+    <linearGradient id="p17-dalle-g4" gradientUnits="userSpaceOnUse" x1="12.0000" y1="10.0000" x2="12.0000" y2="15.0000"><stop offset="0.0" stop-color="#737AFF" /><stop offset="0.5" stop-color="#3C46FF" /><stop offset="1.0" stop-color="#000CEC" /></linearGradient>
+  </defs>
+  <g transform="translate(13.0000, 10.5417) scale(4.916667)">
+    <path d="M0 10h4.8v5H0z" fill="url(#p17-dalle-g0)"></path><path d="M4.8 10h4.8v5H4.8z" fill="url(#p17-dalle-g1)"></path><path d="M9.6 10h4.8v5H9.6z" fill="url(#p17-dalle-g2)"></path><path d="M14.4 10h4.8v5h-4.8z" fill="url(#p17-dalle-g3)"></path><path d="M19.2 10H24v5h-4.8z" fill="url(#p17-dalle-g4)"></path>
+  </g>
+</svg>

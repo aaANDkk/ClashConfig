@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Ai2</title>
+  <desc>Qure-style Ai2 (Ai2) icon from LobeHub (model).</desc>
+  <defs>
+    <linearGradient id="p17-ai2-g0" gradientUnits="userSpaceOnUse" x1="12.0000" y1="0.0580" x2="12.0000" y2="23.9430"><stop offset="0.0" stop-color="#F680B8" /><stop offset="0.5" stop-color="#F0529C" /><stop offset="1.0" stop-color="#E60B72" /></linearGradient>
+  </defs>
+  <g transform="translate(13.0000, 12.7383) scale(4.938272)">
+    <path d="M9.553 9.378H4.777V4.835H8.62c.513 0 .932-.42.932-.932V.058h4.544v4.777a4.542 4.542 0 01-4.544 4.543zm-4.776.467H0v4.543h3.845c.512 0 .932.42.932.932v3.845H9.32v-4.777a4.542 4.542 0 00-4.543-4.543zM20.05 9.61a.935.935 0 01-.932-.932V4.835h-4.543V9.61a4.542 4.542 0 004.543 4.544h4.777V9.612H20.05zM9.787 19.166v4.777h4.544v-3.845c0-.513.42-.932.932-.932h3.845V14.62H14.33a4.542 4.542 0 00-4.544 4.544z" fill="url(#p17-ai2-g0)"></path>
+  </g>
+</svg>

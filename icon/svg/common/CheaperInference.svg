@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>CheaperInference</title>
+  <desc>Qure-style CheaperInference (Cheaper Inference) icon from LobeHub (provider).</desc>
+  <defs>
+    <linearGradient id="p17-cheaperinference-grad" gradientUnits="userSpaceOnUse" x1="12.0000" y1="0.0000" x2="12.0000" y2="24.0000"><stop offset="0.0" stop-color="#D1F14F" /><stop offset="0.5" stop-color="#B8E016" /><stop offset="1.0" stop-color="#8EAE0A" /></linearGradient>
+  </defs>
+  <g transform="translate(14.0305, 13.0000) scale(4.916667)" fill="url(#p17-cheaperinference-grad)">
+    <path d="M21.941 0L15.084 5.357 16.403 0H21.941Z"></path><path d="M10.073 20.59C9.58 22.592 7.784 24 5.722 24 2.813 24 0.675 21.272 1.37 18.447L4.873 4.215C5.482 1.74 7.702 0 10.251 0H15.141L10.073 20.59ZM11.449 1.477C10.939 1.477 10.526 1.89 10.526 2.4 10.526 2.91 10.939 3.323 11.449 3.323 11.959 3.323 12.372 2.91 12.372 2.4 12.372 1.89 11.959 1.477 11.449 1.477Z"></path><path d="M10.553 23.899L14.835 6.46 21.791 18.077C23.325 20.641 21.479 23.899 18.491 23.899H10.553Z"></path>
+  </g>
+</svg>

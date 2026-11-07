@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Vllm</title>
+  <desc>Qure-style Vllm (vLLM) icon from LobeHub (provider).</desc>
+  <defs>
+    <linearGradient id="p17-vllm-g0" gradientUnits="userSpaceOnUse" x1="12.0000" y1="0.0000" x2="12.0000" y2="23.0000"><stop offset="0.0" stop-color="#FFCA55" /><stop offset="0.5" stop-color="#FDB515" /><stop offset="1.0" stop-color="#CE8E00" /></linearGradient>
+    <linearGradient id="p17-vllm-g1" gradientUnits="userSpaceOnUse" x1="12.0000" y1="0.0000" x2="12.0000" y2="23.0000"><stop offset="0.0" stop-color="#6ABCFF" /><stop offset="0.5" stop-color="#30A2FF" /><stop offset="1.0" stop-color="#007DE3" /></linearGradient>
+  </defs>
+  <g transform="translate(14.5956, 13.0000) scale(5.130435)">
+    <path d="M0 4.973h9.324V23L0 4.973z" fill="url(#p17-vllm-g0)"></path><path d="M13.986 4.351L22.378 0l-6.216 23H9.324l4.662-18.649z" fill="url(#p17-vllm-g1)"></path>
+  </g>
+</svg>

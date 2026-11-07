@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>NPLCloud</title>
+  <desc>Qure-style NPLCloud (NPLCloud) icon from LobeHub (provider).</desc>
+  <defs>
+    <linearGradient id="p17-nplcloud-g0" gradientUnits="userSpaceOnUse" x1="12.0000" y1="5.8070" x2="12.0000" y2="18.1930"><stop offset="0.0" stop-color="#26FFDF" /><stop offset="0.5" stop-color="#00D1B2" /><stop offset="1.0" stop-color="#009D85" /></linearGradient>
+  </defs>
+  <g transform="translate(13.0000, 13.0000) scale(4.916667)">
+    <path d="M10.033 5.807L0 18.193h10.792l4.636-5.724-5.395-6.662zm.651 5.421l-.651 2.553-.652-2.553-2.538.926 3.19-3.938 3.19 3.938-2.539-.926zM18.107 10.918l-5.893 7.275H24l-5.893-7.275zm0 4.683l-.383-1.499-1.49.544 1.873-2.313 1.873 2.313-1.49-.544-.383 1.5z" fill="url(#p17-nplcloud-g0)"></path>
+  </g>
+</svg>

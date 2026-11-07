@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Inference</title>
+  <desc>Qure-style Inference (Inference) icon from LobeHub (provider).</desc>
+  <defs>
+    <linearGradient id="p17-inference-grad" gradientUnits="userSpaceOnUse" x1="12.0000" y1="2.6200" x2="12.0000" y2="21.3760"><stop offset="0.0" stop-color="#49C1F8" /><stop offset="0.5" stop-color="#0EA5E9" /><stop offset="1.0" stop-color="#047EB5" /></linearGradient>
+  </defs>
+  <g transform="translate(1.2000, 1.2118) scale(5.900000)" fill-rule="evenodd" fill="url(#p17-inference-grad)">
+    <path d="M22 21.376h-4.89V2.62H22v18.756zM14.532 21.376h-3.469V2.62h3.469v18.756zM8.764 21.376h-2.66V2.62h2.66v18.756zM3.903 21.376H2V2.62h1.903v18.756z"></path>
+  </g>
+</svg>

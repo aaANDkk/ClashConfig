@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Dbrx</title>
+  <desc>Qure-style Dbrx (DBRX (Databricks)) icon from LobeHub (model).</desc>
+  <defs>
+    <linearGradient id="p17-dbrx-g0" gradientUnits="userSpaceOnUse" x1="12.0000" y1="0.0000" x2="12.0000" y2="24.0000"><stop offset="0.0" stop-color="#F67164" /><stop offset="0.5" stop-color="#EE3D2C" /><stop offset="1.0" stop-color="#CB1A09" /></linearGradient>
+  </defs>
+  <g transform="translate(13.0000, 13.0000) scale(4.916667)">
+    <path d="M21.821 9.894l-9.81 5.595L1.505 9.511 1 9.787v4.34l11.01 6.256 9.811-5.574v2.297l-9.81 5.596-10.506-5.979L1 17v.745L12.01 24 23 17.745v-4.34l-.505-.277-10.484 5.957-9.832-5.574v-2.298l9.832 5.574L23 10.532V6.255l-.547-.319-10.442 5.936-9.327-5.276 9.327-5.298 7.663 4.362.673-.383v-.532L12.011 0 1 6.255v.681l11.01 6.255 9.811-5.595z" fill="url(#p17-dbrx-g0)" fill-rule="nonzero"></path>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Colab</title>
+  <desc>Qure-style Colab (Colab (Google)) icon from LobeHub (application).</desc>
+  <defs>
+    <linearGradient id="p17-colab-g0" gradientUnits="userSpaceOnUse" x1="12.0000" y1="4.9996" x2="12.0000" y2="18.9962"><stop offset="0.0" stop-color="#FB9842" /><stop offset="0.5" stop-color="#E8710A" /><stop offset="1.0" stop-color="#B55401" /></linearGradient>
+    <linearGradient id="p17-colab-g1" gradientUnits="userSpaceOnUse" x1="12.0000" y1="4.9996" x2="12.0000" y2="18.9962"><stop offset="0.0" stop-color="#FFC443" /><stop offset="0.5" stop-color="#F9AB00" /><stop offset="1.0" stop-color="#BB8000" /></linearGradient>
+  </defs>
+  <g transform="translate(12.9949, 12.4446) scale(4.963831)">
+    <path d="M4.426 9.444L2.046 7.07a6.988 6.988 0 000 9.879l2.38-2.381a3.637 3.637 0 010-5.123z" fill="url(#p17-colab-g0)"></path><path d="M11.947 7.069a6.988 6.988 0 000 9.879l2.425-2.381a3.638 3.638 0 015.098-5.123l2.381-2.381a6.987 6.987 0 00-9.883-.032l-.02.02v.018zM11.287 17.52l-1.765-2.954a3.637 3.637 0 01-5.122 0L2.043 16.95a6.989 6.989 0 009.127.654l.115-.084M2.043 7.068l2.381 2.376a3.637 3.637 0 015.098 0l1.727-2.959-.103-.079a6.988 6.988 0 00-9.103.662z" fill="url(#p17-colab-g1)"></path><path d="M21.85 7.069l-2.382 2.375a3.638 3.638 0 01-5.098 5.123l-2.425 2.383a6.988 6.988 0 009.88-9.881h.024z" fill="url(#p17-colab-g0)"></path>
+  </g>
+</svg>

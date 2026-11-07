@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Parasail</title>
+  <desc>Qure-style Parasail (Parasail) icon from LobeHub (provider).</desc>
+  <defs>
+    <linearGradient id="p17-parasail-grad" gradientUnits="userSpaceOnUse" x1="12.0000" y1="-0.0004" x2="12.0000" y2="24.0000"><stop offset="0.0" stop-color="#49C1F8" /><stop offset="0.5" stop-color="#0EA5E9" /><stop offset="1.0" stop-color="#047EB5" /></linearGradient>
+  </defs>
+  <g transform="translate(13.0011, 13.0019) scale(4.916588)" fill-rule="evenodd" fill="url(#p17-parasail-grad)">
+    <path d="M0 15.852c4.5 0 8.147 3.648 8.147 8.148H0v-8.148z"></path><path clip-rule="evenodd" d="M0 7.688v.018C9 7.706 16.294 15 16.294 24h.019l-.018-.036c3.33-.2 8.864-2.447 7.49-9.58A19.95 19.95 0 009.61.213C2.482-1.155.235 4.374.036 7.704L0 7.688z"></path>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>LiveKit</title>
+  <desc>Qure-style LiveKit (LiveKit) icon from LobeHub (application).</desc>
+  <defs>
+    <linearGradient id="p17-livekit-g0" gradientUnits="userSpaceOnUse" x1="12.0000" y1="2.0000" x2="12.0000" y2="22.0000"><stop offset="0.0" stop-color="#5BE3FE" /><stop offset="0.5" stop-color="#1FD5F9" /><stop offset="1.0" stop-color="#00AFD2" /></linearGradient>
+    <linearGradient id="p17-livekit-g1" gradientUnits="userSpaceOnUse" x1="12.0000" y1="2.0000" x2="12.0000" y2="22.0000"><stop offset="0.0" stop-color="#4A4A4E" /><stop offset="0.5" stop-color="#2B2B2F" /><stop offset="1.0" stop-color="#16161A" /></linearGradient>
+  </defs>
+  <g transform="translate(1.2000, 1.2000) scale(5.900000)">
+    <path d="M14 10h-4v4h4v-4zM18 6h-4v4.001h4v-4zM18 14h-4v4h4v-4zM22 2h-4v4h4V2zM22 18h-4v4h4v-4z" fill="url(#p17-livekit-g0)"></path><path d="M6 18V2H2v20h12v-4H6z" fill="url(#p17-livekit-g1)"></path>
+  </g>
+</svg>

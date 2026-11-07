@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>AMDRadeonCloud</title>
+  <desc>Qure-style AMDRadeonCloud (AMD Radeon Cloud) icon from LobeHub (provider).</desc>
+  <defs>
+    <clipPath id="p17-amdradeoncloud-lobe-icons-amd-radeon-cloud-_R_0_"><path d="M0 0h24v24H0z" fill="#fff"></path></clipPath>
+    <linearGradient id="p17-amdradeoncloud-g0" gradientUnits="userSpaceOnUse" x1="12.0000" y1="0.0000" x2="12.0000" y2="24.0000"><stop offset="0.0" stop-color="#F5595F" /><stop offset="0.5" stop-color="#ED1C24" /><stop offset="1.0" stop-color="#BF080F" /></linearGradient>
+  </defs>
+  <g transform="translate(13.0000, 13.0000) scale(4.916667)">
+    <g clip-path="url(#p17-amdradeoncloud-lobe-icons-amd-radeon-cloud-_R_0_)"><path clip-rule="evenodd" d="m.197 0 6.538 6.539h10.719v10.717L24 23.795V0zm6.53 7.85L0 14.57V24h9.419l6.726-6.736H6.727z" fill="url(#p17-amdradeoncloud-g0)" fill-rule="evenodd"></path></g>
+  </g>
+</svg>

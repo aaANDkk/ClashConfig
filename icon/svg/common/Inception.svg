@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Inception</title>
+  <desc>Qure-style Inception (Inception Labs) icon from LobeHub (model).</desc>
+  <defs>
+    <linearGradient id="p17-inception-grad" gradientUnits="userSpaceOnUse" x1="12.0000" y1="1.0000" x2="12.0000" y2="23.0000"><stop offset="0.0" stop-color="#5F8EF3" /><stop offset="0.5" stop-color="#2563EB" /><stop offset="1.0" stop-color="#0A44C2" /></linearGradient>
+  </defs>
+  <g transform="translate(7.6364, 7.6364) scale(5.363636)" fill-rule="evenodd" fill="url(#p17-inception-grad)">
+    <path d="M14.767 1H7.884L1 7.883v6.884h6.884V7.883h6.883V1zM9.234 23h6.882L23 16.116V9.233h-6.884v6.883H9.234V23z"></path>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>AgentVoice</title>
+  <desc>Qure-style AgentVoice (AgentVoice) icon from LobeHub (provider).</desc>
+  <defs>
+    <linearGradient id="p17-agentvoice-g0" gradientUnits="userSpaceOnUse" x1="12.0000" y1="3.5630" x2="12.0000" y2="20.2990"><stop offset="0.0" stop-color="#5297FF" /><stop offset="0.5" stop-color="#0F6FFF" /><stop offset="1.0" stop-color="#0051CB" /></linearGradient>
+  </defs>
+  <g transform="translate(13.0059, 13.2913) scale(4.920683)">
+    <path d="M23.696 12.056h-8.825a.283.283 0 01-.246-.425l4.413-7.643a.283.283 0 00-.246-.425l-9.018.005a.567.567 0 00-.49.283L.037 19.863a.283.283 0 00.246.425h9.015c.203 0 .39-.108.491-.284l4.325-7.49a.283.283 0 01.49 0l4.413 7.644c.11.188.382.188.491 0l4.433-7.677a.283.283 0 00-.246-.425z" fill="url(#p17-agentvoice-g0)"></path>
+  </g>
+</svg>

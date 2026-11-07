@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Inceptron</title>
+  <desc>Qure-style Inceptron (Inceptron) icon from LobeHub (provider).</desc>
+  <defs>
+    <linearGradient id="p17-inceptron-g0" gradientUnits="userSpaceOnUse" x1="12.0000" y1="1.0000" x2="12.0000" y2="23.3320"><stop offset="0.0" stop-color="#FF3CB0" /><stop offset="0.5" stop-color="#EB048E" /><stop offset="1.0" stop-color="#B3006B" /></linearGradient>
+    <linearGradient id="p17-inceptron-g1" gradientUnits="userSpaceOnUse" x1="12.0000" y1="1.0000" x2="12.0000" y2="23.3320"><stop offset="0.0" stop-color="#3737DE" /><stop offset="0.5" stop-color="#1D1D9E" /><stop offset="1.0" stop-color="#12127A" /></linearGradient>
+    <linearGradient id="p17-inceptron-g2" gradientUnits="userSpaceOnUse" x1="12.0000" y1="1.0000" x2="12.0000" y2="23.3320"><stop offset="0.0" stop-color="#67F4FF" /><stop offset="0.5" stop-color="#2CF0FF" /><stop offset="1.0" stop-color="#00D0E0" /></linearGradient>
+  </defs>
+  <g transform="translate(13.0000, 12.1838) scale(4.916667)">
+    <path d="m0 13.955 7.608-7.077H17.68l-7.607 7.077z" fill="url(#p17-inceptron-g0)"></path><path d="M17.68 6.878v7.077h-7.607z" fill="url(#p17-inceptron-g1)"></path><path d="M17.68 13.955v2.222l-7.685 7.148h-.042v-9.267l.119-.103z" fill="url(#p17-inceptron-g0)"></path><path d="M10.073 13.955 0 23.325v-9.37zm7.607 2.221v7.116l-.043.04h-7.65z" fill="url(#p17-inceptron-g1)"></path><path d="M0 6.879 6.311 1h7.608L7.608 6.879z" fill="url(#p17-inceptron-g2)"></path><path d="M8.98 5.601 13.92 1H24l-4.947 4.601z" fill="url(#p17-inceptron-g0)"></path><path d="M7.608 6.878 0 13.955V6.878z" fill="url(#p17-inceptron-g1)"></path><path d="M9.953 14.059v9.266H0zm7.727-7.18 6.312-5.871v16.414l-6.312 5.871z" fill="url(#p17-inceptron-g2)"></path>
+  </g>
+</svg>

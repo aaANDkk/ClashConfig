@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>StreamLake</title>
+  <desc>Qure-style StreamLake (StreamLake) icon from LobeHub (provider).</desc>
+  <defs>
+    <linearGradient id="p17-streamlake-g0" gradientUnits="userSpaceOnUse" x1="12.0000" y1="1.3558" x2="12.0000" y2="22.6303"><stop offset="0.0" stop-color="#5C98FF" /><stop offset="0.5" stop-color="#1D70FF" /><stop offset="1.0" stop-color="#004ED5" /></linearGradient>
+  </defs>
+  <g transform="translate(8.2041, 8.2942) scale(5.311897)">
+    <path d="M12 3.9c-2.54 0-4.88-.92-6.76-2.44-.18-.14-.44-.12-.56.08L.98 6.42c-.12.16-.1.4.06.54C4.04 9.6 7.86 11.2 12 11.2c4.14 0 7.96-1.58 10.96-4.24.16-.14.18-.38.06-.54l-3.68-4.9c-.14-.18-.4-.22-.56-.08-1.88 1.54-4.22 2.44-6.76 2.44L12 3.9zM12 20.1c-2.54 0-4.88.92-6.76 2.44-.18.14-.44.12-.56-.08L1 17.56c-.12-.16-.1-.4.06-.54 3-2.64 6.82-4.24 10.96-4.24 4.14 0 7.96 1.58 10.96 4.24.16.14.18.38.06.54l-3.68 4.9c-.14.18-.4.22-.56.08-1.88-1.54-4.22-2.44-6.76-2.44H12z" fill="url(#p17-streamlake-g0)"></path>
+  </g>
+</svg>

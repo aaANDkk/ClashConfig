@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Flowith</title>
+  <desc>Qure-style Flowith (Flowith) icon from LobeHub (application).</desc>
+  <defs>
+    <linearGradient id="p17-flowith-grad" gradientUnits="userSpaceOnUse" x1="12.0000" y1="3.0000" x2="12.0000" y2="20.0001"><stop offset="0.0" stop-color="#6FA4FB" /><stop offset="0.5" stop-color="#3B82F6" /><stop offset="1.0" stop-color="#0257E3" /></linearGradient>
+  </defs>
+  <g transform="translate(13.0000, 15.4582) scale(4.916667)" fill-rule="evenodd" fill="url(#p17-flowith-grad)">
+    <path clip-rule="evenodd" d="M13.152 3c-.64 0-1.158.51-1.158 1.137V18.84c0 .628.519 1.137 1.159 1.137h3.308c.64 0 1.158-.51 1.158-1.137V4.137C17.62 3.51 17.101 3 16.461 3h-3.308zm-6.24.081c-.314 0-.599.123-.807.323-.001.002-.004 0-.003-.002 0-.002-.002-.003-.003-.001l-.035.045a1.134 1.134 0 00-.139.181c-.11.144-.206.296-.287.456L.403 14.36l-.296.654a1.01 1.01 0 00-.016.034l-.032.07c0 .002 0 .002.002.002a1.105 1.105 0 00-.06.369l-.001 3.383A1.14 1.14 0 001.152 20h3.456a1.14 1.14 0 001.152-1.128V13.232c0-2.491 2.063-4.511 4.608-4.511a1.14 1.14 0 001.152-1.128V4.209a1.14 1.14 0 00-1.152-1.128H6.912zm11.328 14.1c0-1.558 1.29-2.82 2.88-2.82 1.59 0 2.88 1.262 2.88 2.82C24 18.736 22.71 20 21.12 20c-1.59 0-2.88-1.262-2.88-2.82z"></path>
+  </g>
+</svg>

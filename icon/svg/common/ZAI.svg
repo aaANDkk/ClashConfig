@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>ZAI</title>
+  <desc>Qure-style ZAI (Z.ai) icon from LobeHub (application).</desc>
+  <defs>
+    <linearGradient id="p17-zai-grad" gradientUnits="userSpaceOnUse" x1="12.0000" y1="2.0000" x2="12.0000" y2="22.0000"><stop offset="0.0" stop-color="#63636C" /><stop offset="0.5" stop-color="#2B2B2F" /><stop offset="1.0" stop-color="#151517" /></linearGradient>
+  </defs>
+  <g transform="translate(13.0000, 13.0000) scale(4.916667)" fill-rule="evenodd" fill="url(#p17-zai-grad)">
+    <path d="M12.105 2L9.927 4.953H.653L2.83 2h9.276zM23.254 19.048L21.078 22h-9.242l2.174-2.952h9.244zM24 2L9.264 22H0L14.736 2H24z"></path>
+  </g>
+</svg>

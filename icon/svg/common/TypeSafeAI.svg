@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>TypeSafeAI</title>
+  <desc>Qure-style TypeSafeAI (TypeSafe AI) icon from LobeHub (provider).</desc>
+  <defs>
+    <linearGradient id="p17-typesafeai-grad" gradientUnits="userSpaceOnUse" x1="12.0000" y1="0.0000" x2="12.0000" y2="24.0000"><stop offset="0.0" stop-color="#EE80CE" /><stop offset="0.5" stop-color="#E551BA" /><stop offset="1.0" stop-color="#D1179B" /></linearGradient>
+  </defs>
+  <g transform="translate(13.0025, 13.0000) scale(4.916667)" fill="url(#p17-typesafeai-grad)">
+    <path d="M16.512 2.928L16.512 7.067 20.242 9.487 20.243 18.652 12 24 7.489 21.073 7.489 16.82 3.756 14.399 3.756 5.35 4.111 5.118 12 0ZM9.697 20.65L11.998 22.144 18.032 18.227 15.732 16.735ZM12.779 10.332L12.779 14.4 9.046 16.822 9.046 19.216 14.953 15.383 14.953 8.921ZM16.512 15.384L18.684 16.794 18.684 10.332 16.512 8.922ZM5.966 13.976L8.268 15.47 10.569 13.976 8.268 12.485ZM5.316 6.193L5.316 12.544 7.487 11.134 7.487 7.066 11.221 4.643 11.221 2.36 5.316 6.193ZM9.047 11.132L11.22 12.542 11.22 10.332 9.049 8.921 9.049 11.132ZM9.697 7.487L12 8.981 14.3 7.488 12 5.994ZM12.78 4.643L14.953 6.054 14.953 3.774 12.78 2.359Z"></path>
+  </g>
+</svg>

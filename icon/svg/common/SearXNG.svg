@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>SearXNG</title>
+  <desc>Qure-style SearXNG (SearXNG) icon from LobeHub (provider).</desc>
+  <defs>
+    <linearGradient id="p17-searxng-g0" gradientUnits="userSpaceOnUse" x1="12.0000" y1="-0.0000" x2="12.0000" y2="23.6120"><stop offset="0.0" stop-color="#6A81FF" /><stop offset="0.5" stop-color="#3050FF" /><stop offset="1.0" stop-color="#0023E3" /></linearGradient>
+  </defs>
+  <g transform="translate(13.0004, 13.7721) scale(4.932063)">
+    <path d="M6.638 4.38a5.35 5.35 0 017.747 3.963 5.35 5.35 0 01-.56 3.284l-1.154-.61A4.044 4.044 0 007.237 5.54l-.6-1.158z" fill="url(#p17-searxng-g0)"></path><path clip-rule="evenodd" d="M9.13 0a9.13 9.13 0 017.992 13.546l6.803 6.515-3.4 3.551-6.853-6.562A9.13 9.13 0 119.13 0zm0 2.61a6.521 6.521 0 100 13.042 6.521 6.521 0 000-13.043z" fill="url(#p17-searxng-g0)" fill-rule="evenodd"></path>
+  </g>
+</svg>

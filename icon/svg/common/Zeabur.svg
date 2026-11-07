@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Zeabur</title>
+  <desc>Qure-style Zeabur (Zeabur) icon from LobeHub (application).</desc>
+  <defs>
+    <linearGradient id="p17-zeabur-g0" gradientUnits="userSpaceOnUse" x1="12.0000" y1="3.0000" x2="12.0000" y2="22.0000"><stop offset="0.0" stop-color="#8F47FF" /><stop offset="0.5" stop-color="#6300FF" /><stop offset="1.0" stop-color="#4A00BF" /></linearGradient>
+    <linearGradient id="p17-zeabur-g1" gradientUnits="userSpaceOnUse" x1="12.0000" y1="3.0000" x2="12.0000" y2="22.0000"><stop offset="0.0" stop-color="#FF7847" /><stop offset="0.5" stop-color="#FF4400" /><stop offset="1.0" stop-color="#BF3300" /></linearGradient>
+    <linearGradient id="p17-zeabur-gcc" gradientUnits="userSpaceOnUse" x1="12.0000" y1="3.0000" x2="12.0000" y2="22.0000"><stop offset="0.0" stop-color="#63636C" /><stop offset="0.5" stop-color="#2B2B2F" /><stop offset="1.0" stop-color="#151517" /></linearGradient>
+  </defs>
+  <g transform="translate(13.0000, 10.5417) scale(4.916667)" fill-rule="evenodd" fill="url(#p17-zeabur-gcc)">
+    <path d="M9.325 15.022h14.672V22H0v-6.978h6.746l9.29-5.044H0V3h23.997v6.978z"></path><path d="M.001 3h15.954v6.978H.001z" fill="url(#p17-zeabur-g0)"></path><path d="M9.4 15.022H24V22H9.4z" fill="url(#p17-zeabur-g1)"></path>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Phala</title>
+  <desc>Qure-style Phala (Phala) icon from LobeHub (provider).</desc>
+  <defs>
+    <linearGradient id="p17-phala-grad" gradientUnits="userSpaceOnUse" x1="12.0000" y1="5.3340" x2="12.0000" y2="18.6670"><stop offset="0.0" stop-color="#CDF461" /><stop offset="0.5" stop-color="#B8EC28" /><stop offset="1.0" stop-color="#93C50A" /></linearGradient>
+  </defs>
+  <g transform="translate(-36.5612, -34.2071) scale(8.850221)" fill-rule="evenodd" fill="url(#p17-phala-grad)">
+    <path d="M5.6 14.667h2.667v4H5.6zM16.267 8h2.666v4h-2.666zm-8 4h8v2.667h-8z"></path>
+    <path d="M5.6 5.334h10.667v2.667h-8v4L5.6 11.967z"></path>
+  </g>
+</svg>

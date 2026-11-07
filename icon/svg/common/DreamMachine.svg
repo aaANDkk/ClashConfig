@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>DreamMachine</title>
+  <desc>Qure-style DreamMachine (DreamMachine (Luma)) icon from LobeHub (application).</desc>
+  <defs>
+    <linearGradient id="p17-dreammachine-grad" gradientUnits="userSpaceOnUse" x1="12.0000" y1="0.0000" x2="12.0000" y2="24.0000"><stop offset="0.0" stop-color="#63636C" /><stop offset="0.5" stop-color="#2B2B2F" /><stop offset="1.0" stop-color="#151517" /></linearGradient>
+  </defs>
+  <g transform="translate(11.0702, 13.0000) scale(4.916667)" fill-rule="evenodd" fill="url(#p17-dreammachine-grad)">
+    <path d="M12.393 24L2 17.998l10.393-6 10.392 6-10.393 6z" fill-opacity=".66"></path><path d="M2 5.999L12.393 0v24L2 18V5.999z" fill-opacity=".66"></path>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Amp</title>
+  <desc>Qure-style Amp (Amp) icon from LobeHub (application).</desc>
+  <defs>
+    <linearGradient id="p17-amp-g0" gradientUnits="userSpaceOnUse" x1="12.0000" y1="0.0000" x2="12.0000" y2="24.0000"><stop offset="0.0" stop-color="#F97D72" /><stop offset="0.5" stop-color="#F34E3F" /><stop offset="1.0" stop-color="#E01805" /></linearGradient>
+  </defs>
+  <g transform="translate(13.5261, 13.0025) scale(4.916462)">
+    <path d="M15.087 23.18L12.03 24l-2.097-7.823-5.738 5.738-2.251-2.251 5.718-5.719-7.769-2.082.82-3.057 11.294 3.08 3.08 11.295z" fill="url(#p17-amp-g0)"></path><path d="M19.505 18.762l-3.057.82-2.564-9.573-9.572-2.564.819-3.057 11.295 3.079 3.08 11.295z" fill="url(#p17-amp-g0)"></path><path d="M23.893 14.374l-3.057.82-2.565-9.572L8.7 3.057 9.52 0l11.295 3.08 3.079 11.294z" fill="url(#p17-amp-g0)"></path>
+  </g>
+</svg>

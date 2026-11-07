@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Bfl</title>
+  <desc>Qure-style Bfl (Black Forest Labs (bfl)) icon from LobeHub (provider).</desc>
+  <defs>
+    <linearGradient id="p17-bfl-grad" gradientUnits="userSpaceOnUse" x1="12.0000" y1="3.0000" x2="12.0000" y2="20.0000"><stop offset="0.0" stop-color="#63636C" /><stop offset="0.5" stop-color="#2B2B2F" /><stop offset="1.0" stop-color="#151517" /></linearGradient>
+  </defs>
+  <g transform="translate(13.0000, 15.4583) scale(4.916667)" fill-rule="evenodd" fill="url(#p17-bfl-grad)">
+    <path d="M17.113 10.248H14.56l-2.553-3.616-7.963 11.27h2.558l5.405-7.654h2.552l-5.404 7.653h2.565l5.392-7.653L24 20 19.97 20v-2.091l-2.857-4.044-2.842 4.037V20H0L12.008 3l5.105 7.249z"></path>
+  </g>
+</svg>

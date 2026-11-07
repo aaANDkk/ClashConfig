@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Jina</title>
+  <desc>Qure-style Jina (Jina AI) icon from LobeHub (provider).</desc>
+  <defs>
+    <linearGradient id="p17-jina-dot" gradientUnits="userSpaceOnUse" x1="12.0000" y1="2.0000" x2="12.0000" y2="21.4930"><stop offset="0.0" stop-color="#F38484" /><stop offset="0.5" stop-color="#EB5757" /><stop offset="1.0" stop-color="#DF1212" /></linearGradient>
+    <linearGradient id="p17-jina-stem" gradientUnits="userSpaceOnUse" x1="12.0000" y1="2.0000" x2="12.0000" y2="21.4930"><stop offset="0.0" stop-color="#00F7F7" /><stop offset="0.5" stop-color="#009191" /><stop offset="1.0" stop-color="#006363" /></linearGradient>
+  </defs>
+  <g transform="translate(1.2032, 2.6974) scale(5.899853)" fill-rule="evenodd">
+    <path d="M6.608 21.416a4.608 4.608 0 100-9.217 4.608 4.608 0 000 9.217z" fill="url(#p17-jina-dot)" />
+    <path d="M20.894 2.015c.614 0 1.106.492 1.106 1.106v9.002c0 5.13-4.148 9.309-9.217 9.37v-9.355l-.03-9.032c0-.614.491-1.106 1.106-1.106h7.158l-.123.015z" fill="url(#p17-jina-stem)" />
+  </g>
+</svg>

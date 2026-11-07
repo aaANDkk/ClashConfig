@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Lovart</title>
+  <desc>Qure-style Lovart (Lovart) icon from LobeHub (application).</desc>
+  <defs>
+    <linearGradient id="p17-lovart-grad" gradientUnits="userSpaceOnUse" x1="12.0000" y1="5.7770" x2="12.0000" y2="18.0400"><stop offset="0.0" stop-color="#F479B6" /><stop offset="0.5" stop-color="#EC4899" /><stop offset="1.0" stop-color="#D90E72" /></linearGradient>
+  </defs>
+  <g transform="translate(-5.0947, -13.0693) scale(7.143582)" fill-rule="evenodd" fill="url(#p17-lovart-grad)">
+    <path d="M7.831 18.006l4.892.034.01-1.523-3.375-.025.018-6.023-1.523-.004-.022 7.54zm7.533-12.229a3.794 3.794 0 000 7.585 3.794 3.794 0 000-7.585zM2.533 10.446l.002 1.524 3.508-.004-.002-1.524-3.508.004zm12.832-3.221a2.349 2.349 0 012.346 2.346 2.348 2.348 0 01-2.346 2.346 2.349 2.349 0 01-2.346-2.346 2.35 2.35 0 012.346-2.346z" fill-rule="evenodd" />
+  </g>
+</svg>

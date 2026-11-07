@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Pi</title>
+  <desc>Qure-style Pi (Pi Agent) icon from LobeHub (provider).</desc>
+  <defs>
+    <linearGradient id="p17-pi-grad" gradientUnits="userSpaceOnUse" x1="12.0000" y1="1.0000" x2="12.0000" y2="23.0000"><stop offset="0.0" stop-color="#14EFDB" /><stop offset="0.5" stop-color="#0D9488" /><stop offset="1.0" stop-color="#056E64" /></linearGradient>
+  </defs>
+  <g transform="translate(7.6364, 7.6364) scale(5.363636)" fill-rule="evenodd" fill="url(#p17-pi-grad)">
+    <path clip-rule="evenodd" d="M1 1h16.5v11H12v5.5H6.5V23H1V1zm5.5 5.5V12H12V6.5H6.5z"></path><path d="M17.5 12H23v11h-5.5V12z"></path>
+  </g>
+</svg>

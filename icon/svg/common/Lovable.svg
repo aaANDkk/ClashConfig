@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Lovable</title>
+  <desc>Qure-style Lovable (Lovable) icon from LobeHub (application).</desc>
+  <defs>
+    <radialGradient cx="0" cy="0" gradientTransform="matrix(-1 22.49999 -30.45394 -1.3535 14 3)" gradientUnits="userSpaceOnUse" id="p17-lovable-lobe-icons-lovable-_R_0_" r="1"><stop offset=".25" stop-color="#FE7B02"></stop><stop offset=".433" stop-color="#FE4230"></stop><stop offset=".548" stop-color="#FE529A"></stop><stop offset=".654" stop-color="#DD67EE"></stop><stop offset=".95" stop-color="#4B73FF"></stop></radialGradient>
+  </defs>
+  <g transform="translate(13.9784, 13.0000) scale(4.916667)">
+    <path clip-rule="evenodd" d="M7.082 0c3.91 0 7.081 3.179 7.081 7.1v2.7h2.357c3.91 0 7.082 3.178 7.082 7.1 0 3.923-3.17 7.1-7.082 7.1H0V7.1C0 3.18 3.17 0 7.082 0z" fill="url(#p17-lovable-lobe-icons-lovable-_R_0_)" fill-rule="evenodd"></path>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Wafer</title>
+  <desc>Qure-style Wafer (Wafer) icon from LobeHub (provider).</desc>
+  <defs>
+    <linearGradient id="p17-wafer-grad" gradientUnits="userSpaceOnUse" x1="12.0000" y1="0.0000" x2="12.0000" y2="24.0000"><stop offset="0.0" stop-color="#63636C" /><stop offset="0.5" stop-color="#2B2B2F" /><stop offset="1.0" stop-color="#151517" /></linearGradient>
+  </defs>
+  <g transform="translate(13.0000, 13.0000) scale(4.916667)" fill-rule="evenodd" fill="url(#p17-wafer-grad)">
+    <path d="M0 12c0 6.617 5.395 12 12.026 12H24V0H12.026C5.395 0 0 5.383 0 12m3.518 0c0-4.81 3.861-8.726 8.608-8.726S20.733 7.189 20.733 12c0 4.81-3.861 8.726-8.607 8.726-4.747 0-8.608-3.915-8.608-8.726"></path>
+  </g>
+</svg>

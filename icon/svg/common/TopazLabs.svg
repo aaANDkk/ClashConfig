@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>TopazLabs</title>
+  <desc>Qure-style TopazLabs (TopazLabs) icon from LobeHub (application).</desc>
+  <defs>
+    <linearGradient id="p17-topazlabs-grad" gradientUnits="userSpaceOnUse" x1="12.0000" y1="2.0000" x2="12.0000" y2="22.0000"><stop offset="0.0" stop-color="#4791FF" /><stop offset="0.5" stop-color="#0066FF" /><stop offset="1.0" stop-color="#004CBF" /></linearGradient>
+  </defs>
+  <g transform="translate(1.2000, 1.2000) scale(5.900000)" fill-rule="evenodd" fill="url(#p17-topazlabs-grad)">
+    <path d="M2 15.357V22h6.65v-6.643H2zM15.32 15.357V8.714H8.67v6.643h6.65zM22 8.643V2h-6.65v6.643H22z"></path>
+  </g>
+</svg>

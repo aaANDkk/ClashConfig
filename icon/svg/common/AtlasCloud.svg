@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>AtlasCloud</title>
+  <desc>Qure-style AtlasCloud (AtlasCloud) icon from LobeHub (provider).</desc>
+  <defs>
+    <linearGradient id="p17-atlascloud-grad" gradientUnits="userSpaceOnUse" x1="12.0000" y1="0.4700" x2="12.0000" y2="23.5300"><stop offset="0.0" stop-color="#976CF7" /><stop offset="0.5" stop-color="#7036F0" /><stop offset="1.0" stop-color="#4808D5" /></linearGradient>
+  </defs>
+  <g transform="translate(10.5694, 10.5950) scale(5.117086)" fill-rule="evenodd" fill="url(#p17-atlascloud-grad)">
+    <path d="M20.2,18.01L12,0.47,3.8,18.01l-2.58,5.52c1.62,-1.05,3.39,-1.86,5.26,-2.41,1.76,-0.51,3.61,-0.79,5.52,-0.79,0.98,0,1.95,0.08,2.9,0.22l-1.86,-4.3c-0.53,-0.1,-2.87,-0.1,-4.59,0.3l3.56,-8.28,5.52,12.85c0.01,0,0.02,0.01,0.03,0.01,1.86,0.55,3.62,1.36,5.23,2.4l-2.58,-5.52Z"></path>
+  </g>
+</svg>

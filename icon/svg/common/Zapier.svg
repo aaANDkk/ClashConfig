@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Zapier</title>
+  <desc>Qure-style Zapier (Zapier) icon from LobeHub (application).</desc>
+  <defs>
+    <linearGradient id="p17-zapier-g0" gradientUnits="userSpaceOnUse" x1="12.0000" y1="16.0000" x2="12.0000" y2="19.0000"><stop offset="0.0" stop-color="#FF8047" /><stop offset="0.5" stop-color="#FF4F00" /><stop offset="1.0" stop-color="#BF3B00" /></linearGradient>
+  </defs>
+  <g transform="translate(-36.9231, -86.8462) scale(9.076923)">
+    <path d="M18.5 16h-13v3h13v-3z" fill="url(#p17-zapier-g0)"></path>
+  </g>
+</svg>

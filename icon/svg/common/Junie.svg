@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+  <title>Junie</title>
+  <desc>Qure-style Junie (Junie) icon from LobeHub (application).</desc>
+  <defs>
+    <linearGradient id="p17-junie-g0" gradientUnits="userSpaceOnUse" x1="12.0000" y1="0.0000" x2="12.0000" y2="24.0000"><stop offset="0.0" stop-color="#78EB82" /><stop offset="0.5" stop-color="#47E054" /><stop offset="1.0" stop-color="#1AC428" /></linearGradient>
+  </defs>
+  <g transform="translate(13.0000, 13.0000) scale(4.916667)">
+    <path d="M24 9.333C24 18.666 20 24 9.333 24H8v-8h1.333C14 16 16 14 16 9.333V8h8v1.333zM8 16H0V8h8v8zM16 8H8V0h8v8z" fill="url(#p17-junie-g0)"></path>
+  </g>
+</svg>
