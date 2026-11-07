@@ -1,8 +1,8 @@
 # Qure 风格通用图标素材索引
 
-共 **1494** 个 SVG，统一为 **144×144**。按英文文件名排序，点击图标或文件名可查看原始素材。
+共 **1502** 个 SVG，统一为 **144×144**。按英文文件名排序，点击图标或文件名可查看原始素材。
 
-[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/common-overview.png?v=efe680bb13ba) · [可缩放 SVG 总览](../../../docs/assets/common-overview.svg?v=38d9af1216e6)
+[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/common-overview.png?v=cdd095c17a99) · [可缩放 SVG 总览](../../../docs/assets/common-overview.svg?v=2db48137f22f)
 
 | 预览 | 图标名称 | SVG 文件 |
 | :---: | :--- | :--- |
@@ -278,6 +278,7 @@
 | [<img src="ChinaUnicom.svg" width="56" height="56" alt="ChinaUnicom">](ChinaUnicom.svg) | ChinaUnicom | [ChinaUnicom.svg](ChinaUnicom.svg) |
 | [<img src="Chocolatey.svg" width="56" height="56" alt="Chocolatey">](Chocolatey.svg) | Chocolatey | [Chocolatey.svg](Chocolatey.svg) |
 | [<img src="Chroma.svg" width="56" height="56" alt="Chroma">](Chroma.svg) | Chroma | [Chroma.svg](Chroma.svg) |
+| [<img src="Chrome.svg" width="56" height="56" alt="Chrome">](Chrome.svg) | Chrome | [Chrome.svg](Chrome.svg) |
 | [<img src="CIB.svg" width="56" height="56" alt="CIB">](CIB.svg) | CIB | [CIB.svg](CIB.svg) |
 | [<img src="CircleCI.svg" width="56" height="56" alt="CircleCI">](CircleCI.svg) | CircleCI | [CircleCI.svg](CircleCI.svg) |
 | [<img src="CircuitVerse.svg" width="56" height="56" alt="CircuitVerse">](CircuitVerse.svg) | CircuitVerse | [CircuitVerse.svg](CircuitVerse.svg) |
@@ -434,7 +435,9 @@
 | [<img src="EclipseMosquitto.svg" width="56" height="56" alt="EclipseMosquitto">](EclipseMosquitto.svg) | EclipseMosquitto | [EclipseMosquitto.svg](EclipseMosquitto.svg) |
 | [<img src="Ecosia.svg" width="56" height="56" alt="Ecosia">](Ecosia.svg) | Ecosia | [Ecosia.svg](Ecosia.svg) |
 | [<img src="Ecovacs.svg" width="56" height="56" alt="Ecovacs">](Ecovacs.svg) | Ecovacs | [Ecovacs.svg](Ecovacs.svg) |
+| [<img src="Edge.svg" width="56" height="56" alt="Edge">](Edge.svg) | Edge | [Edge.svg](Edge.svg) |
 | [<img src="Edx.svg" width="56" height="56" alt="Edx">](Edx.svg) | Edx | [Edx.svg](Edx.svg) |
+| [<img src="Egern.svg" width="56" height="56" alt="Egern">](Egern.svg) | Egern | [Egern.svg](Egern.svg) |
 | [<img src="Egghead.svg" width="56" height="56" alt="Egghead">](Egghead.svg) | Egghead | [Egghead.svg](Egghead.svg) |
 | [<img src="EHentai.svg" width="56" height="56" alt="EHentai">](EHentai.svg) | EHentai | [EHentai.svg](EHentai.svg) |
 | [<img src="Elasticsearch.svg" width="56" height="56" alt="Elasticsearch">](Elasticsearch.svg) | Elasticsearch | [Elasticsearch.svg](Elasticsearch.svg) |
@@ -650,6 +653,7 @@
 | [<img src="HeroicGames.svg" width="56" height="56" alt="HeroicGames">](HeroicGames.svg) | HeroicGames | [HeroicGames.svg](HeroicGames.svg) |
 | [<img src="Hetzner.svg" width="56" height="56" alt="Hetzner">](Hetzner.svg) | Hetzner | [Hetzner.svg](Hetzner.svg) |
 | [<img src="Hexo.svg" width="56" height="56" alt="Hexo">](Hexo.svg) | Hexo | [Hexo.svg](Hexo.svg) |
+| [<img src="Hiddfy.svg" width="56" height="56" alt="Hiddfy">](Hiddfy.svg) | Hiddfy | [Hiddfy.svg](Hiddfy.svg) |
 | [<img src="Higress.svg" width="56" height="56" alt="Higress">](Higress.svg) | Higress | [Higress.svg](Higress.svg) |
 | [<img src="Hijacking.svg" width="56" height="56" alt="Hijacking">](Hijacking.svg) | Hijacking | [Hijacking.svg](Hijacking.svg) |
 | [<img src="Hisense.svg" width="56" height="56" alt="Hisense">](Hisense.svg) | Hisense | [Hisense.svg](Hisense.svg) |
@@ -739,6 +743,7 @@
 | [<img src="Kaggle.svg" width="56" height="56" alt="Kaggle">](Kaggle.svg) | Kaggle | [Kaggle.svg](Kaggle.svg) |
 | [<img src="Kakao.svg" width="56" height="56" alt="Kakao">](Kakao.svg) | Kakao | [Kakao.svg](Kakao.svg) |
 | [<img src="KaliLinux.svg" width="56" height="56" alt="KaliLinux">](KaliLinux.svg) | KaliLinux | [KaliLinux.svg](KaliLinux.svg) |
+| [<img src="Karing.svg" width="56" height="56" alt="Karing">](Karing.svg) | Karing | [Karing.svg](Karing.svg) |
 | [<img src="KasaSmart.svg" width="56" height="56" alt="KasaSmart">](KasaSmart.svg) | KasaSmart | [KasaSmart.svg](KasaSmart.svg) |
 | [<img src="Kaspersky.svg" width="56" height="56" alt="Kaspersky">](Kaspersky.svg) | Kaspersky | [Kaspersky.svg](Kaspersky.svg) |
 | [<img src="KeePassXC.svg" width="56" height="56" alt="KeePassXC">](KeePassXC.svg) | KeePassXC | [KeePassXC.svg](KeePassXC.svg) |
@@ -811,6 +816,7 @@
 | [<img src="Locust.svg" width="56" height="56" alt="Locust">](Locust.svg) | Locust | [Locust.svg](Locust.svg) |
 | [<img src="Logseq.svg" width="56" height="56" alt="Logseq">](Logseq.svg) | Logseq | [Logseq.svg](Logseq.svg) |
 | [<img src="Logstash.svg" width="56" height="56" alt="Logstash">](Logstash.svg) | Logstash | [Logstash.svg](Logstash.svg) |
+| [<img src="Loon.svg" width="56" height="56" alt="Loon">](Loon.svg) | Loon | [Loon.svg](Loon.svg) |
 | [<img src="Loop.svg" width="56" height="56" alt="Loop">](Loop.svg) | Loop | [Loop.svg](Loop.svg) |
 | [<img src="Lua.svg" width="56" height="56" alt="Lua">](Lua.svg) | Lua | [Lua.svg](Lua.svg) |
 | [<img src="Lucide.svg" width="56" height="56" alt="Lucide">](Lucide.svg) | Lucide | [Lucide.svg](Lucide.svg) |
@@ -1108,6 +1114,7 @@
 | [<img src="Qiniu.svg" width="56" height="56" alt="Qiniu">](Qiniu.svg) | Qiniu | [Qiniu.svg](Qiniu.svg) |
 | [<img src="QNAP.svg" width="56" height="56" alt="QNAP">](QNAP.svg) | QNAP | [QNAP.svg](QNAP.svg) |
 | [<img src="QQ.svg" width="56" height="56" alt="QQ">](QQ.svg) | QQ | [QQ.svg](QQ.svg) |
+| [<img src="QQmusic.svg" width="56" height="56" alt="QQ Music">](QQmusic.svg) | QQ Music | [QQmusic.svg](QQmusic.svg) |
 | [<img src="Qt.svg" width="56" height="56" alt="Qt">](Qt.svg) | Qt | [Qt.svg](Qt.svg) |
 | [<img src="Quad9.svg" width="56" height="56" alt="Quad9">](Quad9.svg) | Quad9 | [Quad9.svg](Quad9.svg) |
 | [<img src="Qualcomm.svg" width="56" height="56" alt="Qualcomm">](Qualcomm.svg) | Qualcomm | [Qualcomm.svg](Qualcomm.svg) |
@@ -1200,6 +1207,7 @@
 | [<img src="Shopline.svg" width="56" height="56" alt="Shopline">](Shopline.svg) | Shopline | [Shopline.svg](Shopline.svg) |
 | [<img src="Signal.svg" width="56" height="56" alt="Signal">](Signal.svg) | Signal | [Signal.svg](Signal.svg) |
 | [<img src="SiliconFlow.svg" width="56" height="56" alt="SiliconFlow">](SiliconFlow.svg) | SiliconFlow | [SiliconFlow.svg](SiliconFlow.svg) |
+| [<img src="Singbox.svg" width="56" height="56" alt="Sing-box">](Singbox.svg) | Sing-box | [Singbox.svg](Singbox.svg) |
 | [<img src="SiYuan.svg" width="56" height="56" alt="SiYuan">](SiYuan.svg) | SiYuan | [SiYuan.svg](SiYuan.svg) |
 | [<img src="Sketch.svg" width="56" height="56" alt="Sketch">](Sketch.svg) | Sketch | [Sketch.svg](Sketch.svg) |
 | [<img src="Skillshare.svg" width="56" height="56" alt="Skillshare">](Skillshare.svg) | Skillshare | [Skillshare.svg](Skillshare.svg) |
