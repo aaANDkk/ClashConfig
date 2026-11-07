@@ -1,8 +1,8 @@
 # Qure 风格通用图标素材索引
 
-共 **1502** 个 SVG，统一为 **144×144**。按英文文件名排序，点击图标或文件名可查看原始素材。
+共 **1504** 个 SVG，统一为 **144×144**。按英文文件名排序，点击图标或文件名可查看原始素材。
 
-[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/common-overview.png?v=cdd095c17a99) · [可缩放 SVG 总览](../../../docs/assets/common-overview.svg?v=2db48137f22f)
+[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/common-overview.png?v=9e35237d9ab8) · [可缩放 SVG 总览](../../../docs/assets/common-overview.svg?v=68bf30e838e7)
 
 | 预览 | 图标名称 | SVG 文件 |
 | :---: | :--- | :--- |
@@ -504,6 +504,7 @@
 | [<img src="FindMy.svg" width="56" height="56" alt="FindMy">](FindMy.svg) | FindMy | [FindMy.svg](FindMy.svg) |
 | [<img src="Firebase.svg" width="56" height="56" alt="Firebase">](Firebase.svg) | Firebase | [Firebase.svg](Firebase.svg) |
 | [<img src="Firefox.svg" width="56" height="56" alt="Firefox">](Firefox.svg) | Firefox | [Firefox.svg](Firefox.svg) |
+| [<img src="Firefox(1).svg" width="56" height="56" alt="Firefox(1)">](Firefox(1).svg) | Firefox(1) | [Firefox(1).svg](Firefox(1).svg) |
 | [<img src="Firewalla.svg" width="56" height="56" alt="Firewalla">](Firewalla.svg) | Firewalla | [Firewalla.svg](Firewalla.svg) |
 | [<img src="FireworksAI.svg" width="56" height="56" alt="FireworksAI">](FireworksAI.svg) | FireworksAI | [FireworksAI.svg](FireworksAI.svg) |
 | [<img src="FishAudio.svg" width="56" height="56" alt="FishAudio">](FishAudio.svg) | FishAudio | [FishAudio.svg](FishAudio.svg) |
@@ -1114,6 +1115,7 @@
 | [<img src="Qiniu.svg" width="56" height="56" alt="Qiniu">](Qiniu.svg) | Qiniu | [Qiniu.svg](Qiniu.svg) |
 | [<img src="QNAP.svg" width="56" height="56" alt="QNAP">](QNAP.svg) | QNAP | [QNAP.svg](QNAP.svg) |
 | [<img src="QQ.svg" width="56" height="56" alt="QQ">](QQ.svg) | QQ | [QQ.svg](QQ.svg) |
+| [<img src="QQ(1).svg" width="56" height="56" alt="QQ(1)">](QQ(1).svg) | QQ(1) | [QQ(1).svg](QQ(1).svg) |
 | [<img src="QQmusic.svg" width="56" height="56" alt="QQ Music">](QQmusic.svg) | QQ Music | [QQmusic.svg](QQmusic.svg) |
 | [<img src="Qt.svg" width="56" height="56" alt="Qt">](Qt.svg) | Qt | [Qt.svg](Qt.svg) |
 | [<img src="Quad9.svg" width="56" height="56" alt="Quad9">](Quad9.svg) | Quad9 | [Quad9.svg](Quad9.svg) |
