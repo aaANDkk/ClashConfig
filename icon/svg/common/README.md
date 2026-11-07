@@ -1,8 +1,8 @@
 # Qure 风格通用图标素材索引
 
-共 **1743** 个 SVG，统一为 **144×144**。按英文文件名排序，点击图标或文件名可查看原始素材。
+共 **1742** 个 SVG，统一为 **144×144**。按英文文件名排序，点击图标或文件名可查看原始素材。
 
-[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/common-overview.png?v=78c9fe500971) · [可缩放 SVG 总览](../../../docs/assets/common-overview.svg?v=385fb4a0886c)
+[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/common-overview.png?v=09835e704127) · [可缩放 SVG 总览](../../../docs/assets/common-overview.svg?v=6e5787d7aa67)
 
 | 预览 | 图标名称 | SVG 文件 |
 | :---: | :--- | :--- |
@@ -586,7 +586,6 @@
 | [<img src="Firefox.svg" width="56" height="56" alt="Firefox">](Firefox.svg) | Firefox | [Firefox.svg](Firefox.svg) |
 | [<img src="Firefox(1).svg" width="56" height="56" alt="Firefox(1)">](Firefox(1).svg) | Firefox(1) | [Firefox(1).svg](Firefox(1).svg) |
 | [<img src="Firewalla.svg" width="56" height="56" alt="Firewalla">](Firewalla.svg) | Firewalla | [Firewalla.svg](Firewalla.svg) |
-| [<img src="Fireworks.svg" width="56" height="56" alt="Fireworks">](Fireworks.svg) | Fireworks | [Fireworks.svg](Fireworks.svg) |
 | [<img src="FireworksAI.svg" width="56" height="56" alt="FireworksAI">](FireworksAI.svg) | FireworksAI | [FireworksAI.svg](FireworksAI.svg) |
 | [<img src="FishAudio.svg" width="56" height="56" alt="FishAudio">](FishAudio.svg) | FishAudio | [FishAudio.svg](FishAudio.svg) |
 | [<img src="Fitbit.svg" width="56" height="56" alt="Fitbit">](Fitbit.svg) | Fitbit | [Fitbit.svg](Fitbit.svg) |
