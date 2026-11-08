@@ -9,9 +9,9 @@
 <linearGradient id="ad-emblem-orange" x1="72" y1="48.0000" x2="72" y2="96.0000" gradientUnits="userSpaceOnUse"><stop stop-color="#FFB14A" /><stop offset="1" stop-color="#EE7D08" /></linearGradient>
 </defs>
 <g mask="url(#ad-board)">
-<path d="M 1.329 21.4745 h 44.0363 v 100.5781 h -44.0363 Z" fill="url(#ad-blue)" stroke="url(#ad-blue)" stroke_width="0.5" stroke-linejoin="round" />
-<path d="M 45.3653 21.4745 h 52.8436 v 100.5781 h -52.8436 Z" fill="url(#ad-yellow)" stroke="url(#ad-yellow)" stroke_width="0.5" stroke-linejoin="round" />
-<path d="M 98.2089 21.4745 h 44.0363 v 100.5781 h -44.0363 Z" fill="url(#ad-red)" stroke="url(#ad-red)" stroke_width="0.5" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 44.0363 v 100.5781 h -44.0363 Z" fill="url(#ad-blue)" stroke="url(#ad-blue)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 45.3653 21.4745 h 52.8436 v 100.5781 h -52.8436 Z" fill="url(#ad-yellow)" stroke="url(#ad-yellow)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 98.2089 21.4745 h 44.0363 v 100.5781 h -44.0363 Z" fill="url(#ad-red)" stroke="url(#ad-red)" stroke-width="0.6" stroke-linejoin="round" />
 <path d="M 71.7871,88.826 L 71.7871,69.6185 l 13.026,0 l 0,9.2235 z m -13.026,-32.2335 L 71.7871,56.5926 L 71.7871,69.6185 l -13.026,0 z" fill="url(#ad-emblem-red)" />
 <path d="M 78.3001,52.2636 a 4.3485,4.3485 0 0,0 -6.513,-3.7635 a 4.3095,4.3095 0 0,0 -2.1645,-0.585 c -2.3985,0 -4.3485,1.95 -4.3485,4.3485 L 54.4321,52.2636 l 0,21.7035 c 0,8.073 6.4155,12.753 11.4465,15.171 a 4.3095,4.3095 0 0,0 -0.585,2.184 a 4.3485,4.3485 0 0,0 6.4935,3.7635 a 4.3095,4.3095 0 0,0 2.1645,0.585 a 4.3485,4.3485 0 0,0 3.744,-6.5325 c 5.031,-2.418 11.4465,-7.098 11.4465,-15.171 L 89.1421,52.2636 z m 4.3485,21.7035 c 0,1.131 0,4.563 -5.3625,7.9755 a 26.6175,26.6175 0 0,1 -5.499,2.5935 c -1.365,-0.468 -3.471,-1.3065 -5.499,-2.5935 c -5.3625,-3.4125 -5.3625,-6.8445 -5.3625,-7.995 l 0,-15.1905 l 21.723,0 z" fill="url(#ad-emblem-orange)" />
 </g>

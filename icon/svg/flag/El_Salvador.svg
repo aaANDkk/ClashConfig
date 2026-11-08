@@ -8,8 +8,8 @@
 <linearGradient id="sv-emblem-green" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
 </defs>
 <g mask="url(#sv-board)">
-<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#sv-blue)" stroke="url(#sv-blue)" stroke_width="0.5" stroke-linejoin="round" />
-<path d="M 1.329 55.0005 h 140.9162 v 33.526 h -140.9162 Z" fill="url(#sv-white)" stroke="url(#sv-white)" stroke_width="0.5" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#sv-blue)" stroke="url(#sv-blue)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 54.8 h 140.9162 v 34.0 h -140.9162 Z" fill="url(#sv-white)" stroke="url(#sv-white)" stroke-width="0.6" stroke-linejoin="round" />
 <path d="m 62.5351,73.7615 l 9.252,-16.02 l 9.252,16.02 z" fill="url(#sv-emblem-gold)" />
 <path d="M 83.8111,79.0536 L 71.7871,85.0836 l -12.024,-6.012 L 59.7631,71.0435 l 24.048,0 z" fill="url(#sv-emblem-green)" />
 <path d="m 83.1271,58.4436 l -4.248,4.23 a 9.99,9.99 0 0,1 -7.092,17.1 a 10.026,10.026 0 0,1 -7.074,-17.1 L 60.4471,58.4436 a 16.02,16.02 0 1,0 22.68,0 z" fill="url(#sv-emblem-gold)" />

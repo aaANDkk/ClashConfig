@@ -8,9 +8,9 @@
 <linearGradient id="af-gold" x1="72" y1="50.0000" x2="72" y2="94.0000" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#E5AF00" /></linearGradient>
 </defs>
 <g mask="url(#af-board)">
-<path d="M 1.329 21.4745 h 46.9721 v 100.5781 h -46.9721 Z" fill="url(#af-black)" stroke="url(#af-black)" stroke_width="0.5" stroke-linejoin="round" />
-<path d="M 48.3011 21.4745 h 46.9721 v 100.5781 h -46.9721 Z" fill="url(#af-red)" stroke="url(#af-red)" stroke_width="0.5" stroke-linejoin="round" />
-<path d="M 95.2731 21.4745 h 46.9721 v 100.5781 h -46.9721 Z" fill="url(#af-green)" stroke="url(#af-green)" stroke_width="0.5" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 46.9721 v 100.5781 h -46.9721 Z" fill="url(#af-black)" stroke="url(#af-black)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 48.3011 21.4745 h 46.9721 v 100.5781 h -46.9721 Z" fill="url(#af-red)" stroke="url(#af-red)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 95.2731 21.4745 h 46.9721 v 100.5781 h -46.9721 Z" fill="url(#af-green)" stroke="url(#af-green)" stroke-width="0.6" stroke-linejoin="round" />
 <path d="M 71.7871,52.6285 a 19.135,19.135 0 0,0 0,38.27 a 19.135,19.135 0 0,0 0,-38.27 m 0,7.095 a 12.04,12.04 0 0,1 0,24.08 a 12.04,12.04 0 0,1 0,-24.08 m 0,6.1275 c -2.58,0 -4.73,2.15 -4.73,4.73 l 0,7.095 l 9.46,0 l 0,-7.095 c 0,-2.58 -2.15,-4.73 -4.73,-4.73" fill="url(#af-gold)" />
 </g>
 </svg>

@@ -7,7 +7,7 @@
 <linearGradient id="uy-sun-gold" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#E5AF00" /></linearGradient>
 </defs>
 <g mask="url(#uy-board)">
-<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#uy-white)" stroke="url(#uy-white)" stroke_width="0.5" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#uy-white)" stroke="url(#uy-white)" stroke-width="0.6" stroke-linejoin="round" />
 <path d="M 64.9607 32.6498 h 77.2845 v 11.1753 h -77.2845 Z" fill="url(#uy-blue)" />
 <path d="M 64.9607 55.0005 h 77.2845 v 11.1753 h -77.2845 Z" fill="url(#uy-blue)" />
 <path d="M 1.329 77.3512 h 140.9162 v 11.1753 h -140.9162 Z" fill="url(#uy-blue)" />

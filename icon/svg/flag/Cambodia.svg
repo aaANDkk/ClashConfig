@@ -7,8 +7,8 @@
 <linearGradient id="kh-white" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF" /><stop offset="1" stop-color="#E8E8E8" /></linearGradient>
 </defs>
 <g mask="url(#kh-board)">
-<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#kh-blue)" stroke="url(#kh-blue)" stroke_width="0.5" stroke-linejoin="round" />
-<path d="M 1.329 46.619 h 140.9162 v 50.2891 h -140.9162 Z" fill="url(#kh-red)" stroke="url(#kh-red)" stroke_width="0.5" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#kh-blue)" stroke="url(#kh-blue)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 46.4 h 140.9162 v 50.7 h -140.9162 Z" fill="url(#kh-red)" stroke="url(#kh-red)" stroke-width="0.6" stroke-linejoin="round" />
 <path d="M 89.1421,82.6055 l 0,-6.4935 l -4.329,0 l 0,-8.6775 L 80.4646,63.0861 l -4.329,4.3485 l 0,-8.6775 L 71.7871,54.4085 l -4.3485,4.3485 l 0,8.6775 L 63.1096,63.0861 l -4.3485,4.3485 l 0,8.6775 L 54.4321,76.112 l 0,6.513 l -4.3485,0 l 0,6.513 l 43.407,0 l 0,-6.5325 z" fill="url(#kh-white)" />
 </g>
 </svg>

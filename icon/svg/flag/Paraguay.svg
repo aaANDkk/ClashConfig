@@ -9,9 +9,9 @@
 <linearGradient id="py-emblem-gold" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#E5AF00" /></linearGradient>
 </defs>
 <g mask="url(#py-board)">
-<path d="M 1.329 21.4745 h 140.9162 v 33.526 h -140.9162 Z" fill="url(#py-red)" stroke="url(#py-red)" stroke_width="0.5" stroke-linejoin="round" />
-<path d="M 1.329 55.0005 h 140.9162 v 33.526 h -140.9162 Z" fill="url(#py-white)" stroke="url(#py-white)" stroke_width="0.5" stroke-linejoin="round" />
-<path d="M 1.329 88.5266 h 140.9162 v 33.526 h -140.9162 Z" fill="url(#py-blue)" stroke="url(#py-blue)" stroke_width="0.5" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 33.8 h -140.9162 Z" fill="url(#py-red)" stroke="url(#py-red)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 54.8 h 140.9162 v 34.0 h -140.9162 Z" fill="url(#py-white)" stroke="url(#py-white)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 88.3 h 140.9162 v 33.8 h -140.9162 Z" fill="url(#py-blue)" stroke="url(#py-blue)" stroke-width="0.6" stroke-linejoin="round" />
 <path d="m 83.4421,58.0735 l -4.366,4.3475 a 10.2675,10.2675 0 0,1 -7.289,17.575 a 10.3045,10.3045 0 0,1 -7.2705,-17.575 L 60.1321,58.0735 a 16.465,16.465 0 1,0 23.31,0 z" fill="url(#py-emblem-green)" />
 <path d="m 71.7871,63.5311 l 1.5355,4.7175 L 78.2621,68.2485 l -4.0145,2.923 l 1.5355,4.7175 l -4.0145,-2.923 l -4.0145,2.923 l 1.5355,-4.7175 l -4.0145,-2.923 l 4.958,0 z" fill="url(#py-emblem-gold)" />
 </g>
