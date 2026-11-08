@@ -4,13 +4,12 @@
 <defs><mask id="dj-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
 <linearGradient id="dj-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
 <linearGradient id="dj-green" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
-<linearGradient id="dj-blue" x1="72" y1="21.47450" x2="72" y2="71.89765" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient>
+<linearGradient id="dj-blue" x1="72" y1="21.47450" x2="72" y2="72.40000" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient>
 <linearGradient id="dj-red" x1="72" y1="60.25700" x2="72" y2="79.06720" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient></defs>
 <g mask="url(#dj-board)">
-<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#dj-white)" stroke="url(#dj-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.30698,21.4745 l 158.95347,0 l 0,100.84631 L 1.30698,122.32081 z" fill="url(#dj-green)" fill-rule="evenodd" stroke="url(#dj-green)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.30698,21.4745 l 158.95347,0 l 0,50.42315 L 1.30698,71.89765 z" fill="url(#dj-blue)" fill-rule="evenodd" stroke="url(#dj-blue)" stroke-width=".5" stroke-linejoin="round" />
-<path d="m 1.30698,21.4745 l 79.20767,50.36406 L 1.30698,122.12384 z" fill="url(#dj-white)" fill-rule="evenodd" stroke="url(#dj-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 34.38089,78.98841 L 28.0062,74.65517 l -6.354,4.41203 L 24.01166,71.89765 l -6.3333,-4.43172 l 7.84419,-0.05909 l 2.42156,-7.14985 l 2.48365,7.13015 l 7.84419,0 l -6.31261,4.47112 l 2.42156,7.16954 z" fill="url(#dj-red)" fill-rule="evenodd" />
+<path d="M -5 10 h 165 v 124 h -165 Z" fill="url(#dj-green)" />
+<path d="M -5 10 h 165 v 62.4 h -165 Z" fill="url(#dj-blue)" stroke="url(#dj-blue)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M -5 10 L -5 134 L 80.5 71.76355 Z" fill="url(#dj-white)" stroke="url(#dj-white)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 34.38089,78.98841 L 28.0062,74.65517 l -6.354,4.41203 L 24.01166,71.89765 l -6.3333,-4.43172 l 7.84419,-0.05909 l 2.42156,-7.14985 l 2.48365,7.13015 l 7.84419,0 l -6.31261,4.47112 l 2.42156,7.16954 z" fill="url(#dj-red)" fill-rule="evenodd" stroke="url(#dj-red)" stroke-width="0.4" stroke-linejoin="round" />
 </g>
 </svg>
