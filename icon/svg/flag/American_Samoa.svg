@@ -13,6 +13,6 @@
 <path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#as-white)" stroke="url(#as-white)" stroke-width=".5" stroke-linejoin="round" />
 <path d="M 1.329,21.4745 l 140.9162,0 l 0,100.5781 L 1.329,122.0526 Z" fill="url(#as-blue)" stroke="url(#as-blue)" stroke-width=".5" stroke-linejoin="round" />
 <path d="m 1.19689,71.76355 l 140.9162,-50.28905 l 0,100.5781 Z" fill="url(#as-red)" stroke="url(#as-red)" stroke-width=".5" stroke-linejoin="round" />
-<path d="m 14.47384,71.76355 l 127.70531,-44.90393 l 0,89.80786" fill="url(#as-white)" />
+<path d="M 14.47384 71.76355 L 142.17915 26.85962 L 142.17915 116.66748 Z" fill="url(#as-white)" stroke="url(#as-white)" stroke-width="0.6" stroke-linejoin="round" />
 <path d="M 83.15,67.86 Q 93.04,69.24 99.25,69.47 Q 100.86,63.26 105,63.26 Q 109.14,63.26 110.75,69.47 Q 116.96,69.24 126.85,67.86 Q 125.01,74.07 119.26,75.68 Q 117.42,80.74 111.9,81.43 Q 110.75,87.64 105,87.64 Q 99.25,87.64 98.1,81.43 Q 92.58,80.74 90.74,75.68 Q 84.99,74.07 83.15,67.86 Z" fill="url(#as-simple-gold)" /><path d="M 101.09,63.26 a 3.91,3.91 0 0,0 7.82,0 a 3.91,3.91 0 0,0 -7.82,0 Z" fill="url(#as-simple-gold)" /><path d="M 100.4,72.46 Q 105,70.85 109.6,72.46 L 109.6,79.82 Q 109.14,83.04 105,84.88 Q 100.86,83.04 100.4,79.82 Z" fill="url(#as-simple-red)" /><path d="M 102.585,77.75 a 2.415,2.415 0 0,0 4.83,0 a 2.415,2.415 0 0,0 -4.83,0 Z" fill="url(#as-simple-blue)" /><path d="M 103.965,76.6 a 1.035,1.035 0 0,0 2.07,0 a 1.035,1.035 0 0,0 -2.07,0 Z" fill="url(#as-simple-gold)" /></g>
 </svg>

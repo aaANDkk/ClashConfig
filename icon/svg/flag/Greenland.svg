@@ -5,8 +5,8 @@
 <linearGradient id="gl-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
 <linearGradient id="gl-red" x1="72" y1="38.23752" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient></defs>
 <g mask="url(#gl-board)">
-<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#gl-white)" stroke="url(#gl-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,21.4745 l 140.9162,0 l 0,100.5781 L 1.329,122.0526 z" fill="url(#gl-white)" stroke="url(#gl-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,71.76355 l 140.9162,0 l 0,50.28905 L 1.329,122.0526 z m 17.61453,0 a 35.229,33.526 0 0,0 70.4581,0 a 35.229,33.526 0 0,0 -70.4581,0" fill="url(#gl-red)" stroke="url(#gl-red)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#gl-white)" stroke="url(#gl-white)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329,21.4745 l 140.9162,0 l 0,100.5781 L 1.329,122.0526 z" fill="url(#gl-white)" stroke="url(#gl-white)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329,71.76355 l 140.9162,0 l 0,50.28905 L 1.329,122.0526 z m 17.61453,0 a 35.229,33.526 0 0,0 70.4581,0 a 35.229,33.526 0 0,0 -70.4581,0" fill="url(#gl-red)" stroke="url(#gl-red)" stroke-width="0.6" stroke-linejoin="round" />
 </g>
 </svg>

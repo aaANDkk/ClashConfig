@@ -8,9 +8,9 @@
 <linearGradient id="ls-black" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient>
 </defs>
 <g mask="url(#ls-board)">
-<path d="M 1.329 21.4745 h 140.9162 v 30.1734 h -140.9162 Z" fill="url(#ls-blue)" stroke="url(#ls-blue)" stroke_width="0.5" stroke-linejoin="round" />
-<path d="M 1.329 51.6479 h 140.9162 v 40.2312 h -140.9162 Z" fill="url(#ls-white)" stroke="url(#ls-white)" stroke_width="0.5" stroke-linejoin="round" />
-<path d="M 1.329 91.8792 h 140.9162 v 30.1734 h -140.9162 Z" fill="url(#ls-green)" stroke="url(#ls-green)" stroke_width="0.5" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 30.1734 h -140.9162 Z" fill="url(#ls-blue)" stroke="url(#ls-blue)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 51.6479 h 140.9162 v 40.2312 h -140.9162 Z" fill="url(#ls-white)" stroke="url(#ls-white)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 91.8792 h 140.9162 v 30.1734 h -140.9162 Z" fill="url(#ls-green)" stroke="url(#ls-green)" stroke-width="0.6" stroke-linejoin="round" />
 <path d="M 75.4611,74.0516 l 0,-13.464 l -7.348,0 l 0,13.464 L 59.2471,82.9395 a 14.674,14.674 0 0,0 25.08,0 z" fill="url(#ls-black)" />
 </g>
 </svg>

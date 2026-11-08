@@ -5,8 +5,8 @@
 <linearGradient id="bh-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
 <linearGradient id="bh-red" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient></defs>
 <g mask="url(#bh-board)">
-<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#bh-white)" stroke="url(#bh-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,21.4745 l 140.9162,0 l 0,100.5781 L 1.329,122.0526" fill="url(#bh-white)" stroke="url(#bh-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 142.2452,21.4745 L 22.46643,21.4745 l 24.3741,10.05781 L 22.46643,41.59012 l 24.3741,10.05781 L 22.46643,61.70574 l 24.3741,10.05781 L 22.46643,81.82136 l 24.3741,10.05781 L 22.46643,101.93698 l 24.3741,10.05781 L 22.46643,122.0526 l 119.77877,0" fill="url(#bh-red)" stroke="url(#bh-red)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#bh-white)" stroke="url(#bh-white)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#bh-white)" stroke="url(#bh-white)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 142.2452,21.4745 L 22.46643,21.4745 l 24.3741,10.05781 L 22.46643,41.59012 l 24.3741,10.05781 L 22.46643,61.70574 l 24.3741,10.05781 L 22.46643,81.82136 l 24.3741,10.05781 L 22.46643,101.93698 l 24.3741,10.05781 L 22.46643,122.0526 l 119.77877,0 Z" fill="url(#bh-red)" stroke="url(#bh-red)" stroke-width="0.6" stroke-linejoin="round" />
 </g>
 </svg>

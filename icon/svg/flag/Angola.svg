@@ -7,8 +7,8 @@
 <linearGradient id="ao-emblem-gold" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#E5AF00" /></linearGradient>
 </defs>
 <g mask="url(#ao-board)">
-<path d="M 1.329 21.4745 h 140.9162 v 50.2891 h -140.9162 Z" fill="url(#ao-red)" stroke="url(#ao-red)" stroke_width="0.5" stroke-linejoin="round" />
-<path d="M 1.329 71.7636 h 140.9162 v 50.2891 h -140.9162 Z" fill="url(#ao-black)" stroke="url(#ao-black)" stroke_width="0.5" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 50.2891 h -140.9162 Z" fill="url(#ao-red)" stroke="url(#ao-red)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 71.4 h 140.9162 v 50.7 h -140.9162 Z" fill="url(#ao-black)" stroke="url(#ao-black)" stroke-width="0.6" stroke-linejoin="round" />
 <path d="M 71.7871,46.1636 l 0,6.6 a 18.8,18.8 0 0,1 9.4,2.6 a 19,19 0 0,1 4.6,27.6 l -28.8,-15.6 a 6.6,6.6 0 0,0 2.6,9 l 20.8,11.4 a 19,19 0 0,1 -18,0.4 a 18.8,18.8 0 0,1 -6.4,-6 l -5.6,3.6 a 25.6,25.6 0 0,0 32,9.2 l 1,0.8 l 5.8,3.2 a 5.6,5.6 0 0,0 7.6,-2.2 l 3.2,-6 l -7.4,-4 l 1.4,-2.2 a 25.6,25.6 0 0,0 -9.4,-35 a 25.4,25.4 0 0,0 -12.8,-3.4 m 0,10 l -1.6,5.2 l -5.4,0 l 4.4,3 l -1.8,5.2 l 4.4,-3.2 l 4.4,3.2 l -1.8,-5.2 l 4.4,-3.2 l -5.4,0 z" fill="url(#ao-emblem-gold)" />
 </g>
 </svg>

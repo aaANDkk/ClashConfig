@@ -12,7 +12,7 @@
 <path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#za-white)" stroke="url(#za-white)" stroke-width=".5" stroke-linejoin="round" />
 <path d="M 1.32794,101.58168 L 1.32794,41.98257 L 47.95727,71.78212 z" fill="url(#za-black)" fill-rule="evenodd" />
 <path d="m 33.13662,122.0701 l 52.34705,-33.51222 L 159.83464,88.55788 L 159.83464,122.05045 L 33.13662,122.05045 z" fill="url(#za-blue)" fill-rule="evenodd" />
-<path d="M 29.79268,21.4745 l 130.04196,0 l 0,33.55151 L 85.46303,55.02601 S 30.47385,21.14056 29.79268,21.4745" fill="url(#za-red)" fill-rule="evenodd" />
+<path d="M 29.79268,21.4745 l 130.04196,0 l 0,33.55151 L 85.46303,55.02601 S 30.47385,21.14056 29.79268,21.4745 Z" fill="url(#za-red)" fill-rule="evenodd" />
 <path d="M 1.32794,34.04649 l 0,7.93607 L 47.95727,71.76248 L 1.3073,101.58168 l 0,7.91643 l 58.7253,-37.71598 z" fill="url(#za-yellow)" fill-rule="evenodd" />
 <path d="M 1.32794,34.04649 L 1.32794,21.4745 l 19.6095,0 l 62.17244,40.07323 l 76.7454,0 l 0,20.46878 L 83.10988,82.01651 L 20.9168,122.05045 l -19.58886,0 l 0,-12.55235 l 58.70466,-37.71598 L 1.34858,34.04649 z" fill="url(#za-teal)" fill-rule="evenodd" stroke="url(#za-teal)" stroke-width=".5" stroke-linejoin="round" />
 <path d="M 20.9168,21.4745 l 12.21982,0 l 52.34705,33.53187 L 159.83464,55.00637 L 159.83464,61.54773 L 83.10988,61.54773 z m 0,100.5956 l 12.21982,0 l 52.34705,-33.51222 L 159.83464,88.55788 l 0,-6.52172 L 83.10988,82.03615 L 20.9168,122.05045 z" fill="url(#za-white)" fill-rule="evenodd" stroke="url(#za-white)" stroke-width=".5" stroke-linejoin="round" />

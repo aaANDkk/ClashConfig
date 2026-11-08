@@ -12,7 +12,7 @@
 <linearGradient id="mz-emblem-black" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient>
 </defs>
 <g mask="url(#mz-board)">
-<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#mz-white)" stroke="url(#mz-white)" stroke_width="0.5" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#mz-white)" stroke="url(#mz-white)" stroke-width="0.6" stroke-linejoin="round" />
 <path d="M 1.329 21.4745 h 140.9162 v 29 h -140.9162 Z" fill="url(#mz-green)" />
 <path d="M 1.329 54.4745 h 140.9162 v 29 h -140.9162 Z" fill="url(#mz-black)" />
 <path d="M 1.329 87.4745 h 140.9162 v 34.5781 h -140.9162 Z" fill="url(#mz-yellow)" />
