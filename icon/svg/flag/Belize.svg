@@ -10,8 +10,8 @@
 <linearGradient id="bz-emblem-gold" x1="72" y1="63.1636" x2="72" y2="83.5886" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#E5AF00" /></linearGradient>
 </defs>
 <g mask="url(#bz-board)">
-<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#bz-red)" stroke="url(#bz-red)" stroke-width="0.6" stroke-linejoin="round" />
-<path d="M 1.329 34.4745 h 140.9162 v 74.5781 h -140.9162 Z" fill="url(#bz-blue)" stroke="url(#bz-blue)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#bz-red)" stroke="url(#bz-red)" stroke_width="0.5" stroke-linejoin="round" />
+<path d="M 1.329 34.4745 h 140.9162 v 74.5781 h -140.9162 Z" fill="url(#bz-blue)" stroke="url(#bz-blue)" stroke_width="0.5" stroke-linejoin="round" />
 <path d="M 45.4711 71.7636 a 26.316 26.316 0 1 0 52.632 0 a 26.316 26.316 0 1 0 -52.632 0 Z" fill="url(#bz-emblem-white)" />
 <path d="M 50.2441 71.7636 a 21.543 21.543 0 1 0 43.086 0 a 21.543 21.543 0 1 0 -43.086 0 Z" fill="url(#bz-emblem-green)" />
 <path d="M 57.4251 71.7636 a 14.362 14.362 0 1 0 28.724 0 a 14.362 14.362 0 1 0 -28.724 0 Z" fill="url(#bz-emblem-white)" />

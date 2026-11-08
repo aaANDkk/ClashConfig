@@ -9,9 +9,9 @@
 <linearGradient id="nc-emblem-black" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient>
 </defs>
 <g mask="url(#nc-board)">
-<path d="M 1.329 21.4745 h 140.9162 v 33.526 h -140.9162 Z" fill="url(#nc-blue)" stroke="url(#nc-blue)" stroke-width="0.6" stroke-linejoin="round" />
-<path d="M 1.329 55.0005 h 140.9162 v 33.526 h -140.9162 Z" fill="url(#nc-red)" stroke="url(#nc-red)" stroke-width="0.6" stroke-linejoin="round" />
-<path d="M 1.329 88.5266 h 140.9162 v 33.526 h -140.9162 Z" fill="url(#nc-green)" stroke="url(#nc-green)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 33.526 h -140.9162 Z" fill="url(#nc-blue)" stroke="url(#nc-blue)" stroke_width="0.5" stroke-linejoin="round" />
+<path d="M 1.329 55.0005 h 140.9162 v 33.526 h -140.9162 Z" fill="url(#nc-red)" stroke="url(#nc-red)" stroke_width="0.5" stroke-linejoin="round" />
+<path d="M 1.329 88.5266 h 140.9162 v 33.526 h -140.9162 Z" fill="url(#nc-green)" stroke="url(#nc-green)" stroke_width="0.5" stroke-linejoin="round" />
 <path d="M 84.2497,71.7635 a 33.6,33.6 0 0,1 -67.2,0 a 33.6,33.6 0 0,1 67.2,0 z" fill="url(#nc-emblem-gold)" />
 <path d="M 50.6497,36.5635 a 35.2,35.2 0 0,0 0,70.4 a 35.2,35.2 0 0,0 0,-70.4 z m -1.6,3.2 l 0,6.8 c -1.6,0.8 -2.8,1.6 -3,3.2 l -0.2,3.2 l 1.2,-0.6 l 2,-0.8 l 0,1.6 a 4.8,4.8 0 0,0 -3.2,4.6 a 4.8,4.8 0 0,0 3.2,4.4 l 0,1.6 l -4,0 l 0,3.2 l 4,0 l 0,1.6 a 4.8,4.8 0 0,0 -3.2,4.4 a 4.8,4.8 0 0,0 3.2,4.6 l 0,1.4 l -4,0 l 0,3.4 l 4,0 l 0,1.4 a 4.8,4.8 0 0,0 -3.2,4.6 a 4.8,4.8 0 0,0 3.2,4.4 l 0,1.6 c -2,0 -3.6,0.6 -4.6,1.4 c -1.4,1 -4.4,4 -6,5.6 a 32,32 0 0,1 10.6,-61.6 z m 3.2,0 a 32,32 0 0,1 10.2,61.8 l -6,-5.8 c -1,-0.8 -2.4,-1.2 -4.2,-1.4 l 0,-1.6 a 4.8,4.8 0 0,0 3.2,-4.4 a 4.8,4.8 0 0,0 -3.2,-4.6 l 0,-1.4 l 4.2,0 l 0,-3.2 l -4.2,0 l 0,-1.6 a 4.8,4.8 0 0,0 3.2,-4.6 a 4.8,4.8 0 0,0 -3.2,-4.4 l 0,-1.6 l 4.2,0 l 0,-3.2 l -4.2,0 l 0,-1.4 a 4.8,4.8 0 0,0 3.2,-4.6 a 4.8,4.8 0 0,0 -3.2,-4.6 l 0,-4 c 1.2,-1 2.2,-2.6 3.4,-4.6 c 0.8,-1.6 0.4,-2.2 0.4,-2.2 l -0.4,0.6 l -3.4,2.2 L 52.2497,39.7636 z" fill="url(#nc-emblem-black)" />
 </g>

@@ -7,7 +7,7 @@
 <linearGradient id="tk-emblem-gold" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#E5AF00" /></linearGradient>
 </defs>
 <g mask="url(#tk-board)">
-<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#tk-blue)" stroke="url(#tk-blue)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#tk-blue)" stroke="url(#tk-blue)" stroke_width="0.5" stroke-linejoin="round" />
 <path d="m 52.4271,48.5755 l 1.232,3.74 l 3.938,0 L 54.4071,54.6035 l 1.21,3.74 l -3.168,-2.31 l -3.19,2.31 l 1.21,-3.74 l -3.168,-2.31 l 3.916,0 z M 36.4771,75.5036 l 1.54,4.686 l 4.906,0 l -3.96,2.86 l 1.496,4.708 l -3.96,-2.904 l -3.982,2.904 l 1.518,-4.686 l -3.982,-2.882 l 4.906,0 z m 0,-39.16 l 1.54,4.664 l 4.906,0 l -3.96,2.882 l 1.496,4.686 l -3.96,-2.904 l -3.982,2.904 l 1.518,-4.686 l -3.982,-2.882 l 4.906,0 z M 24.2231,58.3436 l 1.518,4.686 L 30.6471,63.0296 l -3.96,2.904 l 1.518,4.664 l -3.982,-2.882 l -3.982,2.882 l 1.54,-4.664 l -4.004,-2.904 L 22.7271,63.0296 z" fill="url(#tk-emblem-white)" />
 <path d="M 101.6631,46.1116 L 42.9011,95.0836 l 79.574,0 l 0,-7.876 a 36.828,36.828 0 0,1 -21.538,-33.506 c 0,-2.574 0.22,-5.17 0.726,-7.59 z m 20.812,53.878 L 42.9011,99.9895 l 0,7.348 l 79.574,0 z" fill="url(#tk-emblem-gold)" />
 </g>

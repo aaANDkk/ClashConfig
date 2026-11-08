@@ -8,8 +8,8 @@
 <linearGradient id="gi-key-gold" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#E5AF00" /></linearGradient>
 </defs>
 <g mask="url(#gi-board)">
-<path d="M 1.329 21.4745 h 140.9162 v 67.0521 h -140.9162 Z" fill="url(#gi-white)" stroke="url(#gi-white)" stroke-width="0.6" stroke-linejoin="round" />
-<path d="M 1.329 88.5266 h 140.9162 v 33.526 h -140.9162 Z" fill="url(#gi-red)" stroke="url(#gi-red)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 67.0521 h -140.9162 Z" fill="url(#gi-white)" stroke="url(#gi-white)" stroke_width="0.5" stroke-linejoin="round" />
+<path d="M 1.329 88.5266 h 140.9162 v 33.526 h -140.9162 Z" fill="url(#gi-red)" stroke="url(#gi-red)" stroke_width="0.5" stroke-linejoin="round" />
 <path d="M 91.8271,56.3 L 91.8271,49.6 l 2.22,0 l 0,-4.46 L 89.5871,45.14 L 89.5871,47.4 l -4.44,0 l 0,-2.24 l -4.46,0 l 0,4.46 l 2.24,0 l 0,6.68 l -4.46,0 l 0,-15.6 l 2.22,0 l 0,-4.44 l -4.44,0 l 0,2.22 L 73.9871,38.48 l 0,-2.2 l -4.4,0 l 0,2.2 l -2.24,0 l 0,-2.2 l -4.44,0 l 0,4.44 l 2.22,0 l 0,15.58 l -4.46,0 L 60.6671,49.6 l 2.24,0 l 0,-4.46 l -4.46,0 L 58.4471,47.4 L 53.9871,47.4 l 0,-2.24 l -4.46,0 l 0,4.46 l 2.22,0 l 0,6.68 l -4.44,0 l 0,17.8 l 48.96,0 l 0,-17.8 z" fill="url(#gi-castle-red)" />
 <path d="M 71.7871,71.88 a 6.68,6.68 0 0,0 -2.22,12.98 l 0,9.28 l -6.68,0 l 0,8.9 L 73.9871,103.04 l 0,-18.2 a 6.68,6.68 0 0,0 -2.22,-12.96 z m 0,8.9 a 2.22,2.22 0 1,1 0,-4.44 a 2.22,2.22 0 0,1 0,4.44 z" fill="url(#gi-key-gold)" />
 </g>

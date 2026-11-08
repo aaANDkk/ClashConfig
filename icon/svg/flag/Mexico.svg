@@ -12,9 +12,9 @@
 <linearGradient id="mx-eagle" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#B63555" /><stop offset="1" stop-color="#77152C" /></linearGradient>
 </defs>
 <g mask="url(#mx-board)">
-<path d="M 1.329 21.4745 h 46.9721 v 100.5781 h -46.9721 Z" fill="url(#mx-green)" stroke="url(#mx-green)" stroke-width="0.6" stroke-linejoin="round" />
-<path d="M 48.3011 21.4745 h 46.9721 v 100.5781 h -46.9721 Z" fill="url(#mx-white)" stroke="url(#mx-white)" stroke-width="0.6" stroke-linejoin="round" />
-<path d="M 95.2731 21.4745 h 46.9721 v 100.5781 h -46.9721 Z" fill="url(#mx-red)" stroke="url(#mx-red)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 46.9721 v 100.5781 h -46.9721 Z" fill="url(#mx-green)" stroke="url(#mx-green)" stroke_width="0.5" stroke-linejoin="round" />
+<path d="M 48.3011 21.4745 h 46.9721 v 100.5781 h -46.9721 Z" fill="url(#mx-white)" stroke="url(#mx-white)" stroke_width="0.5" stroke-linejoin="round" />
+<path d="M 95.2731 21.4745 h 46.9721 v 100.5781 h -46.9721 Z" fill="url(#mx-red)" stroke="url(#mx-red)" stroke_width="0.5" stroke-linejoin="round" />
 <path d="M 53.3871,67.5636 a 1,1 0 0,0 -1,1 a 19.4,19.4 0 0,0 38.8,0 a 1,1 0 0,0 -1,-1 a 1,1 0 0,0 -1,1 a 17.4,17.4 0 0,1 -34.8,0 a 1,1 0 0,0 -1,-1 m 7,5 l -0.8,0.2 q -0.6,0.8 0.2,1.6 q 4.6,4.2 10.8,4.8 l 0,3.4 l 2.4,0 l 0,-3.4 q 6.2,-0.6 10.8,-4.8 q 0.8,-0.8 0.2,-1.6 q -0.8,-0.6 -1.6,0 a 15.6,15.6 0 0,1 -21.2,0 z" fill="url(#mx-wreath)" />
 <path d="M 71.7871,83.7635 q -4.2,0 -8,-2.6 l 1.2,-1.8 c 4,2.6 9.6,2.6 13.6,0 l 1.4,1.8 q -3.6,2.6 -8.2,2.6" fill="url(#mx-lake)" />
 <path d="M 68.3871,82.5636 l 6.8,0 l 0,2.2 l -6.8,0 z" fill="url(#mx-rock)" />

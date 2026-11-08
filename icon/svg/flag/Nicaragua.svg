@@ -10,8 +10,8 @@
 <linearGradient id="ni-emblem-green" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
 </defs>
 <g mask="url(#ni-board)">
-<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#ni-blue)" stroke="url(#ni-blue)" stroke-width="0.6" stroke-linejoin="round" />
-<path d="M 1.329 54.8 h 140.9162 v 34.0 h -140.9162 Z" fill="url(#ni-white)" stroke="url(#ni-white)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#ni-blue)" stroke="url(#ni-blue)" stroke_width="0.5" stroke-linejoin="round" />
+<path d="M 1.329 55.0005 h 140.9162 v 33.526 h -140.9162 Z" fill="url(#ni-white)" stroke="url(#ni-white)" stroke_width="0.5" stroke-linejoin="round" />
 <path d="M 71.7871,57.7236 a 14.04,14.04 0 0,0 0,28.08 a 14.04,14.04 0 0,0 0,-28.08 z m 0,22.05 a 8.01,8.01 0 0,1 0,-16.02 a 8.01,8.01 0 0,1 0,16.02 z" fill="url(#ni-emblem-gold)" />
 <path d="M 78.7351,73.7615 L 71.7871,71.7635 l -6.948,1.998 l -2.304,4.014 l 18.504,0 z" fill="url(#ni-emblem-blue)" />
 <path d="M 71.7871,61.7375 L 67.1611,69.7836 l 4.626,1.98 l 4.626,-1.998 z" fill="url(#ni-emblem-sky)" />

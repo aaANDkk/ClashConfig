@@ -10,7 +10,7 @@
 <linearGradient id="eac-red" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
 </defs>
 <g mask="url(#eac-board)">
-<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#eac-sky)" stroke="url(#eac-sky)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#eac-sky)" stroke="url(#eac-sky)" stroke_width="0.5" stroke-linejoin="round" />
 <path d="M -1.671 21.4745 h 146.9162 v 28.2019 h -146.9162 Z" fill="url(#eac-sky)" />
 <path d="M -1.671 49.6364 h 146.9162 v 4.0631 h -146.9162 Z" fill="url(#eac-white)" />
 <path d="M -1.671 53.6595 h 146.9162 v 7.0805 h -146.9162 Z" fill="url(#eac-black)" />

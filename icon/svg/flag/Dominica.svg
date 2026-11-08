@@ -10,7 +10,7 @@
 <linearGradient id="dm-emblem-green" x1="72" y1="46.0000" x2="72" y2="97.0000" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
 </defs>
 <g mask="url(#dm-board)">
-<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#dm-green)" stroke="url(#dm-green)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#dm-green)" stroke="url(#dm-green)" stroke_width="0.5" stroke-linejoin="round" />
 <path d="M 1.329,60.58821 h 140.9162 v 7.51506 H 1.329 Z" fill="url(#dm-yellow)" />
 <path d="M 1.329,68.10326 h 140.9162 v 7.31852 H 1.329 Z" fill="url(#dm-black)" />
 <path d="M 1.329,75.42178 h 140.9162 v 7.51506 H 1.329 Z" fill="url(#dm-white)" />

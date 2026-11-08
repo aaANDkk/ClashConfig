@@ -2,7 +2,7 @@
 
 共 **270** 个 SVG，统一为 **144×144**。按英文文件名排序，点击图标或文件名可查看原始素材。
 
-[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/flags-overview.png?v=787e6f77ada7) · [可缩放 SVG 总览](../../../docs/assets/flags-overview.svg?v=3e59128769d5)
+[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/flags-overview.png?v=13bda3e9e201) · [可缩放 SVG 总览](../../../docs/assets/flags-overview.svg?v=d17e7c35ac0c)
 
 素材库展示全部地区和组织旗帜；JS 仅匹配 51 个常见机场地区。
 

@@ -9,8 +9,8 @@
 <linearGradient id="pf-emblem-red" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
 </defs>
 <g mask="url(#pf-board)">
-<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#pf-red)" stroke="url(#pf-red)" stroke-width="0.6" stroke-linejoin="round" />
-<path d="M 1.329 46.4 h 140.9162 v 50.7 h -140.9162 Z" fill="url(#pf-white)" stroke="url(#pf-white)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#pf-red)" stroke="url(#pf-red)" stroke_width="0.5" stroke-linejoin="round" />
+<path d="M 1.329 46.619 h 140.9162 v 50.2891 h -140.9162 Z" fill="url(#pf-white)" stroke="url(#pf-white)" stroke_width="0.5" stroke-linejoin="round" />
 <path d="M 88.2521,71.782 c 0,9.102 -7.363,14.43 -16.465,14.43 s -16.465,-5.328 -16.465,-14.43 a 16.465,16.465 0 0,1 32.93,0 z" fill="url(#pf-emblem-gold)" />
 <path d="M 88.2521,71.782 a 16.465,16.465 0 0,1 -32.93,0" fill="url(#pf-emblem-blue)" />
 <path d="M 61.4826,67.6565 l 4.1255,0 l 0,8.251 l -4.1255,0 z m 16.465,0 l 4.144,0 l 0,8.251 l -4.1255,0 z M 69.7521,61.4776 l 4.07,0 l 0,14.43 l -4.07,0 z" fill="url(#pf-emblem-red)" />

@@ -2,18 +2,18 @@
 <title>赤道几内亚</title>
 <defs>
 <mask id="gq-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.9608 0 13.4413 0 16.8638 1.7439 a 16 16 0 0 1 6.9923 6.9923 c 1.7439 3.4226 1.7439 7.903 1.7439 16.8638 L 142.2452 96.4526 c 0 8.9608 0 13.4413 -1.7439 16.8638 a 16 16 0 0 1 -6.9923 6.9923 c -3.4226 1.7439 -7.903 1.7439 -16.8638 1.7439 L 26.929 122.0526 c -8.9608 0 -13.4413 0 -16.8638 -1.7439 a 16 16 0 0 1 -6.9923 -6.9923 c -1.7439 -3.4226 -1.7439 -7.903 -1.7439 -16.8638 L 1.329 47.0745 c 0 -8.9608 0 -13.4413 1.7439 -16.8638 a 16 16 0 0 1 6.9923 -6.9923 c 3.4226 -1.7439 7.903 -1.7439 16.8638 -1.7439 Z" fill="#FFFFFF" /></mask>
-<linearGradient id="gq-green" x1="72" y1="21.4745" x2="72" y2="55.4" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
-<linearGradient id="gq-white" x1="72" y1="21.4745" x2="72" y2="88.9" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
-<linearGradient id="gq-red" x1="72" y1="88.3" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
+<linearGradient id="gq-green" x1="72" y1="21.4745" x2="72" y2="55.0005" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
+<linearGradient id="gq-white" x1="72" y1="55.0005" x2="72" y2="88.5266" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="gq-red" x1="72" y1="88.5266" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
 <linearGradient id="gq-blue" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient>
 <linearGradient id="gq-trunk" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#BB8D58" /><stop offset="1" stop-color="#785334" /></linearGradient>
 <linearGradient id="gq-tree" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
 </defs>
 <g mask="url(#gq-board)">
-<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#gq-red)" stroke="url(#gq-red)" stroke-width="0.6" stroke-linejoin="round" />
-<path d="M 1.329 21.4745 h 140.9162 v 67.4 h -140.9162 Z" fill="url(#gq-white)" stroke="url(#gq-white)" stroke-width="0.6" stroke-linejoin="round" />
-<path d="M 1.329 21.4745 h 140.9162 v 33.9 h -140.9162 Z" fill="url(#gq-green)" stroke="url(#gq-green)" stroke-width="0.6" stroke-linejoin="round" />
-<path d="M 1.329 21.4745 L 40.959 71.76355 L 1.329 122.0526 Z" fill="url(#gq-blue)" stroke="url(#gq-blue)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 33.526 h -140.9162 Z" fill="url(#gq-green)" stroke="url(#gq-green)" stroke_width="0.5" stroke-linejoin="round" />
+<path d="M 1.329 55.0005 h 140.9162 v 33.526 h -140.9162 Z" fill="url(#gq-white)" stroke="url(#gq-white)" stroke_width="0.5" stroke-linejoin="round" />
+<path d="M 1.329 88.5266 h 140.9162 v 33.526 h -140.9162 Z" fill="url(#gq-red)" stroke="url(#gq-red)" stroke_width="0.5" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 L 40.959 71.76355000000001 L 1.329 122.05260000000001 Z" fill="url(#gq-blue)" />
 <path d="M 74.2671,72.1155 l 7.104,0 l 0,10.336 l -7.136,0 z" fill="url(#gq-trunk)" />
 <path d="M 84.9231,68.2435 a 7.136,7.136 0 1,0 -14.24,0 a 3.552,3.552 0 1,0 0,7.072 l 14.24,0 a 3.552,3.552 0 1,0 0,-7.104 z" fill="url(#gq-tree)" />
 </g>

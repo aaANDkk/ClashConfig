@@ -8,7 +8,7 @@
 <linearGradient id="es-ga-emblem-blue" x1="72" y1="55.0000" x2="72" y2="98.0000" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient>
 </defs>
 <g mask="url(#es-ga-board)">
-<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#es-ga-white)" stroke="url(#es-ga-white)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#es-ga-white)" stroke="url(#es-ga-white)" stroke_width="0.5" stroke-linejoin="round" />
 <path d="M 1.329,34.819 L 1.329,21.4745 L 22.14,21.4745 L 142.2452,107.7525 L 142.2452,122.0526 L 122.7905,122.0526 Z" fill="url(#es-ga-sky)" />
 <path d="m 62.3371,59.3736 l 9.66,3.444 l 9.24,-3.444 l 0,-7.98 l -3.78,1.89 l -5.67,-5.67 l -5.67,5.67 l -3.78,-1.89 z" fill="url(#es-ga-emblem-red)" />
 <path d="M 57.0871,59.3736 l 0,21.63 a 14.7,14.7 0 0,0 29.4,0 L 86.4871,59.3736 z" fill="url(#es-ga-emblem-blue)" />

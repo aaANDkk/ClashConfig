@@ -7,8 +7,8 @@
 <linearGradient id="bo-green" x1="72" y1="88.5266" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
 </defs>
 <g mask="url(#bo-board)">
-<path d="M 1.329 21.4745 h 140.9162 v 33.8 h -140.9162 Z" fill="url(#bo-red)" stroke="url(#bo-red)" stroke-width="0.6" stroke-linejoin="round" />
-<path d="M 1.329 54.8 h 140.9162 v 34.0 h -140.9162 Z" fill="url(#bo-yellow)" stroke="url(#bo-yellow)" stroke-width="0.6" stroke-linejoin="round" />
-<path d="M 1.329 88.3 h 140.9162 v 33.8 h -140.9162 Z" fill="url(#bo-green)" stroke="url(#bo-green)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 33.526 h -140.9162 Z" fill="url(#bo-red)" stroke="url(#bo-red)" stroke_width="0.5" stroke-linejoin="round" />
+<path d="M 1.329 55.0005 h 140.9162 v 33.526 h -140.9162 Z" fill="url(#bo-yellow)" stroke="url(#bo-yellow)" stroke_width="0.5" stroke-linejoin="round" />
+<path d="M 1.329 88.5266 h 140.9162 v 33.526 h -140.9162 Z" fill="url(#bo-green)" stroke="url(#bo-green)" stroke_width="0.5" stroke-linejoin="round" />
 </g>
 </svg>
