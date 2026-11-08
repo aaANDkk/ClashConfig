@@ -6,9 +6,10 @@
 <linearGradient id="is-blue" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient>
 <linearGradient id="is-red" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient></defs>
 <g mask="url(#is-board)">
-<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#is-white)" stroke="url(#is-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,21.4745 l 146.79505,0 l 0,100.5781 L 1.329,122.0526 z" fill="url(#is-blue)" fill-rule="evenodd" stroke="url(#is-blue)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,60.59519 l 41.1079,0 L 42.4369,21.4745 l 23.47135,0 l 0,39.12069 l 82.2158,0 l 0,22.33672 L 65.90825,82.93191 L 65.90825,122.0526 L 42.4369,122.0526 L 42.4369,82.93191 L 1.329,82.93191 z" fill="url(#is-white)" fill-rule="evenodd" stroke="url(#is-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,66.16889 l 46.96473,0 L 48.29373,21.4745 l 11.7577,0 l 0,44.69439 l 88.07263,0 l 0,11.18931 l -88.07263,0 L 60.05142,122.0526 l -11.7577,0 L 48.29373,77.35821 L 1.329,77.35821 z" fill="url(#is-red)" fill-rule="evenodd" stroke="url(#is-red)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M -5 10 h 155 v 124 h -155 Z" fill="url(#is-blue)" />
+<path d="M 42.4369 10 h 23.47135 v 124 h -23.47135 Z" fill="url(#is-white)" stroke="url(#is-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M -5 60.59519 h 155 v 22.33672 h -155 Z" fill="url(#is-white)" stroke="url(#is-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M 48.29373 10 h 11.75769 v 124 h -11.75769 Z" fill="url(#is-red)" stroke="url(#is-red)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M -5 66.16889 h 155 v 11.18931 h -155 Z" fill="url(#is-red)" stroke="url(#is-red)" stroke-width=".5" stroke-linejoin="round" />
 </g>
 </svg>

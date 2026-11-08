@@ -6,8 +6,8 @@
 <linearGradient id="se-blue" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient>
 <linearGradient id="se-yellow" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#F7BE00" /></linearGradient></defs>
 <g mask="url(#se-board)">
-<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#se-white)" stroke="url(#se-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,21.4745 l 140.9162,0 l 0,100.5781 L 1.329,122.0526 z" fill="url(#se-blue)" stroke="url(#se-blue)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 40.08096,21.4745 l 0,40.23124 L 1.329,61.70574 l 0,20.11562 l 38.75196,0 l 0,40.23124 l 21.13743,0 L 61.21838,81.82136 l 81.02681,0 l 0,-20.11562 L 61.21838,61.70574 L 61.21838,21.4745 z" fill="url(#se-yellow)" stroke="url(#se-yellow)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M -5 10 h 155 v 124 h -155 Z" fill="url(#se-blue)" />
+<path d="M 40.08096 10 h 21.13742 v 124 h -21.13742 Z" fill="url(#se-yellow)" stroke="url(#se-yellow)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M -5 61.70574 h 155 v 20.11562 h -155 Z" fill="url(#se-yellow)" stroke="url(#se-yellow)" stroke-width=".5" stroke-linejoin="round" />
 </g>
 </svg>

@@ -5,9 +5,8 @@
 <linearGradient id="gb-eng-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
 <linearGradient id="gb-eng-red" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient></defs>
 <g mask="url(#gb-eng-board)">
-<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#gb-eng-white)" stroke="url(#gb-eng-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,21.4745 l 140.9162,0 l 0,100.5781 L 1.329,122.0526 z" fill="url(#gb-eng-white)" stroke="url(#gb-eng-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 63.33213,21.4745 l 16.90994,0 l 0,100.5781 l -16.90994,0 z" fill="url(#gb-eng-red)" stroke="url(#gb-eng-red)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,63.7173 l 140.9162,0 l 0,16.0925 L 1.329,79.8098 z" fill="url(#gb-eng-red)" stroke="url(#gb-eng-red)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M -5 10 h 155 v 124 h -155 Z" fill="url(#gb-eng-white)" />
+<path d="M 63.33213 10 h 16.90994 v 124 h -16.90994 Z" fill="url(#gb-eng-red)" stroke="url(#gb-eng-red)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M -5 63.7173 h 155 v 16.0925 h -155 Z" fill="url(#gb-eng-red)" stroke="url(#gb-eng-red)" stroke-width=".5" stroke-linejoin="round" />
 </g>
 </svg>

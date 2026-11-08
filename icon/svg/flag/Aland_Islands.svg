@@ -7,11 +7,10 @@
 <linearGradient id="ax-yellow" x1="72" y1="21.47450" x2="72" y2="122.05197" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#F7BE00" /></linearGradient>
 <linearGradient id="ax-red" x1="72" y1="21.47450" x2="72" y2="122.05197" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient></defs>
 <g mask="url(#ax-board)">
-<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#ax-white)" stroke="url(#ax-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M -11.88189,21.45355 l 161.64321,0 l 0,100.59843 L -11.88189,122.05197 z" fill="url(#ax-blue)" stroke="url(#ax-blue)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 37.85448,21.45355 l 31.08523,0 l 0,100.59843 L 37.85448,122.05197 z" fill="url(#ax-yellow)" stroke="url(#ax-yellow)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M -11.88189,56.95887 l 161.64321,0 l 0,29.58777 L -11.88189,86.54664 z" fill="url(#ax-yellow)" />
-<path d="M 47.18005,21.45355 l 12.43409,0 l 0,100.59843 L 47.18005,122.05197 z" fill="url(#ax-red)" stroke="url(#ax-red)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M -11.88189,65.8352 l 161.64321,0 l 0,11.83511 L -11.88189,77.67031 z" fill="url(#ax-red)" />
+<path d="M -15 10 h 170 v 124 h -170 Z" fill="url(#ax-blue)" />
+<path d="M 37.85448 10 h 31.08523 v 124 h -31.08523 Z" fill="url(#ax-yellow)" stroke="url(#ax-yellow)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M -15 56.95887 h 170 v 29.58777 h -170 Z" fill="url(#ax-yellow)" />
+<path d="M 47.18005 10 h 12.43409 v 124 h -12.43409 Z" fill="url(#ax-red)" stroke="url(#ax-red)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M -15 65.8352 h 170 v 11.83511 h -170 Z" fill="url(#ax-red)" />
 </g>
 </svg>

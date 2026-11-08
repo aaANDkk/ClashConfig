@@ -5,9 +5,8 @@
 <linearGradient id="fi-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F4F4F4" /><stop offset="1" stop-color="#E5E5E5" /></linearGradient>
 <linearGradient id="fi-blue" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#00AEE5" /><stop offset="1" stop-color="#004797" /></linearGradient></defs>
 <g mask="url(#fi-board)">
-<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#fi-white)" stroke="url(#fi-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,21.4745 l 140.9162,0 l 0,100.5781 L 1.329,122.0526 z" fill="url(#fi-white)" stroke="url(#fi-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,58.03883 l 140.9162,0 l 0,27.44944 L 1.329,85.48827 z" fill="url(#fi-blue)" stroke="url(#fi-blue)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 39.97086,21.4745 l 28.82177,0 l 0,100.5781 l -28.84378,0 z" fill="url(#fi-blue)" stroke="url(#fi-blue)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M -5 10 h 155 v 124 h -155 Z" fill="url(#fi-white)" />
+<path d="M 39.97086 10 h 28.82177 v 124 h -28.82177 Z" fill="url(#fi-blue)" stroke="url(#fi-blue)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M -5 58.03883 h 155 v 27.44944 h -155 Z" fill="url(#fi-blue)" stroke="url(#fi-blue)" stroke-width=".5" stroke-linejoin="round" />
 </g>
 </svg>

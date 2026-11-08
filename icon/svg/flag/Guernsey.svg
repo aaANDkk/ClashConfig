@@ -6,10 +6,9 @@
 <linearGradient id="gg-red" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
 <linearGradient id="gg-yellow" x1="72" y1="27.76063" x2="72" y2="115.76647" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#F7BE00" /></linearGradient></defs>
 <g mask="url(#gg-board)">
-<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#gg-white)" stroke="url(#gg-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,21.4745 l 140.9162,0 l 0,100.5781 L 1.329,122.0526 z" fill="url(#gg-white)" stroke="url(#gg-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 57.69548,21.4745 l 28.18324,0 l 0,100.5781 L 57.69548,122.0526 z" fill="url(#gg-red)" stroke="url(#gg-red)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,58.35314 l 140.9162,0 l 0,26.82083 L 1.329,85.17396 z" fill="url(#gg-red)" stroke="url(#gg-red)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M -5 10 h 155 v 124 h -155 Z" fill="url(#gg-white)" />
+<path d="M 57.69548 10 h 28.18324 v 124 h -28.18324 Z" fill="url(#gg-red)" stroke="url(#gg-red)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M -5 58.35314 h 155 v 26.82083 h -155 Z" fill="url(#gg-red)" stroke="url(#gg-red)" stroke-width=".5" stroke-linejoin="round" />
 <path d="m 25.54897,81.54896 l 5.13023,-4.90318 l 46.23813,0 l 0,-9.76446 l -46.23813,0 L 25.54897,61.97814 z" fill="url(#gg-yellow)" />
 <path d="m 61.50462,27.76063 l 5.15225,4.88223 l 0,44.00292 l 10.26046,0 l -0,-44.00292 L 82.06958,27.76063 z" fill="url(#gg-yellow)" />
 <path d="m 82.06958,115.76647 l -5.15225,-4.88223 l 0,-44.00292 l -10.26046,0 l -0,44.00292 L 61.50462,115.76647 z" fill="url(#gg-yellow)" />

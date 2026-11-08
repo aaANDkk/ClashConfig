@@ -5,9 +5,8 @@
 <linearGradient id="dk-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
 <linearGradient id="dk-red" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient></defs>
 <g mask="url(#dk-board)">
-<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#dk-white)" stroke="url(#dk-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,21.4745 l 140.93822,0 l 0,100.5781 L 1.329,122.0526 z" fill="url(#dk-red)" stroke="url(#dk-red)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 46.62035,21.4745 l 15.10446,0 l 0,100.5781 l -15.10446,0 z" fill="url(#dk-white)" stroke="url(#dk-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,64.57641 l 140.93822,0 l 0,14.37429 L 1.329,78.95069 z" fill="url(#dk-white)" stroke="url(#dk-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M -5 10 h 155 v 124 h -155 Z" fill="url(#dk-red)" />
+<path d="M 46.62035 10 h 15.10446 v 124 h -15.10446 Z" fill="url(#dk-white)" stroke="url(#dk-white)" stroke-width=".5" stroke-linejoin="round" />
+<path d="M -5 64.57641 h 155 v 14.37429 h -155 Z" fill="url(#dk-white)" stroke="url(#dk-white)" stroke-width=".5" stroke-linejoin="round" />
 </g>
 </svg>
