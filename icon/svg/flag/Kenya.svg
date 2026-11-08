@@ -1,27 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
 <title>肯尼亚</title>
-
-<defs><mask id="ke-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
-<linearGradient id="ke-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
-<linearGradient id="ke-black" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient>
-<linearGradient id="ke-green" x1="72" y1="91.87917" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
-<linearGradient id="ke-red" x1="72" y1="41.59012" x2="72" y2="101.93698" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient></defs>
+<defs>
+<mask id="ke-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.9608 0 13.4413 0 16.8638 1.7439 a 16 16 0 0 1 6.9923 6.9923 c 1.7439 3.4226 1.7439 7.903 1.7439 16.8638 L 142.2452 96.4526 c 0 8.9608 0 13.4413 -1.7439 16.8638 a 16 16 0 0 1 -6.9923 6.9923 c -3.4226 1.7439 -7.903 1.7439 -16.8638 1.7439 L 26.929 122.0526 c -8.9608 0 -13.4413 0 -16.8638 -1.7439 a 16 16 0 0 1 -6.9923 -6.9923 c -1.7439 -3.4226 -1.7439 -7.903 -1.7439 -16.8638 L 1.329 47.0745 c 0 -8.9608 0 -13.4413 1.7439 -16.8638 a 16 16 0 0 1 6.9923 -6.9923 c 3.4226 -1.7439 7.903 -1.7439 16.8638 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="ke-white" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="ke-black" x1="72" y1="21.4745" x2="72" y2="51.6479" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient>
+<linearGradient id="ke-red" x1="72" y1="53.6595" x2="72" y2="89.8676" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
+<linearGradient id="ke-green" x1="72" y1="91.8792" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
+<linearGradient id="ke-emblem-white" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF" /><stop offset="1" stop-color="#E8E8E8" /></linearGradient>
+<linearGradient id="ke-emblem-black" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient>
+<linearGradient id="ke-emblem-red" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
+</defs>
 <g mask="url(#ke-board)">
-<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#ke-white)" stroke="url(#ke-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,21.4745 l 140.9162,0 l 0,100.5781 L 1.329,122.0526 z" fill="url(#ke-white)" stroke="url(#ke-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,21.4745 l 140.9162,0 l 0,30.17343 L 1.329,51.64793 z" fill="url(#ke-black)" stroke="url(#ke-black)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,91.87917 l 140.9162,0 l 0,30.17343 L 1.329,122.0526 z" fill="url(#ke-green)" stroke="url(#ke-green)" stroke-width=".5" stroke-linejoin="round" />
-<path d="m 52.89552,101.62267 l 1.18898,0.62861 l 30.84744,-50.91766 c 1.78347,-0.37717 2.77429,-2.01156 3.7651,-3.64596 c 0.66054,-1.1315 3.30272,-5.46893 4.42565,-11.12645 a 38.3116,36.4596 0 0,0 -7.86048,9.24061 c -0.99082,1.63439 -1.98163,3.26879 -1.51925,4.96604 z" fill="url(#ke-black)" stroke-miterlimit="10" stroke="#181616" stroke-width="0.64458" />
-<path d="m 52.89552,101.62267 l 1.18898,0.62861 l 30.84744,-50.91766 c 1.78347,-0.37717 2.77429,-2.01156 3.7651,-3.64596 c 0.66054,-1.1315 3.30272,-5.46893 4.42565,-11.12645 a 38.3116,36.4596 0 0,0 -7.86048,9.24061 c -0.99082,1.63439 -1.98163,3.26879 -1.51925,4.96604 z" fill="url(#ke-white)" />
-<path d="m 90.67868,101.62267 l -1.18898,0.62861 l -30.84744,-50.91766 c -1.78347,-0.37717 -2.77429,-2.01156 -3.7651,-3.64596 c -0.66054,-1.1315 -3.30272,-5.46893 -4.42565,-11.12645 a 38.3116,36.4596 180 0,1 7.86048,9.24061 c 0.99082,1.63439 1.98163,3.26879 1.51925,4.96604 z" fill="url(#ke-black)" stroke-miterlimit="10" stroke="#181616" stroke-width="0.64458" />
-<path d="m 90.67868,101.62267 l -1.18898,0.62861 l -30.84744,-50.91766 c -1.78347,-0.37717 -2.77429,-2.01156 -3.7651,-3.64596 c -0.66054,-1.1315 -3.30272,-5.46893 -4.42565,-11.12645 a 38.3116,36.4596 180 0,1 7.86048,9.24061 c 0.99082,1.63439 1.98163,3.26879 1.51925,4.96604 z" fill="url(#ke-white)" />
-<path d="M 142.35529,56.67683 L 84.33745,56.67683 c -1.98163,-5.0289 -8.58708,-15.08671 -12.55035,-15.08671 s -10.56871,10.05781 -12.55035,15.08671 L 1.28496,56.67683 l 0,30.17343 L 59.23675,86.85026 c 1.98163,5.0289 8.58708,15.08671 12.55035,15.08671 s 10.56871,-10.05781 12.55035,-15.08671 l 58.01784,0 z" fill="url(#ke-red)" stroke="url(#ke-red)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 84.33745,86.85026 c 1.98163,-5.0289 3.30272,-10.05781 3.30272,-15.08671 s -1.32109,-10.05781 -3.30272,-15.08671 c -1.98163,5.0289 -3.30272,10.05781 -3.30272,15.08671 s 1.32109,10.05781 3.30272,15.08671" fill="url(#ke-black)" />
-<path d="M 59.23675,86.85026 c -1.98163,-5.0289 -3.30272,-10.05781 -3.30272,-15.08671 s 1.32109,-10.05781 3.30272,-15.08671 c 1.98163,5.0289 3.30272,10.05781 3.30272,15.08671 s -1.32109,10.05781 -3.30272,15.08671" fill="url(#ke-black)" />
-<path d="M 74.42928,71.76355 A 2.64218,3.77168 0 0,1 71.7871,75.53523 A 2.64218,3.77168 0 0,1 69.14492,71.76355 A 2.64218,3.77168 0 0,1 71.7871,67.99187 A 2.64218,3.77168 0 0,1 74.42928,71.76355 Z" fill="url(#ke-white)" />
-<path d="M 72.44764,75.40951 s 2.64218,5.0289 2.64218,13.20088 s -2.64218,13.20088 -2.64218,13.20088 z" fill="url(#ke-white)" />
-<path d="M 71.12656,68.11759 s -2.64218,-5.0289 -2.64218,-13.20088 s 2.64218,-13.20088 2.64218,-13.20088 z" fill="url(#ke-white)" />
-<path d="M 71.12656,75.40951 s -2.64218,5.0289 -2.64218,13.20088 s 2.64218,13.20088 2.64218,13.20088 z" fill="url(#ke-white)" />
-<path d="M 72.44764,68.11759 s 2.64218,-5.0289 2.64218,-13.20088 s -2.64218,-13.20088 -2.64218,-13.20088 z" fill="url(#ke-white)" />
+<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#ke-white)" stroke="url(#ke-white)" stroke_width="0.5" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 30.1734 h -140.9162 Z" fill="url(#ke-black)" />
+<path d="M 1.329 53.6595 h 140.9162 v 36.2081 h -140.9162 Z" fill="url(#ke-red)" />
+<path d="M 1.329 91.8792 h 140.9162 v 30.1734 h -140.9162 Z" fill="url(#ke-green)" />
+<path d="m 87.7671,44.2236 l -6.06,-2.8 l -9.88,22.38 l -9.88,-22.38 l -6.06,2.8 l 13.9,31.42 l -13.9,31.42 l 6.06,2.8 l 9.88,-22.4 l 9.88,22.4 l 6.06,-2.8 l -13.9,-31.42 z" fill="url(#ke-emblem-white)" />
+<path d="M 71.8271,42.8235 s -1.4,1.16 -3.34,3.2 l -3.2,25.52 l 3.2,25.96 c 1.94,2.04 3.34,3.2 3.34,3.2 s 1.4,-1.16 3.34,-3.2 l 3.2,-25.96 l -3.2,-25.52 c -1.94,-2.04 -3.34,-3.2 -3.34,-3.2 z" fill="url(#ke-emblem-white)" />
+<path d="m 82.9671,56.4036 l -2,15.1 l 2,15.62 A 31.72,31.72 0 0,0 87.3871,71.7635 a 31.72,31.72 0 0,0 -4.42,-15.36 z M 60.6871,56.4036 A 31.72,31.72 0 0,0 56.2671,71.7635 c 0,5.7 1.52,10.96 4.16,15.44 l 2.5,-15.26 z" fill="url(#ke-emblem-black)" />
+<path d="M 60.6871,56.4036 l 0,30.72 a 53.8,53.8 0 0,0 7.8,10.38 L 68.4871,46.0236 c -2.28,2.78 -5.14,6.6 -7.8,10.38 z m 14.4,30.72 L 75.0871,56.4036 c -2.66,-3.78 -5.52,-7.6 -7.8,-10.38 l 0,51.48 a 53.8,53.8 0 0,0 7.8,-10.38 z" fill="url(#ke-emblem-red)" />
 </g>
 </svg>

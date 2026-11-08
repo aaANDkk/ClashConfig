@@ -1,23 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
 <title>东非共同体</title>
-
-<defs><mask id="eac-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
-<linearGradient id="eac-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
-<linearGradient id="eac-blue" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient>
-<linearGradient id="eac-red" x1="72" y1="62.19536" x2="72" y2="89.86761" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
-<linearGradient id="eac-black" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient>
-<linearGradient id="eac-yellow" x1="72" y1="56.76412" x2="72" y2="81.74415" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#F7BE00" /></linearGradient>
-<linearGradient id="eac-green" x1="72" y1="60.01901" x2="72" y2="88.03487" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient><linearGradient id="eac-simple-green" x1="72" y1="21.4745" x2="72" y2="122.05260000000001" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient><linearGradient id="eac-simple-gold" x1="72" y1="21.4745" x2="72" y2="122.05260000000001" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#E5AF00" /></linearGradient><linearGradient id="eac-simple-blue" x1="72" y1="21.4745" x2="72" y2="122.05260000000001" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient></defs>
+<defs>
+<mask id="eac-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.9608 0 13.4413 0 16.8638 1.7439 a 16 16 0 0 1 6.9923 6.9923 c 1.7439 3.4226 1.7439 7.903 1.7439 16.8638 L 142.2452 96.4526 c 0 8.9608 0 13.4413 -1.7439 16.8638 a 16 16 0 0 1 -6.9923 6.9923 c -3.4226 1.7439 -7.903 1.7439 -16.8638 1.7439 L 26.929 122.0526 c -8.9608 0 -13.4413 0 -16.8638 -1.7439 a 16 16 0 0 1 -6.9923 -6.9923 c -1.7439 -3.4226 -1.7439 -7.903 -1.7439 -16.8638 L 1.329 47.0745 c 0 -8.9608 0 -13.4413 1.7439 -16.8638 a 16 16 0 0 1 6.9923 -6.9923 c 3.4226 -1.7439 7.903 -1.7439 16.8638 -1.7439 Z" fill="#FFFFFF" /></mask>
+<linearGradient id="eac-sky" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#8ED0F4" /><stop offset="1" stop-color="#438FC5" /></linearGradient>
+<linearGradient id="eac-white" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF" /><stop offset="1" stop-color="#E8E8E8" /></linearGradient>
+<linearGradient id="eac-black" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient>
+<linearGradient id="eac-green" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
+<linearGradient id="eac-gold" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#E5AF00" /></linearGradient>
+<linearGradient id="eac-red" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
+</defs>
 <g mask="url(#eac-board)">
-<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#eac-white)" stroke="url(#eac-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,89.86761 l 140.9162,0 L 142.2452,94.39362 L 1.329,94.39362 z" fill="url(#eac-white)" fill-rule="nonzero" stroke="url(#eac-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,49.13348 l 140.9162,0 L 142.2452,53.65949 L 1.329,53.65949 z" fill="url(#eac-white)" fill-rule="nonzero" stroke="url(#eac-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,94.39362 l 140.9162,0 l 0,27.65898 L 1.329,122.0526 z" fill="url(#eac-blue)" fill-rule="nonzero" stroke="url(#eac-blue)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,21.4745 l 140.9162,0 l 0,27.65898 L 1.329,49.13348 z" fill="url(#eac-blue)" fill-rule="nonzero" stroke="url(#eac-blue)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,82.32425 l 140.9162,0 l 0,7.54336 L 1.329,89.86761 z" fill="url(#eac-red)" stroke="url(#eac-red)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,53.65949 l 140.9162,0 l 0,7.54336 L 1.329,61.20285 z" fill="url(#eac-black)" stroke="url(#eac-black)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,64.72308 l 140.9162,0 l 0,14.08093 L 1.329,78.80402 z" fill="url(#eac-yellow)" stroke="url(#eac-yellow)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,78.80402 l 140.9162,0 l 0,3.52023 L 1.329,82.32425 z" fill="url(#eac-green)" fill-rule="nonzero" stroke="url(#eac-green)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,61.20285 l 140.9162,0 l 0,3.52023 L 1.329,64.72308 z" fill="url(#eac-green)" fill-rule="nonzero" stroke="url(#eac-green)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M56.3 72a15.7 15.7 0 1 0 31.4 0a15.7 15.7 0 1 0 -31.4 0Z" fill="#FFFFFF" stroke="url(#eac-simple-green)" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" /><path d="M59.2 72a12.8 12.8 0 1 0 25.6 0a12.8 12.8 0 1 0 -25.6 0Z" fill="none" stroke="url(#eac-simple-gold)" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round" /><path d="M63.4 69.5a2.1 2.1 0 1 0 4.2 0a2.1 2.1 0 1 0 -4.2 0Z" fill="url(#eac-simple-blue)" /><path d="M69.9 66.6a2.1 2.1 0 1 0 4.2 0a2.1 2.1 0 1 0 -4.2 0Z" fill="url(#eac-simple-blue)" /><path d="M76.4 69.5a2.1 2.1 0 1 0 4.2 0a2.1 2.1 0 1 0 -4.2 0Z" fill="url(#eac-simple-blue)" /><path d="M61.5 78Q65.5 70 69.5 78M68 77Q72 69 76 77M74.5 78Q78.5 70 82.5 78" fill="none" stroke="url(#eac-simple-green)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></g>
+<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#eac-sky)" stroke="url(#eac-sky)" stroke_width="0.5" stroke-linejoin="round" />
+<path d="M -1.671 21.4745 h 146.9162 v 28.2019 h -146.9162 Z" fill="url(#eac-sky)" />
+<path d="M -1.671 49.6364 h 146.9162 v 4.0631 h -146.9162 Z" fill="url(#eac-white)" />
+<path d="M -1.671 53.6595 h 146.9162 v 7.0805 h -146.9162 Z" fill="url(#eac-black)" />
+<path d="M -1.671 60.7 h 146.9162 v 4.0631 h -146.9162 Z" fill="url(#eac-green)" />
+<path d="M -1.671 64.7231 h 146.9162 v 14.1209 h -146.9162 Z" fill="url(#eac-gold)" />
+<path d="M -1.671 78.804 h 146.9162 v 4.0631 h -146.9162 Z" fill="url(#eac-green)" />
+<path d="M -1.671 82.8271 h 146.9162 v 7.0805 h -146.9162 Z" fill="url(#eac-red)" />
+<path d="M -1.671 89.8676 h 146.9162 v 4.0631 h -146.9162 Z" fill="url(#eac-white)" />
+<path d="M -1.671 93.8907 h 146.9162 v 28.2019 h -146.9162 Z" fill="url(#eac-sky)" />
+<path d="M 58.6671 70.1236 a 13.12 13.12 0 1 0 26.24 0 a 13.12 13.12 0 1 0 -26.24 0 Z" fill="url(#eac-white)" />
+<path d="m 55.7971,80.9886 l 15.99,-5.945 l 15.99,5.945 l 0,5.535 L 55.7971,86.5236 Z" fill="url(#eac-white)" />
+</g>
 </svg>

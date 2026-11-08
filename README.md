@@ -45,9 +45,9 @@ JS 仅统计客户端传入的节点，不主动下载远程 provider；未单�
 
 ### 地区旗帜 · 270 个
 
-共 **270 个旗帜图标**，按英文文件名排序并附中文名称。点击下图查看大图，也可查看[可缩放 SVG](docs/assets/flags-overview.svg?v=0690fcf44ee5)或[逐项索引](icon/svg/flag/README.md)。
+共 **270 个旗帜图标**，按英文文件名排序并附中文名称。点击下图查看大图，也可查看[可缩放 SVG](docs/assets/flags-overview.svg?v=bf0d6f469092)或[逐项索引](icon/svg/flag/README.md)。
 
-[![Qure 风格地区旗帜总览：270 个旗帜图标](docs/assets/flags-overview.png?v=6301c96bb2fd)](docs/assets/flags-overview.png?v=6301c96bb2fd)
+[![Qure 风格地区旗帜总览：270 个旗帜图标](docs/assets/flags-overview.png?v=ed2cf0f6c6c6)](docs/assets/flags-overview.png?v=ed2cf0f6c6c6)
 
 图标链接示例，文件名区分大小写：
 
