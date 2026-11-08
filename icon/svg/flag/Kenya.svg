@@ -2,27 +2,48 @@
 <title>肯尼亚</title>
 <defs>
 <mask id="ke-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.9608 0 13.4413 0 16.8638 1.7439 a 16 16 0 0 1 6.9923 6.9923 c 1.7439 3.4226 1.7439 7.903 1.7439 16.8638 L 142.2452 96.4526 c 0 8.9608 0 13.4413 -1.7439 16.8638 a 16 16 0 0 1 -6.9923 6.9923 c -3.4226 1.7439 -7.903 1.7439 -16.8638 1.7439 L 26.929 122.0526 c -8.9608 0 -13.4413 0 -16.8638 -1.7439 a 16 16 0 0 1 -6.9923 -6.9923 c -1.7439 -3.4226 -1.7439 -7.903 -1.7439 -16.8638 L 1.329 47.0745 c 0 -8.9608 0 -13.4413 1.7439 -16.8638 a 16 16 0 0 1 6.9923 -6.9923 c 3.4226 -1.7439 7.903 -1.7439 16.8638 -1.7439 Z" fill="#FFFFFF" /></mask>
-<linearGradient id="ke-white" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
-<linearGradient id="ke-black" x1="72" y1="21.4745" x2="72" y2="51.6479" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient>
-<linearGradient id="ke-red" x1="72" y1="56.6768" x2="72" y2="86.8502" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
-<linearGradient id="ke-green" x1="72" y1="91.8791" x2="72" y2="122.0525" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
-<linearGradient id="ke-spears-white" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF" /><stop offset="1" stop-color="#E8E8E8" /></linearGradient>
-<linearGradient id="ke-shield-white" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF" /><stop offset="1" stop-color="#E8E8E8" /></linearGradient>
-<linearGradient id="ke-shield-black" x1="72" y1="36.7636" x2="72" y2="106.7636" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient>
-<linearGradient id="ke-shield-red" x1="72" y1="36.7636" x2="72" y2="106.7636" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
-<linearGradient id="ke-eye-white" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF" /><stop offset="1" stop-color="#E8E8E8" /></linearGradient>
-<linearGradient id="ke-eye-black" x1="72" y1="69.7636" x2="72" y2="73.7636" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient>
+<linearGradient id="ke-white" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF" /><stop offset="1" stop-color="#E8E8E8" /></linearGradient>
+<linearGradient id="ke-black" x1="72" y1="21.4745" x2="72" y2="52" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient>
+<linearGradient id="ke-red" x1="72" y1="56" x2="72" y2="87" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
+<linearGradient id="ke-green" x1="72" y1="91" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
+<linearGradient id="ke-spears-wood" x1="72" y1="34" x2="72" y2="109" gradientUnits="userSpaceOnUse"><stop stop-color="#F2F2F2" /><stop offset="1" stop-color="#D9D9D9" /></linearGradient>
+<linearGradient id="ke-shield-black" x1="72" y1="38" x2="72" y2="105" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient>
+<linearGradient id="ke-shield-red" x1="72" y1="38" x2="72" y2="105" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
 </defs>
 <g mask="url(#ke-board)">
-<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#ke-white)" stroke="url(#ke-white)" stroke_width="0.5" stroke-linejoin="round" />
-<path d="M 1.329 21.4745 h 140.9162 v 30.1734 h -140.9162 Z" fill="url(#ke-black)" stroke="url(#ke-black)" stroke_width="0.4" stroke-linejoin="round" />
-<path d="M 1.329 56.6768 h 140.9162 v 30.1734 h -140.9162 Z" fill="url(#ke-red)" stroke="url(#ke-red)" stroke_width="0.4" stroke-linejoin="round" />
-<path d="M 1.329 91.8791 h 140.9162 v 30.1734 h -140.9162 Z" fill="url(#ke-green)" stroke="url(#ke-green)" stroke_width="0.4" stroke-linejoin="round" />
-<path d="m 91.7621,37.3385 l -7.575,-3.5 l -12.35,27.975 l -12.35,-27.975 l -7.575,3.5 L 67.2371,71.7635 l -15.325,34.425 l 7.575,3.5 l 12.35,-27.975 l 12.35,27.975 l 7.575,-3.5 L 76.4371,71.7635 z" fill="url(#ke-spears-white)" stroke="url(#ke-spears-white)" stroke_width="0.4" stroke-linejoin="round" />
-<path d="M 71.8371,35.5885 s -1.75,1.45 -4.175,4 l -4,31.9 l 4,32.45 c 2.425,2.55 4.175,4 4.175,4 s 1.75,-1.45 4.175,-4 l 3.75,-32.675 l -3.75,-31.675 c -2.425,-2.55 -4.175,-4 -4.175,-4 z" fill="url(#ke-shield-white)" />
-<path d="m 85.7621,52.5635 l -2.5,18.875 l 2.5,19.525 A 39.65,39.65 0 0,0 91.2871,71.7635 c 0,-7.05 -2.425,-13.625 -5.55,-19.2 z m -27.85,0 l 2.225,18.575 l -2.25,19.825 a 39.65,39.65 0 0,1 -5.525,-19.2 c 0,-7.05 2.425,-13.625 5.55,-19.2 z" fill="url(#ke-shield-black)" />
-<path d="M 57.9121,52.5635 l 0,38.4 a 67.25,67.25 0 0,0 9.75,12.975 L 67.6621,39.5885 c -2.85,3 -6.65,7.5 -9.75,13 z m 27.85,0 a 67.25,67.25 0 0,0 -9.75,-12.975 l 0,64.35 c 2.85,-3 6.625,-7.5 9.75,-13 L 85.7621,52.5885 z" fill="url(#ke-shield-red)" />
-<path d="M 69.1871 71.7636 a 2.6 2.6 0 1 0 5.2 0 a 2.6 2.6 0 1 0 -5.2 0 Z" fill="url(#ke-eye-white)" />
-<path d="M 70.5871 71.7636 a 1.2 1.2 0 1 0 2.4 0 a 1.2 1.2 0 1 0 -2.4 0 Z" fill="url(#ke-eye-black)" />
+<!-- Solid white safety background covering entire board -->
+<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#ke-white)" stroke="url(#ke-white)" stroke-width=".5" stroke-linejoin="round" />
+
+<!-- Top Black Band (with overlap & stroke) -->
+<path d="M 1.329 21.4745 h 140.9162 v 30.5 h -140.9162 Z" fill="url(#ke-black)" stroke="url(#ke-black)" stroke-width=".5" stroke-linejoin="round" />
+
+<!-- Middle Red Band (with overlap & stroke) -->
+<path d="M 1.329 56.4 h 140.9162 v 30.7 h -140.9162 Z" fill="url(#ke-red)" stroke="url(#ke-red)" stroke-width=".5" stroke-linejoin="round" />
+
+<!-- Bottom Green Band (with overlap & stroke) -->
+<path d="M 1.329 91.5 h 140.9162 v 30.5526 h -140.9162 Z" fill="url(#ke-green)" stroke="url(#ke-green)" stroke-width=".5" stroke-linejoin="round" />
+
+<!-- Crossed Maasai Spears (smooth rounded handles and tips, no harsh thin spike wires) -->
+<path d="M 50 106 L 94 37" fill="none" stroke="url(#ke-spears-wood)" stroke-width="3" stroke-linecap="round" />
+<path d="M 94 106 L 50 37" fill="none" stroke="url(#ke-spears-wood)" stroke-width="3" stroke-linecap="round" />
+<path d="M 50 106 L 94 37 M 94 106 L 50 37" fill="none" stroke="url(#ke-white)" stroke-width="1.2" stroke-linecap="round" />
+
+<!-- Maasai Shield (Cute, chubby, seamless curved shape with black flanks & red center) -->
+<!-- Full Shield Outline Base (White rim) -->
+<path d="M 72 37.5 C 87 50 92 63 92 71.7635 C 92 80.5 87 93.5 72 106 C 57 93.5 52 80.5 52 71.7635 C 52 63 57 50 72 37.5 Z" fill="url(#ke-white)" stroke="url(#ke-white)" stroke-width="1.2" stroke-linejoin="round" />
+
+<!-- Black Lateral Flanks -->
+<path d="M 72 38.5 C 85.5 50.5 90.5 63 90.5 71.7635 C 90.5 80.5 85.5 93 72 105 C 58.5 93 53.5 80.5 53.5 71.7635 C 53.5 63 58.5 50.5 72 38.5 Z" fill="url(#ke-shield-black)" stroke="url(#ke-shield-black)" stroke-width=".5" stroke-linejoin="round" />
+
+<!-- Red Central Oval Core (smoothly curved, seamlessly overlapping the center) -->
+<path d="M 72 38.5 C 79 50 82 62 82 71.7635 C 82 81.5 79 93.5 72 105 C 65 93.5 62 81.5 62 71.7635 C 62 62 65 50 72 38.5 Z" fill="url(#ke-shield-red)" stroke="url(#ke-shield-red)" stroke-width=".5" stroke-linejoin="round" />
+
+<!-- Cute Traditional Shield Ornaments (White and Black Center Eye & Crests) -->
+<path d="M 72 45 C 73.5 48 74 53 74 58 C 73 57 71 57 70 58 C 70 53 70.5 48 72 45 Z" fill="url(#ke-white)" />
+<path d="M 72 98.5 C 73.5 95.5 74 90.5 74 85.5 C 73 86.5 71 86.5 70 85.5 C 70 90.5 70.5 95.5 72 98.5 Z" fill="url(#ke-white)" />
+
+<!-- Center Oval Eye -->
+<ellipse cx="72" cy="71.7635" rx="3.5" ry="4.5" fill="url(#ke-white)" />
+<ellipse cx="72" cy="71.7635" rx="1.8" ry="2.5" fill="url(#ke-shield-black)" />
 </g>
 </svg>
