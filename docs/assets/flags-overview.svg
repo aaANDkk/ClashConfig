@@ -1011,17 +1011,14 @@
 <text x="638" y="1482" text-anchor="end" font-size="10" fill="#a8b4c4">039</text>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 19 146 105" width="88" height="64" x="514.0" y="1494.0" preserveAspectRatio="xMidYMid meet">
 <title>布基纳法索</title>
-
 <defs><mask id="flag38_bf-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
-<linearGradient id="flag38_bf-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
-<linearGradient id="flag38_bf-red" x1="72" y1="21.47450" x2="72" y2="121.96878" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
-<linearGradient id="flag38_bf-green" x1="72" y1="71.80546" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
-<linearGradient id="flag38_bf-yellow" x1="72" y1="55.00053" x2="72" y2="85.32064" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#F7BE00" /></linearGradient></defs>
+<linearGradient id="flag38_bf-green" x1="72" y1="71.7636" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
+<linearGradient id="flag38_bf-red" x1="72" y1="21.4745" x2="72" y2="72.1" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
+<linearGradient id="flag38_bf-yellow" x1="72" y1="55.0005" x2="72" y2="88.5266" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#F7BE00" /></linearGradient></defs>
 <g mask="url(#flag38_bf-board)">
-<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#flag38_bf-white)" stroke="url(#flag38_bf-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 142.2452,121.96878 L 1.41707,121.96878 L 1.41707,21.4745 L 142.2452,21.4745 z" fill="url(#flag38_bf-red)" fill-rule="evenodd" stroke="url(#flag38_bf-red)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 142.15713,122.0526 L 1.329,122.0526 L 1.329,71.80546 l 140.82813,0 z" fill="url(#flag38_bf-green)" fill-rule="evenodd" stroke="url(#flag38_bf-green)" stroke-width=".5" stroke-linejoin="round" />
-<path d="m 71.7871,55.00053 l 3.96327,11.58744 l 12.79255,0 l -10.34853,7.14524 l 3.94125,11.58744 l -10.34853,-7.14524 l -10.34853,7.14524 l 3.94125,-11.58744 l -10.34853,-7.14524 L 67.82383,66.58797 z" fill="url(#flag38_bf-yellow)" fill-rule="evenodd" />
+<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#flag38_bf-green)" stroke="url(#flag38_bf-green)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 50.7 h -140.9162 Z" fill="url(#flag38_bf-red)" stroke="url(#flag38_bf-red)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 71.7871,55.0005 l 3.9633,11.5874 l 12.7925,0 l -10.3485,7.1453 l 3.9412,11.5874 l -10.3485,-7.1452 l -10.3485,7.1452 l 3.9412,-11.5874 l -10.3485,-7.1453 l 12.7925,0 Z" fill="url(#flag38_bf-yellow)" fill-rule="evenodd" stroke="url(#flag38_bf-yellow)" stroke-width="0.4" stroke-linejoin="round" />
 </g>
 </svg>
 <text x="558.0" y="1588" text-anchor="middle" font-size="14" class="label">布基纳法索</text>
@@ -1981,19 +1978,16 @@
 <text x="838" y="2910" text-anchor="end" font-size="10" fill="#a8b4c4">082</text>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 19 146 105" width="88" height="64" x="714.0" y="2922.0" preserveAspectRatio="xMidYMid meet">
 <title>埃塞俄比亚</title>
-
 <defs><mask id="flag81_et-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
-<linearGradient id="flag81_et-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
-<linearGradient id="flag81_et-green" x1="72" y1="21.47450" x2="72" y2="55.00053" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
-<linearGradient id="flag81_et-yellow" x1="72" y1="53.86693" x2="72" y2="89.41920" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#F7BE00" /></linearGradient>
-<linearGradient id="flag81_et-red" x1="72" y1="88.52657" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
-<linearGradient id="flag81_et-blue" x1="72" y1="50.57407" x2="72" y2="93.05479" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient></defs>
+<linearGradient id="flag81_et-green" x1="72" y1="21.4745" x2="72" y2="55.4" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
+<linearGradient id="flag81_et-yellow" x1="72" y1="21.4745" x2="72" y2="88.9" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD3D" /><stop offset="1" stop-color="#F7BE00" /></linearGradient>
+<linearGradient id="flag81_et-red" x1="72" y1="88.3" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
+<linearGradient id="flag81_et-blue" x1="72" y1="49.8" x2="72" y2="93.8" gradientUnits="userSpaceOnUse"><stop stop-color="#3B7FE4" /><stop offset="1" stop-color="#1A359E" /></linearGradient></defs>
 <g mask="url(#flag81_et-board)">
-<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#flag81_et-white)" stroke="url(#flag81_et-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,21.4745 l 140.9162,0 l 0,33.52603 L 1.329,55.00053 z" fill="url(#flag81_et-green)" stroke="url(#flag81_et-green)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,55.00053 l 140.9162,0 l 0,33.52603 L 1.329,88.52657 z" fill="url(#flag81_et-yellow)" stroke="url(#flag81_et-yellow)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.329,88.52657 l 140.9162,0 l 0,33.52603 L 1.329,122.0526 z" fill="url(#flag81_et-red)" stroke="url(#flag81_et-red)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 94.30631,71.81443 A 22.3193,21.2404 0 0,1 71.98701,93.05479 A 22.3193,21.2404 0 0,1 49.6677,71.81443 A 22.3193,21.2404 0 0,1 71.98701,50.57407 A 22.3193,21.2404 0 0,1 94.30631,71.81443 Z" fill="url(#flag81_et-blue)" fill-rule="evenodd" />
+<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#flag81_et-red)" stroke="url(#flag81_et-red)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 67.4 h -140.9162 Z" fill="url(#flag81_et-yellow)" stroke="url(#flag81_et-yellow)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 33.9 h -140.9162 Z" fill="url(#flag81_et-green)" stroke="url(#flag81_et-green)" stroke-width="0.6" stroke-linejoin="round" />
+<circle cx="71.7871" cy="71.7636" r="21.8" fill="url(#flag81_et-blue)" stroke="url(#flag81_et-blue)" stroke-width="0.6" />
 <path d="m 61.97625,56.76233 l -1.34531,0.88634 l 4.86381,6.49986 l 1.30392,-0.78786 z m 6.08494,15.3633 l -2.00762,-1.33937 l 0.82788,-2.50146 l -9.95529,0.13788 l -2.89759,-2.10753 l 13.59797,-0.13788 l 2.52504,-7.26802 l 1.36601,2.95448 z m 15.83326,-13.92546 l -1.30392,-0.94543 l -5.02939,6.38168 l 1.15904,0.92574 z M 70.35856,68.34389 l 0.7244,-2.20601 l 2.75271,0 L 70.68972,57.11686 l 1.24182,-3.24993 l 4.2429,12.29064 l 8.03046,0.09848 l -2.52504,2.10753 z m 18.75154,10.08463 l 0.55882,-1.45754 l -7.92698,-2.61964 l -0.57952,1.37876 z m -14.30167,-9.1392 l 2.42156,-0.0197 l 0.84858,2.48176 l 8.03046,-5.61352 l 3.64268,0.11818 l -10.99014,7.62256 l 2.38016,7.32711 l -2.89759,-1.65451 z m -4.09802,20.09048 l 1.63507,0.03939 l 0.06209,-7.9771 l -1.53158,-0.09848 z m 4.55335,-15.81633 l 0.78649,2.18632 l -2.21459,1.57572 l 8.15464,5.45594 l 1.03485,3.30902 l -11.09363,-7.48469 l -6.51958,4.47112 l 0.7244,-3.15145 l 9.10671,-6.36198 z m -21.38007,2.56055 l 0.47603,1.47724 l 8.00976,-2.40298 l -0.41394,-1.41815 z m 17.21996,-0.78786 l -1.94552,1.39845 l -2.23528,-1.51663 l -2.93898,9.06041 l -2.98038,1.96965 l 4.03593,-12.34973 l -6.49888,-4.53021 l 3.37362,-0.31514 z" fill="url(#flag81_et-yellow)" fill-rule="evenodd" />
 </g>
 </svg>
@@ -3365,19 +3359,17 @@
 <text x="438" y="4542" text-anchor="end" font-size="10" fill="#a8b4c4">128</text>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 19 146 105" width="88" height="64" x="314.0" y="4554.0" preserveAspectRatio="xMidYMid meet">
 <title>约旦</title>
-
 <defs><mask id="flag127_jo-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
-<linearGradient id="flag127_jo-white" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
-<linearGradient id="flag127_jo-black" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient>
-<linearGradient id="flag127_jo-green" x1="72" y1="88.52002" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
-<linearGradient id="flag127_jo-red" x1="72" y1="21.47450" x2="72" y2="122.05260" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient></defs>
+<linearGradient id="flag127_jo-green" x1="72" y1="88.3" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
+<linearGradient id="flag127_jo-white" x1="72" y1="21.4745" x2="72" y2="88.9" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="flag127_jo-black" x1="72" y1="21.4745" x2="72" y2="55.4" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient>
+<linearGradient id="flag127_jo-red" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient></defs>
 <g mask="url(#flag127_jo-board)">
-<path d="M1.329 21.4745h140.9162v100.5781h-140.9162Z" fill="url(#flag127_jo-white)" stroke="url(#flag127_jo-white)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.34276,21.4745 l 211.3743,0 l 0,33.53258 l -211.3743,0 z" fill="url(#flag127_jo-black)" fill-rule="evenodd" stroke="url(#flag127_jo-black)" stroke-width=".5" stroke-linejoin="round" />
-<path d="M 1.34276,55.00708 l 211.3743,0 l 0,33.51294 l -211.3743,0 z" fill="url(#flag127_jo-white)" fill-rule="evenodd" />
-<path d="M 1.34276,88.52002 l 211.3743,0 L 212.71706,122.0526 l -211.3743,0 z" fill="url(#flag127_jo-green)" fill-rule="evenodd" stroke="url(#flag127_jo-green)" stroke-width=".5" stroke-linejoin="round" />
-<path d="m 1.34276,122.0526 l 105.68715,-50.28905 l -105.68715,-50.28905 z" fill="url(#flag127_jo-red)" fill-rule="evenodd" stroke="url(#flag127_jo-red)" stroke-width=".5" stroke-linejoin="round" />
-<path d="m 30.71636,78.24612 l 1.1766,-4.8914 L 26.62924,73.35473 l 4.74766,-2.16086 l -3.28208,-3.90919 l 4.74766,2.16086 l 1.15595,-4.87175 l 1.1766,4.8914 L 39.90206,67.28468 l -3.30272,3.90919 l 4.74766,2.16086 L 36.10393,73.35473 l 1.1766,4.8914 l -3.28208,-3.92883 z" fill="url(#flag127_jo-white)" fill-rule="evenodd" />
+<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#flag127_jo-green)" stroke="url(#flag127_jo-green)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 67.4 h -140.9162 Z" fill="url(#flag127_jo-white)" stroke="url(#flag127_jo-white)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 33.9 h -140.9162 Z" fill="url(#flag127_jo-black)" stroke="url(#flag127_jo-black)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 v 100.5781 l 70.4581 -50.2891 Z" fill="url(#flag127_jo-red)" stroke="url(#flag127_jo-red)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="m 30.71636,78.24612 l 1.1766,-4.8914 L 26.62924,73.35473 l 4.74766,-2.16086 l -3.28208,-3.90919 l 4.74766,2.16086 l 1.15595,-4.87175 l 1.1766,4.8914 L 39.90206,67.28468 l -3.30272,3.90919 l 4.74766,2.16086 L 36.10393,73.35473 l 1.1766,4.8914 l -3.28208,-3.92883 z" fill="url(#flag127_jo-white)" fill-rule="evenodd" stroke="url(#flag127_jo-white)" stroke-width="0.4" stroke-linejoin="round" />
 </g>
 </svg>
 <text x="358.0" y="4648" text-anchor="middle" font-size="14" class="label">约旦</text>
@@ -3501,14 +3493,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 19 146 105" width="88" height="64" x="114.0" y="4758.0" preserveAspectRatio="xMidYMid meet">
 <title>科威特</title>
 <defs><mask id="flag132_kw-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
-<linearGradient id="flag132_kw-green" x1="72" y1="21.4745" x2="72" y2="55.27" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
-<linearGradient id="flag132_kw-white" x1="72" y1="54.8" x2="72" y2="88.8" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="flag132_kw-green" x1="72" y1="21.4745" x2="72" y2="55.4" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
+<linearGradient id="flag132_kw-white" x1="72" y1="21.4745" x2="72" y2="88.9" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
 <linearGradient id="flag132_kw-red" x1="72" y1="88.3" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
 <linearGradient id="flag132_kw-black" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient></defs>
 <g mask="url(#flag132_kw-board)">
-<path d="M 1.329 21.4745 h 140.9162 v 33.8 h -140.9162 Z" fill="url(#flag132_kw-green)" stroke="url(#flag132_kw-green)" stroke-width="0.6" stroke-linejoin="round" />
-<path d="M 1.329 54.8 h 140.9162 v 34.0 h -140.9162 Z" fill="url(#flag132_kw-white)" stroke="url(#flag132_kw-white)" stroke-width="0.6" stroke-linejoin="round" />
-<path d="M 1.329 88.3 h 140.9162 v 33.7526 h -140.9162 Z" fill="url(#flag132_kw-red)" stroke="url(#flag132_kw-red)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#flag132_kw-red)" stroke="url(#flag132_kw-red)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 67.4 h -140.9162 Z" fill="url(#flag132_kw-white)" stroke="url(#flag132_kw-white)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 33.9 h -140.9162 Z" fill="url(#flag132_kw-green)" stroke="url(#flag132_kw-green)" stroke-width="0.6" stroke-linejoin="round" />
 <path d="M 1.329 21.4745 v 100.5781 l 52.72 -33.526 v -33.526 Z" fill="url(#flag132_kw-black)" stroke="url(#flag132_kw-black)" stroke-width="0.6" stroke-linejoin="round" />
 </g>
 </svg>
@@ -5721,15 +5713,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 19 146 105" width="88" height="64" x="514.0" y="8022.0" preserveAspectRatio="xMidYMid meet">
 <title>苏丹</title>
 <defs><mask id="flag230_sd-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
-<linearGradient id="flag230_sd-white" x1="72" y1="54.8" x2="72" y2="88.8" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
+<linearGradient id="flag230_sd-red" x1="72" y1="21.4745" x2="72" y2="55.4" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
+<linearGradient id="flag230_sd-white" x1="72" y1="21.4745" x2="72" y2="88.9" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F5" /><stop offset="1" stop-color="#E6E6E6" /></linearGradient>
 <linearGradient id="flag230_sd-black" x1="72" y1="88.3" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#3D3838" /><stop offset="1" stop-color="#181616" /></linearGradient>
-<linearGradient id="flag230_sd-red" x1="72" y1="21.4745" x2="72" y2="55.27" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3F3E" /><stop offset="1" stop-color="#C00405" /></linearGradient>
 <linearGradient id="flag230_sd-green" x1="72" y1="21.4745" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient></defs>
 <g mask="url(#flag230_sd-board)">
-<path d="M 1.329 21.4745 h 140.9162 v 33.8 h -140.9162 Z" fill="url(#flag230_sd-red)" stroke="url(#flag230_sd-red)" stroke-width="0.6" stroke-linejoin="round" />
-<path d="M 1.329 54.8 h 140.9162 v 34.0 h -140.9162 Z" fill="url(#flag230_sd-white)" stroke="url(#flag230_sd-white)" stroke-width="0.6" stroke-linejoin="round" />
-<path d="M 1.329 88.3 h 140.9162 v 33.7526 h -140.9162 Z" fill="url(#flag230_sd-black)" stroke="url(#flag230_sd-black)" stroke-width="0.6" stroke-linejoin="round" />
-<path d="M 1.329 21.4745 v 100.5781 l 70.4512 -50.2891 Z" fill="url(#flag230_sd-green)" stroke="url(#flag230_sd-green)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 100.5781 h -140.9162 Z" fill="url(#flag230_sd-black)" stroke="url(#flag230_sd-black)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 67.4 h -140.9162 Z" fill="url(#flag230_sd-white)" stroke="url(#flag230_sd-white)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 h 140.9162 v 33.9 h -140.9162 Z" fill="url(#flag230_sd-red)" stroke="url(#flag230_sd-red)" stroke-width="0.6" stroke-linejoin="round" />
+<path d="M 1.329 21.4745 v 100.5781 l 70.4581 -50.2891 Z" fill="url(#flag230_sd-green)" stroke="url(#flag230_sd-green)" stroke-width="0.6" stroke-linejoin="round" />
 </g>
 </svg>
 <text x="558.0" y="8116" text-anchor="middle" font-size="14" class="label">苏丹</text>
