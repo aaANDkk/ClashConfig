@@ -1,0 +1,9 @@
+payload:
+  # Cloudflare 人机验证
+  - DOMAIN,a.nel.cloudflare.com
+  - DOMAIN,challenges.cloudflare.com
+  - DOMAIN,stun.cloudflare.com
+  - DOMAIN,static.cloudflareinsights.com
+
+  # hCaptcha 人机验证
+  - DOMAIN-SUFFIX,hcaptcha.com
