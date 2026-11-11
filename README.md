@@ -35,24 +35,26 @@ JS 仅统计客户端传入的节点，不主动下载远程 provider；未单�
 
 ## 🎨 Qure 风格 SVG 图标
 
-[通用 SVG 图标](icon/svg/common) · [地区旗帜 SVG](icon/svg/flag) · [PNG 素材](icon/png)
+**[前往图标官网 →](https://aaandkk.github.io/)**
 
-### 通用图标 · 1999 个
+完整图标库、分类浏览、搜索、预览与链接复制，请直接访问官网。首页仅保留固定精选，后续新增图标无需更新此处。
 
-全部 SVG 素材已统一为 **144×144**。通用图标覆盖业务、策略和网络工具，支持查看[可缩放 SVG](docs/assets/common-overview.svg?v=ead0cc84ddad)或[逐项索引](icon/svg/common/README.md)。
+### 通用图标 · 精选 60 个
 
-[![Qure 风格通用图标总览：1999 个 144×144 SVG](docs/assets/common-overview.png?v=4cdf5e82e1a3)](docs/assets/common-overview.png?v=4cdf5e82e1a3)
+代理策略、广告拦截、AI、流媒体、社交与常用服务。
 
-### 地区旗帜 · 270 个
+[![60 个精选 Qure 风格通用 SVG 图标](docs/assets/common-preview.svg)](https://aaandkk.github.io/)
 
-共 **270 个旗帜图标**，按英文文件名排序并附中文名称。点击下图查看大图，也可查看[可缩放 SVG](docs/assets/flags-overview.svg?v=75cb71c371df)或[逐项索引](icon/svg/flag/README.md)。
+### 地区旗帜 · 精选 30 个
 
-[![Qure 风格地区旗帜总览：270 个旗帜图标](docs/assets/flags-overview.png?v=e49748e9fa05)](docs/assets/flags-overview.png?v=e49748e9fa05)
+常用地区的旗帜预览，完整图标请前往官网查看。
 
-图标链接示例，文件名区分大小写：
+[![30 个精选 Qure 风格旗帜 SVG 图标](docs/assets/flags-preview.svg)](https://aaandkk.github.io/)
+
+图标为 SVG 矢量格式，文件名区分大小写。可在官网复制图标链接，用于 Mihomo / Clash 策略组：
 
 ```yaml
-icon: "https://fastly.jsdelivr.net/gh/aaANDkk/ClashConfig@main/icon/svg/flag/Japan.svg"
+icon: "https://raw.githubusercontent.com/aaANDkk/Qure_Style_SVG/main/icon/svg/flag/Japan.svg"
 ```
 
 ## 💖 鸣谢

@@ -2,7 +2,7 @@
 
 共 **1999** 个 SVG，统一为 **144×144**。按英文文件名排序，点击图标或文件名可查看原始素材。
 
-[返回项目说明](../../../README.md) · [PNG 总览](../../../docs/assets/common-overview.png?v=4cdf5e82e1a3) · [可缩放 SVG 总览](../../../docs/assets/common-overview.svg?v=ead0cc84ddad)
+[返回项目说明](../../../README.md) · [前往官网浏览完整图标库](https://aaandkk.github.io/)
 
 | 预览 | 图标名称 | SVG 文件 |
 | :---: | :--- | :--- |
