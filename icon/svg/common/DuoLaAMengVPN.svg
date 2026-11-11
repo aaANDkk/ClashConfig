@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="144" viewBox="0 0 144 144"><title>哆啦A梦VPN</title><defs><linearGradient id="blue" gradientUnits="userSpaceOnUse" x1="25" y1="8" x2="115" y2="139"><stop stop-color="#37C2EA" /><stop offset="1" stop-color="#008BBD" /></linearGradient><linearGradient id="white" gradientUnits="userSpaceOnUse" x1="25" y1="8" x2="115" y2="139"><stop stop-color="#FFF" /><stop offset="1" stop-color="#EDF6FB" /></linearGradient><linearGradient id="bell-gold" gradientUnits="userSpaceOnUse" x1="69" y1="98" x2="75" y2="109"><stop stop-color="#FFE69A" /><stop offset="1" stop-color="#E9BC42" /></linearGradient></defs><g transform="matrix(1.00000000 0 0 1.00000000 0.00000048 -0.00000763)"><g transform="matrix(1.00000000 0 0 1.00000000 -0.00000048 0.00000763)"><g transform="matrix(1.00000000 0 0 1.00000000 0.00000048 -0.00000763)"><g transform="matrix(1.00000000 0 0 1.00000000 -0.00000048 0.00000763)"><g transform="matrix(1.00000000 0 0 1.00000000 0.00000048 -0.00000763)"><g transform="matrix(1.00000000 0 0 1.00000000 -0.00000048 -0.00000048)"><g transform="matrix(1.00000012 0 0 1.00000012 -0.00000022 0.00000598)"><g transform="matrix(0.96209904 0 0 0.96209904 2.72886317 -0.39795871)"><g stroke="#167DA6" stroke-width="1.2" stroke-linejoin="round">
+<path d="M44 95Q30 91 15 100L13 111Q32 118 44 109ZM100 95Q114 91 129 100L131 111Q112 118 100 109Z" fill="url(#blue)" />
+<rect x="39" y="89" width="66" height="47" rx="17" fill="url(#blue)" />
+<ellipse cx="72" cy="113" rx="24" ry="20" fill="url(#white)" />
+<ellipse cx="72" cy="57" rx="53" ry="49" fill="url(#blue)" />
+<ellipse cx="72" cy="68" rx="44" ry="36" fill="url(#white)" />
+<ellipse cx="60" cy="37" rx="11.5" ry="15" fill="#FFF" />
+<ellipse cx="83" cy="37" rx="11.5" ry="15" fill="#FFF" />
+<ellipse cx="64" cy="41" rx="3.6" ry="5.4" fill="#253B4B" stroke="none" />
+<ellipse cx="79" cy="41" rx="3.6" ry="5.4" fill="#253B4B" stroke="none" />
+<circle cx="72" cy="55" r="6" fill="#ED6B65" stroke="none" />
+<circle cx="70" cy="53" r="1.7" fill="#FFD9CB" stroke="none" />
+<path d="M72 61V86M43 76Q72 104 101 76M47 65L23 58M46 72H20M47 79L24 87M97 65L121 58M98 72H124M97 79L120 87" fill="none" stroke="#2D6687" stroke-width="1.6" stroke-linecap="round" />
+<path id="red-collar" d="M40 97Q72 113 104 97" fill="none" stroke="#E86865" stroke-width="6" stroke-linecap="round" /><g id="bell-placement" transform="translate(0 7)"><circle cx="72" cy="103" r="6" fill="url(#bell-gold)" stroke="#BE963F" stroke-width=".7" />
+<g id="bell-details" stroke-linecap="round" stroke-linejoin="round"><path d="M67.8 101.5Q72 102.5 76.2 101.5" fill="none" stroke="#B38B39" stroke-width=".65" /><circle cx="72" cy="105.4" r="1.05" fill="#A17A2F" stroke="none" /><path d="M72 106.2V108.4" fill="none" stroke="#A17A2F" stroke-width=".75" /></g></g><circle cx="14" cy="106" r="10" fill="url(#white)" />
+<circle cx="130" cy="106" r="10" fill="url(#white)" />
+<ellipse cx="53" cy="135" rx="20" ry="7.5" fill="url(#white)" />
+<ellipse cx="91" cy="135" rx="20" ry="7.5" fill="url(#white)" />
+</g></g></g></g></g></g></g></g></g></svg>
