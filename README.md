@@ -37,25 +37,40 @@ JS 仅统计客户端传入的节点，不主动下载远程 provider；未单�
 
 **[前往图标官网 →](https://aaandkk.github.io/)**
 
-完整图标库、分类浏览、搜索、预览与链接复制，请直接访问官网。首页仅保留固定精选，后续新增图标无需更新此处。
+搜索、预览、下载图标及复制链接，请访问官网。
 
 ### 通用图标 · 精选 60 个
 
-代理策略、广告拦截、AI、流媒体、社交与常用服务。
+代理策略、广告拦截、AI、流媒体、社交与常用服务。完整图标请前往[官网](https://aaandkk.github.io/)查看。
 
 [![60 个精选 Qure 风格通用 SVG 图标](docs/assets/common-preview.svg)](https://aaandkk.github.io/)
 
 ### 地区旗帜 · 精选 30 个
 
-常用地区的旗帜预览，完整图标请前往官网查看。
+常用地区的旗帜预览。完整图标请前往[官网](https://aaandkk.github.io/)查看。
 
 [![30 个精选 Qure 风格旗帜 SVG 图标](docs/assets/flags-preview.svg)](https://aaandkk.github.io/)
 
-图标为 SVG 矢量格式，文件名区分大小写。可在官网复制图标链接，用于 Mihomo / Clash 策略组：
+## 🔗 单个图标使用
 
-```yaml
-icon: "https://raw.githubusercontent.com/aaANDkk/Qure_Style_SVG/main/icon/svg/flag/Japan.svg"
-```
+在[官网](https://aaandkk.github.io/)搜索图标并复制链接，也可使用以下原始文件链接（文件名区分大小写）：
+
+- **通用图标示例**：
+  ```text
+  https://raw.githubusercontent.com/aaANDkk/Qure_Style_SVG/main/icon/svg/common/ChatGPT.svg
+  ```
+
+- **旗帜图标示例**：
+  ```text
+  https://raw.githubusercontent.com/aaANDkk/Qure_Style_SVG/main/icon/svg/flag/Japan.svg
+  ```
+
+- **Mihomo / Clash 配置示例**：
+  ```yaml
+  icon: "https://raw.githubusercontent.com/aaANDkk/Qure_Style_SVG/main/icon/svg/flag/Japan.svg"
+  ```
+
+---
 
 ## 💖 鸣谢
 
