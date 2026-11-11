@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Neovim</title>
   <desc>Qure-style Neovim icon. Neovim 现代化完全重构且深度可扩展的 Vim 编辑器</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 23.07,36.77 l 0,68.075 L 50.275,132 L 50.275,63.57 L 28.56,31.225 L 23.07,36.77 z m 24.995,89.9 l -22.785,-22.74 L 25.28,37.68 l 2.95,-2.98 l 19.835,29.54 l 0,62.425 z m 72.865,-22.285 l -4.31,4.685 l -21.2,-31.88 L 95.42,12 l 25.34,25.46 l 0.17,66.925 z M 49.155,12.005 l 64.99,99.175 l -18.185,18.185 L 30.935,30.415 L 49.15,12 z" fill="url(#p10-neovim-grad)" />
-</svg>
+</g></g></svg>

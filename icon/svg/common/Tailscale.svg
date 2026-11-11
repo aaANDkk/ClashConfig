@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Tailscale</title>
   <desc>Qure-style Tailscale icon. Tailscale 零配置 WireGuard 组网</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 132,72 a 15,15 0 0,1 -30,0 a 15,15 0 0,1 30,0 z m -45,45 a 15,15 0 0,1 -30,0 a 15,15 0 0,1 30,0 z m 0,-45 a 15,15 0 0,1 -30,0 a 15,15 0 0,1 30,0 z m 30,-30 a 15,15 0 0,1 0,-30 a 15,15 0 0,1 0,30 z m 0,-2.5 a 12.5,12.5 0 0,0 0,-25 a 12.5,12.5 0 0,0 0,25 z M 27,132 a 15,15 0 0,1 0,-30 a 15,15 0 0,1 0,30 z m 0,-2.5 a 12.5,12.5 0 0,0 0,-25 a 12.5,12.5 0 0,0 0,25 z m 90,2.5 a 15,15 0 0,1 0,-30 a 15,15 0 0,1 0,30 z m 0,-2.5 a 12.5,12.5 0 0,0 0,-25 a 12.5,12.5 0 0,0 0,25 z M 42,72 a 15,15 0 0,1 -30,0 a 15,15 0 0,1 30,0 z m 45,-45 a 15,15 0 0,1 -30,0 a 15,15 0 0,1 30,0 z m -15,12.5 a 12.5,12.5 0 0,0 0,-25 a 12.5,12.5 0 0,0 0,25 z M 42,27 a 15,15 0 0,1 -30,0 a 15,15 0 0,1 30,0 z M 27,39.5 a 12.5,12.5 0 0,0 0,-25 a 12.5,12.5 0 0,0 0,25 z" fill="url(#p7-tailscale-grad)" />
-</svg>
+</g></g></svg>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.186440678 0 0 1.186440678 -13.423728814 -13.423728814)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>GoogleAuthenticator</title>
   <desc>Qure-style GoogleAuthenticator icon. Google Authenticator 谷歌两步验证官方正统四色星形转轮标志</desc>
   <defs>
@@ -33,4 +33,4 @@
   <path d="M 71.999912,52.1162782735 L 67.510784,64.304264 l -12.7298876065,-2.244564 l -15.9204679956,-27.5767517822 c -2.74483563084,-4.7544835626 -1.11560923188,-10.8338851566 3.63894808068,-13.5785989397 l 0.00189505332,-0.00109342332 c 4.75425269316,-2.744540631 10.8332182004,-1.11555792756 13.5780634508,3.63852161352 L 71.999912,52.1162782735 z" fill="url(#gauth-yellow)"/>
   <path d="M 69.434696,62.0597 l -11.543472,19.880424 L 22.9401463804,81.940124 C 17.4503244123,81.940124 12.999944,77.4897467942 12.999944,71.9999216196 l 0,-1.92391199931E-05 C 12.999944,66.5100836188 17.4503244123,62.0597 22.9401463804,62.0597 L 69.434696,62.0597 z" fill="url(#gauth-green)"/>
   <path d="M 89.2189276065,81.940124 L 54.7808963935,81.940124 L 71.999912,52.1162782735 Z" fill="url(#gauth-darkblue)"/>
-</svg>
+</g></g></svg>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Braintree</title>
   <desc>Qure-style Braintree icon. Braintree PayPal 旗下支持全渠道支付与全球化结算的开发者网关</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 53.3825,114.41 l 23.585,0 c 18.205,0 27.31,-6 27.31,-17.585 c 0,-11.375 -9.725,-17.585 -28.76,-17.585 L 53.3825,79.24 Z m 0,-84.825 l 0,32.69 l 20.69,0 c 15.515,0 23.585,-5.795 23.585,-16.345 c 0,-10.76 -8.275,-16.345 -23.795,-16.345 z M 20.4825,132 l 0,-17.59 L 34.3525,114.41 L 34.3525,29.585 L 20.4875,29.585 L 20.4875,12 l 55.445,0 c 25.45,0 40.965,11.79 40.965,32.275 c 0,13.45 -7.86,21.725 -17.79,25.655 c 14.275,3.935 24.41,14.07 24.41,27.93 c 0,21.93 -16.965,34.14 -44.69,34.14 L 20.4875,132" fill="url(#p11-braintree-grad)" />
-</svg>
+</g></g></svg>

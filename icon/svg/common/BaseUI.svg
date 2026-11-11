@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -11.883333333 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>BaseUI</title>
   <desc>Qure-style BaseUI icon. Base UI Uber 出品高度可定制且健壮的企业级 React 组件系统</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 77.412247672,44.809973752 a 2.6,2.6 0 0,0 -2.729997816,2.644997884 L 74.682249856,131.999904 a 43.635,43.635 0 0,0 2.729997816,-87.189930248 M 69.232254216,59.9999616 L 69.232254216,131.999904 c -24.09998072,0 -43.639965088,-21.489982808 -43.639965088,-47.9999616 L 25.592289128,12 c 24.09998072,0 43.639965088,21.489982808 43.639965088,47.9999616 Z" fill="url(#p11-baseui-grad)" />
-</svg>
+</g></g></svg>

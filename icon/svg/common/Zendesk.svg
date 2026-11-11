@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.147540984 0 0 1.147540984 -10.62295082 -10.62295082)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Zendesk</title>
   <desc>Qure-style Zendesk icon. Zendesk 全球全渠道智能客户服务与工单系统</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 76.646162362,25.761999032 L 76.646162362,93.80749457 L 132.999992,25.767082365 L 76.646162362,25.767082365 z M 11,25.772165698 C 11,41.327164678 23.621915839,53.95416385 39.176914819,53.95416385 s 28.171831486,-12.626999172 28.176914819,-28.181998152 L 11,25.772165698 z m 56.353829638,24.435581731 L 11,118.237992968 l 56.353829638,0 L 67.353829638,50.207747429 z m 37.46416421,39.85333072 c -15.570248979,0 -28.171831486,12.60666584 -28.171831486,28.176914819 L 132.999992,118.237992968 c 0,-15.55499898 -12.60666584,-28.176914819 -28.176914819,-28.176914819 z" fill="url(#p9-zendesk-grad)" />
-</svg>
+</g></g></svg>

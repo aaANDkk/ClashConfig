@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>TomTom</title>
   <desc>Qure-style TomTom icon. TomTom 欧洲领先的车载 GPS 卫星定位导航与实时路况技术提供商</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 72,74.92 a 21.625,21.625 0 0,1 -21.6,-21.6 A 21.625,21.625 0 0,1 72,31.72 a 21.625,21.625 0 0,1 21.6,21.6 a 21.625,21.625 0 0,1 -21.6,21.6 z M 72,12 C 49.215,12 30.68,30.535 30.68,53.32 c 0,22.785 18.535,41.32 41.32,41.32 c 22.785,0 41.32,-18.535 41.32,-41.32 C 113.32,30.535 94.785,12 72,12 m 0,120 l 15.835,-27.43 L 56.165,104.57 Z" fill="url(#p11-tomtom-grad)" />
-</svg>
+</g></g></svg>

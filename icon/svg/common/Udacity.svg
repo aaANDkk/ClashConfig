@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Udacity</title>
   <desc>Qure-style Udacity icon. Udacity 优达学城前沿硅谷纳米学位职业教育</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 52,12 L 12,36 l 0,48 C 12,116 36,132 56,132 c 6.74,0 13.93,-1.81 20.5,-5.44 l 31.515,-18.165 C 120.435,102.775 132,90.2 132,68 L 132,16 L 124,12 L 92,32 l 0,52 c 0,8 -1.5,14.49 -3.925,19.74 c -10.01,-1.285 -28.075,-7.985 -28.075,-35.75 L 60,16.01 z m 0,8.8 l 0,47.2 c 0,26.71 16.73,39.5 31.565,42.985 c -8.09,9.95 -20.125,13.015 -27.56,13.015 c -12,0 -36,-8 -36,-40 L 20.005,40 z m 72,0.2 l 0,47 c 0,27.25 -17.41,34.2 -27.52,35.66 c 2.23,-5.7 3.52,-12.25 3.52,-19.66 L 100,36 z" fill="url(#p8-udacity-grad)" />
-</svg>
+</g></g></svg>

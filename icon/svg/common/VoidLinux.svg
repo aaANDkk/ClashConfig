@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>VoidLinux</title>
   <desc>Qure-style VoidLinux icon. Void Linux 独立滚动更新基于 runit 极简轻量的独立发行版</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 91.09,72 a 19.1,19.1 0 0,1 -19.1,19.1 A 19.1,19.1 0 0,1 52.89,72 a 19.1,19.1 0 0,1 19.1,-19.1 a 19.1,19.1 0 0,1 19.1,19.1 Z m 15.895,48.65 l -13.63,-13.625 A 41.06,41.06 0 0,1 72,113.06 A 41.06,41.06 0 0,1 30.94,72 a 41.06,41.06 0 0,1 6.045,-21.345 l -13.65,-13.65 A 60,60 0 0,0 12,72 c 0,33.135 26.865,60 60,60 a 60,60 0 0,0 34.985,-11.35 z M 72,12 a 60,60 0 0,0 -34.985,11.35 L 50.65,36.97 A 41.06,41.06 0 0,1 72,30.94 A 41.06,41.06 0 0,1 113.06,72 a 41.06,41.06 0 0,1 -6.045,21.345 l 13.65,13.65 A 60,60 0 0,0 132,72 c 0,-33.135 -26.865,-60 -60,-60 Z" fill="url(#p10-voidlinux-grad)" />
-</svg>
+</g></g></svg>

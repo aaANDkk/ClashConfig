@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.184433164 0 0 1.184433164 -27.610829103 -13.279187817)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>RSSHub</title>
   <desc>Qure-style RSSHub (RSSHub) icon from LobeHub (application).</desc>
   <defs>
@@ -9,4 +9,4 @@
   <g transform="translate(19.7045, 7.6364) scale(5.363635)">
     <rect fill="url(#p17-rsshub-g0)" height="22" rx="7" width="22" x="1" y="1"></rect><path d="M1.13 6.646C1.046 7.084 1 7.536 1 8v8a7 7 0 007 7h8a7.04 7.04 0 001.354-.13A12.154 12.154 0 0018.5 17.7c0-6.738-5.462-12.2-12.2-12.2-1.848 0-3.6.41-5.17 1.146z" fill="url(#p17-rsshub-g1)"></path><circle cx="6.25" cy="17.75" fill="url(#p17-rsshub-g2)" r="4.55"></circle>
   </g>
-</svg>
+</g></g></svg>

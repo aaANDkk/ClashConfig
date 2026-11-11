@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.186440678 0 0 1.186440678 -13.423728814 -13.423728814)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>GeminiCLI</title>
   <desc>Qure-style GeminiCLI (Gemini CLI) icon from LobeHub (application).</desc>
   <defs>
@@ -7,4 +7,4 @@
   <g transform="translate(13.0000, 13.0000) scale(4.916667)" fill-rule="evenodd">
     <g fill="url(#p17-geminicli-lobe-icons-gemini-cli-_R_0_)"><path d="M16.793 10.358v3.867L7.236 18.82v-2.8l7.751-3.728-7.75-3.728V5.763l9.556 4.595z"></path><path clip-rule="evenodd" d="M19.608 0A4.392 4.392 0 0124 4.392v15.216A4.392 4.392 0 0119.608 24H4.392A4.392 4.392 0 010 19.608V4.392A4.392 4.392 0 014.392 0h15.216zM4.26 1.444A2.816 2.816 0 001.444 4.26v15.48a2.816 2.816 0 002.816 2.816h15.48a2.816 2.816 0 002.816-2.816V4.26a2.816 2.816 0 00-2.816-2.816H4.26z"></path></g>
   </g>
-</svg>
+</g></g></svg>

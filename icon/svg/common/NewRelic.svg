@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>NewRelic</title>
   <desc>Qure-style NewRelic icon. New Relic 全栈可观测性与企业级 APM 应用性能管理系统</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 52.0078,83.5455 l 0,36.92 L 72.0043,132 L 72.0043,72.004 L 20.0393,41.998 l 0,23.0835 Z M 72.0043,12 L 26.1163,38.488 L 46.1048,50.03 l 25.8995,-14.9465 l 31.968,18.4565 l 0,36.92 l -25.8915,14.954 l 0,23.0835 l 45.88,-26.4955 L 123.9608,41.998 Z" fill="url(#p10-newrelic-grad)" />
-</svg>
+</g></g></svg>

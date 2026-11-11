@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Substack</title>
   <desc>Qure-style Substack icon. Substack 全球顶尖独立新闻通讯 Newsletter 订阅与付费阅读平台</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 124.695,53.21 L 19.3,53.21 L 19.3,39.03 l 105.4,0 l 0,14.18 z M 19.3,66.06 L 19.3,132 L 72,102.55 L 124.7,132 L 124.7,66.06 L 19.3,66.06 z M 124.7,12 L 19.3,12 l 0,14.18 l 105.4,0 L 124.7,12 z" fill="url(#p11-substack-grad)" />
-</svg>
+</g></g></svg>

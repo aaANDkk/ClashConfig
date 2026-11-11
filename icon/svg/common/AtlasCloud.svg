@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.186440678 0 0 1.186440678 -13.423728814 -13.423728814)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>AtlasCloud</title>
   <desc>Qure-style AtlasCloud (AtlasCloud) icon from LobeHub (provider).</desc>
   <defs>
@@ -7,4 +7,4 @@
   <g transform="translate(10.5694, 10.5950) scale(5.117086)" fill-rule="evenodd" fill="url(#p17-atlascloud-grad)">
     <path d="M20.2,18.01L12,0.47,3.8,18.01l-2.58,5.52c1.62,-1.05,3.39,-1.86,5.26,-2.41,1.76,-0.51,3.61,-0.79,5.52,-0.79,0.98,0,1.95,0.08,2.9,0.22l-1.86,-4.3c-0.53,-0.1,-2.87,-0.1,-4.59,0.3l3.56,-8.28,5.52,12.85c0.01,0,0.02,0.01,0.03,0.01,1.86,0.55,3.62,1.36,5.23,2.4l-2.58,-5.52Z"></path>
   </g>
-</svg>
+</g></g></svg>

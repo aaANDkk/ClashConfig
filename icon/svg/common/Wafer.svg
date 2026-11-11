@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.186440678 0 0 1.186440678 -13.423728814 -13.423728814)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Wafer</title>
   <desc>Qure-style Wafer (Wafer) icon from LobeHub (provider).</desc>
   <defs>
@@ -7,4 +7,4 @@
   <g transform="translate(13.0000, 13.0000) scale(4.916667)" fill-rule="evenodd" fill="url(#p17-wafer-grad)">
     <path d="M0 12c0 6.617 5.395 12 12.026 12H24V0H12.026C5.395 0 0 5.383 0 12m3.518 0c0-4.81 3.861-8.726 8.608-8.726S20.733 7.189 20.733 12c0 4.81-3.861 8.726-8.607 8.726-4.747 0-8.608-3.915-8.608-8.726"></path>
   </g>
-</svg>
+</g></g></svg>

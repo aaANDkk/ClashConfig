@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.158940397 0 0 1.158940397 -11.443708609 -11.443708609)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>CloudflareWorkers</title>
   <desc>Qure-style CloudflareWorkers icon. Cloudflare Workers 现代全球分布式 Serverless 边缘无服务计算</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="m 52.965899914,12.000049214 l 44.627434462,60.997696208 l -43.57696326,59.002303542 l 12.444816728,0 l 43.55183237,-58.98219883 l -44.68272242,-61.01780092 Z m 23.763769584,0 l 45.33612556,60.273926576 l -45.326073204,59.726073174 l 12.545340288,0 L 132.314172,75.294708768 l 0,-6.026387422 L 89.259931252,12.000049214 Z M 47.763805684,21.83627956 L 11.73616178,68.971776844 l -0.05026178,6.0314136 l 36.203560134,48.472460632 l 6.222408364,-8.423874328 l -32.147434488,-43.003978968 l 31.971518258,-41.782617714 Z" fill="url(#p10-cloudflareworkers-grad)" />
-</svg>
+</g></g></svg>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>TeamCity</title>
   <desc>Qure-style TeamCity icon. TeamCity JetBrains 打造的智能强大多功能持续集成与部署服务器</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="m 12,12 l 0,120 l 120,0 l 0,-120 z m 13.32,14.82 l 37.4,0 l 0,9.16 l -13.74,0 l 0,35.98 l -9.92,0 l 0,-35.98 l -13.74,0 z m 46.64,90 l -45,0 l 0,-7.5 l 45,0 z m 27.81955,-46.0913 a 23.1,23.1 0 0,1 -10.17955,1.8713 a 22.78,22.78 0 0,1 -23.14,-23.08 l 0,-0.12 a 22.92,22.92 0 0,1 23.54,-23.34 a 23.2781,23.2781 0 0,1 17.8,6.94 l -6.32,7.28 a 16.6797,16.6797 0 0,0 -11.56,-5.1 a 13.3558,13.3558 0 0,0 -13.08,14 l 0,0.14 a 13.4029,13.4029 0 0,0 13.08,14.18 a 16.1303,16.1303 0 0,0 11.88,-5.28 l 6.32,6.38 a 23.0974,23.0973 0 0,1 -8.34045,6.12865 z" fill="url(#p10-teamcity-grad)" />
-</svg>
+</g></g></svg>

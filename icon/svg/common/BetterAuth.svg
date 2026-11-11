@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.147540984 0 0 1.147540984 -10.62295082 -10.62295082)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>BetterAuth</title>
   <desc>Qure-style BetterAuth icon. Better Auth 现代化全栈 TypeScript 极简全面认证框架</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 11,28.23249887 l 0,87.53499426 l 29.396914739,0 L 40.396914739,87.55499498 l 32.706164522,0 L 73.103079261,56.439913687 L 40.396914739,56.439913687 L 40.396914739,28.23249887 Z M 73.103079261,56.44499702 l 28.659831454,0 l 0,31.120164626 l -28.659831454,0 l 0,28.202331484 L 132.999992,115.76749313 L 132.999992,28.237582203 L 73.103079261,28.237582203 Z" fill="url(#p10-betterauth-grad)" />
-</svg>
+</g></g></svg>

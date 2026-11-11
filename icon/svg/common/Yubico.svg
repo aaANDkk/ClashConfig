@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.164725458 0 0 1.164725458 -11.743760399 -11.860232945)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Yubico</title>
   <desc>Qure-style Yubico icon. Yubico 硬件安全密钥与强身份认证标准的行业引领者</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="m 73.78,73.94 l 12.605,-35.69 l 18.2,0 l -30.675,75.465 L 54.695,113.715 l 8.775,-20.68 L 42,38.25 l 18.585,0 Z M 72,12 C 38.905,12 12,38.905 12,72 s 26.905,60 60,60 s 60,-26.905 60,-60 S 105.095,12 72,12 Z m 0,7.5 c 29.04,0 52.5,23.46 52.5,52.5 S 101.04,124.5 72,124.5 S 19.5,101.04 19.5,72 S 42.96,19.5 72,19.5 Z" fill="url(#p10-yubico-grad)" />
-</svg>
+</g></g></svg>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>TYPO3</title>
   <desc>Qure-style TYPO3 icon. TYPO3 欧洲广泛采纳的企业级大型内容管理系统与门户基石</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 102.3975,94.695 c -1.78,0.525 -3.2,0.72 -5.06,0.72 c -15.24,0 -37.62,-53.26 -37.62,-70.985 c 0,-6.525 1.55,-8.7 3.725,-10.57 C 44.7975,16.04 22.4075,22.885 15.2525,31.585 c -1.55,2.18 -2.485,5.6 -2.485,9.95 C 12.7675,69.21 42.2975,132 63.1375,132 c 9.64,0 25.89,-15.84 39.26,-37.3 M 92.6675,12 c 19.275,0 38.565,3.11 38.565,13.99 c 0,22.075 -14,48.825 -21.15,48.825 c -12.745,0 -28.6,-35.45 -28.6,-53.175 C 81.4825,13.55 84.5875,12 92.6675,12" fill="url(#p11-typo3-grad)" />
-</svg>
+</g></g></svg>

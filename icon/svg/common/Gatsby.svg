@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.164725458 0 0 1.164725458 -11.743760399 -11.860232945)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Gatsby</title>
   <desc>Qure-style Gatsby icon. Gatsby 基于 React 与 GraphQL 的现代化闪电速度网站开发框架</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 72,12 C 39,12 12,39 12,72 s 27,60 60,60 s 60,-27 60,-60 S 105,12 72,12 z m 0,12.855 c 15.855,0 29.575,7.715 38.145,19.29 l -6.43,5.575 C 96.43,39.86 84.855,33.43 72,33.43 c -16.715,0 -30.855,10.715 -36.43,25.715 l 49.285,49.285 c 12.43,-4.285 21.865,-15 24.865,-27.86 l -20.575,0 L 89.145,72 l 30,0 c 0,22.285 -15.86,41.14 -36.86,45.85 L 26.15,61.72 C 30.86,40.715 49.715,24.85 72,24.85 z m -47.145,48 l 46.72,46.29 c -12,-0.43 -24.005,-4.715 -33.005,-13.715 c -9,-9 -13.715,-21.005 -13.715,-32.575 z" fill="url(#p11-gatsby-grad)" />
-</svg>
+</g></g></svg>

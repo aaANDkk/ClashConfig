@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.164725458 0 0 1.164725458 -11.743760399 -11.860232945)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Insomnia</title>
   <desc>Qure-style Insomnia icon. Insomnia 现代化开源跨平台 REST 与 GraphQL 调试客户端</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 72.678,29.2885 c 23.5895,0 42.712,19.1225 42.712,42.712 c 0,23.589 -19.1225,42.7115 -42.712,42.7115 c -23.589,0 -42.7115,-19.1225 -42.7115,-42.7115 c 0,-5.765 1.142,-11.2635 3.2125,-16.281 c 3.023,4.1165 7.898,6.7895 13.3975,6.7895 c 9.1735,0 16.61,-7.437 16.61,-16.6105 c 0,-5.4995 -2.6725,-10.3745 -6.7895,-13.3975 c 5.018,-2.07 10.516,-3.2125 16.281,-3.2125 z M 72,12 C 38.863,12 12,38.863 12,72 s 26.863,60 60,60 s 60,-26.863 60,-60 S 105.137,12 72,12 Z m 0,6.1015 c 29.767,0 53.8985,24.1315 53.8985,53.8985 S 101.767,125.8985 72,125.8985 S 18.1015,101.767 18.1015,72 S 42.233,18.1015 72,18.1015 Z" fill="url(#p10-insomnia-grad)" />
-</svg>
+</g></g></svg>

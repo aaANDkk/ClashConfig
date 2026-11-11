@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.186440678 0 0 1.186440678 -13.423728814 -13.423728814)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Lovable</title>
   <desc>Qure-style Lovable (Lovable) icon from LobeHub (application).</desc>
   <defs>
@@ -7,4 +7,4 @@
   <g transform="translate(13.9784, 13.0000) scale(4.916667)">
     <path clip-rule="evenodd" d="M7.082 0c3.91 0 7.081 3.179 7.081 7.1v2.7h2.357c3.91 0 7.082 3.178 7.082 7.1 0 3.923-3.17 7.1-7.082 7.1H0V7.1C0 3.18 3.17 0 7.082 0z" fill="url(#p17-lovable-lobe-icons-lovable-_R_0_)" fill-rule="evenodd"></path>
   </g>
-</svg>
+</g></g></svg>

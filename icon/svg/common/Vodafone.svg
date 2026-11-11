@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Vodafone</title>
   <desc>Qure-style Vodafone icon. 沃达丰 全球跨国电信与移动通讯集团</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 72,12 A 60,60 0 0,0 12,72 A 60,60 0 0,0 72,132 A 60,60 0 0,0 132,72 A 60,60 0 0,0 72,12 M 93.25,17.6 C 94.85,17.6 96.5,17.75 97.55,18.1 C 86.7,20.35 78.05,30.45 78.1,42 C 78.1,42.25 78.1,42.55 78.15,42.85 C 96.35,47.3 104.5,58.25 104.5,73.4 C 104.7,88.55 92.7,105.2 72.45,105.25 C 56.1,105.3 39.05,91.3 38.95,68.85 C 38.9,54 47,39.7 57.2,31.25 C 67.2,22.95 80.85,17.65 93.25,17.6 Z" fill="url(#p9-vodafone-grad)" />
-</svg>
+</g></g></svg>

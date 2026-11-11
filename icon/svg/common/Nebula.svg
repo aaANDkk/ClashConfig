@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.147540984 0 0 1.147540984 -10.62295082 -10.62295082)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Nebula</title>
   <desc>Qure-style Nebula icon. Nebula Slack 开源的可跨任何网络互相连接的可扩展叠加网络网状网</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 48.703080861,58.310580231 L 11,85.689411769 l 46.598913611,0 L 71.999996,130.016075529 l 14.401082389,-44.32666376 L 132.999992,85.689411769 s -19.901248695,-14.43666572 -37.703080861,-27.378831538 l 14.406165722,-44.32666376 L 71.999996,41.377998008 C 54.203247167,28.476498854 34.296915139,13.988999804 34.296915139,13.988999804 z" fill="url(#p10-nebula-grad)" />
-</svg>
+</g></g></svg>

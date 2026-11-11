@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.147540984 0 0 1.147540984 -10.62295082 -10.62295082)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>PhoneRepair</title>
   <desc>Qure-style Phone Repair icon with smartphone silhouette and repair cog.</desc>
   <defs>
@@ -20,4 +20,4 @@
   <path d="M 83.42047938,98.3076565 l 7.6000002,4.3846155" />
   <path d="M 111.265710882,114.38458 l 7.6000002,4.3846155" />
   </g>
-</svg>
+</g></g></svg>

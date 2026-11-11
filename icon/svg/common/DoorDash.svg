@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.147540984 0 0 1.147540984 -10.62295082 -10.62295082)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>DoorDash</title>
   <desc>Qure-style DoorDash icon. DoorDash 全美市场份额第一的在线外卖点餐、杂货与本地即时物流</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 128.277921785,53.743264015 a 30.9575,30.9575 0 0,0 -27.42967566,-16.40900538 L 13.96896764,37.334258635 A 2.99408,2.99408 0 0,0 11.86446695,42.43284364 L 30.79480649,61.47501655 a 8.906,8.906 0 0,0 6.31350207,2.62300086 l 61.249103415,0 a 7.8999,7.8999 0 0,1 0.157583385,15.79900518 L 56.29281485,79.89702259 a 2.99408,2.99408 0 0,0 -2.109584025,5.098585005 l 18.935422875,19.047256245 a 8.89584,8.89584 0 0,0 6.31350207,2.62300086 l 19.098089595,0 c 24.842258145,0 43.63534764,-26.560425375 29.74767642,-52.932767355" fill="url(#p11-doordash-grad)" />
-</svg>
+</g></g></svg>

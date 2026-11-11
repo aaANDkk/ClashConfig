@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>ClickUp</title>
   <desc>Qure-style ClickUp icon. ClickUp 一体化聚合任务、文档、看板与目标的生产力超级应用</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 22,104.195 l 18.45,-14.14 c 9.805,12.8 20.22,18.695 31.815,18.695 c 11.535,0 21.65,-5.83 31.015,-18.52 L 122,104.025 C 108.49,122.325 91.705,132 72.265,132 C 52.89,132 35.94,122.39 22,104.195 z M 72.2,42.75 l -32.84,28.3 l -15.18,-17.6 L 72.275,12 l 47.715,41.48 l -15.25,17.545 z" fill="url(#p10-clickup-grad)" />
-</svg>
+</g></g></svg>

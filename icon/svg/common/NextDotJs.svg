@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.164725458 0 0 1.164725458 -11.743760399 -11.860232945)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>NextDotJs</title>
   <desc>Qure-style NextDotJs icon. Next.js 工业标准企业级全栈 React 混合渲染生产框架</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 105.325,121.89 C 95.79,128.275 84.325,132 72,132 C 38.885,132 12,105.115 12,72 S 38.885,12 72,12 s 60,26.885 60,60 c 0,17.915 -7.87,34.005 -20.335,45.005 L 58.095,48 L 48,48 l 0,47.98 l 8.075,0 L 56.075,58.255 l 49.25,63.635 Z m -16.66,-42.665 l 8,10.305 L 96.665,48 l -8,0 l 0,31.225 Z" fill="url(#p10-nextdotjs-grad)" />
-</svg>
+</g></g></svg>

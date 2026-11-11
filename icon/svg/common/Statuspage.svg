@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.147540984 0 0 1.147540984 -10.62295082 -10.62295082)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Statuspage</title>
   <desc>Qure-style Statuspage icon. Statuspage Atlassian 旗下全球权威企业服务运行状态透明通报系统</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 72.039771136,59.783313024 a 28.5839,28.5839 0 1,1 0,57.16274304 a 28.5839,28.5839 0 0,1 0,-57.16274304 z M 11.781242368,55.309928064 l 15.35184384,18.168043008 a 3.24829,3.24829 0 0,0 4.641136896,0.345670656 c 24.83236992,-22.260173568 55.76481024,-22.260173568 80.52092928,0 a 3.26354,3.26354 0 0,0 4.656387072,-0.345670656 l 15.280676352,-18.168043008 a 3.28387,3.28387 0 0,0 -0.3812544,-4.605553152 c -36.0920832,-31.537363968 -83.682799104,-31.537363968 -119.73929856,0 a 3.3042,3.3042 0 0,0 -0.33042048,4.605553152 z" fill="url(#p10-statuspage-grad)" />
-</svg>
+</g></g></svg>

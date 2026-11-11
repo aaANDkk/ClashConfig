@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.164725458 0 0 1.164725458 -11.743760399 -11.860232945)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Pixelfed</title>
   <desc>Qure-style Pixelfed icon. Pixelfed 联邦宇宙去中心化无广告开源图片摄影社区</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 72,132 C 38.863,132 12,105.137 12,72 S 38.863,12 72,12 s 60,26.863 60,60 s -26.863,60 -60,60 m -4.763,-46.901 l 11.007,0 c 10.369,0 18.7745,-8.183 18.7745,-18.277 S 88.613,48.545 78.244,48.545 l -15.886,0 c -5.982,0 -10.8315,4.721 -10.8315,10.5445 l 0,41.04 z" fill="url(#p9-pixelfed-grad)" />
-</svg>
+</g></g></svg>

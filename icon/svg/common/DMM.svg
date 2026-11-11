@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.147540984 0 0 1.147540984 -10.62295082 -10.62295082)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>DMM</title>
   <desc>Qure-style DMM icon. DMM 日本综合大型网络游戏与数字娱乐门户</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 59.418746825,13.33833318 L 11,13.33833318 l 0,117.32332564 l 58.687079485,0 C 98.860327572,130.66165882 132.999992,117.322993028 132.999992,71.999996 S 92.465494658,13.33833318 59.418746825,13.33833318 z m 3.283833118,76.621078309 L 62.702579943,53.39499722 c 8.875499418,0 22.3666652,0.401583307 22.3666652,18.208498806 c 0,18.19833214 -12.977749149,18.355915463 -22.3666652,18.355915463 z" fill="url(#p9-dmm-grad)" />
-</svg>
+</g></g></svg>

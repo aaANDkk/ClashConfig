@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Gamemaker</title>
   <desc>Qure-style Gamemaker icon. GameMaker 专为快速构建跨平台精美 2D 独立游戏的知名商业引擎</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 12.06,71.97 L 72.03,12 l 59.91,60.03 l -34.155,0 l -25.815,-25.755 l -25.755,25.755 l 25.815,25.755 l 0,-25.755 l 25.755,0 l 0,34.515 L 72.03,132 z" fill="url(#p10-gamemaker-grad)" />
-</svg>
+</g></g></svg>

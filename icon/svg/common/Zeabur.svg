@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.186440678 0 0 1.186440678 -13.423728814 -13.423728814)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Zeabur</title>
   <desc>Qure-style Zeabur (Zeabur) icon from LobeHub (application).</desc>
   <defs>
@@ -9,4 +9,4 @@
   <g transform="translate(13.0000, 10.5417) scale(4.916667)" fill-rule="evenodd" fill="url(#p17-zeabur-gcc)">
     <path d="M9.325 15.022h14.672V22H0v-6.978h6.746l9.29-5.044H0V3h23.997v6.978z"></path><path d="M.001 3h15.954v6.978H.001z" fill="url(#p17-zeabur-g0)"></path><path d="M9.4 15.022H24V22H9.4z" fill="url(#p17-zeabur-g1)"></path>
   </g>
-</svg>
+</g></g></svg>

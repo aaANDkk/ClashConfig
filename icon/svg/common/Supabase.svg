@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Supabase</title>
   <desc>Qure-style Supabase icon. Supabase 开源 Firebase 替代品与全托管 Postgres</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 71.5015641,17.180540404 c -0.075000585,-4.930038454 -6.30004914,-7.05005499 -9.370073086,-3.185024843 L 15.821129796,72.25096995 C 10.35108713,79.136023653 15.25112535,89.276102745 24.046193951,89.276102745 l 47.895373581,0 l 0.565004407,37.55029289 c 0.070000546,4.925038415 6.295049101,7.040054912 9.365073047,3.180024804 l 46.310361218,-58.265454467 c 5.465042627,-6.875053625 0.565004407,-17.015132717 -8.225064155,-17.015132717 l -48.210376038,0 z" fill="url(#p10-supabase-grad)" />
-</svg>
+</g></g></svg>

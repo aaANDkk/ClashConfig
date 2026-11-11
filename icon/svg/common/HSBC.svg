@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.147540984 0 0 1.147540984 -10.62295082 -10.62295082)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>HSBC</title>
   <desc>Qure-style HSBC icon. 汇丰 国际全方位商业与私人银行</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="m 132.999992,72.035579331 l -30.479664668,30.484748001 L 102.520327332,41.479664668 L 132.999992,72.035579331 z m -30.479664668,-30.55083133 L 41.55083133,41.484748001 l 30.479664668,30.55083133 l 30.484748001,-30.55083133 z M 11,72.030495998 l 30.55083133,30.484748001 L 41.55083133,41.479664668 L 11,72.035579331 z m 30.55083133,30.484748001 l 60.969496002,0 l -30.484748001,-30.484748001 l -30.479664668,30.484748001 z" fill="url(#p7-hsbc-grad)" />
-</svg>
+</g></g></svg>

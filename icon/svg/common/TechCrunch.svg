@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.147540984 0 0 1.147540984 -10.62295082 -10.62295082)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>TechCrunch</title>
   <desc>Qure-style TechCrunch icon. TechCrunch 全球创业投资、硅谷独角兽与突破性科技风向标媒体</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 11,41.499998 l 0,20.333332 l 20.333332,0 l 0,40.666664 l 20.333332,0 l 0,-40.666664 l 20.333332,0 L 71.999996,41.499998 Z m 60.999996,20.333332 l 0,40.666664 l 60.999996,0 l 0,-20.333332 l -40.666664,0 l 0,-20.333332 z m 20.333332,0 l 40.666664,0 L 132.999992,41.499998 l -40.666664,0 z" fill="url(#p11-techcrunch-grad)" />
-</svg>
+</g></g></svg>

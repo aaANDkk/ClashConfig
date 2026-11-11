@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.147540984 0 0 1.147540984 -10.62295082 -10.62295082)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Autodesk</title>
   <desc>Qure-style Autodesk icon. Autodesk 全球工程设计与 3D 建模工业软件</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="m 11.655749957,113.689693266 l 74.7249951,-46.441330288 l 38.760414125,0 c 1.194583255,0 2.262083185,0.955666604 2.262083185,2.262083185 c 0,1.06749993 -0.467666636,1.550416565 -1.06749993,1.906249875 l -36.711830926,21.975248559 c -2.38916651,1.438583239 -3.217749789,4.295416385 -3.217749789,6.430416245 l -0.040666664,13.852082425 L 132.999992,113.674443267 L 132.999992,33.169698546 a 2.85175,2.85175 0 0,0 -2.973749805,-2.856833146 l -44.489330416,0 L 11,76.535612369 L 11,113.6795266 l 0.655749957,0 z" fill="url(#p8-autodesk-grad)" />
-</svg>
+</g></g></svg>

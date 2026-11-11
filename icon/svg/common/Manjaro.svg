@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Manjaro</title>
   <desc>Qure-style Manjaro icon. Manjaro 基于 Arch Linux 打造的直观友好滚动更新发行版</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 22.909995636,12 A 10.885,10.885 0 0,0 12,22.909995636 l 0,98.179960728 C 12,127.134953946 16.864998054,131.999952 22.909995636,131.999952 l 21.814991274,0 L 44.72498691,44.72498691 l 43.639982544,0 L 88.364969454,12 Z m 76.364969454,0 l 0,119.999952 l 21.814991274,0 A 10.885,10.885 0 0,0 131.999952,121.089956364 L 131.999952,22.909995636 A 10.885,10.885 0 0,0 121.089956364,12 Z M 55.634982546,55.634982546 L 55.634982546,131.999952 l 32.729986908,0 L 88.364969454,55.634982546 Z" fill="url(#p10-manjaro-grad)" />
-</svg>
+</g></g></svg>

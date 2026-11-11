@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Unsplash</title>
   <desc>Qure-style Unsplash icon. Unsplash 全球最高质量免版税精美摄影作品与创意灵感图库</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 49.5,45.75 L 49.5,12 l 45,0 l 0,33.75 l -45,0 z m 45,18.75 L 132,64.5 L 132,132 L 12,132 L 12,64.5 l 37.5,0 l 0,33.75 l 45,0 L 94.5,64.5 z" fill="url(#p10-unsplash-grad)" />
-</svg>
+</g></g></svg>

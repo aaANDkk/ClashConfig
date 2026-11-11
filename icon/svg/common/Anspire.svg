@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.186440678 0 0 1.186440678 -13.423728814 -13.423728814)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Anspire</title>
   <desc>Qure-style Anspire (Anspire) icon from LobeHub (provider).</desc>
   <defs>
@@ -7,4 +7,4 @@
   <g transform="translate(13.0017, 12.9995) scale(4.916707)">
     <path d="M20.531 3.736A2.146 2.146 0 0018.419 2h-3.838c-1.071 0-2.07.54-2.65 1.435L.023 21.78a.142.142 0 00.12.22h3.6c.097 0 .188-.05.24-.131l3.547-5.492h6.274c1.46 0 2.73-.996 3.067-2.407l.167-.695.002-.01a.14.14 0 00-.139-.161H9.644l4.935-7.643a.861.861 0 01.724-.393h1.225c.276 0 .512.194.563.463l3.105 16.237a.286.286 0 00.281.232h3.38c.009 0 .018 0 .026-.003a.142.142 0 00.114-.166L20.531 3.736z" fill="url(#p17-anspire-g0)"></path>
   </g>
-</svg>
+</g></g></svg>

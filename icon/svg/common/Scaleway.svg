@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Scaleway</title>
   <desc>Qure-style Scaleway icon. Scaleway 法国创新欧洲云基础设施服务</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 95.025,67.55 l 0,28.6 a 8.85,8.85 0 0,1 -7.7,8.45 l -20,0 a 7.15,7.15 0 0,1 -6.55,-6.1 a 5.45,5.45 0 0,1 0,-0.9 a 6.85,6.85 0 0,1 6.85,-6.8 l 8.7,0 a 5,5 0 0,0 5,-5 l 0,-18.1 a 7,7 0 0,1 5.9,-6.95 l 0.85,0 a 6.85,6.85 0 0,1 6.95,6.8 z m -32.3,8.7 L 62.725,58.3 a 5,5 0 0,1 5,-5 l 9.25,0 a 6.85,6.85 0 0,0 6.85,-6.85 a 5,5 0 0,0 0,-0.85 a 7.25,7.25 0 0,0 -7.05,-6 l -19.8,0 a 9.05,9.05 0 0,0 -7.9,8.3 l 0,28.5 a 6.85,6.85 0 0,0 6.85,6.85 l 1.05,0 a 7,7 0 0,0 5.75,-7 z m 60,-21.45 L 122.725,112 a 22.65,22.65 0 0,1 -20.75,20 l -37.9,0 a 42.85,42.85 0 0,1 -42.8,-42.85 L 21.275,34.7 A 22.7,22.7 0 0,1 43.975,12 l 35.9,0 a 42.8,42.8 0 0,1 42.8,42.8 z m -13.7,0 a 29.15,29.15 0 0,0 -29.1,-29.1 l -35.95,0 a 8.95,8.95 0 0,0 -9,9 l 0,54.45 a 29.15,29.15 0 0,0 29.1,29 l 37.2,0 a 8.95,8.95 0 0,0 7.7,-7.4 z" fill="url(#p9-scaleway-grad)" />
-</svg>
+</g></g></svg>

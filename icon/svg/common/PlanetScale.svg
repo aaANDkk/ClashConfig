@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.164725458 0 0 1.164725458 -11.743760399 -11.860232945)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>PlanetScale</title>
   <desc>Qure-style PlanetScale icon. PlanetScale 无服务器无缝扩缩容分片 MySQL 云平台</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 12,72 C 12,38.865 38.865,12 72,12 c 24.365,0 45.335,14.52 54.735,35.385 l -79.35,79.35 a 59.905,59.905 0 0,1 -9.675,-5.495 L 86.95,72 L 72,72 l -42.425,42.425 A 59.81,59.81 0 0,1 12,72 Z m 60.02,60 L 132,72.02 C 131.99,105.14 105.14,131.99 72.02,132 Z" fill="url(#p10-planetscale-grad)" />
-</svg>
+</g></g></svg>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.147540984 0 0 1.147540984 -10.62295082 -10.62295082)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Haskell</title>
   <desc>Qure-style Haskell icon. Haskell 纯函数式高级静态类型语言</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 11,28.969582155 L 39.705581451,71.999996 L 11,115.030409845 l 21.527915255,0 L 61.238580039,71.999996 L 32.527915255,28.969582155 z m 28.705581451,0 L 68.411162902,71.999996 l -28.705581451,43.030413845 l 21.527915255,0 l 17.94416549,-26.89083157 l 17.94416549,26.89083157 l 21.522831922,0 L 61.238580039,28.969582155 z m 45.450080353,25.101498354 l 9.571916039,14.345165726 L 132.999992,68.416246235 L 132.999992,54.071080509 z m 14.355332392,21.512665256 l 9.566832706,14.345165726 L 132.999992,89.928911491 l 0,-14.345165726 z" fill="url(#p8-haskell-grad)" />
-</svg>
+</g></g></svg>

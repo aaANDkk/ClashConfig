@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.186440678 0 0 1.186440678 -13.423728814 -13.423728814)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Phind</title>
   <desc>Qure-style Phind (Phind) icon from LobeHub (model).</desc>
   <defs>
@@ -7,4 +7,4 @@
   <g transform="translate(13.0022, 13.0046) scale(4.916474)" fill-rule="evenodd" fill="url(#p17-phind-grad)">
     <path d="M3.723 4.542V24H7.37v-7.893s.007 0 .007.007V15.6c1.249 1.201 2.818 2.034 4.555 2.319.418.062.844.097 1.276.097 4.325-.125 8.07-3.332 8.699-7.733a8.916 8.916 0 00-1.723-6.678A9.017 9.017 0 0014.228.092a9.023 9.023 0 00-6.71 1.715c-.238.173-.46.36-.677.555L4.288.321 2 3.153l1.723 1.389zM13 3.306a5.69 5.69 0 015.392 3.853 5.655 5.655 0 01-3.9 7.275 5.57 5.57 0 01-1.492.194c-.976 0-1.89-.243-2.692-.673a5.519 5.519 0 01-1.863-1.59 5.462 5.462 0 01-1.067-2.568 5.355 5.355 0 01-.063-.826c0-3.131 2.546-5.665 5.685-5.665z"></path>
   </g>
-</svg>
+</g></g></svg>

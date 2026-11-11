@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>IndieHackers</title>
   <desc>Qure-style IndieHackers icon. Indie Hackers 独立开发者交流独立盈利副业项目与出海经验的核心社区</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 12,12 l 120,0 l 0,120 L 12,132 L 12,12 Z m 27,86 l 12,0 L 51,46 L 39,46 l 0,52 Z m 24,0 l 12,0 l 0,-20 l 18,0 l 0,20 l 12,0 L 105,46 l -12,0 l 0,20 l -18,0 l 0,-20 l -12,0 l 0,52 Z" fill="url(#p11-indiehackers-grad)" />
-</svg>
+</g></g></svg>

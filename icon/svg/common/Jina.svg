@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.184433164 0 0 1.184433164 -13.160744501 -13.279187817)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Jina</title>
   <desc>Qure-style Jina (Jina AI) icon from LobeHub (provider).</desc>
   <defs>
@@ -9,4 +9,4 @@
     <path d="M6.608 21.416a4.608 4.608 0 100-9.217 4.608 4.608 0 000 9.217z" fill="url(#p17-jina-dot)" />
     <path d="M20.894 2.015c.614 0 1.106.492 1.106 1.106v9.002c0 5.13-4.148 9.309-9.217 9.37v-9.355l-.03-9.032c0-.614.491-1.106 1.106-1.106h7.158l-.123.015z" fill="url(#p17-jina-stem)" />
   </g>
-</svg>
+</g></g></svg>

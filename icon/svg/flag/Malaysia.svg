@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(0.991501416 0 0 0.991501416 0.8101983 0.8101983)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>马来西亚</title>
   <!-- Qure-inspired palette; continuous corners: radius 16, smoothing 60%. -->
   <defs>
@@ -15,4 +15,4 @@
     <path d="M 36.07157,34.13223 A 17.0565,17.0565 0 1,0 36.07157,65.23525 A 16.8057,16.8057 0 0,1 36.07157,34.13223 Z" fill="url(#my-qure-yellow)"/>
     <path d="M 54.88388,35.88804 L 56.22344,43.81472 L 60.86961,37.25424 L 58.63726,44.97715 L 65.66978,41.08227 L 60.30767,47.07179 L 68.33368,46.61389 L 60.90382,49.68374 L 68.33368,52.75358 L 60.30767,52.29569 L 65.66978,58.2852 L 58.63726,54.39033 L 60.86961,62.11323 L 56.22344,55.55275 L 54.88388,63.47943 L 53.54432,55.55275 L 48.89815,62.11323 L 51.1305,54.39033 L 44.09798,58.2852 L 49.46009,52.29569 L 41.43408,52.75358 L 48.86394,49.68374 L 41.43408,46.61389 L 49.46009,47.07179 L 44.09798,41.08227 L 51.1305,44.97715 L 48.89815,37.25424 L 53.54432,43.81472 Z" fill="url(#my-qure-yellow)"/>
   </g>
-</svg>
+</g></g></svg>

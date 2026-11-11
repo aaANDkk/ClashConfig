@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>CleverCloud</title>
   <desc>Qure-style CleverCloud icon. Clever Cloud 欧洲领先的高性能 IT 自动化 PaaS 云应用平台</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 36.115,67.695 L 68.265,12 L 20.04,39.85 z M 18.175,45.23 l 0,53.54 L 33.625,72 z M 72,129.85 l 32.15,-55.7 L 39.85,74.15 z M 72,14.15 L 39.85,69.85 l 64.3,0 z m 53.82,84.62 L 125.82,45.23 L 110.37,72 z m 0.00500000000001,4.31 l -1.87,1.075 l -16.075,-27.85 L 75.73,132 z m 0,-62.155 L 75.725,12 l 32.155,55.695 l 16.075,-27.85 z M 18.175,103.08 L 68.27,132 l -32.15,-55.69 l -16.08,27.845 z" fill="url(#p10-clevercloud-grad)" />
-</svg>
+</g></g></svg>

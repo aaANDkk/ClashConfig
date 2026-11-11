@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="144" height="144" viewBox="0 0 144 144">
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="144" viewBox="0 0 144 144"><g data-canvas-fit="2px" transform="matrix(1.097178683 0 0 1.097178683 -6.996865204 -7.106583072)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
 <g transform="translate(0 0) scale(0.140625)">
     <g transform="translate(-15.1318 -15.1318) scale(0.916751)">
         <defs>
@@ -13,4 +13,4 @@
         <path fill="url(#home1)" d="M103.57 480.30 L531.57 106.30 A66.00 66.00 0 0 1 618.37 106.25 L1047.37 480.25 A66.00 66.00 0 0 1 960.63 579.75 L604.57 269.34 A45.00 45.00 0 0 0 545.46 269.37 L190.43 579.70 A66.00 66.00 0 0 1 103.57 480.30 Z" />
     </g>
 </g>
-</svg>
+</g></g></svg>

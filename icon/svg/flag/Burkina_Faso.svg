@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(0.991501416 0 0 0.991501416 0.8101983 0.8101983)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
 <title>布基纳法索</title>
 <defs><mask id="bf-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
 <linearGradient id="bf-green" x1="72" y1="71.7636" x2="72" y2="122.0526" gradientUnits="userSpaceOnUse"><stop stop-color="#35C879" /><stop offset="1" stop-color="#008344" /></linearGradient>
@@ -9,4 +9,4 @@
 <path d="M 1.329 21.4745 h 140.9162 v 50.7 h -140.9162 Z" fill="url(#bf-red)" stroke="url(#bf-red)" stroke-width="0.6" stroke-linejoin="round" />
 <path d="M 71.7871,55.0005 l 3.9633,11.5874 l 12.7925,0 l -10.3485,7.1453 l 3.9412,11.5874 l -10.3485,-7.1452 l -10.3485,7.1452 l 3.9412,-11.5874 l -10.3485,-7.1453 l 12.7925,0 Z" fill="url(#bf-yellow)" fill-rule="evenodd" stroke="url(#bf-yellow)" stroke-width="0.4" stroke-linejoin="round" />
 </g>
-</svg>
+</g></g></svg>

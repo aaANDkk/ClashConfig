@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.164725458 0 0 1.164725458 -11.743760399 -11.860232945)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>AppVeyor</title>
   <desc>Qure-style AppVeyor icon. AppVeyor 专注于 Windows 与多平台自动化持续集成交付服务</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 72,12 C 105,12 132,39 132,72 C 132,105 105,132 72,132 C 39,132 12,105 12,72 C 12,39 39,12 72,12 Z m 14.7,71.7 C 93.3,75.3 92.4,63.3 84,57 C 75.9,50.7 63.9,52.2 57,60.6 C 50.4,69 51.3,81 59.7,87.3 c 8.4,6.3 20.4,4.8 27,-3.6 z m -32.1,39 c 3.6,1.5 11.4,3 15.3,3 l 26.1,-37.8 c 8.4,-12.6 6.3,-29.7 -5.4,-39 c -10.5,-8.4 -25.2,-8.1 -35.7,0 l -36.3,27.9 c 0.9,9.6 3.6,14.4 3.6,14.7 l 20.7,-22.5 c -1.5,9.9 2.1,20.1 10.5,26.4 c 7.2,5.7 15.9,7.2 24.3,5.4 z" fill="url(#p10-appveyor-grad)" />
-</svg>
+</g></g></svg>

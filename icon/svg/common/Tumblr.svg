@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -11.883333333 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Tumblr</title>
   <desc>Qure-style Tumblr icon. Tumblr 流行兴趣轻博客社区</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 84.81,132 c -25.465,0 -35.155,-18.78 -35.155,-32.055 L 49.655,60.735 L 37.575,60.735 L 37.575,45.24 c 18.15,-6.565 22.56,-22.98 23.55,-32.345 C 61.195,12.255 61.7,12 61.99,12 l 17.585,0 l 0,30.57 l 24.005,0 l 0,18.165 l -24.1,0 l 0,37.35 c 0.08,5.005 1.875,11.855 11.035,11.855 l 0.45,0 c 3.155,-0.1 7.43,-1.025 9.68,-2.095 l 5.78,17.125 c -2.18,3.18 -12,6.87 -20.78,7.02 l -0.89,0 l 0.055,0.01 z" fill="url(#p7-tumblr-grad)" />
-</svg>
+</g></g></svg>

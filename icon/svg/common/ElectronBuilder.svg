@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>ElectronBuilder</title>
   <desc>Qure-style ElectronBuilder icon. electron-builder 完备的跨平台桌面应用全自动打包与分发利器</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 72,47.05 a 17.53,17.53 0 0,0 17.53,-17.525 A 17.53,17.53 0 0,0 72,12 a 17.53,17.53 0 0,0 -17.53,17.53 A 17.53,17.53 0 0,0 72,47.05 m 0,20.685 C 58.215,54.94 39.87,47.05 19.42,47.05 l 0,64.26 C 39.87,111.315 58.215,119.2 72,132 c 13.785,-12.8 32.13,-20.685 52.58,-20.685 L 124.58,47.05 c -20.45,0 -38.795,7.89 -52.58,20.685 z" fill="url(#p11-electronbuilder-grad)" />
-</svg>
+</g></g></svg>

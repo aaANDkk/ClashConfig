@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>WebStorm</title>
   <desc>Qure-style WebStorm icon. WebStorm JetBrains 最懂 JavaScript 的智能前端 IDE</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 12,12 l 0,120 l 120,0 L 132,12 L 12,12 z m 89.445,14.445 c 7.22,0 13.335,2.22 18.335,6.39 l -5.555,8.335 c -4.445,-3.055 -8.61,-5 -12.78,-5 s -6.39,1.945 -6.39,4.445 l 0,0.28 c 0,3.335 2.22,4.445 10.555,6.665 c 10,2.78 15.555,6.39 15.555,15 l 0,0.28 c 0,10 -7.5,15.555 -18.055,15.555 c -7.5,-0.28 -15,-3.055 -20.835,-8.335 l 6.39,-7.78 c 4.445,3.61 9.165,6.11 14.72,6.11 c 4.445,0 6.945,-1.665 6.945,-4.72 l 0,-0.28 c 0,-2.78 -1.665,-4.165 -10,-6.39 c -10,-2.5 -16.11,-5.28 -16.11,-15.28 l 0,-0.28 c 0,-9.165 7.22,-15 17.22,-15 z m -80.555,1.11 l 11.39,0 l 7.5,28.89 l 8.61,-28.89 l 8.335,0 l 8.335,28.89 l 7.5,-28.89 l 11.665,0 l -14.165,49.72 L 60.615,77.275 L 52.56,48.385 l -8.335,28.89 L 35.06,77.275 L 20.895,27.555 z m 2.5,81.945 l 45,0 L 68.39,117 l -45,0 l 0,-7.5 z" fill="url(#p10-webstorm-grad)" />
-</svg>
+</g></g></svg>

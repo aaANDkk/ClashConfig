@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(0.991501416 0 0 0.991501416 0.8101983 0.8101983)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
 <title>南乔治亚和南桑威奇群岛</title>
 
 <defs><mask id="gs-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
@@ -18,4 +18,4 @@
 <path d="M 48.00749,50.91455 L 71.7871,67.5728 l 0,4.19075 l -29.8346,-20.849 z m -20.2567,2.09538 l 0.66054,3.66691 l -21.13743,15.08671 L 1.329,71.76355 z M 71.7871,21.4745 l 0,0.31431 l -27.4126,19.69654 l 0.22018,-4.60983 L 66.28256,21.4745 z M 1.329,21.4745 l 26.3117,18.43932 l -6.60545,0 L 1.329,25.87479 z" fill="url(#gs-canton-red)" stroke="url(#gs-canton-red)" stroke-width=".5" stroke-linejoin="round" />
 <path d="M 27.86088,21.4745 l 0,50.28905 l 17.61453,0 L 45.4754,21.4745 z M 1.329,38.23752 l 0,16.76302 l 70.4581,0 L 71.7871,38.23752 z" fill="url(#gs-canton-white)" stroke="url(#gs-canton-white)" stroke-width=".5" stroke-linejoin="round" />
 <path d="M 1.329,41.69489 l 0,10.05781 l 70.4581,0 l 0,-10.05781 z M 31.38378,21.4745 l 0,50.28905 l 10.56871,0 L 41.9525,21.4745 z" fill="url(#gs-canton-red)" stroke="url(#gs-canton-red)" stroke-width=".5" stroke-linejoin="round" /></g>
-</svg>
+</g></g></svg>

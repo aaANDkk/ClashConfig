@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>HackerNoon</title>
   <desc>Qure-style HackerNoon icon. Hacker Noon 独立由技术人撰写的去中心化科技、编程与区块链深度读物</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 40.505,12 l 0,31.115 L 56.25,43.115 L 56.25,35.27 l 7.88,0 l 0,39.21 L 72,74.48 L 72,35.27 l 7.87,0 l 0,7.845 l 15.75,0 L 95.62,12 z m 55.12,31.115 l 0,15.68 l 7.87,0 L 103.495,43.115 z m 7.87,15.68 l 0,23.525 l 7.88,0 l 0,-7.84 l 7.87,0 l 0,-7.84 l -7.87,0 L 111.375,58.795 z m 0,23.525 l -7.87,0 l 0,15.685 l 7.87,0 z m -7.87,15.685 l -15.75,0 l 0,7.845 L 56.25,105.85 L 56.25,98 L 40.5,98 L 40.5,132 l 55.12,0 z m -55.12,0 l 0,-15.685 L 32.625,82.32 l 0,15.685 z m -7.88,-15.685 L 32.625,58.8 L 24.755,58.8 l 0,23.525 z m 0,-23.525 l 7.88,0 L 40.505,43.115 L 32.625,43.115 Z" fill="url(#p11-hackernoon-grad)" />
-</svg>
+</g></g></svg>

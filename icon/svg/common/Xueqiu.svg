@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.186440678 0 0 1.186440678 -13.423728814 -13.423728814)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <defs>
     <linearGradient id="p12-xueqiu-grad" gradientUnits="userSpaceOnUse" x1="72" y1="12" x2="72" y2="132">
       <stop offset="0.0" stop-color="#4F93F5" />
@@ -14,4 +14,4 @@
   <path d="M 80.4285714284,67.9174107143 m -4.21428571429,0 a 4.21429,4.21429 0 0,0 8.42857142857,0 a 4.21429,4.21429 0 0,0 -8.42857142857,0 Z" fill="#FFFFFF" />
   <path d="M 46.7142857142,42.5 m -4.21428571429,0 a 4.21429,4.21429 0 0,0 8.42857142857,0 a 4.21429,4.21429 0 0,0 -8.42857142857,0 Z" fill="#FFFFFF" />
   <path d="M 97.2857142856,50.9285714286 m -4.21428571429,0 a 4.21429,4.21429 0 0,0 8.42857142857,0 a 4.21429,4.21429 0 0,0 -8.42857142857,0 Z" fill="#FFFFFF" />
-</svg>
+</g></g></svg>

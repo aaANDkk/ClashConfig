@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Ethereum</title>
   <desc>Qure-style Ethereum icon. 以太坊 全球去中心化智能合约公链</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 71.72,101.85 L 34.9,80.1 L 71.715,132 l 36.85,-51.9 l -36.86,21.75 l 0.015,0 z M 72.28,12 L 35.45,73.115 l 36.825,21.77 l 36.825,-21.75 L 72.28,12 z" fill="url(#p7-ethereum-grad)" />
-</svg>
+</g></g></svg>

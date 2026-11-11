@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.147540984 0 0 1.147540984 -10.62295082 -10.62295082)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>TuxedoComputers</title>
   <desc>Qure-style TuxedoComputers icon. TUXEDO 德国专为 Linux 原生打造的高性能硬件笔记本与工作站</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="m 81.953162014,67.57499629 l 23.368081801,37.840330852 l -17.837415497,0 l -14.94499902,-25.015081693 l -22.026081889,32.355414545 L 132.999992,112.501493344 c -0.376166642,3.685416425 -0.731999952,7.37083285 -1.092916595,11.051165942 c -62.987579203,0.264333316 -38.313080821,0.533749965 -101.300660024,0.533749965 l 36.559330936,-51.966913259 l -20.63833198,-33.885497778 l 17.776415501,0 l 12.128832538,20.821331968 l 17.74083217,-28.034581495 C 37.443498266,30.756415371 67.78082961,31.264748671 11,31.142748679 L 12.133583259,20.1474994 c 62.992662536,-0.076249995 38.114830834,-0.233833318 101.102410037,-0.233833318 z" fill="url(#p11-tuxedocomputers-grad)" />
-</svg>
+</g></g></svg>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.228070175 0 0 1.228070175 -16.175438596 -16.175438596)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Photopea</title>
   <desc>Qure-style Photopea icon. Photopea 网页上 1:1 媲美 Photoshop 的免安装全能在线图片编辑器</desc>
   <defs>
@@ -11,4 +11,4 @@
   <g transform="translate(5.1885, -5.5574) scale(0.3364)">
     <path d="M 106.39,399.24 l-0.76,-172.02 h-0.09 c0,-0.41 0,-0.8 0,-1.22 c0,-65.22 51.79,-117.93 115.86,-117.93 c38.44,0 69.52,31.63 69.52,70.76 c0,39.13 -31.08,70.76 -69.52,70.76 c-12.8,0 -23.17,-10.55 -23.17,-23.59 c0,-13.03 10.37,-23.59 23.17,-23.59 c12.8,0 23.17,-10.55 23.17,-23.59 c0,-13.03 -10.37,-23.59 -23.17,-23.59 c-38.44,0 -69.52,31.63 -69.52,70.76 c0,39.13 31.08,70.76 69.52,70.76 c64.07,0 115.86,-52.71 115.86,-117.93 c0,-65.22 -51.79,-117.93 -115.86,-117.93 c-89.7,0 -162.23,73.79 -162.23,165.1 c0,0.48 0,0.94 0,1.43 h-0.39 l0.76,171.59 z" fill="url(#p10-photopea-grad)" />
   </g>
-</svg>
+</g></g></svg>

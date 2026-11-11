@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.147540984 0 0 1.147540984 -10.62295082 -10.62295082)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>PaloAltoNetworks</title>
   <desc>Qure-style PaloAltoNetworks icon. Palo Alto Networks 全球下一代防火墙与云安全防御系统领军者</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="m 63.246496574,89.501911519 l 8.667082765,8.667082765 l -17.415498858,17.415498858 l -17.420582191,-17.415498858 l 43.675997136,-43.670913803 l -8.667082765,-8.667082765 l 17.415498858,-17.415498858 l 17.420582191,17.415498858 l -43.675997136,43.670913803 z M 11,72.086412661 l 17.415498858,17.415498858 l 43.670913803,-43.66583047 l -17.415498858,-17.420582191 L 11,72.086412661 z m 60.913579339,26.07749829 l 17.415498858,17.420582191 L 132.999992,71.913579339 l -17.415498858,-17.415498858 l -43.670913803,43.66583047 z" fill="url(#p10-paloaltonetworks-grad)" />
-</svg>
+</g></g></svg>

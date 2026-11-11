@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.186440678 0 0 1.186440678 -13.423728814 -13.423728814)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Poetry</title>
   <desc>Qure-style Poetry icon. Poetry 现代化 Python 虚拟环境隔离与包打包发布工具</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 119.219673868,13 a 94.1247,94.1247 0 0,1 -25.901001756,64.963921071 L 24.780334132,13 l 66.783087861,66.783087861 a 94.1493,94.1493 0 0,1 -66.783087861,27.651335208 L 24.780334132,13 l 94.439339736,0 Z m -9.395750637,85.043589099 A 120.237,120.237 0 0,1 48.345919063,131.000008 l -19.927251351,-19.927251351 a 97.8908,97.8908 0 0,0 65.73583779,-28.703501946 l 15.669417729,15.674334396 Z" fill="url(#p15-poetry-grad)" fill-rule="evenodd" />
-</svg>
+</g></g></svg>

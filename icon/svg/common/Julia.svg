@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.147540984 0 0 1.147540984 -10.62295082 -10.62295082)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Julia</title>
   <desc>Qure-style Julia icon. Julia 专为高性能科学计算与数值分析设计的高级动态语言</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 67.618162954,100.309077477 a 28.3091,28.3091 0 0,1 -56.618162954,0 a 28.3091,28.3091 0 0,1 56.618162954,0 z m 32.690914523,-56.618162954 a 28.3091,28.3091 0 0,1 -56.618162954,0 a 28.3091,28.3091 0 0,1 56.618162954,0 z M 132.999992,100.309077477 a 28.3091,28.3091 0 0,1 -56.618162954,0 a 28.3091,28.3091 0 0,1 56.618162954,0 z" fill="url(#p10-julia-grad)" />
-</svg>
+</g></g></svg>

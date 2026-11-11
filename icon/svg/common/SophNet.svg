@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.186440678 0 0 1.186440678 -13.423728814 -13.423728814)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>SophNet</title>
   <desc>Qure-style SophNet (SophNet) icon from LobeHub (provider).</desc>
   <defs>
@@ -8,4 +8,4 @@
   <g transform="translate(9.8954, 13.0000) scale(4.910218)">
     <path d="M2 3.124A3.125 3.125 0 015.126 0h15.101a3.125 3.125 0 010 6.249H5.125A3.125 3.125 0 012 3.124z" fill="url(#p17-sophnet-g0)"></path><path d="M3.293 1.035a3.125 3.125 0 014.411.257l8.51 9.562a3.125 3.125 0 01-4.669 4.155L3.036 5.447a3.125 3.125 0 01.257-4.412z" fill="url(#p17-sophnet-g0)"></path><path d="M2 13.018a3.125 3.125 0 013.125-3.124h8.853a3.124 3.124 0 110 6.248H5.125A3.125 3.125 0 012 13.018z" fill="url(#p17-sophnet-g0)"></path><path d="M8.249 20.829A3.125 3.125 0 112 20.922a3.125 3.125 0 016.249-.093z" fill="url(#p17-sophnet-g1)"></path>
   </g>
-</svg>
+</g></g></svg>

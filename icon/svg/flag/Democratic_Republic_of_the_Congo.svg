@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(0.991501416 0 0 0.991501416 0.8101983 0.8101983)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
 <title>刚果（金）</title>
 
 <defs><mask id="cd-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
@@ -12,4 +12,4 @@
 <path d="M 7.67023,41.59012 L 22.46643,41.59012 l 4.57978,-14.08093 L 31.62598,41.59012 l 14.7962,0 l -11.97788,8.71677 l 4.57978,14.08093 l -11.97788,-8.71677 l -11.97788,8.71677 l 4.57978,-14.08093 z M 133.43794,21.4745 L 1.329,96.90807 l 0,25.14453 l 8.80726,0 l 132.10894,-75.43358 L 142.2452,21.4745 z" fill="url(#cd-yellow)" stroke="url(#cd-yellow)" stroke-width=".5" stroke-linejoin="round" />
 <path d="M 142.2452,21.4745 L 1.329,101.93698 l 0,20.11562 L 142.2452,41.59012 z" fill="url(#cd-red)" stroke="url(#cd-red)" stroke-width=".5" stroke-linejoin="round" />
 </g>
-</svg>
+</g></g></svg>

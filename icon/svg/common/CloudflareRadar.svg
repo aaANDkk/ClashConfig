@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>CloudflareRadar</title>
   <desc>Qure-style CloudflareRadar icon. Cloudflare Radar 全球互联网流量、安全态势与连接中断趋势雷达</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 72,12 L 22.985,131.875 L 72,111.76 L 121.015,132 z" fill="url(#p10-radar-grad)" />
-</svg>
+</g></g></svg>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Containerd</title>
   <desc>Qure-style Containerd icon. containerd 工业级高性能核心容器运行时</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 30.1475,12 l 0,120 L 113.8525,132 L 113.8525,12 z M 99.9525,118.04 L 44.1075,118.04 L 44.1075,65.02 l 39.06,0 L 83.1675,45.46 l 16.73,0 l 0,72.58 z m -39.115,-39.06 l 22.33,0 l 0,25.1 L 60.8375,104.08 z" fill="url(#p10-containerd-grad)" />
-</svg>
+</g></g></svg>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.147540984 0 0 1.147540984 -10.62295082 -10.62295082)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>AxisBank</title>
   <desc>Qure-style AxisBank icon. Axis Bank 印度领先的高增长创新型私营商业零售与数字银行</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 71.888162674,19.112999468 L 11,124.886992532 l 37.886080849,0 l 42.013747245,-73.042411877 Z m 0.137249991,65.554662368 l 23.042748489,40.173580699 L 132.999992,124.841242535 l -23.042748489,-40.173580699 z" fill="url(#p11-axisbank-grad)" />
-</svg>
+</g></g></svg>

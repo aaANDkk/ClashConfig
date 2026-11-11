@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>ElectronFiddle</title>
   <desc>Qure-style ElectronFiddle icon. Electron Fiddle 极速体验与测试跨平台 Electron 桌面应用的沙箱</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 51.9998,12 c -3.156,0 -5.7145,2.5585 -5.7145,5.7145 l 0,69.2915 c -9.858,2.5375 -17.1425,11.4865 -17.1425,22.137 C 29.1428,121.7665 39.3763,132 51.9998,132 c 12.6235,0 22.857,-10.2335 22.857,-22.857 c 0,-10.6505 -7.2845,-19.6 -17.1425,-22.137 l 0,-23.5775 l 23.673,0 c 2.705,0 4.898,-2.5585 4.898,-5.714 c 0,-3.156 -2.193,-5.7145 -4.898,-5.7145 L 57.7148,52 L 57.7148,23.4285 l 51.4285,0 c 3.156,0 5.714,-2.5585 5.714,-5.714 C 114.8568,14.5585 112.2988,12 109.1428,12 Z m 0,85.7145 c 6.312,0 11.4285,5.1165 11.4285,11.4285 c 0,6.3115 -5.1165,11.4285 -11.4285,11.4285 c -6.312,0 -11.4285,-5.117 -11.4285,-11.4285 c 0,-6.312 5.1165,-11.4285 11.4285,-11.4285 z" fill="url(#p11-electronfiddle-grad)" />
-</svg>
+</g></g></svg>

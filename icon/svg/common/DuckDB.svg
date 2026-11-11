@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.186440678 0 0 1.186440678 -13.423728814 -13.423728814)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>DuckDB</title>
   <desc>Qure-style DuckDB icon. DuckDB 嵌入式进程内极速列式分析型数据库引擎</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 72.000004,13 C 39.368085121,13 13,39.368085121 13,72.000004 s 26.368085121,59.000004 59.000004,59.000004 s 59.000004,-26.368085121 59.000004,-59.000004 S 104.631922879,13 72.000004,13 z M 59.718169834,47.56416901 a 24.4555,24.4555 0 0,1 24.43583499,24.43583499 a 24.4555,24.4555 0 0,1 -24.43583499,24.43583499 A 24.4555,24.4555 0 0,1 35.282334844,72.000004 a 24.4555,24.4555 0 0,1 24.43583499,-24.43583499 z m 32.268085521,15.649751061 l 11.559084117,0 c 4.81833366,0 8.786083929,3.844833594 8.786083929,8.663167254 s -3.967750269,8.795917263 -8.786083929,8.795917263 l -11.559084117,0 l 0,-17.459084517 z" fill="url(#p15-duckdb-grad)" fill-rule="evenodd" />
-</svg>
+</g></g></svg>

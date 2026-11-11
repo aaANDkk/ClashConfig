@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.184433164 0 0 1.184433164 -13.160744501 -13.279187817)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Flora</title>
   <desc>Qure-style Flora (Flora) icon from LobeHub (application).</desc>
   <defs>
@@ -7,4 +7,4 @@
   <g transform="translate(1.2000, 1.2000) scale(5.900000)" fill-rule="evenodd" fill="url(#p17-flora-grad)">
     <path d="M2 17.152c0-2.697 2.202-4.883 4.889-4.883 2.66 0 4.84 2.165 4.84 4.835s-2.156 4.835-4.816 4.835H2v-4.787zM22 22h-4.913c-2.66 0-4.817-2.165-4.817-4.835s2.18-4.835 4.84-4.835c2.688 0 4.89 2.186 4.89 4.883V22zM22 6.848c0 2.697-2.202 4.883-4.889 4.883-2.66 0-4.84-2.165-4.84-4.835s2.156-4.835 4.816-4.835H22v4.787zM2 2h4.913c2.66 0 4.817 2.165 4.817 4.835S9.55 11.67 6.889 11.67C4.202 11.67 2 9.484 2 6.787V2z"></path>
   </g>
-</svg>
+</g></g></svg>

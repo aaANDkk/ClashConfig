@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.204819277 0 0 1.204819277 -14.626506024 -14.86746988)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Alipay</title>
   <desc>Qure standard boutique pure vector icon for Alipay (支付宝). Authentic brand “支” glyph with transparent background, no squircle baseplate.</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="m 38.579,107.98 c -19.489,0 -25.25,-15.482 -15.619,-23.952 c 3.214,-2.863 9.087,-4.26 12.218,-4.574 c 11.577,-1.154 22.293,3.3 34.94,9.526 C 61.229,100.675 49.906,107.98 38.579,107.98 m 69.29,-17.826 c -5.013,-1.693 -11.739,-4.283 -19.231,-7.016 c 4.499,-7.888 8.093,-16.871 10.455,-26.634 L 74.4,56.505 l 0,-8.97 l 30.249,0 l 0,-5.007 L 74.4,42.528 L 74.4,27.575 L 62.056,27.575 c -2.166,0 -2.166,2.156 -2.166,2.156 L 59.89,42.528 L 29.297,42.528 L 29.297,47.535 L 59.89,47.535 L 59.89,56.505 L 34.632,56.505 L 34.632,61.51 L 83.62,61.51 C 81.827,67.739 79.42,73.587 76.564,78.901 C 60.668,73.611 43.706,69.324 33.05,71.963 C 26.235,73.656 21.846,76.678 19.267,79.845 C 7.432,94.367 15.921,116.425 40.914,116.425 c 14.778,0 29.013,-8.309 40.047,-22.003 C 97.418,102.4 130,116.098 130,116.098 L 130,96.575 c 0,0 -4.092,-0.329 -22.131,-6.421" fill="url(#alipay-pure-grad)" fill-rule="evenodd" />
-</svg>
+</g></g></svg>

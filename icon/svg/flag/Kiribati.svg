@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(0.991501416 0 0 0.991501416 0.8101983 0.8101983)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
 <title>基里巴斯</title>
 
 <defs><mask id="ki-board" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="144" height="144" mask-type="alpha"><path d="M 116.6452 21.4745 c 8.96084 0 13.44126 0 16.86385 1.7439 a 16 16 0 0 1 6.99226 6.99226 c 1.7439 3.42259 1.7439 7.90301 1.7439 16.86385 L 142.2452 96.4526 c 0 8.96084 0 13.44126 -1.7439 16.86385 a 16 16 0 0 1 -6.99226 6.99226 c -3.42259 1.7439 -7.90301 1.7439 -16.86385 1.7439 L 26.929 122.0526 c -8.96084 0 -13.44126 0 -16.86385 -1.7439 a 16 16 0 0 1 -6.99226 -6.99226 c -1.7439 -3.42259 -1.7439 -7.90301 -1.7439 -16.86385 L 1.329 47.0745 c 0 -8.96084 0 -13.44126 1.7439 -16.86385 a 16 16 0 0 1 6.99226 -6.99226 c 3.42259 -1.7439 7.90301 -1.7439 16.86385 -1.7439 Z" fill="#FFFFFF" /></mask>
@@ -36,4 +36,4 @@
 <path d="M 65.73211,42.6509 c 9.26827,-10.62749 17.35994,-9.33098 27.92866,-10.05781 c 0.35091,1.23758 0.20642,3.08413 -4.80959,4.7146 c -6.89444,0.98221 -19.21772,7.89695 -19.27965,7.89695 c -2.29126,-0.11786 -3.90134,-2.39659 -3.83942,-2.55374 z" fill="url(#ki-yellow)" fill-rule="evenodd" stroke="#F7BE00" stroke-width="0.36258" />
 <path d="M 84.78469,35.71652 L 91.6172,36.01118 m -7.57562,0.78577 l 4.97473,0.39288" fill="none" stroke-linecap="round" stroke="#EE7D08" stroke-width="0.36258" />
 </g>
-</svg>
+</g></g></svg>

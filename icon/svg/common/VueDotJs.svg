@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.147540984 0 0 1.147540984 -10.62295082 -10.62295082)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>VueDotJs</title>
   <desc>Qure-style VueDotJs icon. Vue.js 易学易用性能卓越的渐进式 JavaScript 框架</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 132.999992,19.18416613 L 82.47166198,19.18416613 L 71.999996,37.22999828 L 61.52833002,19.18416613 L 11,19.18416613 L 71.999996,124.81582587 Z M 71.999996,82.57332864 L 37.22999828,22.33583259 L 59.74916347,22.33583259 L 71.999996,43.58416453 l 12.25083253,-21.24833194 l 22.51916519,0 Z" fill="url(#p10-vuedotjs-grad)" />
-</svg>
+</g></g></svg>

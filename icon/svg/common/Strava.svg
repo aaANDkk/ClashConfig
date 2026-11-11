@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Strava</title>
   <desc>Qure-style Strava icon. Strava 全球骑行与跑步爱好者必备的 GPS 轨迹记录与社交运动平台</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 88.935,101.72 l -10.445,-20.58 l -15.325,0 L 88.935,132 l 25.75,-50.86 l -15.33,0 m -35.04,-27.995 l 14.18,27.99 l 20.86,0 L 64.315,12 l -35,69.14 l 20.845,0" fill="url(#p11-strava-grad)" />
-</svg>
+</g></g></svg>

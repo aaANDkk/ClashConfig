@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Quad9</title>
   <desc>Qure-style Quad9 icon. Quad9 全球非营利免费网络威胁拦截安全 DNS</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 46.1125,132 l 28.04,0 l 31.655,-47.4 c 7.315,-10.925 11.44,-20.985 11.44,-32 C 117.2525,29.29 97.7225,12 72.0025,12 C 46.1125,12 26.7525,29.465 26.7525,53.035 c 0,22.535 17.295,40 41.725,40 c 2.065,0 3.785,-0.09 5.415,-0.35 z M 72.0025,72.645 c -12.13,0 -21.075,-8.17 -21.075,-19.785 c 0,-11.7 8.95,-19.785 21.075,-19.785 c 12.045,0 21.075,8.085 21.075,19.785 c 0,11.615 -9.03,19.785 -21.075,19.785 z" fill="url(#p9-quad9-grad)" />
-</svg>
+</g></g></svg>

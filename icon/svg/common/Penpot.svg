@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144"><g data-canvas-fit="2px" transform="matrix(1.166666667 0 0 1.166666667 -12 -12)"><defs><clipPath id="canvas-fit-clip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="144" height="144"/></clipPath></defs><g clip-path="url(#canvas-fit-clip)">
   <title>Penpot</title>
   <desc>Qure-style Penpot icon. Penpot 第一个开源基于 Web 标准原生支持 Flexbox/Grid 的设计与原型协作平台</desc>
   <defs>
@@ -9,4 +9,4 @@
     </linearGradient>
   </defs>
   <path d="M 50.27,12 L 37.65,29.77 l 0,10.05 L 26.67,45.04 l -0.1,-0.045 l 0,65.545 l 42.815,20.225 L 72,132 l 2.615,-1.235 l 42.815,-20.225 L 117.43,45 l -0.085,0.04 l -10.98,-5.225 L 106.365,29.775 l -0.385,-0.54 L 93.745,12.005 l -12.62,17.77 l 0,0.02 L 71.945,16.865 l -9.115,12.83 l -0.325,-0.455 z m 2.235,10.325 l 4.88,6.87 L 43.16,29.195 l 4.82,-6.79 z m 43.47,0 l 4.88,6.87 l -14.225,0 l 4.825,-6.79 z m -21.8,4.855 l 4.88,6.875 l -14.225,0 l 4.825,-6.795 z M 41.81,32.66 l 6.75,0 l 0,22.72 l -6.75,-3.19 Z m 10.21,0 l 6.715,0 l 0,27.53 l -6.715,-3.175 z m 33.26,0 l 6.75,0 L 92.03,57 l -6.75,3.185 L 85.28,32.66 z m 10.21,0 l 6.715,0 l 0,19.525 l -6.715,3.17 z m -32.01,4.86 l 6.75,0 l 0,28.1 l -6.75,-3.19 z m 10.21,0 l 6.715,0 l 0,24.965 l -6.715,3.17 z m 32.67,7.465 l 5.94,2.43 l -5.94,2.805 z M 37.65,45 l 0,5.235 l -5.935,-2.805 Z M 31.8,53.255 l 37.585,17.75 l 0,53.975 l -37.58,-17.75 z m 80.4,0 l 0,53.97 l -37.585,17.75 L 74.615,71.01 z" fill="url(#p10-penpot-grad)" />
-</svg>
+</g></g></svg>
