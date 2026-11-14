@@ -35,25 +35,25 @@ JS 仅统计客户端传入的节点，不主动下载远程 provider；未单�
 
 ## 🎨 Qure 风格 SVG 图标
 
-**[前往图标官网 →](https://aaandkk.github.io/)**
+**[前往图标预览站 →](https://aaandkk.github.io/qure/)**
 
-搜索、预览、下载图标及复制链接，请访问官网。
+搜索、预览、下载图标及复制链接，请访问预览网站。
 
 ### 通用图标 · 精选 60 个
 
-代理策略、广告拦截、AI、流媒体、社交与常用服务。完整图标请前往[官网](https://aaandkk.github.io/)查看。
+代理策略、广告拦截、AI、流媒体、社交与常用服务。完整图标请前往[图标预览站](https://aaandkk.github.io/qure/)查看。
 
-[![60 个精选 Qure 风格通用 SVG 图标](docs/assets/common-preview.svg)](https://aaandkk.github.io/)
+[![60 个精选 Qure 风格通用 SVG 图标](docs/assets/common-preview.svg)](https://aaandkk.github.io/qure/)
 
 ### 地区旗帜 · 精选 30 个
 
-常用地区的旗帜预览。完整图标请前往[官网](https://aaandkk.github.io/)查看。
+常用地区的旗帜预览。完整图标请前往[图标预览站](https://aaandkk.github.io/qure/)查看。
 
-[![30 个精选 Qure 风格旗帜 SVG 图标](docs/assets/flags-preview.svg)](https://aaandkk.github.io/)
+[![30 个精选 Qure 风格旗帜 SVG 图标](docs/assets/flags-preview.svg)](https://aaandkk.github.io/qure/)
 
 ## 🔗 单个图标使用
 
-在[官网](https://aaandkk.github.io/)搜索图标并复制链接，也可使用以下原始文件链接（文件名区分大小写）：
+在[图标预览站](https://aaandkk.github.io/qure/)搜索图标并复制链接，也可使用以下原始文件链接（文件名区分大小写）：
 
 - **通用图标示例**：
   ```text
