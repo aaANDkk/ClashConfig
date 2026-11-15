@@ -1,6 +1,6 @@
 # 🐱 Mihomo / Clash Config
 
-个人自用 Mihomo / Clash Meta 配置，提供 YAML、JS 预处理脚本和自绘 Qure 风格 SVG 图标。不提供节点或机场订阅。
+个人自用 Mihomo / Clash Meta 配置，提供 YAML、JS 预处理脚本和自绘 Qure 风格 SVG 图标。仓库本身不内置节点，文末附个人自用机场推荐。
 
 ## 🚀 使用方式
 
@@ -11,7 +11,7 @@
 可直接导入 **FlClash 的自定义配置**：
 
 ```text
-https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/mihomo.yaml
+[https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/mihomo.yaml](https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/mihomo.yaml)
 ```
 
 也可下载 [mihomo.yaml](mihomo.yaml)，在 `proxy-providers` 中填入自己的订阅链接后导入。
@@ -21,7 +21,7 @@ https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/mihomo.yaml
 在支持订阅 JS 预处理的客户端中添加 [mihomo.js](mihomo.js)，远程脚本链接：
 
 ```text
-https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/mihomo.js
+[https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/mihomo.js](https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/mihomo.js)
 ```
 
 ## ✨ 配置亮点
@@ -32,6 +32,16 @@ https://raw.githubusercontent.com/aaANDkk/ClashConfig/main/mihomo.js
 - **拦截开关**：`AdBlock`、`WebRTC`、`QUIC` 默认 `Reject`，可切换 `Pass` 临时放行；内置部分 PCDN 屏蔽规则。
 
 JS 仅统计客户端传入的节点，不主动下载远程 provider；未单独分组的节点仍可在 `All Proxies` 中选择。补充规则见 [动漫](rules/anime.yaml) / [流媒体](rules/media.yaml)。
+
+## ✈️ 自用机场推荐
+
+> 以下均为本人日常自用且与本配置兼容性较好的机场，链接含个人邀请码，按需选择即可。
+
+| 机场名称 | 线路类型 | 特点与备注 | 优惠码 | 注册地址 |
+| :--- | :--- | :--- | :--- | :--- |
+| **百变小樱** | 专线 | 小众低调，价格适中，含家宽节点；每日签到基本一次可得 5–10G 流量 | `Bettbox68` | [点击注册](https://www.bbxy01.net/v2/register?code=jXqG) |
+| **ikuuu** | 专线 | 老牌机场，价格十分便宜，入门首选；节点纯净度略逊于小樱，每日签到约得 2G 流量 | — | [点击注册](https://ikuuu.top/auth/register?code=s5UM) |
+| **Lumina** | 直连 + 专线 | 更加小众，含家宽节点；套餐类型较多，购买前请仔细阅读套餐说明 | — | [点击注册](https://luminak.net/#/register?code=iNvysL8C) |
 
 ## 🎨 Qure 风格 SVG 图标
 
@@ -57,17 +67,17 @@ JS 仅统计客户端传入的节点，不主动下载远程 provider；未单�
 
 - **通用图标示例**：
   ```text
-  https://raw.githubusercontent.com/aaANDkk/Qure_Style_SVG/main/icon/svg/common/ChatGPT.svg
+  [https://raw.githubusercontent.com/aaANDkk/Qure_Style_SVG/main/icon/svg/common/ChatGPT.svg](https://raw.githubusercontent.com/aaANDkk/Qure_Style_SVG/main/icon/svg/common/ChatGPT.svg)
   ```
 
 - **旗帜图标示例**：
   ```text
-  https://raw.githubusercontent.com/aaANDkk/Qure_Style_SVG/main/icon/svg/flag/Japan.svg
+  [https://raw.githubusercontent.com/aaANDkk/Qure_Style_SVG/main/icon/svg/flag/Japan.svg](https://raw.githubusercontent.com/aaANDkk/Qure_Style_SVG/main/icon/svg/flag/Japan.svg)
   ```
 
 - **Mihomo / Clash 配置示例**：
   ```yaml
-  icon: "https://raw.githubusercontent.com/aaANDkk/Qure_Style_SVG/main/icon/svg/flag/Japan.svg"
+  icon: "[https://raw.githubusercontent.com/aaANDkk/Qure_Style_SVG/main/icon/svg/flag/Japan.svg](https://raw.githubusercontent.com/aaANDkk/Qure_Style_SVG/main/icon/svg/flag/Japan.svg)"
   ```
 
 ---
