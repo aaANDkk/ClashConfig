@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="144" viewBox="0 0 144 144">
+  <title>RoundRobin(1)</title>
+  <desc>Vector redraw from Koolson/Qure Color (Round_Robin_1.png).</desc>
+  <defs>
+    <linearGradient id="round-robin-1-color" gradientUnits="userSpaceOnUse" x1="72.02207" y1="19.4998" x2="71.97835" y2="123.51786">
+      <stop offset="0" stop-color="#00E3B5" />
+      <stop offset="0.14286" stop-color="#00D9B0" />
+      <stop offset="0.28571" stop-color="#00CFAA" />
+      <stop offset="0.42857" stop-color="#00C4A5" />
+      <stop offset="0.57143" stop-color="#00BA9F" />
+      <stop offset="0.71429" stop-color="#00B09A" />
+      <stop offset="0.85714" stop-color="#00A594" />
+      <stop offset="1" stop-color="#009B8F" />
+    </linearGradient>
+  </defs>
+  <g transform="matrix(1.170912242 0 0 1.170912242 -12.086425709 -12.087694245)">
+    <path d="M49.68134 40.12732a22.14446 22.14446 0 1 0 44.28892 0a22.14446 22.14446 0 1 0 -44.28892 0ZM12.0303 103.5037a22.13619 22.13619 0 1 0 44.27239 0a22.13619 22.13619 0 1 0 -44.27239 0ZM87.31375 103.50407a22.14072 22.14072 0 1 0 44.28145 0a22.14072 22.14072 0 1 0 -44.28145 0Z" fill="url(#round-robin-1-color)" fill-rule="evenodd" />
+  </g>
+</svg>

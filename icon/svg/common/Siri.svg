@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="144" viewBox="0 0 144 144">
+  <title>Siri</title>
+  <desc>Vector redraw from Koolson/Qure Color (Siri.png).</desc>
+  <defs>
+    <clipPath id="sphere-clip">
+      <circle cx="71.5" cy="71.5" r="65" />
+    </clipPath>
+    <linearGradient id="sphere" x1="16%" y1="10%" x2="83%" y2="89%">
+      <stop stop-color="#641881" />
+      <stop offset=".54" stop-color="#162445" />
+      <stop offset="1" stop-color="#17493F" />
+    </linearGradient>
+    <radialGradient id="rim">
+      <stop offset=".76" stop-color="#091525" stop-opacity="0" />
+      <stop offset=".94" stop-color="#081429" stop-opacity=".49" />
+      <stop offset="1" stop-color="#9CC9D7" stop-opacity=".54" />
+    </radialGradient>
+    <linearGradient id="rose" x1="18%" y1="4%" x2="78%" y2="94%">
+      <stop stop-color="#BB0B8A" stop-opacity=".84" />
+      <stop offset=".49" stop-color="#EC2466" stop-opacity=".61" />
+      <stop offset="1" stop-color="#EB9650" stop-opacity=".18" />
+    </linearGradient>
+    <linearGradient id="sea" x1="14%" y1="19%" x2="82%" y2="93%">
+      <stop stop-color="#2CD1FD" stop-opacity=".43" />
+      <stop offset=".44" stop-color="#0B85E5" stop-opacity=".68" />
+      <stop offset="1" stop-color="#064F99" stop-opacity=".28" />
+    </linearGradient>
+    <linearGradient id="veil" x1="0%" y1="0%" x2="88%" y2="89%">
+      <stop stop-color="#8C72D0" stop-opacity=".23" />
+      <stop offset=".55" stop-color="#CE9FF4" stop-opacity=".53" />
+      <stop offset="1" stop-color="#FA9DE7" stop-opacity=".1" />
+    </linearGradient>
+    <linearGradient id="beam-pink" x1="48%" y1="0%" x2="63%" y2="100%">
+      <stop stop-color="#FF79C2" stop-opacity=".05" />
+      <stop offset=".45" stop-color="#FFB6E9" stop-opacity=".66" />
+      <stop offset=".75" stop-color="#F86FB9" stop-opacity=".8" />
+      <stop offset="1" stop-color="#DA4394" stop-opacity=".55" />
+    </linearGradient>
+    <linearGradient id="beam-green">
+      <stop stop-color="#5EFBFA" stop-opacity=".08" />
+      <stop offset=".54" stop-color="#B5FFEE" stop-opacity=".86" />
+      <stop offset="1" stop-color="#09BD7C" stop-opacity=".41" />
+    </linearGradient>
+    <linearGradient id="beam-blue" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop stop-color="#43DCF6" stop-opacity=".74" />
+      <stop offset=".56" stop-color="#BAFFFF" stop-opacity=".82" />
+      <stop offset="1" stop-color="#91FFEF" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="shine">
+      <stop stop-color="#FFF" />
+      <stop offset=".24" stop-color="#F8FFFF" stop-opacity=".96" />
+      <stop offset=".63" stop-color="#DAFFFA" stop-opacity=".39" />
+      <stop offset="1" stop-color="#C7FFFA" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="shine-core">
+      <stop stop-color="#D5FFFF" stop-opacity="0" />
+      <stop offset=".51" stop-color="#FFF" />
+      <stop offset="1" stop-color="#EDFFFF" stop-opacity="0" />
+    </linearGradient>
+    <filter id="soft-edge" x="-.2" y="-.2" width="1.4" height="1.4">
+      <feGaussianBlur stdDeviation="1.6" />
+    </filter>
+  </defs>
+  <g transform="matrix(1.076923077 0 0 1.076923077 -5.000000000 -5.000000000)">
+    <g clip-path="url(#sphere-clip)">
+      <circle cx="71.5" cy="71.5" r="65" fill="url(#sphere)" />
+      <path fill="url(#rose)" filter="url(#soft-edge)" d="M27 47C32 22 56 11 81 16C106 20 130 42 127 61C125 76 99 72 81 69C57 65 36 59 27 47Z" />
+      <path fill="url(#sea)" filter="url(#soft-edge)" d="M15 50C23 46 48 63 63 73C90 90 101 113 83 126C64 139 35 123 22 111C10 99 5 67 15 50Z" />
+      <path fill="url(#veil)" filter="url(#soft-edge)" d="M23 49C36 39 58 41 73 52C91 65 95 85 96 103C79 94 71 85 59 75C46 63 34 54 23 49Z" />
+      <path fill="url(#beam-pink)" filter="url(#soft-edge)" d="M79 25C86 40 87 57 83 71C80 85 88 102 91 118C94 129 89 134 85 129C78 121 75 103 72 91C68 78 69 66 74 55C78 45 80 36 79 25Z" />
+      <path fill="url(#beam-green)" filter="url(#soft-edge)" d="M18 72C38 76 58 72 75 69C97 65 113 65 127 61C120 69 100 69 87 72C102 76 117 79 124 87C129 94 121 100 111 96C97 90 88 85 73 79C55 74 37 81 18 72Z" />
+      <path fill="url(#beam-blue)" filter="url(#soft-edge)" d="M18 104C28 95 52 84 64 75C73 68 81 57 93 47C85 61 78 72 74 77C61 83 35 98 25 108C22 110 19 110 18 104Z" />
+      <ellipse cx="70" cy="70" rx="27" ry="17" fill="url(#shine)" transform="rotate(-26 70 70)" />
+      <path d="M48 80C60 74 69 70 74 63C77 57 79 51 82 47C80 58 79 65 81 69C84 72 93 72 101 74C86 74 77 75 70 78C61 80 54 82 48 80Z" fill="url(#shine-core)" />
+      <circle cx="71.5" cy="71.5" r="65" fill="url(#rim)" />
+    </g>
+  </g>
+</svg>
