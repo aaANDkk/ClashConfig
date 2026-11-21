@@ -39,7 +39,7 @@ JS 仅统计客户端传入的节点，不主动下载远程 provider；未单�
 
 | 机场名称 | 线路类型 | 特点与备注 | 优惠码 | 注册地址 |
 | :--- | :--- | :--- | :--- | :--- |
-| **百变小樱** | 专线 | 小众低调，价格适中，含家宽节点；每日签到基本一次可得 5–10G 流量 | `Bettbox68` | [点击注册](https://www.bbxy01.net/v2/register?code=jXqG) |
+| **百变小樱** | 专线 | 小众低调，价格适中，含家宽节点；每日签到基本一次可得 5–10G 流量 | `bettbox68` | [点击注册](https://www.bbxy01.net/v2/register?code=jXqG) |
 | **ikuuu** | 专线 | 老牌机场，价格十分便宜，入门首选；节点纯净度略逊于小樱，每日签到约得 2G 流量 | — | [点击注册](https://ikuuu.top/auth/register?code=s5UM) |
 | **Lumina** | 直连 + 专线 | 更加小众，含家宽节点；套餐类型较多，购买前请仔细阅读套餐说明 | — | [点击注册](https://luminak.net/#/register?code=iNvysL8C) |
 | **NIVA** | 直连 | 直连线路不如Lumina，稳定性稍差；主打家宽（家宽节点非常多），价格便宜；通过下方邀请链接注册可免费使用 | — | [点击注册](https://niva.sh/r/nh6k) |
